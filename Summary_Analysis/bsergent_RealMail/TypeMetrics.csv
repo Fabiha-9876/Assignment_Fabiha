@@ -1,0 +1,6 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+bsergent_RealMail,com.challengercity.plugins.realmail,RealMail,19,0,11,10,803,73,0,0,0.2727272727272727,0,1,E:\Repositories\Cloned_Reposit\bsergent_RealMail\src\com\challengercity\plugins\realmail\RealMail.java,37
+bsergent_RealMail,com.challengercity.plugins.realmail,RealMail.MailListener,0,0,0,0,391,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\bsergent_RealMail\src\com\challengercity\plugins\realmail\RealMail.java,560
+bsergent_RealMail,com.challengercity.plugins.realmail,RealMail.LoginListener,0,0,0,0,27,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\bsergent_RealMail\src\com\challengercity\plugins\realmail\RealMail.java,1001
+bsergent_RealMail,com.challengercity.plugins.realmail,RealMail.LoginRunnable,1,0,0,0,9,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\bsergent_RealMail\src\com\challengercity\plugins\realmail\RealMail.java,1029
+bsergent_RealMail,org.mcstats,MetricsLite,12,0,13,8,0,46,0,0,0.0,1,0,E:\Repositories\Cloned_Reposit\bsergent_RealMail\src\org\mcstats\MetricsLite.java,53

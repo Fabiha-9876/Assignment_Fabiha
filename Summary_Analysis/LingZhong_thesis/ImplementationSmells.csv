@@ -1,0 +1,461 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+LingZhong_thesis,org.apache.zookeeper.util,FatJarMain,main,Complex Conditional,The conditional expression parts.length != 3 || (parts[0].length() > 0 && parts[0].charAt(0) == '#') is complex.,54
+LingZhong_thesis,org.apache.zookeeper.util,FatJarMain,main,Complex Method,Cyclomatic complexity of the method is 8,54
+LingZhong_thesis,org.apache.zookeeper.util,FatJarMain,main,Magic Number,The method contains a magic number: 3,54
+LingZhong_thesis,org.apache.zookeeper.util,FatJarMain,main,Magic Number,The method contains a magic number: 3,54
+LingZhong_thesis,org.apache.zookeeper.util,FatJarMain,main,Magic Number,The method contains a magic number: 3,54
+LingZhong_thesis,org.apache.zookeeper.util,FatJarMain,main,Magic Number,The method contains a magic number: 2,54
+LingZhong_thesis,org.apache.zookeeper.util,FatJarMain,main,Magic Number,The method contains a magic number: 2,54
+LingZhong_thesis,org.apache.zookeeper.util,FatJarMain,doHelp,Magic Number,The method contains a magic number: 2,112
+LingZhong_thesis,org.apache.zookeeper.graph,FilterOp,newOp,Complex Method,Cyclomatic complexity of the method is 8,36
+LingZhong_thesis,org.apache.zookeeper.graph,FilterParser,readNumberArg,Magic Number,The method contains a magic number: 2,73
+LingZhong_thesis,org.apache.zookeeper.graph,FilterParser,readNumberArg,Magic Number,The method contains a magic number: 16,73
+LingZhong_thesis,org.apache.zookeeper.graph,FilterParser,parse,Complex Conditional,The conditional expression Character.isDigit(c) || c == '-' || c == '+' is complex.,91
+LingZhong_thesis,org.apache.zookeeper.graph,FilterParser,parse,Complex Method,Cyclomatic complexity of the method is 9,91
+LingZhong_thesis,org.apache.zookeeper.graph,JsonGenerator,JsonGenerator,Complex Method,Cyclomatic complexity of the method is 16,71
+LingZhong_thesis,org.apache.zookeeper.graph,JsonGenerator,JsonGenerator,Long Method,The method has 123 lines of code.,71
+LingZhong_thesis,org.apache.zookeeper.graph,JsonGenerator,JsonGenerator,Long Statement,The length of the statement "Pattern receivedProposalP=Pattern.compile("Notification: (\\d+) \\(n.leader\\)` (\\d+) \\(n.zxid\\)` (\\d+) \\(n.round\\)` .+ \\(n.state\\)` (\\d+) \\(n.sid\\)` .+ \\(my state\\)");" is 181.,71
+LingZhong_thesis,org.apache.zookeeper.graph,JsonGenerator,JsonGenerator,Magic Number,The method contains a magic number: 2,71
+LingZhong_thesis,org.apache.zookeeper.graph,JsonGenerator,JsonGenerator,Magic Number,The method contains a magic number: 32,71
+LingZhong_thesis,org.apache.zookeeper.graph,JsonGenerator,JsonGenerator,Magic Number,The method contains a magic number: 2,71
+LingZhong_thesis,org.apache.zookeeper.graph,JsonGenerator,JsonGenerator,Magic Number,The method contains a magic number: 4,71
+LingZhong_thesis,org.apache.zookeeper.graph,JsonGenerator,JsonGenerator,Magic Number,The method contains a magic number: 2,71
+LingZhong_thesis,org.apache.zookeeper.graph,JsonGenerator,JsonGenerator,Magic Number,The method contains a magic number: 3,71
+LingZhong_thesis,org.apache.zookeeper.graph,JsonGenerator,JsonGenerator,Magic Number,The method contains a magic number: 32,71
+LingZhong_thesis,org.apache.zookeeper.graph,Log4JSource,iterator,Long Statement,The length of the statement "throw new IllegalArgumentException("End time (" + endtime + ") must be greater or equal to starttime ("+ starttime+ ")");" is 121.,249
+LingZhong_thesis,org.apache.zookeeper.graph,Log4JSource,init,Empty catch clause,The method has an empty catch block.,282
+LingZhong_thesis,org.apache.zookeeper.graph,Log4JSource,main,Magic Number,The method contains a magic number: 3,339
+LingZhong_thesis,org.apache.zookeeper.graph,Log4JSource,main,Magic Number,The method contains a magic number: 2,339
+LingZhong_thesis,org.apache.zookeeper.graph,LogServer,main,Magic Number,The method contains a magic number: 8182,50
+LingZhong_thesis,org.apache.zookeeper.graph,MergedLogSource,iterator,Long Statement,The length of the statement "throw new IllegalArgumentException("End time (" + endtime + ") must be greater or equal to starttime ("+ starttime+ ")");" is 121.,160
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,fill,Magic Number,The method contains a magic number: 40,63
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,read,Magic Number,The method contains a magic number: 2,93
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,read,Magic Number,The method contains a magic number: 2,93
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,read,Magic Number,The method contains a magic number: 2,93
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,read,Magic Number,The method contains a magic number: 8,93
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,read,Magic Number,The method contains a magic number: 0xff,93
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLine,Complex Method,Cyclomatic complexity of the method is 10,168
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readShort,Magic Number,The method contains a magic number: 2,249
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readShort,Magic Number,The method contains a magic number: 2,249
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readShort,Magic Number,The method contains a magic number: 8,249
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readShort,Magic Number,The method contains a magic number: 0xff,249
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readUnsignedShort,Magic Number,The method contains a magic number: 2,255
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readUnsignedShort,Magic Number,The method contains a magic number: 2,255
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readUnsignedShort,Magic Number,The method contains a magic number: 0xff,255
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readUnsignedShort,Magic Number,The method contains a magic number: 8,255
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readUnsignedShort,Magic Number,The method contains a magic number: 0xff,255
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readInt,Magic Number,The method contains a magic number: 4,265
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readInt,Magic Number,The method contains a magic number: 4,265
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readInt,Magic Number,The method contains a magic number: 0xff,265
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readInt,Magic Number,The method contains a magic number: 24,265
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readInt,Magic Number,The method contains a magic number: 0xff,265
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readInt,Magic Number,The method contains a magic number: 16,265
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readInt,Magic Number,The method contains a magic number: 2,265
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readInt,Magic Number,The method contains a magic number: 0xff,265
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readInt,Magic Number,The method contains a magic number: 8,265
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readInt,Magic Number,The method contains a magic number: 3,265
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readInt,Magic Number,The method contains a magic number: 0xff,265
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Long Statement,The length of the statement "return (((long)(b[0] & 0xff) << 56) | ((long)(b[1] & 0xff) << 48) | ((long)(b[2] & 0xff) << 40)| ((long)(b[3] & 0xff) << 32)| ((long)(b[4] & 0xff) << 24)| ((long)(b[5] & 0xff) << 16)| ((long)(b[6] & 0xff) << 8)| ((long)(b[7] & 0xff)));" is 235.,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 8,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 8,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 0xff,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 56,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 0xff,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 48,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 2,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 0xff,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 40,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 3,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 0xff,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 32,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 4,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 0xff,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 24,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 5,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 0xff,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 16,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 6,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 0xff,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 8,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 7,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readLong,Magic Number,The method contains a magic number: 0xff,271
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readUTF,Magic Number,The method contains a magic number: 2,289
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readUTF,Magic Number,The method contains a magic number: 8,289
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readUTF,Magic Number,The method contains a magic number: 0xFF,289
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readUTF,Magic Number,The method contains a magic number: 0xFF,289
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,readUTF,Magic Number,The method contains a magic number: 2,289
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,main,Magic Number,The method contains a magic number: 5,299
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,main,Magic Number,The method contains a magic number: 5,299
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,main,Magic Number,The method contains a magic number: 5,299
+LingZhong_thesis,org.apache.zookeeper.graph,RandomAccessFileReader,main,Magic Number,The method contains a magic number: 5,299
+LingZhong_thesis,org.apache.zookeeper.graph,TransactionEntry,TransactionEntry,Long Parameter List,The method has 5 parameters. ,21
+LingZhong_thesis,org.apache.zookeeper.graph,TransactionEntry,TransactionEntry,Long Parameter List,The method has 6 parameters. ,25
+LingZhong_thesis,org.apache.zookeeper.graph,TransactionEntry,toString,Long Statement,The length of the statement "return getTimestamp() + ":::session(0x" + Long.toHexString(getClientId())+ ") cxid(0x"+ Long.toHexString(getCxid())+ ") zxid(0x"+ Long.toHexString(getZxid())+ ") op("+ getOp()+ ") extra("+ getExtra()+ ")";" is 205.,54
+LingZhong_thesis,org.apache.zookeeper.graph,TxnLogSource,iterator,Long Statement,The length of the statement "throw new IllegalArgumentException("End time (" + endtime + ") must be greater or equal to starttime ("+ starttime+ ")");" is 121.,281
+LingZhong_thesis,org.apache.zookeeper.graph,TxnLogSource,TxnLogSource,Complex Method,Cyclomatic complexity of the method is 8,294
+LingZhong_thesis,org.apache.zookeeper.graph,TxnLogSource,main,Magic Number,The method contains a magic number: 3,355
+LingZhong_thesis,org.apache.zookeeper.graph,TxnLogSource,main,Magic Number,The method contains a magic number: 2,355
+LingZhong_thesis,org.apache.zookeeper.graph.filterops,GreaterThanOp,matches,Complex Conditional,The conditional expression v instanceof Double || v instanceof Long || v instanceof Integer|| v instanceof Short is complex.,25
+LingZhong_thesis,org.apache.zookeeper.graph.filterops,GreaterThanOp,matches,Complex Method,Cyclomatic complexity of the method is 12,25
+LingZhong_thesis,org.apache.zookeeper.graph.filterops,LessThanOp,matches,Complex Conditional,The conditional expression v instanceof Double || v instanceof Long || v instanceof Integer|| v instanceof Short is complex.,25
+LingZhong_thesis,org.apache.zookeeper.graph.filterops,LessThanOp,matches,Complex Method,Cyclomatic complexity of the method is 12,25
+LingZhong_thesis,org.apache.zookeeper.graph.servlets,Throughput,handleRequest,Complex Method,Cyclomatic complexity of the method is 10,50
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 2,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 2,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 3,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,78
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 2,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 2,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 5,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 5,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 5,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 5,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 3,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 5,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 5,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 5,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 5,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 5,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 5,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 5,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,done,Magic Number,The method contains a magic number: 5,92
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerData,NodeViewerData,Long Statement,The length of the statement "if (JOptionPane.showConfirmDialog(NodeViewerData.this`"Are you sure you want to save this node?" + " (this action cannot be reverted)"`"Confirm Save"`JOptionPane.YES_NO_OPTION`JOptionPane.WARNING_MESSAGE) == JOptionPane.YES_OPTION) {" is 233.,46
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerData,actionPerformed,Long Statement,The length of the statement "if (JOptionPane.showConfirmDialog(NodeViewerData.this`"Are you sure you want to save this node?" + " (this action cannot be reverted)"`"Confirm Save"`JOptionPane.YES_NO_OPTION`JOptionPane.WARNING_MESSAGE) == JOptionPane.YES_OPTION) {" is 233.,63
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 2,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 2,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,nodeSelectionChanged,Magic Number,The method contains a magic number: 5,80
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 2,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 5,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 5,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 5,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 5,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 2,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 5,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 5,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 5,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 5,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 5,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 5,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 5,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,done,Magic Number,The method contains a magic number: 5,93
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,ZooInspectorNodeViewer,hashCode,Magic Number,The method contains a magic number: 31,104
+LingZhong_thesis,org.apache.zookeeper.inspector.gui.nodeviewer,ZooInspectorNodeViewer,equals,Complex Method,Cyclomatic complexity of the method is 8,118
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorAboutDialog,ZooInspectorAboutDialog,Magic Number,The method contains a magic number: 600,39
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorAboutDialog,ZooInspectorAboutDialog,Magic Number,The method contains a magic number: 200,39
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorAboutDialog,ZooInspectorAboutDialog,Magic Number,The method contains a magic number: 10,39
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorAboutDialog,ZooInspectorAboutDialog,Magic Number,The method contains a magic number: 10,39
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Long Identifier,The length of the parameter connectionPropertiesTemplateAndLabels is 37.,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Long Method,The method has 200 lines of code.,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorConnectionPropertiesDialog.this`"An Error occurred loading connection properties from file"`"Error"`JOptionPane.ERROR_MESSAGE);" is 169.,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorConnectionPropertiesDialog.this`"An Error occurred saving the default connection properties file"`"Error"`JOptionPane.ERROR_MESSAGE);" is 175.,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 2,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 2,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 2,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 2,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 2,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 3,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,ZooInspectorConnectionPropertiesDialog,Magic Number,The method contains a magic number: 5,56
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,actionPerformed,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorConnectionPropertiesDialog.this`"An Error occurred loading connection properties from file"`"Error"`JOptionPane.ERROR_MESSAGE);" is 169.,162
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,actionPerformed,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorConnectionPropertiesDialog.this`"An Error occurred saving the default connection properties file"`"Error"`JOptionPane.ERROR_MESSAGE);" is 175.,210
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Complex Method,Cyclomatic complexity of the method is 22,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Long Method,The method has 392 lines of code.,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Long Statement,The length of the statement "@Override public Component getListCellRendererComponent( JList list` Object value` int index` boolean isSelected` boolean cellHasFocus){" is 136.,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorNodeViewersDialog.this`"Please enter the full class name for a Node Viewer and click the add button"`"Input Error"`JOptionPane.ERROR_MESSAGE);" is 184.,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorNodeViewersDialog.this`"Node viewer already exists. Each node viewer can only be added once."`"Input Error"`JOptionPane.ERROR_MESSAGE);" is 177.,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorNodeViewersDialog.this`"An error occurred while instaniating the node viewer: " + ex.getMessage()`"Error"`JOptionPane.ERROR_MESSAGE);" is 175.,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Long Statement,The length of the statement "answer=JOptionPane.showConfirmDialog(ZooInspectorNodeViewersDialog.this`"The specified file already exists. do you want to overwrite it?"`"Confirm Overwrite"`JOptionPane.YES_NO_OPTION`JOptionPane.WARNING_MESSAGE);" is 213.,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorNodeViewersDialog.this`"Error saving node veiwer configuration from file: " + ex.getMessage()`"Error"`JOptionPane.ERROR_MESSAGE);" is 171.,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorNodeViewersDialog.this`"Error loading node veiwer configuration from file: " + ex.getMessage()`"Error"`JOptionPane.ERROR_MESSAGE);" is 172.,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Long Statement,The length of the statement "int answer=JOptionPane.showConfirmDialog(ZooInspectorNodeViewersDialog.this`"Are you sure you want to save this configuration as the default?"`"Confirm Set Defaults"`JOptionPane.YES_NO_OPTION`JOptionPane.WARNING_MESSAGE);" is 221.,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorNodeViewersDialog.this`"Error setting default node veiwer configuration: " + ex.getMessage()`"Error"`JOptionPane.ERROR_MESSAGE);" is 170.,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 3,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 3,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 3,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 3,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 2,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 3,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 3,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 3,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 3,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 3,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 4,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 4,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 2,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 4,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 5,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 10,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,ZooInspectorNodeViewersDialog,Magic Number,The method contains a magic number: 10,75
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,getListCellRendererComponent,Long Parameter List,The method has 5 parameters. ,110
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,actionPerformed,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorNodeViewersDialog.this`"Please enter the full class name for a Node Viewer and click the add button"`"Input Error"`JOptionPane.ERROR_MESSAGE);" is 184.,335
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,actionPerformed,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorNodeViewersDialog.this`"Node viewer already exists. Each node viewer can only be added once."`"Input Error"`JOptionPane.ERROR_MESSAGE);" is 177.,335
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,actionPerformed,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorNodeViewersDialog.this`"An error occurred while instaniating the node viewer: " + ex.getMessage()`"Error"`JOptionPane.ERROR_MESSAGE);" is 175.,335
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,actionPerformed,Long Statement,The length of the statement "answer=JOptionPane.showConfirmDialog(ZooInspectorNodeViewersDialog.this`"The specified file already exists. do you want to overwrite it?"`"Confirm Overwrite"`JOptionPane.YES_NO_OPTION`JOptionPane.WARNING_MESSAGE);" is 213.,424
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,actionPerformed,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorNodeViewersDialog.this`"Error saving node veiwer configuration from file: " + ex.getMessage()`"Error"`JOptionPane.ERROR_MESSAGE);" is 171.,424
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,actionPerformed,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorNodeViewersDialog.this`"Error loading node veiwer configuration from file: " + ex.getMessage()`"Error"`JOptionPane.ERROR_MESSAGE);" is 172.,470
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,actionPerformed,Long Statement,The length of the statement "int answer=JOptionPane.showConfirmDialog(ZooInspectorNodeViewersDialog.this`"Are you sure you want to save this configuration as the default?"`"Confirm Set Defaults"`JOptionPane.YES_NO_OPTION`JOptionPane.WARNING_MESSAGE);" is 221.,509
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,actionPerformed,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorNodeViewersDialog.this`"Error setting default node veiwer configuration: " + ex.getMessage()`"Error"`JOptionPane.ERROR_MESSAGE);" is 170.,509
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersPanel,valueChanged,Complex Method,Cyclomatic complexity of the method is 8,101
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,ZooInspectorPanel,Long Method,The method has 136 lines of code.,61
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,ZooInspectorPanel,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorPanel.this`"Error loading default node viewers: " + ex.getMessage()`"Error"`JOptionPane.ERROR_MESSAGE);" is 145.,61
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,ZooInspectorPanel,Long Statement,The length of the statement "ZooInspectorConnectionPropertiesDialog zicpd=new ZooInspectorConnectionPropertiesDialog(zooInspectorManager.getLastConnectionProps()`zooInspectorManager.getConnectionPropertiesTemplate()`ZooInspectorPanel.this);" is 211.,61
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,ZooInspectorPanel,Long Statement,The length of the statement "final String nodeName=JOptionPane.showInputDialog(ZooInspectorPanel.this`"Please Enter a name for the new node"`"Create Node"`JOptionPane.INFORMATION_MESSAGE);" is 159.,61
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,ZooInspectorPanel,Long Statement,The length of the statement "int answer=JOptionPane.showConfirmDialog(ZooInspectorPanel.this`"Are you sure you want to delete the selected nodes?" + "(This action cannot be reverted)"`"Confirm Delete"`JOptionPane.YES_NO_OPTION`JOptionPane.WARNING_MESSAGE);" is 227.,61
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,ZooInspectorPanel,Long Statement,The length of the statement "ZooInspectorNodeViewersDialog nvd=new ZooInspectorNodeViewersDialog(JOptionPane.getRootFrame()`nodeViewers`listeners`zooInspectorManager);" is 138.,61
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,ZooInspectorPanel,Magic Number,The method contains a magic number: 0.25,61
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,actionPerformed,Long Statement,The length of the statement "ZooInspectorConnectionPropertiesDialog zicpd=new ZooInspectorConnectionPropertiesDialog(zooInspectorManager.getLastConnectionProps()`zooInspectorManager.getConnectionPropertiesTemplate()`ZooInspectorPanel.this);" is 211.,122
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,actionPerformed,Long Statement,The length of the statement "final String nodeName=JOptionPane.showInputDialog(ZooInspectorPanel.this`"Please Enter a name for the new node"`"Create Node"`JOptionPane.INFORMATION_MESSAGE);" is 159.,141
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,actionPerformed,Long Statement,The length of the statement "int answer=JOptionPane.showConfirmDialog(ZooInspectorPanel.this`"Are you sure you want to delete the selected nodes?" + "(This action cannot be reverted)"`"Confirm Delete"`JOptionPane.YES_NO_OPTION`JOptionPane.WARNING_MESSAGE);" is 227.,173
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,actionPerformed,Long Statement,The length of the statement "ZooInspectorNodeViewersDialog nvd=new ZooInspectorNodeViewersDialog(JOptionPane.getRootFrame()`nodeViewers`listeners`zooInspectorManager);" is 138.,210
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,connect,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorPanel.this`"Unable to connect to zookeeper"`"Error"`JOptionPane.ERROR_MESSAGE);" is 121.,232
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,done,Long Statement,The length of the statement "JOptionPane.showMessageDialog(ZooInspectorPanel.this`"Unable to connect to zookeeper"`"Error"`JOptionPane.ERROR_MESSAGE);" is 121.,246
+LingZhong_thesis,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,disconnect,Magic Number,The method contains a magic number: 100,287
+LingZhong_thesis,org.apache.zookeeper.inspector.manager,Pair,hashCode,Magic Number,The method contains a magic number: 31,84
+LingZhong_thesis,org.apache.zookeeper.inspector.manager,Pair,equals,Complex Method,Cyclomatic complexity of the method is 10,98
+LingZhong_thesis,org.apache.zookeeper.inspector.manager,ZooInspectorManagerImpl,connect,Complex Method,Cyclomatic complexity of the method is 8,128
+LingZhong_thesis,org.apache.zookeeper.inspector.manager,ZooInspectorManagerImpl,connect,Magic Number,The method contains a magic number: 10,128
+LingZhong_thesis,org.apache.zookeeper.inspector.manager,ZooInspectorManagerImpl,getNodeIndex,Complex Conditional,The conditional expression index == -1 || (!nodePath.equals("/") && nodePath.charAt(nodePath.length() - 1) == '/') is complex.,286
+LingZhong_thesis,org.apache.zookeeper.inspector.manager,ZooInspectorManagerImpl,getACLs,Complex Method,Cyclomatic complexity of the method is 14,314
+LingZhong_thesis,org.apache.zookeeper.inspector.manager,ZooInspectorManagerImpl,loadNodeViewersFile,Complex Conditional,The conditional expression line != null && line.length() > 0 && !line.startsWith("#") is complex.,726
+LingZhong_thesis,org.apache.zookeeper.inspector.manager,ZooInspectorManagerImpl,loadDefaultConnectionFile,Long Statement,The length of the statement "defaultEncryptionManager=props.getProperty(DATA_ENCRYPTION_MANAGER) == null ? "org.apache.zookeeper.inspector.encryption.BasicDataEncryptionManager" : props.getProperty(DATA_ENCRYPTION_MANAGER);" is 194.,750
+LingZhong_thesis,org.apache.zookeeper.inspector,ZooInspector,main,Magic Number,The method contains a magic number: 1024,35
+LingZhong_thesis,org.apache.zookeeper.inspector,ZooInspector,main,Magic Number,The method contains a magic number: 768,35
+LingZhong_thesis,org.apache.zookeeper.retry,ZooKeeperRetry,ZooKeeperRetry,Long Parameter List,The method has 5 parameters. ,54
+LingZhong_thesis,org.apache.zookeeper.retry,ZooKeeperRetry,testConnection,Magic Number,The method contains a magic number: 5,272
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupport,makeOffer,Long Statement,The length of the statement "leaderOffer.setNodePath(zooKeeper.create(rootNodeName + "/" + "n_"`hostName.getBytes()`ZooDefs.Ids.OPEN_ACL_UNSAFE`CreateMode.EPHEMERAL_SEQUENTIAL));" is 149.,179
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupport,toString,Long Statement,The length of the statement "return "{ state:" + state + " leaderOffer:"+ leaderOffer+ " zooKeeper:"+ zooKeeper+ " hostName:"+ hostName+ " listeners:"+ listeners+ " }";" is 139.,385
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,setUp,Long Statement,The length of the statement "zooKeeper.create(testRootNode + Thread.currentThread().getId()`new byte[0]`ZooDefs.Ids.OPEN_ACL_UNSAFE`CreateMode.PERSISTENT);" is 126.,48
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNode,Magic Number,The method contains a magic number: 3000,67
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes3,Magic Number,The method contains a magic number: 3,78
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes3,Magic Number,The method contains a magic number: 10,78
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes9,Magic Number,The method contains a magic number: 9,100
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes9,Magic Number,The method contains a magic number: 10,100
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes20,Magic Number,The method contains a magic number: 20,122
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes20,Magic Number,The method contains a magic number: 10,122
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes100,Magic Number,The method contains a magic number: 100,144
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes100,Magic Number,The method contains a magic number: 20,144
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testOfferShuffle,Magic Number,The method contains a magic number: 10,166
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testOfferShuffle,Magic Number,The method contains a magic number: 1200,166
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testOfferShuffle,Magic Number,The method contains a magic number: 10000,166
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testOfferShuffle,Magic Number,The method contains a magic number: 60,166
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testGetLeaderHostName,Magic Number,The method contains a magic number: 3000,186
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,runElectionSupportThread,Magic Number,The method contains a magic number: 3000,216
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupport,makeOffer,Long Statement,The length of the statement "leaderOffer.setNodePath(zooKeeper.create(rootNodeName + "/" + "n_"`hostName.getBytes()`ZooDefs.Ids.OPEN_ACL_UNSAFE`CreateMode.EPHEMERAL_SEQUENTIAL));" is 149.,179
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupport,toString,Long Statement,The length of the statement "return "{ state:" + state + " leaderOffer:"+ leaderOffer+ " zooKeeper:"+ zooKeeper+ " hostName:"+ hostName+ " listeners:"+ listeners+ " }";" is 139.,385
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,setUp,Long Statement,The length of the statement "zooKeeper.create(testRootNode + Thread.currentThread().getId()`new byte[0]`ZooDefs.Ids.OPEN_ACL_UNSAFE`CreateMode.PERSISTENT);" is 126.,48
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNode,Magic Number,The method contains a magic number: 3000,67
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes3,Magic Number,The method contains a magic number: 3,78
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes3,Magic Number,The method contains a magic number: 10,78
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes9,Magic Number,The method contains a magic number: 9,100
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes9,Magic Number,The method contains a magic number: 10,100
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes20,Magic Number,The method contains a magic number: 20,122
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes20,Magic Number,The method contains a magic number: 10,122
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes100,Magic Number,The method contains a magic number: 100,144
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testNodes100,Magic Number,The method contains a magic number: 20,144
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testOfferShuffle,Magic Number,The method contains a magic number: 10,166
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testOfferShuffle,Magic Number,The method contains a magic number: 1200,166
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testOfferShuffle,Magic Number,The method contains a magic number: 10000,166
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testOfferShuffle,Magic Number,The method contains a magic number: 60,166
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,testGetLeaderHostName,Magic Number,The method contains a magic number: 3000,186
+LingZhong_thesis,org.apache.zookeeper.recipes.leader,LeaderElectionSupportTest,runElectionSupportThread,Magic Number,The method contains a magic number: 3000,216
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLock,unlock,Empty catch clause,The method has an empty catch block.,100
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,ZNodeName,hashCode,Magic Number,The method contains a magic number: 37,72
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,testRun,Magic Number,The method contains a magic number: 3,42
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,runTest,Complex Method,Cyclomatic complexity of the method is 8,57
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,runTest,Magic Number,The method contains a magic number: 30,57
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,runTest,Magic Number,The method contains a magic number: 30,57
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,runTest,Magic Number,The method contains a magic number: 2,57
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,runTest,Magic Number,The method contains a magic number: 10000,57
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,runTest,Magic Number,The method contains a magic number: 10000,57
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,tearDown,Long Identifier,The length of the field workAroundClosingLastZNodeFails is 31.,134
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLock,unlock,Empty catch clause,The method has an empty catch block.,100
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,ZNodeName,hashCode,Magic Number,The method contains a magic number: 37,72
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,testRun,Magic Number,The method contains a magic number: 3,42
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,runTest,Complex Method,Cyclomatic complexity of the method is 8,57
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,runTest,Magic Number,The method contains a magic number: 30,57
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,runTest,Magic Number,The method contains a magic number: 30,57
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,runTest,Magic Number,The method contains a magic number: 2,57
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,runTest,Magic Number,The method contains a magic number: 10000,57
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,runTest,Magic Number,The method contains a magic number: 10000,57
+LingZhong_thesis,org.apache.zookeeper.recipes.lock,WriteLockTest,tearDown,Long Identifier,The length of the field workAroundClosingLastZNodeFails is 31.,134
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueue,element,Empty catch clause,The method has an empty catch block.,142
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueue,remove,Empty catch clause,The method has an empty catch block.,179
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueue,take,Empty catch clause,The method has an empty catch block.,229
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testOffer2,Magic Number,The method contains a magic number: 2,58
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,createNremoveMtest,Magic Number,The method contains a magic number: 2,116
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testRemove2,Magic Number,The method contains a magic number: 10,138
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testRemove2,Magic Number,The method contains a magic number: 2,138
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testRemove3,Magic Number,The method contains a magic number: 1000,142
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testRemove3,Magic Number,The method contains a magic number: 1000,142
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,createNremoveMelementTest,Magic Number,The method contains a magic number: 2,147
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testElement2,Magic Number,The method contains a magic number: 10,174
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testElement2,Magic Number,The method contains a magic number: 2,174
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testElement3,Magic Number,The method contains a magic number: 1000,179
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testElement3,Magic Number,The method contains a magic number: 500,179
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testElement4,Magic Number,The method contains a magic number: 1000,184
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testElement4,Magic Number,The method contains a magic number: 1000,184
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait1,Empty catch clause,The method has an empty catch block.,189
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait1,Empty catch clause,The method has an empty catch block.,189
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait1,Empty catch clause,The method has an empty catch block.,189
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait1,Empty catch clause,The method has an empty catch block.,189
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait1,Magic Number,The method contains a magic number: 1000,189
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,203
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,203
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,217
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,217
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait2,Empty catch clause,The method has an empty catch block.,236
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait2,Empty catch clause,The method has an empty catch block.,236
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait2,Empty catch clause,The method has an empty catch block.,236
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait2,Empty catch clause,The method has an empty catch block.,236
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait2,Magic Number,The method contains a magic number: 2,236
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait2,Magic Number,The method contains a magic number: 1000,236
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,252
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,252
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,266
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,266
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueue,element,Empty catch clause,The method has an empty catch block.,142
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueue,remove,Empty catch clause,The method has an empty catch block.,179
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueue,take,Empty catch clause,The method has an empty catch block.,229
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testOffer2,Magic Number,The method contains a magic number: 2,58
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,createNremoveMtest,Magic Number,The method contains a magic number: 2,116
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testRemove2,Magic Number,The method contains a magic number: 10,138
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testRemove2,Magic Number,The method contains a magic number: 2,138
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testRemove3,Magic Number,The method contains a magic number: 1000,142
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testRemove3,Magic Number,The method contains a magic number: 1000,142
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,createNremoveMelementTest,Magic Number,The method contains a magic number: 2,147
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testElement2,Magic Number,The method contains a magic number: 10,174
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testElement2,Magic Number,The method contains a magic number: 2,174
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testElement3,Magic Number,The method contains a magic number: 1000,179
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testElement3,Magic Number,The method contains a magic number: 500,179
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testElement4,Magic Number,The method contains a magic number: 1000,184
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testElement4,Magic Number,The method contains a magic number: 1000,184
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait1,Empty catch clause,The method has an empty catch block.,189
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait1,Empty catch clause,The method has an empty catch block.,189
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait1,Empty catch clause,The method has an empty catch block.,189
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait1,Empty catch clause,The method has an empty catch block.,189
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait1,Magic Number,The method contains a magic number: 1000,189
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,203
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,203
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,217
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,217
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait2,Empty catch clause,The method has an empty catch block.,236
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait2,Empty catch clause,The method has an empty catch block.,236
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait2,Empty catch clause,The method has an empty catch block.,236
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait2,Empty catch clause,The method has an empty catch block.,236
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait2,Magic Number,The method contains a magic number: 2,236
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,testTakeWait2,Magic Number,The method contains a magic number: 1000,236
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,252
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,252
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,266
+LingZhong_thesis,org.apache.zookeeper.recipes.queue,DistributedQueueTest,run,Empty catch clause,The method has an empty catch block.,266
+LingZhong_thesis,(default package),ExecutionService,main,Magic Number,The method contains a magic number: 200,111
+LingZhong_thesis,(default package),ExecutionThreadHandler,run,Long Statement,The length of the statement "System.out.println("RETVAL for " + this.exeId + " is "+ retval+ " and it started at "+ new Timestamp(this.start).toString()+ " and finished at "+ new Timestamp(this.end).toString()+ " . It took "+ (this.exeTime / 1000)+ "s in total");" is 234.,28
+LingZhong_thesis,(default package),ExecutionThreadHandler,run,Magic Number,The method contains a magic number: 1000,28
+LingZhong_thesis,(default package),Job,main,Long Statement,The length of the statement "System.out.println("Usage: java -classpath lib/zookeeper-3.3.2.jar:lib/log4j-1.2.15.jar:. Job zkServer:clientPort numQ");" is 121.,16
+LingZhong_thesis,(default package),Job,main,Magic Number,The method contains a magic number: 2,16
+LingZhong_thesis,(default package),Job,main,Magic Number,The method contains a magic number: 200,16
+LingZhong_thesis,(default package),Worker,main,Long Statement,The length of the statement "System.out.println("Usage: java -classpath lib/zookeeper-3.3.2.jar:lib/log4j-1.2.15.jar:. Worker zkServer:clientPort numOfWorkers");" is 132.,12
+LingZhong_thesis,(default package),Worker,main,Magic Number,The method contains a magic number: 2,12
+LingZhong_thesis,(default package),Worker,main,Magic Number,The method contains a magic number: 200,12
+LingZhong_thesis,(default package),ZkConnector,connect,Magic Number,The method contains a magic number: 5000,27
+LingZhong_thesis,(default package),A,main,Magic Number,The method contains a magic number: 10000,14
+LingZhong_thesis,(default package),ZkConnector,connect,Magic Number,The method contains a magic number: 5000,26
+LingZhong_thesis,(default package),Test,main,Empty catch clause,The method has an empty catch block.,19
+LingZhong_thesis,(default package),Test,main,Empty catch clause,The method has an empty catch block.,19
+LingZhong_thesis,(default package),Test,main,Magic Number,The method contains a magic number: 5000,19
+LingZhong_thesis,(default package),Test,main,Magic Number,The method contains a magic number: 5000,19
+LingZhong_thesis,(default package),Test,handleEvent,Empty catch clause,The method has an empty catch block.,70
+LingZhong_thesis,(default package),Test,handleEvent,Magic Number,The method contains a magic number: 5000,70
+LingZhong_thesis,(default package),ZkConnector,connect,Magic Number,The method contains a magic number: 5000,28
+LingZhong_thesis,(default package),ZkConnector,exists,Empty catch clause,The method has an empty catch block.,58
+LingZhong_thesis,(default package),MD5Test,getHash,Empty catch clause,The method has an empty catch block.,14
+LingZhong_thesis,(default package),MD5Test,getHash,Magic Number,The method contains a magic number: 16,14
+LingZhong_thesis,(default package),MD5Test,getHash,Magic Number,The method contains a magic number: 32,14
+LingZhong_thesis,(default package),ZkConnector,connect,Magic Number,The method contains a magic number: 5000,26

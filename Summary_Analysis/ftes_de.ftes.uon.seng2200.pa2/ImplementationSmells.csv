@@ -1,0 +1,16 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,DistanceEvent,compareTo,Long Statement,The length of the statement "int comparison=Integer.compare(getNthBestDistance(i).getNumberOfAttempt()`other.getNthBestDistance(i).getNumberOfAttempt());" is 124.,49
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ListTest,createListThenInsertAndRemoveItems,Magic Number,The method contains a magic number: 2,17
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ListTest,createListThenInsertAndRemoveItems,Magic Number,The method contains a magic number: 3,17
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ListTest,createListThenInsertAndRemoveItems,Magic Number,The method contains a magic number: 2,17
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ListTest,putItem,Magic Number,The method contains a magic number: 2,41
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ListTest,putItem,Magic Number,The method contains a magic number: 3,41
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ListTest,putItem,Magic Number,The method contains a magic number: 3,41
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ListTest,testIterator,Magic Number,The method contains a magic number: 2,53
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ListTest,testIterator,Magic Number,The method contains a magic number: 3,53
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ListTest,testIterator,Magic Number,The method contains a magic number: 2,53
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ListTest,testIterator,Magic Number,The method contains a magic number: 3,53
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2.test,CheckExpectedOrderTest,testAllEqualInputOrderWins,Long Statement,The length of the statement "testOrder(new String[]{"Max"`"Moritz"`"Anton"}`new String[]{"Max"`"Moritz"`"Anton"}`new double[]{1.`2.`1.5}`new double[]{1.`2.`1.5}`new double[]{1.`2.`1.5});" is 157.,81
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2.test,DistanceAttemptTest,isComparisonCorrect,Magic Number,The method contains a magic number: 2,9
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2.test,SortedListTest,createListThenInsertAndRemoveItems,Magic Number,The method contains a magic number: 2,16
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2.test,SortedListTest,createListThenInsertAndRemoveItems,Magic Number,The method contains a magic number: 3,16

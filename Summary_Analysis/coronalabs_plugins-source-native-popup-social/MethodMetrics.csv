@@ -1,0 +1,18 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,canShowPopup,getName,3,1,0,36,0,,
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,canShowPopup,doesPackageExist,14,4,2,47,0,,
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,canShowPopup,invoke,19,3,1,80,0,CoronaProvider._native.popup.social.canShowPopup,CoronaProvider._native.popup.social.canShowPopup
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,LuaLoader,LuaLoader,3,1,0,35,0,,
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,LuaLoader,invoke,6,1,1,48,0,,
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,LuaLoader,onLoaded,2,1,1,76,0,,
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,LuaLoader,onStarted,2,1,1,92,0,,
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,LuaLoader,onSuspended,2,1,1,103,0,,
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,LuaLoader,onResumed,2,1,1,116,0,,
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,LuaLoader,onExiting,2,1,1,127,0,,
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,getName,3,1,0,46,0,,
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,customChooserIntent,19,5,4,57,0,CoronaProvider._native.popup.social.showPopup,CoronaProvider._native.popup.social.showPopup
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,customChooserIntentLegacy,36,6,4,80,0,,
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,compare,3,1,2,111,0,,
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,invoke,138,22,1,196,0,CoronaProvider._native.popup.social.showPopup,CoronaProvider._native.popup.social.showPopup
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,run,21,3,0,426,0,CoronaProvider._native.popup.social.showPopup,CoronaProvider._native.popup.social.showPopup
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,onHandleActivityResult,5,1,4,431,0,,

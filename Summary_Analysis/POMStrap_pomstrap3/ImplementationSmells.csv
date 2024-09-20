@@ -1,0 +1,2 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+POMStrap_pomstrap3,org.tigris.pomstrap,Bootstrap,bootstrap,Long Statement,The length of the statement "File aetherShaderJar=new File(System.getProperty("user.home") + "/.m2/repository/org/tigris/pomstrap/aethershader/1.0-SNAPSHOT/aethershader-1.0-SNAPSHOT.jar");" is 159.,16

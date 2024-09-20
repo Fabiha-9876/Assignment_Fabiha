@@ -1,0 +1,70 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+prachiyshah_CoreNettyProject,eye,Comm,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (391); PARSER (1844); PARSER (3133); PARSER (4225); PARSER (4868); PARSER (5913); PARSER (6835); PARSER (7851); PARSER (8945); PARSER (9852); PARSER (10934); PARSER (11728); PARSER (13987); PARSER (15389); PARSER (16101); PARSER (16675); PARSER (17425); PARSER (18611)
+prachiyshah_CoreNettyProject,eye,Comm.NameValueSet,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.NameValueSet,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (391)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.NameSpace,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.NameSpace,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (1844)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.JobDesc,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.JobDesc,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (3133)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Ping,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Ping,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (4225)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.NameSpaceOperation,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.NameSpaceOperation,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (4868)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.NameSpaceStatus,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.NameSpaceStatus,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (5913)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.JobOperation,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.JobOperation,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (6835)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.JobProposal,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.JobProposal,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (7851)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.JobBid,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.JobBid,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (8945)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.JobStatus,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.JobStatus,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (9852)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.RoutingPath,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.RoutingPath,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (10934)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Header,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Header,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (11728)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Payload,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Payload,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (13987)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Request,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Request,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (15389)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Heartbeat,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Heartbeat,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (16101)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Network,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Network,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (16675)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.LeaderElection,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.LeaderElection,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (17425)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Management,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,eye,Comm.Management,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: PARSER (18611)
+prachiyshah_CoreNettyProject,eye,Comm.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,poke.client.comm,CommConnection.ClientClosedListener,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,poke.demo,Monitor.HeartPrintListener,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,poke.monitor,HeartMonitor,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: leaderDown (63)
+prachiyshah_CoreNettyProject,poke.monitor,HeartMonitor.MonitorClosedListener,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,poke.server.conf,ServerConf.GeneralConf,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,poke.server.conf,ServerConf.NearestConf,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,poke.server.conf,ServerConf.ResourceConf,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,poke.server.management,ManagementHandler.ManagementClosedListener,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,poke.server.management,ManagementQueue.ManagementQueueEntry,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,poke.server.management.managers,JobManager,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+prachiyshah_CoreNettyProject,poke.server.queue,DiscreteQueue.OneQueueEntry,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,poke.server.queue,OnlyOneQueue.OneQueueEntry,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+prachiyshah_CoreNettyProject,poke.server,Server,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+prachiyshah_CoreNettyProject,poke.server,ServerHandler.ConnectionClosedListener,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.

@@ -1,0 +1,10 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,main,6,1,1,8,0,,
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,initialBoard,8,3,0,22,0,,
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,determineStarter,11,2,0,34,0,,
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,displayBoard,8,1,0,50,0,,
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,getInfo,18,2,0,63,0,,
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,96,70,0,88,0,,
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,57,20,0,277,0,,
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,57,20,0,340,0,,
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkTie,17,5,0,411,0,,

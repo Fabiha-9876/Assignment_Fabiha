@@ -1,0 +1,54 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+klcathy_CS144,(default package),ComputeSHA,parseFile,Magic Number,The method contains a magic number: 1024,17
+klcathy_CS144,(default package),ComputeSHA,printSHA,Magic Number,The method contains a magic number: 0xff,31
+klcathy_CS144,(default package),ComputeSHA,printSHA,Magic Number,The method contains a magic number: 0x100,31
+klcathy_CS144,(default package),ComputeSHA,printSHA,Magic Number,The method contains a magic number: 16,31
+klcathy_CS144,edu.ucla.cs.cs144,Item,setRequiredAttributes,Long Parameter List,The method has 9 parameters. ,66
+klcathy_CS144,edu.ucla.cs.cs144,Item,toString,Long Statement,The length of the statement "return itemId + "|*|" + name+ "|*|"+ currently+ "|*|"+ first_bid+ "|*|"+ buyStr+ "|*|"+ num_bids+ "|*|"+ started+ "|*|"+ ends+ "|*|"+ description+ "|*|"+ sellerID+ "|*|"+ location+ "|*|"+ country+ "|*|"+ latitudeStr+ "|*|"+ longitudeStr;" is 237.,93
+klcathy_CS144,edu.ucla.cs.cs144,MyParserPrint,strip,Magic Number,The method contains a magic number: 20,144
+klcathy_CS144,edu.ucla.cs.cs144,MyParserPrint,processFile,Magic Number,The method contains a magic number: 3,163
+klcathy_CS144,edu.ucla.cs.cs144,MyParserPrint,processFile,Magic Number,The method contains a magic number: 3,163
+klcathy_CS144,edu.ucla.cs.cs144,MyParserPrint,recursiveDescent,Long Statement,The length of the statement "if (nattrib != null && nattrib.getLength() > 0) for (int i=0; i < nattrib.getLength(); i++) recursiveDescent(nattrib.item(i)`level + 1);" is 136.,192
+klcathy_CS144,edu.ucla.cs.cs144,MyParserPrint,recursiveDescent,Magic Number,The method contains a magic number: 4,192
+klcathy_CS144,edu.ucla.cs.cs144,MyParserPrint,main,Magic Number,The method contains a magic number: 2,217
+klcathy_CS144,edu.ucla.cs.cs144,MyParserPrint,main,Magic Number,The method contains a magic number: 2,217
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 20,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 33.774,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 118.63,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 34.201,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 117.38,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 20,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 70,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 1470,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 780,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 1000,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearch,basicSearch,Long Statement,The length of the statement "if (topDocs.totalHits < (numResultsToSkip + numResultsToReturn)) numResultsToReturn=Math.max(0`topDocs.totalHits - numResultsToSkip);" is 133.,75
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearch,spatialSearch,Long Statement,The length of the statement "PreparedStatement spatialCheckItem=conn.prepareStatement("SELECT MBRContains(" + line + "` location) AS SpatialContains FROM ItemLocation WHERE iid = ?");" is 154.,125
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearch,escapeString,Long Statement,The length of the statement "String output=str.replaceAll("&"`"&amp;").replaceAll("\""`"&quot;").replaceAll("'"`"&apos;").replaceAll("<"`"&lt;").replaceAll(">"`"&gt;");" is 139.,211
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 20,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 33.774,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 118.63,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 34.201,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 117.38,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 20,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 200,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 70,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 1470,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 780,11
+klcathy_CS144,edu.ucla.cs.cs144,AuctionSearchTest,main,Magic Number,The method contains a magic number: 1000,11
+klcathy_CS144,edu.ucla.cs.cs144,ItemResult,ItemResult,Long Parameter List,The method has 10 parameters. ,25
+klcathy_CS144,edu.ucla.cs.cs144,ItemServlet,stringToDocument,Empty catch clause,The method has an empty catch block.,25
+klcathy_CS144,edu.ucla.cs.cs144,ItemServlet,doGet,Empty catch clause,The method has an empty catch block.,45
+klcathy_CS144,edu.ucla.cs.cs144,MyParser,parseXML,Long Statement,The length of the statement "ItemResult ir=new ItemResult(item_id`name`currently`first_bid`num_bids`started`ends`seller_id`seller_rating`description);" is 121.,90
+klcathy_CS144,edu.ucla.cs.cs144,ProxyServlet,doGet,Empty catch clause,The method has an empty catch block.,20
+klcathy_CS144,edu.ucla.cs.cs144,ProxyServlet,doGet,Empty catch clause,The method has an empty catch block.,20
+klcathy_CS144,edu.ucla.cs.cs144,SearchServlet,doGet,Magic Number,The method contains a magic number: 10,14
+klcathy_CS144,edu.ucla.cs.cs144,SearchServlet,doGet,Magic Number,The method contains a magic number: 10,14
+klcathy_CS144,edu.ucla.cs.cs144,ItemResult,ItemResult,Long Parameter List,The method has 10 parameters. ,25
+klcathy_CS144,edu.ucla.cs.cs144,ItemServlet,stringToDocument,Empty catch clause,The method has an empty catch block.,26
+klcathy_CS144,edu.ucla.cs.cs144,ItemServlet,doGet,Empty catch clause,The method has an empty catch block.,46
+klcathy_CS144,edu.ucla.cs.cs144,MyParser,parseXML,Long Statement,The length of the statement "ItemResult ir=new ItemResult(item_id`name`currently`first_bid`num_bids`started`ends`seller_id`seller_rating`description);" is 121.,90
+klcathy_CS144,edu.ucla.cs.cs144,ProxyServlet,doGet,Empty catch clause,The method has an empty catch block.,20
+klcathy_CS144,edu.ucla.cs.cs144,ProxyServlet,doGet,Empty catch clause,The method has an empty catch block.,20
+klcathy_CS144,edu.ucla.cs.cs144,SearchServlet,doGet,Magic Number,The method contains a magic number: 10,14
+klcathy_CS144,edu.ucla.cs.cs144,SearchServlet,doGet,Magic Number,The method contains a magic number: 10,14

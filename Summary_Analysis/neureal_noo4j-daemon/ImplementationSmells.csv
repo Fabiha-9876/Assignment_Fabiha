@@ -1,0 +1,126 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,BtcDaemon,Long Parameter List,The method has 7 parameters. ,157
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,BtcDaemon,Long Parameter List,The method has 6 parameters. ,163
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,BtcDaemon,Long Parameter List,The method has 5 parameters. ,169
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,submitVote,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(payment)).add(BtcUtil.notNull(tick_count)).add(BtcUtil.notNull(api)).build();" is 144.,221
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,submitWork,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(payment)).add(BtcUtil.notNull(tick_index)).add(BtcUtil.notNull(work)).add(BtcUtil.notNull(api)).build();" is 171.,232
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,addMultiSignatureAddress,Long Identifier,The length of the field BTCAPI_ADD_MULTISIGNATURE_ADDRESS is 33.,249
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,addNode,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(node)).add(String.valueOf(operation).toLowerCase()).build();" is 127.,271
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,createMultiSignatureAddress,Long Identifier,The length of the field BTCAPI_CREATE_MULTISIGNATURE_ADDRESS is 36.,290
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,getAddedNodeInformation,Long Identifier,The length of the field BTCAPI_GET_ADDED_NODE_INFORMATION is 33.,378
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,getAddressesByAccount,Long Identifier,The length of the field BTCAPI_GET_ADDRESSES_BY_ACCOUNT is 31.,402
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,getReceivedByAccount,Long Identifier,The length of the field BTCAPI_GET_RECEIVED_BY_ACCOUNT is 30.,606
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,getReceivedByAccount,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(account)).add(BtcUtil.atLeast(minConfirms`1)).build();" is 121.,606
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,getReceivedByAddress,Long Identifier,The length of the field BTCAPI_GET_RECEIVED_BY_ADDRESS is 30.,620
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,getReceivedByAddress,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(address)).add(BtcUtil.atLeast(minConfirms`1)).build();" is 121.,620
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,getTransactionOutput,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(transactionId)).add(BtcUtil.atLeast(index`0)).add(includeMemoryPool).build();" is 144.,652
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,getTransactionOutputSetInformation,Long Identifier,The length of the field BTCAPI_GET_TRANSACTION_OUTPUTSET_INFORMATION is 44.,660
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,importPrivateKey,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(privateKey)).add(BtcUtil.notNull(label)).add(rescan).build();" is 128.,710
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,listAddressGroupings,Magic Number,The method contains a magic number: 2,747
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,listAddressGroupings,Magic Number,The method contains a magic number: 2,747
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,listReceivedByAccount,Long Identifier,The length of the field BTCAPI_LIST_RECEIVED_BY_ACCOUNT is 31.,789
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,listReceivedByAddress,Long Identifier,The length of the field BTCAPI_LIST_RECEIVED_BY_ADDRESS is 31.,808
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,listSinceBlock,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(hash)).add(BtcUtil.atLeast(targetConfirms`1)).build();" is 121.,829
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,listTransactions,Magic Number,The method contains a magic number: 10,839
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,listTransactions,Magic Number,The method contains a magic number: 10,843
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,listTransactions,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(account)).add(count).add(BtcUtil.atLeast(from`0)).build();" is 125.,853
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,listTransactions,Magic Number,The method contains a magic number: 10,853
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,listUnspent,Magic Number,The method contains a magic number: 999999,874
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,listUnspent,Magic Number,The method contains a magic number: 999999,878
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,listUnspent,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.atLeast(minConfirms`1)).add(BtcUtil.atLeast(maxConfirms`1)).build();" is 127.,882
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,move,Long Parameter List,The method has 5 parameters. ,937
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,move,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(fromAccount)).add(BtcUtil.notNull(toAccount)).add(BtcUtil.notNull(amount)).add(BtcUtil.atLeast(minConfirms`1)).add(BtcUtil.notNull(comment)).build();" is 216.,937
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,sendFrom,Long Parameter List,The method has 6 parameters. ,954
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,sendFrom,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(account)).add(BtcUtil.notNull(address)).add(BtcUtil.notNull(amount)).add(BtcUtil.atLeast(minConfirms`1)).add(BtcUtil.notNull(comment)).add(BtcUtil.notNull(commentTo)).build();" is 242.,954
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,sendMany,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(account)).add(amountsParam).add(BtcUtil.atLeast(minConfirms`1)).add(BtcUtil.notNull(comment)).build();" is 169.,972
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,sendToAddress,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(address)).add(BtcUtil.notNull(amount)).add(BtcUtil.notNull(comment)).add(BtcUtil.notNull(commentTo)).build();" is 176.,1009
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,signRawTransaction,Long Parameter List,The method has 5 parameters. ,1079
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,verifyMessage,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(address)).add(BtcUtil.notNull(signature)).add(BtcUtil.notNull(message)).build();" is 147.,1173
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,walletPassphrase,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(passphrase)).add(BtcUtil.atLeast(timeout`BTCAPI_WALLET_TIMEOUT)).build();" is 140.,1199
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,walletPassphraseChange,Long Identifier,The length of the field BTCAPI_WALLET_PASSPHRASE_CHANGE is 31.,1208
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,walletPassphraseChange,Long Statement,The length of the statement "JsonArray parameters=Json.createArrayBuilder().add(BtcUtil.notNull(passphrase)).add(BtcUtil.notNull(newPassphrase)).build();" is 124.,1208
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonNotifier,main,Magic Number,The method contains a magic number: 2,39
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,BtcJsonRpcHttpClient,Long Statement,The length of the statement "requestConfig=RequestConfig.custom().setAuthenticationEnabled(true).setConnectionRequestTimeout(timeout).setConnectTimeout(timeout).setSocketTimeout(timeout).setStaleConnectionCheckEnabled(true).build();" is 203.,248
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,setCredentials,Long Statement,The length of the statement "credentialsProvider.setCredentials(new AuthScope(url.getHost()`url.getPort()`JSONRPC_REALM)`new UsernamePasswordCredentials(account`password));" is 143.,270
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonInvoke,Long Identifier,The length of the field BTC4J_DAEMON_JSONRPC_CONTENT_TYPE is 33.,277
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonInvoke,Long Identifier,The length of the field BTC4J_DAEMON_JSON_CONTENT_TYPE is 30.,277
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonInvoke,Long Statement,The length of the statement "throw new BtcException(BtcException.BTC4J_ERROR_CODE`BtcException.BTC4J_ERROR_MESSAGE + ": " + BTC4J_DAEMON_DATA_NULL_URL);" is 123.,277
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonInvoke,Long Statement,The length of the statement "try (CloseableHttpClient client=HttpClients.custom().setDefaultCredentialsProvider(credentialsProvider).setDefaultRequestConfig(requestConfig).disableAutomaticRetries().build()){" is 178.,277
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,invoke,Long Statement,The length of the statement "throw new BtcException(BtcException.BTC4J_ERROR_CODE`BtcException.BTC4J_ERROR_MESSAGE + ": " + BTC4J_DAEMON_DATA_NULL_JSON);" is 124.,328
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,invoke,Long Statement,The length of the statement "throw new BtcException(BtcException.BTC4J_ERROR_CODE`BtcException.BTC4J_ERROR_MESSAGE + ": " + BTC4J_DAEMON_DATA_INVALID_ID);" is 125.,328
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonAddedNode,Complex Conditional,The conditional expression (addresses != null) && (addresses.getValueType() == JsonValue.ValueType.ARRAY) && (addresses instanceof JsonArray) is complex.,383
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonAddedNode,Long Statement,The length of the statement "if ((addresses != null) && (addresses.getValueType() == JsonValue.ValueType.ARRAY) && (addresses instanceof JsonArray)) {" is 121.,383
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonBlock,Complex Conditional,The conditional expression (txIds != null) && (txIds.getValueType() == JsonValue.ValueType.ARRAY) && (txIds instanceof JsonArray) is complex.,427
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonBlock,Long Identifier,The length of the field BTCOBJ_BLOCK_PREVIOUS_BLOCK_HASH is 32.,427
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonBlockTemplate,Complex Conditional,The conditional expression (txs != null) && (txs.getValueType() == JsonValue.ValueType.ARRAY) && (txs instanceof JsonArray) is complex.,474
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonBlockTemplate,Complex Conditional,The conditional expression (mutableIds != null) && (mutableIds.getValueType() == JsonValue.ValueType.ARRAY) && (mutableIds instanceof JsonArray) is complex.,474
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonBlockTemplate,Long Identifier,The length of the field BTCOBJ_BLOCK_PREVIOUS_BLOCK_HASH is 32.,474
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonBlockTemplate,Long Identifier,The length of the field BTCOBJ_BLOCK_TEMPLATE_TRANSACTIONS is 34.,474
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonBlockTemplate,Long Identifier,The length of the field BTCOBJ_BLOCK_TEMPLATE_MIN_TIME is 30.,474
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonBlockTemplate,Long Identifier,The length of the field BTCOBJ_BLOCK_TEMPLATE_NONCE_RANGE is 33.,474
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonBlockTemplate,Long Identifier,The length of the field BTCOBJ_BLOCK_TEMPLATE_SIGNATURE_OPERATIONS is 42.,474
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonBlockTemplate,Long Statement,The length of the statement "if ((mutableIds != null) && (mutableIds.getValueType() == JsonValue.ValueType.ARRAY) && (mutableIds instanceof JsonArray)) {" is 124.,474
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonCoinbase,Complex Conditional,The conditional expression (aux != null) && (aux.getValueType() == JsonValue.ValueType.OBJECT) && (aux instanceof JsonObject) is complex.,519
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonLastBlock,Complex Conditional,The conditional expression (txs != null) && (txs.getValueType() == JsonValue.ValueType.ARRAY) && (txs instanceof JsonArray) is complex.,569
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonLastBlock,Long Identifier,The length of the field BTCOBJ_LAST_BLOCK_TRANSACTIONS is 30.,569
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonMiningInfo,Long Identifier,The length of the field BTCOBJ_INFO_CURRENT_BLOCK_SIZE is 30.,589
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonMiningInfo,Long Identifier,The length of the field BTCOBJ_INFO_CURRENT_BLOCK_TRANSACTIONS is 38.,589
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonMiningInfo,Long Identifier,The length of the field BTCOBJ_INFO_NETWORK_GIGA_HASHES_PER_SECOND is 42.,589
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonMiningInfo,Long Identifier,The length of the field BTCOBJ_INFO_POOLED_TRANSACTIONS is 31.,589
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonRawTransaction,Complex Conditional,The conditional expression (inputs != null) && (inputs.getValueType() == JsonValue.ValueType.ARRAY) && (inputs instanceof JsonArray) is complex.,661
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonRawTransaction,Complex Conditional,The conditional expression (outputs != null) && (outputs.getValueType() == JsonValue.ValueType.ARRAY) && (outputs instanceof JsonArray) is complex.,661
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonScript,Complex Conditional,The conditional expression (addrs) != null && (addrs.getValueType() == JsonValue.ValueType.ARRAY) && (addrs instanceof JsonArray) is complex.,700
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonScript,Long Identifier,The length of the field BTCOBJ_SCRIPT_REQUIRED_SIGNATURES is 33.,700
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonTransaction,Complex Conditional,The conditional expression (txDetails != null) && (txDetails.getValueType() == JsonValue.ValueType.ARRAY) && (txDetails instanceof JsonArray) is complex.,724
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonTransaction,Long Statement,The length of the statement "if ((txDetails != null) && (txDetails.getValueType() == JsonValue.ValueType.ARRAY) && (txDetails instanceof JsonArray)) {" is 121.,724
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonInput,Complex Conditional,The conditional expression (script != null) && (script.getValueType() == JsonValue.ValueType.OBJECT) && (script instanceof JsonObject) is complex.,773
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonInput,Long Identifier,The length of the field BTCOBJ_TX_INPUT_SCRIPT_SIGNATURE is 32.,773
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonOutput,Long Identifier,The length of the field BTCOBJ_TX_OUTPUT_CONFIRMATIONS is 30.,792
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonOutput,Long Identifier,The length of the field BTCOBJ_TX_OUTPUT_SCRIPT_PUBLIC_KEY is 34.,792
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonOutputSet,Long Identifier,The length of the field BTCOBJ_TX_OUTPUT_SET_BEST_BLOCK is 31.,838
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonOutputSet,Long Identifier,The length of the field BTCOBJ_TX_OUTPUT_SET_TRANSACTIONS is 33.,838
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonOutputSet,Long Identifier,The length of the field BTCOBJ_TX_OUTPUT_SET_OUTPUT_TRANSACTIONS is 40.,838
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonOutputSet,Long Identifier,The length of the field BTCOBJ_TX_OUTPUT_SET_BYTES_SERIALIZED is 37.,838
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonOutputSet,Long Identifier,The length of the field BTCOBJ_TX_OUTPUT_SET_HASH_SERIALIZED is 36.,838
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonOutputSet,Long Identifier,The length of the field BTCOBJ_TX_OUTPUT_SET_TOTAL_AMOUNT is 33.,838
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonLong,Long Identifier,The length of the field BTC4J_DAEMON_DATA_INVALID_TYPE is 30.,896
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonLong,Long Statement,The length of the statement "throw new BtcException(BtcException.BTC4J_ERROR_CODE`BtcException.BTC4J_ERROR_MESSAGE + ": " + BTC4J_DAEMON_DATA_INVALID_TYPE+ value.getValueType());" is 149.,896
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonDouble,Long Identifier,The length of the field BTC4J_DAEMON_DATA_INVALID_TYPE is 30.,914
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonDouble,Long Statement,The length of the statement "throw new BtcException(BtcException.BTC4J_ERROR_CODE`BtcException.BTC4J_ERROR_MESSAGE + ": " + BTC4J_DAEMON_DATA_INVALID_TYPE+ value.getValueType());" is 149.,914
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonString,Long Statement,The length of the statement "return ((value != null) && (value.getValueType() == JsonValue.ValueType.STRING) && (value instanceof JsonString)) ? ((JsonString)value).getString() : "";" is 153.,926
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonObject,Long Identifier,The length of the field BTC4J_DAEMON_DATA_INVALID_TYPE is 30.,933
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonObject,Long Statement,The length of the statement "throw new BtcException(BtcException.BTC4J_ERROR_CODE`BtcException.BTC4J_ERROR_MESSAGE + ": " + BTC4J_DAEMON_DATA_INVALID_TYPE+ value.getValueType());" is 149.,933
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,jsonError,Long Statement,The length of the statement "JsonObject error=Json.createObjectBuilder().add(JSONRPC_CODE`code).add(JSONRPC_MESSAGE`message).addNull(JSONRPC_DATA).build();" is 126.,966
+neureal_noo4j-daemon,org.noo4j.daemon,BtcNotificationSource,run,Long Statement,The length of the statement "try (Socket socket=server.accept();BufferedReader in=new BufferedReader(new InputStreamReader(socket.getInputStream()))){" is 121.,43
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonMain,main,Magic Number,The method contains a magic number: 120000,31
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,init,Long Statement,The length of the statement "BITCOIND_WITH_LISTENER=new BtcDaemon(url`BITCOIND_ACCOUNT`BITCOIND_PASSWORD`BITCOIND_TIMEOUT`BITCOIND_ALERT_PORT`BITCOIND_BLOCK_PORT`BITCOIND_WALLET_PORT);" is 155.,111
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,daemonNotifier,Empty catch clause,The method has an empty catch block.,172
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,addMultiSignatureAddress,Magic Number,The method contains a magic number: 2,186
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,createMultiSignatureAddress,Magic Number,The method contains a magic number: 3,221
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,createRawTransaction,Magic Number,The method contains a magic number: 0.008,234
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,createRawTransaction,Magic Number,The method contains a magic number: 0.0072,234
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,getAddedNodeInformation,Empty catch clause,The method has an empty catch block.,279
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,getBalance,Magic Number,The method contains a magic number: 2,321
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,getInformation,Magic Number,The method contains a magic number: 80600,402
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,getReceivedByAccount,Magic Number,The method contains a magic number: 2,459
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,lockUnspent,Magic Number,The method contains a magic number: 2,651
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,move,Empty catch clause,The method has an empty catch block.,671
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,move,Magic Number,The method contains a magic number: 2,671
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,move,Magic Number,The method contains a magic number: 10000,671
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,sendFrom,Empty catch clause,The method has an empty catch block.,684
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,sendFrom,Magic Number,The method contains a magic number: 0.002,684
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,sendFrom,Magic Number,The method contains a magic number: 10000,684
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,sendMany,Empty catch clause,The method has an empty catch block.,703
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,sendMany,Magic Number,The method contains a magic number: 0.0003,703
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,sendMany,Magic Number,The method contains a magic number: 0.0004,703
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,sendMany,Magic Number,The method contains a magic number: 0.0005,703
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,sendMany,Magic Number,The method contains a magic number: 10000,703
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,sendRawTransaction,Long Statement,The length of the statement "BtcTransaction transaction=BITCOIND_WITH_LISTENER.sendRawTransaction("0100000001f5e03b14f43058c4a677921cfe20915515b7fb0ad6e689c5d9d845c0cad6b651000000006b48304502204393043a570ff91c0579a19b36b25e236d0e7908dfd9638e3343e2ad9df2c411022100f7137d473a20e0069247cb8ea6ff1eb29a69aa3ce8ea2f48bd59de86fe4f53f40121032b6f40b5b17ec489090aa75db6f5618b183ebaa3959e964420cade4691a61455ffffffff0280fc0a00000000001976a91420737df3f7c2485d2e7ac33b3c7c4da7edc671c588ac00350c00000000001976a9148f9a3115ab2eb658a66ffa960648ba3d4b46d9b688ac00000000"`true);" is 530.,726
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,sendToAddress,Empty catch clause,The method has an empty catch block.,733
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,sendToAddress,Magic Number,The method contains a magic number: 0.06,733
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,sendToAddress,Magic Number,The method contains a magic number: 10000,733
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,setTransactionFee,Magic Number,The method contains a magic number: 0.00000001,767
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,signRawTransaction,Long Statement,The length of the statement "BtcRawTransaction transaction=BITCOIND_WITHOUT_LISTENER.signRawTransaction("0100000001f5e03b14f43058c4a677921cfe20915515b7fb0ad6e689c5d9d845c0cad6b6510000000000ffffffff0280fc0a00000000001976a91420737df3f7c2485d2e7ac33b3c7c4da7edc671c588ac00350c00000000001976a9148f9a3115ab2eb658a66ffa960648ba3d4b46d9b688ac00000000"`true);" is 322.,781
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,submitBlock,Long Statement,The length of the statement "BtcBlockSubmission submission=BITCOIND_WITHOUT_LISTENER.submitBlock("0000000266354a01810b6fa52baa1245ebcee84b0f2a8d38425f55f7000abb34000000000b083510d119e47d1b2f2d603c13a9d41ab287a49b722fe70b963f31e6b5b21e52e799db1b112c8600000000000000800000000000000000000000000000000000000000000000000000000000000000000000000000000080020000");" is 328.,789
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,walletPassphraseChange,Empty catch clause,The method has an empty catch block.,818
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,walletPassphraseChange,Magic Number,The method contains a magic number: 10000,818

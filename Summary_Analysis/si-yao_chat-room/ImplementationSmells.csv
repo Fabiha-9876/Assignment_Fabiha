@@ -1,0 +1,19 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+si-yao_chat-room,client,LifeKeeper,run,Magic Number,The method contains a magic number: 3,14
+si-yao_chat-room,client,LifeKeeper,run,Magic Number,The method contains a magic number: 1000,14
+si-yao_chat-room,client,ReceiveHandle,run,Complex Method,Cyclomatic complexity of the method is 9,17
+si-yao_chat-room,client,ReceiveHandle,run,Magic Number,The method contains a magic number: 10,17
+si-yao_chat-room,client,SendHandle,run,Complex Method,Cyclomatic complexity of the method is 13,21
+si-yao_chat-room,client,SendHandle,run,Magic Number,The method contains a magic number: 10,21
+si-yao_chat-room,client,SendHandle,p2p,Complex Method,Cyclomatic complexity of the method is 9,79
+si-yao_chat-room,client,SendService,run,Complex Method,Cyclomatic complexity of the method is 9,66
+si-yao_chat-room,client,SendService,run,Magic Number,The method contains a magic number: 3,66
+si-yao_chat-room,(default package),Client,main,Empty catch clause,The method has an empty catch block.,16
+si-yao_chat-room,(default package),Client,main,Magic Number,The method contains a magic number: 2,16
+si-yao_chat-room,(default package),Client,main,Magic Number,The method contains a magic number: 2,16
+si-yao_chat-room,(default package),Client,run,Empty catch clause,The method has an empty catch block.,35
+si-yao_chat-room,server,HubHandle,run,Complex Method,Cyclomatic complexity of the method is 11,23
+si-yao_chat-room,server,HubHandle,address,Complex Method,Cyclomatic complexity of the method is 8,86
+si-yao_chat-room,server,HubHandle,message,Complex Method,Cyclomatic complexity of the method is 8,405
+si-yao_chat-room,server,HubService,HubService,Magic Number,The method contains a magic number: 2,29
+si-yao_chat-room,server,LifeKiller,run,Magic Number,The method contains a magic number: 1000,31

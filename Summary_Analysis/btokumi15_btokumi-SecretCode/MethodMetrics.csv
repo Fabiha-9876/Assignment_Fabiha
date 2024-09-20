@@ -1,0 +1,7 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+btokumi15_btokumi-SecretCode,(default package),PhraseDecoder,main,8,1,1,5,0,,
+btokumi15_btokumi-SecretCode,(default package),PhraseScrambler,main,9,1,1,5,0,,
+btokumi15_btokumi-SecretCode,(default package),SecretCode,findIndex,8,3,1,20,0,,
+btokumi15_btokumi-SecretCode,(default package),SecretCode,scramble,22,5,1,33,0,,
+btokumi15_btokumi-SecretCode,(default package),SecretCode,unscramble,20,5,1,61,0,,
+btokumi15_btokumi-SecretCode,(default package),SecretCode,check,8,3,1,92,0,,

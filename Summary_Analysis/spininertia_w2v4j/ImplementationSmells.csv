@@ -1,0 +1,18 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+spininertia_w2v4j,com.medallia.w2v4j,NodeVector,hashCode,Magic Number,The method contains a magic number: 17,35
+spininertia_w2v4j,com.medallia.w2v4j,NodeVector,hashCode,Magic Number,The method contains a magic number: 31,35
+spininertia_w2v4j,com.medallia.w2v4j,Word2VecModel,mostSimilar,Long Statement,The length of the statement "return Ordering.natural().greatestOf(FluentIterable.from(vocab.keySet()).filter(Predicates.not(Predicates.equalTo(word))).transform(new Function<String`WordWithSimilarity>(){" is 174.,45
+spininertia_w2v4j,com.medallia.w2v4j,Word2VecModel,hashCode,Magic Number,The method contains a magic number: 17,89
+spininertia_w2v4j,com.medallia.w2v4j,Word2VecModel,hashCode,Magic Number,The method contains a magic number: 31,89
+spininertia_w2v4j,com.medallia.w2v4j,Word2VecTrainer,trainOnSentence,Complex Method,Cyclomatic complexity of the method is 10,441
+spininertia_w2v4j,com.medallia.w2v4j,WordVector,WordVector,Long Parameter List,The method has 5 parameters. ,31
+spininertia_w2v4j,com.medallia.w2v4j,WordVector,equals,Long Statement,The length of the statement "return samplingRate == otherWord.samplingRate && Arrays.equals(vector`otherWord.vector) && points.equals(otherWord.points) && code.equals(otherWord.code);" is 154.,52
+spininertia_w2v4j,com.medallia.w2v4j,WordVector,hashCode,Magic Number,The method contains a magic number: 17,69
+spininertia_w2v4j,com.medallia.w2v4j,WordVector,hashCode,Magic Number,The method contains a magic number: 31,69
+spininertia_w2v4j,com.medallia.w2v4j,WordVector,hashCode,Magic Number,The method contains a magic number: 32,69
+spininertia_w2v4j,com.medallia.w2v4j,WordVector,hashCode,Magic Number,The method contains a magic number: 31,69
+spininertia_w2v4j,com.medallia.w2v4j,WordVector,hashCode,Magic Number,The method contains a magic number: 31,69
+spininertia_w2v4j,com.medallia.w2v4j,WordVector,hashCode,Magic Number,The method contains a magic number: 31,69
+spininertia_w2v4j,com.medallia.w2v4j.utils,MathUtils,randomInitialize,Magic Number,The method contains a magic number: 0.5,70
+spininertia_w2v4j,com.medallia.w2v4j.example,Word2VecExample,train,Long Statement,The length of the statement "Word2VecTrainer trainer=new Word2VecTrainerBuilder().minCount(0).numWorker(Runtime.getRuntime().availableProcessors()).model(NeuralNetworkLanguageModel.SKIP_GRAM).build();" is 171.,18
+spininertia_w2v4j,com.medallia.w2v4j.example,Word2VecExample,test,Magic Number,The method contains a magic number: 10,28

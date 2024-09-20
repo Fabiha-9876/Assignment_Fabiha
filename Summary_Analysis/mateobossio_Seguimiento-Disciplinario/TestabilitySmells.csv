@@ -1,0 +1,7 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+mateobossio_Seguimiento-Disciplinario,Codigo,ListadoAlumnos,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: alumnos (14)
+mateobossio_Seguimiento-Disciplinario,Codigo,ListadoObservacion,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: observaciones (16)
+mateobossio_Seguimiento-Disciplinario,interfaz,CargarAlumnos,Hard-wired Dependency,The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: Codigo.Alumno
+mateobossio_Seguimiento-Disciplinario,interfaz,CargarObservaciones,Hard-wired Dependency,The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: Codigo.Observacion
+mateobossio_Seguimiento-Disciplinario,interfaz,Principal,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+mateobossio_Seguimiento-Disciplinario,interfaz,Registro,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: tblRegistro (142)

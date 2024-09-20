@@ -1,0 +1,50 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,CandidateGen,candidateGen,14,4,1,6,0,edu.uic.cs583.msgsp.FrequentSeq,edu.uic.cs583.msgsp.FrequentSeq; edu.uic.cs583.msgsp.CandidateGen; edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,CandidateGen,level2CandidateGen,47,9,1,26,0,edu.uic.cs583.msgsp.FrequentSeq,edu.uic.cs583.msgsp.FrequentSeq
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,CandidateGen,checkCondition,7,3,2,88,0,edu.uic.cs583.msgsp.CandidateGen,edu.uic.cs583.msgsp.CandidateGen
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,CandidateGen,partition,8,3,1,104,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,CandidateGen,testPair,15,7,3,121,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,CandidateGen,joinSequences,64,11,3,152,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData; edu.uic.cs583.msgsp.FrequentSeq
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,CandidateGen,prune,28,11,2,222,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData; edu.uic.cs583.msgsp.CandidateGen
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,CandidateGen,frequent,8,3,2,258,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,FrequentSeq,FrequentSeq,4,1,0,12,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,FrequentSeq,FrequentSeq,4,1,1,17,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,FrequentSeq,addTransaction,3,1,1,22,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,FrequentSeq,addFrequentSequence,3,1,1,26,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,FrequentSeq,incrementCount,3,1,0,30,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,FrequentSeq,getCount,3,1,0,34,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,FrequentSeq,setCount,3,1,1,38,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,Input,readParameters,23,3,1,21,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,Input,readData,36,5,1,54,0,edu.uic.cs583.msgsp.Input,edu.uic.cs583.msgsp.Input
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,Input,min,4,2,2,102,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,ItemSet,ItemSet,3,1,0,15,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,ItemSet,isSubset,3,1,1,22,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,Level2CandidateGen,level2CandidateGen,47,9,1,7,0,edu.uic.cs583.msgsp.FrequentSeq,edu.uic.cs583.msgsp.FrequentSeq
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSCandidateGen,candidateGen,14,4,1,5,0,edu.uic.cs583.msgsp.FrequentSeq,edu.uic.cs583.msgsp.FrequentSeq; edu.uic.cs583.msgsp.MSCandidateGen; edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSCandidateGen,checkCondition,7,3,2,21,0,edu.uic.cs583.msgsp.MSCandidateGen,edu.uic.cs583.msgsp.MSCandidateGen
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSCandidateGen,partition,8,3,1,37,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSCandidateGen,testPair,15,7,3,54,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSCandidateGen,joinSequences,64,11,3,85,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData; edu.uic.cs583.msgsp.FrequentSeq
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSCandidateGen,prune,28,11,2,155,0,edu.uic.cs583.msgsp.MSCandidateGen,edu.uic.cs583.msgsp.MSCandidateGen; edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSCandidateGen,frequent,8,3,2,191,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSGSPMain,MSGSPMain,4,1,2,67,0,edu.uic.cs583.msgsp.Input,edu.uic.cs583.msgsp.Input
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSGSPMain,main,5,1,1,76,0,edu.uic.cs583.msgsp.MSGSPMain,edu.uic.cs583.msgsp.MSGSPMain
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSGSPMain,msgsp,39,10,0,82,0,edu.uic.cs583.msgsp.MSGSPMain,edu.uic.cs583.msgsp.MSGSPMain; edu.uic.cs583.msgsp.TransactionData; edu.uic.cs583.msgsp.MSCandidateGen; edu.uic.cs583.msgsp.Level2CandidateGen; edu.uic.cs583.msgsp.FrequentSeq
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSGSPMain,initPass,31,8,1,166,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSGSPMain,initPrune,14,3,1,204,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData; edu.uic.cs583.msgsp.FrequentSeq
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSGSPMain,sort,12,4,1,229,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,TransactionData,4,1,0,12,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,getItems,7,2,0,20,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,getItemsAsSet,7,2,0,28,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,getFirstItem,3,1,0,39,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,getLastItem,4,1,0,46,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,isSmallest,13,5,2,57,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,specialEqualTo,34,8,3,78,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,copy,9,2,0,121,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,containedIn,28,7,1,134,0,edu.uic.cs583.msgsp.ItemSet,edu.uic.cs583.msgsp.ItemSet
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,minMISItem,8,3,0,166,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,reverse,12,3,0,182,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,print,12,3,0,199,0,,
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,equals,6,2,1,214,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,hashCode,5,2,0,222,0,edu.uic.cs583.msgsp.TransactionData,edu.uic.cs583.msgsp.TransactionData
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,setCount,3,1,1,230,0,,

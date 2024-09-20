@@ -1,0 +1,19 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+JsonHunt_mobile-app-scaffolding,com.squareup.okhttp,Failure.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+JsonHunt_mobile-app-scaffolding,com.squareup.okhttp,Job,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11
+JsonHunt_mobile-app-scaffolding,com.squareup.okhttp,OkHttpClient,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+JsonHunt_mobile-app-scaffolding,com.squareup.okhttp,Request.Body,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+JsonHunt_mobile-app-scaffolding,com.squareup.okhttp,Request.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+JsonHunt_mobile-app-scaffolding,com.squareup.okhttp,Response.Body,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+JsonHunt_mobile-app-scaffolding,com.squareup.okhttp,Response.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+JsonHunt_mobile-app-scaffolding,com.squareup.okhttp.internal.http,HttpEngine,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 16
+JsonHunt_mobile-app-scaffolding,com.squareup.okhttp.internal.http,HttpURLConnectionImpl,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+JsonHunt_mobile-app-scaffolding,com.squareup.okhttp.internal.spdy,SpdyConnection,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+JsonHunt_mobile-app-scaffolding,com.squareup.okhttp.internal.spdy,SpdyConnection.Builder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+JsonHunt_mobile-app-scaffolding,org.apache.cordova,CordovaActivity,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: TAG (85)
+JsonHunt_mobile-app-scaffolding,org.apache.cordova,CordovaActivity,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11
+JsonHunt_mobile-app-scaffolding,org.apache.cordova,CordovaResourceApi.OpenForReadResult,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+JsonHunt_mobile-app-scaffolding,org.apache.cordova,CordovaWebView,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13
+JsonHunt_mobile-app-scaffolding,org.apache.cordova,LOG,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: LOGLEVEL (38)
+JsonHunt_mobile-app-scaffolding,org.apache.cordova,PluginManager,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+JsonHunt_mobile-app-scaffolding,org.apache.cordova,PluginResult,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: StatusMessages (173)

@@ -1,0 +1,16 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Trololoshe4ki_Forest,(default package),Proba1,peint,Magic Number,The method contains a magic number: 10,81
+Trololoshe4ki_Forest,(default package),Proba3,main,Complex Method,Cyclomatic complexity of the method is 9,8
+Trololoshe4ki_Forest,(default package),Proba3,addVertex,Magic Number,The method contains a magic number: 123456789,40
+Trololoshe4ki_Forest,(default package),Proba3,addVertex,Magic Number,The method contains a magic number: 2,40
+Trololoshe4ki_Forest,(default package),Proba3,addVertex,Magic Number,The method contains a magic number: 123456789,40
+Trololoshe4ki_Forest,(default package),Proba3,addVertex,Magic Number,The method contains a magic number: 2,40
+Trololoshe4ki_Forest,(default package),Proba3,deleteVertex,Magic Number,The method contains a magic number: 3,64
+Trololoshe4ki_Forest,(default package),Proba3,deleteVertex,Magic Number,The method contains a magic number: 3,64
+Trololoshe4ki_Forest,(default package),Proba3,deleteVertex,Magic Number,The method contains a magic number: 3,64
+Trololoshe4ki_Forest,(default package),Proba3,rR,Complex Method,Cyclomatic complexity of the method is 8,112
+Trololoshe4ki_Forest,(default package),Proba3,rR,Magic Number,The method contains a magic number: 3,112
+Trololoshe4ki_Forest,(default package),Proba3,rR,Magic Number,The method contains a magic number: 2,112
+Trololoshe4ki_Forest,(default package),Proba3,rR,Magic Number,The method contains a magic number: 2,112
+Trololoshe4ki_Forest,(default package),Proba3,rR,Magic Number,The method contains a magic number: 3,112
+Trololoshe4ki_Forest,(default package),Proba3,rR,Magic Number,The method contains a magic number: 2,112

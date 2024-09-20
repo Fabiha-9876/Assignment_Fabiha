@@ -1,0 +1,121 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Tibolte_ElasticDownload,is.arontibo.library,ElasticDownloadView,ElasticDownloadView,Long Statement,The length of the statement "mBackgroundColor=a.getColor(R.styleable.ColorOptionsView_backgroundColor`getResources().getColor(R.color.orange_salmon));" is 121.,23
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,ProgressDownloadView,Magic Number,The method contains a magic number: 30,44
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,ProgressDownloadView,Magic Number,The method contains a magic number: 45,44
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,ProgressDownloadView,Magic Number,The method contains a magic number: 35,44
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,ProgressDownloadView,Magic Number,The method contains a magic number: 5,44
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,ProgressDownloadView,Magic Number,The method contains a magic number: 5,44
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,ProgressDownloadView,Magic Number,The method contains a magic number: 12,44
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Complex Method,Cyclomatic complexity of the method is 8,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Long Statement,The length of the statement "float textX=Math.max(getPaddingLeft() - (int)(mBubbleWidth / 4.0f)`mProgress * mWidth / 100 - (int)(mBubbleWidth / 4.0f));" is 122.,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 4.0f,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 100,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 4.0f,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 2,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 2,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 20,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 10,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 20,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 20,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 20,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 20,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 20,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: .9f,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 7,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 3.2f,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 100,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 3.2f,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 3.2f,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 100,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,onDraw,Magic Number,The method contains a magic number: 3.2f,81
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBlack,Magic Number,The method contains a magic number: 100,155
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBlack,Magic Number,The method contains a magic number: 2,155
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBlack,Magic Number,The method contains a magic number: 2,155
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathWhite,Magic Number,The method contains a magic number: 2,172
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathWhite,Magic Number,The method contains a magic number: 100,172
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathWhite,Magic Number,The method contains a magic number: 2,172
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Long Statement,The length of the statement "Rect r=new Rect((int)(Math.max(getPaddingLeft() - width / 2`mProgress * mWidth / 100 - width / 2))`(int)(mHeight / 2 - height + calculateDeltaY())`(int)(Math.max(getPaddingLeft() + width / 2`mProgress * mWidth / 100 + width / 2))`(int)(mHeight / 2 + height - height + calculateDeltaY()));" is 288.,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Long Statement,The length of the statement "path.arcTo(new RectF(r.left + r.width() - 2 * radius`r.top + r.height() - arrowHeight - 2 * radius`r.left + r.width()`r.top + r.height() - arrowHeight)`90`-90);" is 160.,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Long Statement,The length of the statement "path.arcTo(new RectF(r.left`r.top + r.height() - arrowHeight - 2 * radius`r.left + 2 * radius`r.top + r.height() - arrowHeight)`180`-90);" is 137.,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 3,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 100,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 100,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 1.5f,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 8,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 90,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 90,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 90,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 270,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 90,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 2,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 180,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,makePathBubble,Magic Number,The method contains a magic number: 90,185
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,calculateDeltaY,Long Statement,The length of the statement "return (mProgress * mWidth / wireTension) / 50 + Math.abs((mTarget - getProgress()) / wireTension) + Math.abs(mBubbleAngle);" is 124.,238
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,calculateDeltaY,Long Statement,The length of the statement "return ((100 - mProgress) * mWidth / wireTension) / 50 + Math.abs((mTarget - getProgress()) / wireTension) + Math.abs(mBubbleAngle);" is 132.,238
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,calculateDeltaY,Magic Number,The method contains a magic number: 15,238
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,calculateDeltaY,Magic Number,The method contains a magic number: 50,238
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,calculateDeltaY,Magic Number,The method contains a magic number: 50,238
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,calculateDeltaY,Magic Number,The method contains a magic number: 100,238
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,calculateDeltaY,Magic Number,The method contains a magic number: 50,238
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,setPercentage,Magic Number,The method contains a magic number: 100,251
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,setPercentage,Magic Number,The method contains a magic number: 10,251
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,setPercentage,Magic Number,The method contains a magic number: 10,251
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,setPercentage,Magic Number,The method contains a magic number: 2,251
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,drawFail,Magic Number,The method contains a magic number: 180,293
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,drawFail,Magic Number,The method contains a magic number: 1.7f,293
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,drawSuccess,Magic Number,The method contains a magic number: 100,312
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,drawSuccess,Magic Number,The method contains a magic number: 10,312
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,drawSuccess,Magic Number,The method contains a magic number: 10,312
+Tibolte_ElasticDownload,is.arontibo.library,ProgressDownloadView,drawSuccess,Magic Number,The method contains a magic number: 2,312
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,AnimatedVectorDrawable,inflate,Complex Method,Cyclomatic complexity of the method is 8,201
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,AnimatedVectorDrawable,inflate,Long Parameter List,The method has 5 parameters. ,201
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,AnimatedVectorDrawable,getPathAnimator,Long Parameter List,The method has 5 parameters. ,252
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,AnimatedVectorDrawable,canApplyTheme,Long Statement,The length of the statement "return super.canApplyTheme() || mAnimatedVectorState != null && mAnimatedVectorState.mVectorDrawable != null && mAnimatedVectorState.mVectorDrawable.canApplyTheme();" is 165.,256
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,DrawableCompat,parseTintMode,Magic Number,The method contains a magic number: 3,86
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,DrawableCompat,parseTintMode,Magic Number,The method contains a magic number: 5,86
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,DrawableCompat,parseTintMode,Magic Number,The method contains a magic number: 9,86
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,DrawableCompat,parseTintMode,Magic Number,The method contains a magic number: 14,86
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,DrawableCompat,parseTintMode,Magic Number,The method contains a magic number: 15,86
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,DrawableCompat,parseTintMode,Magic Number,The method contains a magic number: 16,86
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,DrawableCompat,parseTintMode,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@244f356,86
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,Outline,setRoundRect,Long Parameter List,The method has 5 parameters. ,134
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,PathAnimatorInflater,loadAnimator,Long Parameter List,The method has 5 parameters. ,40
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,PathAnimatorInflater,loadAnimator,Long Statement,The length of the statement "Resources.NotFoundException rnf=new Resources.NotFoundException("Can't load animation resource ID #0x" + Integer.toHexString(id));" is 130.,40
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,PathAnimatorInflater,loadAnimator,Long Statement,The length of the statement "Resources.NotFoundException rnf=new Resources.NotFoundException("Can't load animation resource ID #0x" + Integer.toHexString(id));" is 130.,40
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,PathAnimatorInflater,createAnimatorFromXml,Long Parameter List,The method has 5 parameters. ,66
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,PathAnimatorInflater,createAnimatorFromXml,Complex Method,Cyclomatic complexity of the method is 11,73
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,PathAnimatorInflater,createAnimatorFromXml,Long Parameter List,The method has 8 parameters. ,73
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,PathAnimatorInflater,createAnimatorFromXml,Long Statement,The length of the statement "while (((type=parser.next()) != XmlPullParser.END_TAG || parser.getDepth() > depth) && type != XmlPullParser.END_DOCUMENT) {" is 124.,73
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,PathAnimatorInflater,loadObjectAnimator,Long Parameter List,The method has 5 parameters. ,139
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,PathAnimatorInflater,loadAnimator,Long Parameter List,The method has 6 parameters. ,148
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,PathAnimatorInflater,parseAnimatorFromTypeArray,Magic Number,The method contains a magic number: 300,200
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,PathAnimatorInflater,setupAnimatorForPath,Long Statement,The length of the statement "throw new InflateException(arrayAnimator.getPositionDescription() + " Can't morph from " + fromString+ " to "+ toString);" is 121.,244
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,VectorDrawable,getPixelSize,Complex Conditional,The conditional expression mVectorState == null && mVectorState.mVPathRenderer == null || mVectorState.mVPathRenderer.mBaseWidth == 0 || mVectorState.mVPathRenderer.mBaseHeight == 0 || mVectorState.mVPathRenderer.mViewportHeight == 0 || mVectorState.mVPathRenderer.mViewportWidth == 0 is complex.,249
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,VectorDrawable,getPixelSize,Long Statement,The length of the statement "if (mVectorState == null && mVectorState.mVPathRenderer == null || mVectorState.mVPathRenderer.mBaseWidth == 0 || mVectorState.mVPathRenderer.mBaseHeight == 0 || mVectorState.mVPathRenderer.mViewportHeight == 0 || mVectorState.mVPathRenderer.mViewportWidth == 0) {" is 264.,249
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,VectorDrawable,applyAlpha,Magic Number,The method contains a magic number: 0x00FFFFFF,301
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,VectorDrawable,applyAlpha,Magic Number,The method contains a magic number: 24,301
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,VectorDrawable,updateStateFromTypedArray,Complex Method,Cyclomatic complexity of the method is 8,325
+Tibolte_ElasticDownload,is.arontibo.library.VectorCompat,VectorDrawable,inflateInternal,Complex Method,Cyclomatic complexity of the method is 14,386
+Tibolte_ElasticDownload,is.arontibo.sample,MainActivity,onOptionsItemSelected,Magic Number,The method contains a magic number: 2,35
+Tibolte_ElasticDownload,is.arontibo.sample,MainActivity,onOptionsItemSelected,Magic Number,The method contains a magic number: 45,35
+Tibolte_ElasticDownload,is.arontibo.sample,MainActivity,onOptionsItemSelected,Magic Number,The method contains a magic number: 2,35
+Tibolte_ElasticDownload,is.arontibo.sample,MainActivity,onOptionsItemSelected,Magic Number,The method contains a magic number: 3,35
+Tibolte_ElasticDownload,is.arontibo.sample,MainActivity,run,Magic Number,The method contains a magic number: 45,70

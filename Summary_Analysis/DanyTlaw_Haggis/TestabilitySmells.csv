@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+DanyTlaw_Haggis,(default package),Client,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: game (25); chat (26)
+DanyTlaw_Haggis,(default package),GameLoop,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: userlist (24); outlist (25)
+DanyTlaw_Haggis,(default package),Server,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: userThread (7)

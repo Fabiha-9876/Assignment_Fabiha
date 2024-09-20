@@ -1,0 +1,845 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+rilsikane_dlt-nrct,cn.trinea.android.view.autoscrollviewpager,AutoScrollViewPager,onTouchEvent,Complex Conditional,The conditional expression (currentItem == 0 && downX <= touchX) || (currentItem == pageCount - 1 && downX >= touchX) is complex.,164
+rilsikane_dlt-nrct,cn.trinea.android.view.autoscrollviewpager,AutoScrollViewPager,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 9,164
+rilsikane_dlt-nrct,cn.trinea.android.view.autoscrollviewpager,CustomDurationScroller,startScroll,Long Parameter List,The method has 5 parameters. ,43
+rilsikane_dlt-nrct,com.aphidmobile.flip,Card,draw,Complex Method,Cyclomatic complexity of the method is 17,140
+rilsikane_dlt-nrct,com.aphidmobile.flip,Card,draw,Long Method,The method has 111 lines of code.,140
+rilsikane_dlt-nrct,com.aphidmobile.flip,Card,draw,Long Statement,The length of the statement "shadowVertices=new float[]{cardVertices[X_00]`cardVertices[Y_01] + h`z`cardVertices[X_01]`cardVertices[Y_01]`0f`cardVertices[X_11]`cardVertices[Y_11]`0f`cardVertices[X_10]`cardVertices[Y_01] + h`z};" is 198.,140
+rilsikane_dlt-nrct,com.aphidmobile.flip,Card,draw,Long Statement,The length of the statement "shadowVertices=new float[]{cardVertices[X_10] - w`cardVertices[Y_00]`z`cardVertices[X_11] - w`cardVertices[Y_01]`z`cardVertices[X_11]`cardVertices[Y_11]`0f`cardVertices[X_10]`cardVertices[Y_10]`0f};" is 198.,140
+rilsikane_dlt-nrct,com.aphidmobile.flip,Card,draw,Long Statement,The length of the statement "shadowVertices=new float[]{cardVertices[X_00]`cardVertices[Y_00]`0f`cardVertices[X_01]`cardVertices[Y_00] - h`z`cardVertices[X_11]`cardVertices[Y_00] - h`z`cardVertices[X_10]`cardVertices[Y_00]`0f};" is 198.,140
+rilsikane_dlt-nrct,com.aphidmobile.flip,Card,draw,Long Statement,The length of the statement "shadowVertices=new float[]{cardVertices[X_00]`cardVertices[Y_00]`0f`cardVertices[X_01]`cardVertices[Y_01]`0f`cardVertices[X_00] + w`cardVertices[Y_11]`z`cardVertices[X_01] + w`cardVertices[Y_10]`z};" is 198.,140
+rilsikane_dlt-nrct,com.aphidmobile.flip,Card,draw,Magic Number,The method contains a magic number: 2,140
+rilsikane_dlt-nrct,com.aphidmobile.flip,Card,draw,Magic Number,The method contains a magic number: 3,140
+rilsikane_dlt-nrct,com.aphidmobile.flip,Card,draw,Magic Number,The method contains a magic number: 90f,140
+rilsikane_dlt-nrct,com.aphidmobile.flip,Card,draw,Magic Number,The method contains a magic number: 90f,140
+rilsikane_dlt-nrct,com.aphidmobile.flip,Card,draw,Magic Number,The method contains a magic number: 3,140
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,reloadTexture,Long Statement,The length of the statement "AphidLog.d("reloading texture: %s and %s; old views: %s` %s` front changed %s` back changed %s"`frontView`backView`frontCards.getView()`backCards.getView()`frontChanged`backChanged);" is 182.,121
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,reloadTexture,Long Statement,The length of the statement "AphidLog.d("reloadTexture: activeIndex %d` front %d` back %d` angle %.1f"`getPageIndexFromAngle(accumulatedAngle)`frontIndex`backIndex`accumulatedAngle);" is 153.,121
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,resetSelection,Magic Number,The method contains a magic number: 180,145
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,draw,Complex Conditional,The conditional expression (frontCards.getView() == null || TextureUtils.isValidTexture(frontCards.getTexture())) && (backCards.getView() == null || TextureUtils.isValidTexture(backCards.getTexture())) is complex.,159
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,draw,Complex Method,Cyclomatic complexity of the method is 17,159
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,draw,Magic Number,The method contains a magic number: 180,159
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,draw,Magic Number,The method contains a magic number: 180,159
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,draw,Magic Number,The method contains a magic number: 180,159
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,draw,Magic Number,The method contains a magic number: 180,159
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,draw,Magic Number,The method contains a magic number: 180,159
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,draw,Magic Number,The method contains a magic number: 180,159
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,draw,Magic Number,The method contains a magic number: 180,159
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,draw,Magic Number,The method contains a magic number: 180,159
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,draw,Magic Number,The method contains a magic number: 90,159
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,draw,Magic Number,The method contains a magic number: 180,159
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,draw,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@88a86ba,159
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,handleTouchEvent,Complex Method,Cyclomatic complexity of the method is 21,277
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,handleTouchEvent,Long Statement,The length of the statement "accumulatedAngle=Math.min(accumulatedAngle`controller.isOverFlipEnabled() ? (frontCards.getIndex() * 180 + MAX_TIP_ANGLE) : (frontCards.getIndex() * 180));" is 155.,277
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,handleTouchEvent,Long Statement,The length of the statement "throw new RuntimeException(AphidLog.format("Inconsistent states: anglePageIndex: %d` accumulatedAngle %.1f` frontCards %d` backCards %d"`anglePageIndex`accumulatedAngle`frontCards.getIndex()`backCards.getIndex()));" is 214.,277
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,handleTouchEvent,Magic Number,The method contains a magic number: 180,277
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,handleTouchEvent,Magic Number,The method contains a magic number: 180,277
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,handleTouchEvent,Magic Number,The method contains a magic number: 180,277
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,handleTouchEvent,Magic Number,The method contains a magic number: 180,277
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,handleTouchEvent,Magic Number,The method contains a magic number: 180,277
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,handleTouchEvent,Magic Number,The method contains a magic number: 180,277
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,getPageIndexFromAngle,Magic Number,The method contains a magic number: 180,397
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipCards,getDisplayAngle,Magic Number,The method contains a magic number: 180,401
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipRenderer,onSurfaceChanged,Magic Number,The method contains a magic number: 20f,81
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipRenderer,onSurfaceChanged,Magic Number,The method contains a magic number: 2f,81
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipRenderer,onSurfaceChanged,Magic Number,The method contains a magic number: 2,81
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipRenderer,onSurfaceChanged,Magic Number,The method contains a magic number: 0.5f,81
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipRenderer,onSurfaceChanged,Magic Number,The method contains a magic number: 2,81
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipRenderer,onSurfaceChanged,Magic Number,The method contains a magic number: 2f,81
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipRenderer,onSurfaceChanged,Magic Number,The method contains a magic number: 2f,81
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipRenderer,onSurfaceChanged,Magic Number,The method contains a magic number: 2f,81
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipRenderer,onSurfaceChanged,Magic Number,The method contains a magic number: 2f,81
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipViewController,FlipViewController,Magic Number,The method contains a magic number: 2,120
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipViewController,onLayout,Long Parameter List,The method has 5 parameters. ,347
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipViewController,setupSurfaceView,Magic Number,The method contains a magic number: 8,418
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipViewController,setupSurfaceView,Magic Number,The method contains a magic number: 8,418
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipViewController,setupSurfaceView,Magic Number,The method contains a magic number: 8,418
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipViewController,setupSurfaceView,Magic Number,The method contains a magic number: 8,418
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipViewController,setupSurfaceView,Magic Number,The method contains a magic number: 16,418
+rilsikane_dlt-nrct,com.aphidmobile.flip,FlipViewController,flippedToView,Complex Method,Cyclomatic complexity of the method is 11,507
+rilsikane_dlt-nrct,com.aphidmobile.flip,GrabIt,takeScreenshot,Complex Conditional,The conditional expression view != null && width > 0 && height > 0 is complex.,30
+rilsikane_dlt-nrct,com.aphidmobile.flip,Texture,createTexture,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@79e90302,55
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,loadView,Complex Conditional,The conditional expression this.index == index && getView() == view && (screenshot != null || TextureUtils.isValidTexture(texture)) is complex.,66
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Long Statement,The length of the statement "topCard.setCardVertices(new float[]{0f`viewHeight`0f`0f`viewHeight / 2.0f`0f`viewWidth`viewHeight / 2f`0f`viewWidth`viewHeight`0f});" is 132.,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Long Statement,The length of the statement "topCard.setTextureCoordinates(new float[]{0f`0f`0f`viewHeight / 2f / textureHeight`viewWidth / textureWidth`viewHeight / 2f / textureHeight`viewWidth / textureWidth`0f});" is 170.,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Long Statement,The length of the statement "bottomCard.setTextureCoordinates(new float[]{0f`viewHeight / 2f / textureHeight`0f`viewHeight / textureHeight`viewWidth / textureWidth`viewHeight / textureHeight`viewWidth / textureWidth`viewHeight / 2f / textureHeight});" is 221.,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Long Statement,The length of the statement "topCard.setTextureCoordinates(new float[]{0f`0f`0f`viewHeight / textureHeight`viewWidth / 2f / textureWidth`viewHeight / textureHeight`viewWidth / 2f / textureWidth`0f});" is 170.,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Long Statement,The length of the statement "bottomCard.setCardVertices(new float[]{viewWidth / 2f`viewHeight`0f`viewWidth / 2f`0f`0f`viewWidth`0f`0f`viewWidth`viewHeight`0f});" is 131.,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Long Statement,The length of the statement "bottomCard.setTextureCoordinates(new float[]{viewWidth / 2f / textureWidth`0f`viewWidth / 2f / textureWidth`viewHeight / textureHeight`viewWidth / textureWidth`viewHeight / textureHeight`viewWidth / textureWidth`0f});" is 217.,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2.0f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.flip,ViewDualCards,buildTexture,Magic Number,The method contains a magic number: 2f,106
+rilsikane_dlt-nrct,com.aphidmobile.utils,IO,readData,Magic Number,The method contains a magic number: 1024,50
+rilsikane_dlt-nrct,com.aphidmobile.utils,IO,readString,Magic Number,The method contains a magic number: 1024,79
+rilsikane_dlt-nrct,com.aphidmobile.utils,TextureUtils,d2r,Magic Number,The method contains a magic number: 180f,32
+rilsikane_dlt-nrct,com.aphidmobile.utils,TextureUtils,toFloatBuffer,Magic Number,The method contains a magic number: 4,36
+rilsikane_dlt-nrct,com.aphidmobile.utils,TextureUtils,toShortBuffer,Magic Number,The method contains a magic number: 2,45
+rilsikane_dlt-nrct,com.facebook,AccessToken,AccessToken,Long Parameter List,The method has 6 parameters. ,64
+rilsikane_dlt-nrct,com.facebook,AccessToken,createFromExistingAccessToken,Long Parameter List,The method has 5 parameters. ,141
+rilsikane_dlt-nrct,com.facebook,AccessToken,createEmptyToken,Long Identifier,The length of the field ALREADY_EXPIRED_EXPIRATION_TIME is 31.,203
+rilsikane_dlt-nrct,com.facebook,AccessToken,createFromRefresh,Long Statement,The length of the statement "assert (current.source == AccessTokenSource.FACEBOOK_APPLICATION_WEB || current.source == AccessTokenSource.FACEBOOK_APPLICATION_NATIVE || current.source == AccessTokenSource.FACEBOOK_APPLICATION_SERVICE);" is 205.,239
+rilsikane_dlt-nrct,com.facebook,AccessToken,createNew,Long Parameter List,The method has 5 parameters. ,260
+rilsikane_dlt-nrct,com.facebook,AccessToken,createFromCache,Long Statement,The length of the statement "return new AccessToken(bundle.getString(TokenCachingStrategy.TOKEN_KEY)`TokenCachingStrategy.getDate(bundle`TokenCachingStrategy.EXPIRATION_DATE_KEY)`permissions`declinedPermissions`TokenCachingStrategy.getSource(bundle)`TokenCachingStrategy.getDate(bundle`TokenCachingStrategy.LAST_REFRESH_DATE_KEY));" is 302.,272
+rilsikane_dlt-nrct,com.facebook,AccessToken,getBundleLongAsDate,Magic Number,The method contains a magic number: 1000L,402
+rilsikane_dlt-nrct,com.facebook,AppEventsLogger,initializeTimersIfNeeded,Long Identifier,The length of the field supportsAttributionRecheckTimer is 31.,591
+rilsikane_dlt-nrct,com.facebook,AppEventsLogger,initializeTimersIfNeeded,Long Identifier,The length of the field APP_SUPPORTS_ATTRIBUTION_ID_RECHECK_PERIOD_IN_SECONDS is 53.,591
+rilsikane_dlt-nrct,com.facebook,AppEventsLogger,initializeTimersIfNeeded,Magic Number,The method contains a magic number: 1000,591
+rilsikane_dlt-nrct,com.facebook,AppEventsLogger,initializeTimersIfNeeded,Magic Number,The method contains a magic number: 1000,591
+rilsikane_dlt-nrct,com.facebook,AppEventsLogger,shouldSuppressEvent,Magic Number,The method contains a magic number: 1000,649
+rilsikane_dlt-nrct,com.facebook,AppEventsLogger,flushIfNecessary,Long Identifier,The length of the field NUM_LOG_EVENTS_TO_TRY_TO_FLUSH_AFTER is 36.,680
+rilsikane_dlt-nrct,com.facebook,AppEventsLogger,flushAndWait,Long Identifier,The length of the field APP_EVENTS_EXTRA_NUM_EVENTS_FLUSHED is 35.,733
+rilsikane_dlt-nrct,com.facebook,AppEventsLogger,buildRequestForSession,Long Statement,The length of the statement "int numEvents=sessionEventsState.populateRequest(postRequest`fetchedAppSettings.supportsImplicitLogging()`fetchedAppSettings.supportsAttribution()`limitEventUsage);" is 164.,805
+rilsikane_dlt-nrct,com.facebook,AppEventsLogger,handleResponse,Long Parameter List,The method has 5 parameters. ,843
+rilsikane_dlt-nrct,com.facebook,AppEventsLogger,handleResponse,Long Statement,The length of the statement "Logger.log(LoggingBehavior.APP_EVENTS`TAG`"Flush completed\nParams: %s\n Result: %s\n Events JSON: %s"`request.getGraphObject().toString()`resultDescription`prettyPrintedEvents);" is 178.,843
+rilsikane_dlt-nrct,com.facebook,AppEventsLogger,handleResponse,Magic Number,The method contains a magic number: 2,843
+rilsikane_dlt-nrct,com.facebook,AppLinkData,fetchDeferredAppLinkFromServer,Complex Method,Cyclomatic complexity of the method is 12,125
+rilsikane_dlt-nrct,com.facebook,AppLinkData,fetchDeferredAppLinkFromServer,Long Identifier,The length of the field DEFERRED_APP_LINK_CLICK_TIME_FIELD is 34.,125
+rilsikane_dlt-nrct,com.facebook,AppLinkData,fetchDeferredAppLinkFromServer,Long Statement,The length of the statement "Utility.setAppEventAttributionParameters(deferredApplinkParams`AttributionIdentifiers.getAttributionIdentifiers(context)`Utility.getHashedDeviceAndAppID(context`applicationId)`Settings.getLimitEventAndDataUsage(context));" is 221.,125
+rilsikane_dlt-nrct,com.facebook,AppLinkData,toBundle,Complex Method,Cyclomatic complexity of the method is 9,307
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,tryNextHandler,Long Identifier,The length of the field EVENT_PARAM_METHOD_RESULT_SKIPPED is 33.,221
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,tryNextHandler,Long Statement,The length of the statement "logAuthorizationMethodComplete(currentHandler.getNameForLogging()`EVENT_PARAM_METHOD_RESULT_SKIPPED`null`null`currentHandler.methodLoggingExtras);" is 146.,221
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,tryCurrentHandler,Long Identifier,The length of the field EVENT_EXTRAS_MISSING_INTERNET_PERMISSION is 40.,257
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,createReauthValidationBatch,Complex Conditional,The conditional expression fbids.size() == 2 && fbids.get(0) != null && fbids.get(1) != null && fbids.get(0).equals(fbids.get(1)) is complex.,358
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,createReauthValidationBatch,Empty catch clause,The method has an empty catch block.,358
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,createReauthValidationBatch,Empty catch clause,The method has an empty catch block.,358
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,createReauthValidationBatch,Long Identifier,The length of the identifier requestCurrentTokenPermissions is 30.,358
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,createReauthValidationBatch,Long Statement,The length of the statement "AccessToken tokenWithPermissions=AccessToken.createFromTokenWithRefreshedPermissions(pendingResult.token`grantedPermissions`declinedPermissions);" is 145.,358
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,createReauthValidationBatch,Magic Number,The method contains a magic number: 2,358
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,onCompleted,Empty catch clause,The method has an empty catch block.,369
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,onCompleted,Empty catch clause,The method has an empty catch block.,390
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,onBatchCompleted,Complex Conditional,The conditional expression fbids.size() == 2 && fbids.get(0) != null && fbids.get(1) != null && fbids.get(0).equals(fbids.get(1)) is complex.,407
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,onBatchCompleted,Long Statement,The length of the statement "AccessToken tokenWithPermissions=AccessToken.createFromTokenWithRefreshedPermissions(pendingResult.token`grantedPermissions`declinedPermissions);" is 145.,407
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,onBatchCompleted,Magic Number,The method contains a magic number: 2,407
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,logAuthorizationMethodComplete,Long Identifier,The length of the field EVENT_NAME_LOGIN_METHOD_COMPLETE is 32.,485
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,logAuthorizationMethodComplete,Long Parameter List,The method has 5 parameters. ,485
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,logAuthorizationMethodComplete,Long Statement,The length of the statement "bundle.putString(EVENT_PARAM_ERROR_MESSAGE`"Unexpected call to logAuthorizationMethodComplete with null pendingRequest.");" is 122.,485
+rilsikane_dlt-nrct,com.facebook,AuthorizationClient,getE2E,Empty catch clause,The method has an empty catch block.,875
+rilsikane_dlt-nrct,com.facebook,FacebookAppLinkResolver,getAppLinkFromUrlsInBackground,Complex Method,Cyclomatic complexity of the method is 11,71
+rilsikane_dlt-nrct,com.facebook,FacebookAppLinkResolver,getWebFallbackUriFromJson,Long Identifier,The length of the field APP_LINK_TARGET_SHOULD_FALLBACK_KEY is 35.,195
+rilsikane_dlt-nrct,com.facebook,FacebookRequestError,FacebookRequestError,Complex Method,Cyclomatic complexity of the method is 13,107
+rilsikane_dlt-nrct,com.facebook,FacebookRequestError,FacebookRequestError,Long Parameter List,The method has 10 parameters. ,107
+rilsikane_dlt-nrct,com.facebook,FacebookRequestError,FacebookRequestError,Long Parameter List,The method has 9 parameters. ,180
+rilsikane_dlt-nrct,com.facebook,FacebookRequestError,FacebookRequestError,Long Statement,The length of the statement "this(requestStatusCode`errorCode`subErrorCode`errorType`errorMessage`requestResultBody`requestResult`batchRequestResult`connection`null);" is 137.,180
+rilsikane_dlt-nrct,com.facebook,FacebookRequestError,FacebookRequestError,Long Statement,The length of the statement "this(INVALID_HTTP_STATUS_CODE`INVALID_ERROR_CODE`INVALID_ERROR_CODE`null`null`null`null`null`connection`(exception instanceof FacebookException) ? (FacebookException)exception : new FacebookException(exception));" is 212.,187
+rilsikane_dlt-nrct,com.facebook,FacebookRequestError,toString,Long Statement,The length of the statement "return new StringBuilder("{HttpStatus: ").append(requestStatusCode).append("` errorCode: ").append(errorCode).append("` errorType: ").append(errorType).append("` errorMessage: ").append(getErrorMessage()).append("}").toString();" is 228.,334
+rilsikane_dlt-nrct,com.facebook,FacebookRequestError,checkResponseAndCreateError,Complex Conditional,The conditional expression jsonBody.has(ERROR_CODE_KEY) || jsonBody.has(ERROR_MSG_KEY) || jsonBody.has(ERROR_REASON_KEY) is complex.,348
+rilsikane_dlt-nrct,com.facebook,FacebookRequestError,checkResponseAndCreateError,Empty catch clause,The method has an empty catch block.,348
+rilsikane_dlt-nrct,com.facebook,FacebookRequestError,checkResponseAndCreateError,Long Statement,The length of the statement "return new FacebookRequestError(responseCode`errorCode`errorSubCode`errorType`errorMessage`jsonBody`singleResult`batchResult`connection);" is 137.,348
+rilsikane_dlt-nrct,com.facebook,FacebookRequestError,checkResponseAndCreateError,Long Statement,The length of the statement "return new FacebookRequestError(responseCode`INVALID_ERROR_CODE`INVALID_ERROR_CODE`null`null`singleResult.has(BODY_KEY) ? (JSONObject)Utility.getStringPropertyAsJSON(singleResult`BODY_KEY`Response.NON_JSON_RESPONSE_PROPERTY) : null`singleResult`batchResult`connection);" is 269.,348
+rilsikane_dlt-nrct,com.facebook,FacebookServiceException,toString,Long Statement,The length of the statement "return new StringBuilder().append("{FacebookServiceException: ").append("httpResponseCode: ").append(error.getRequestStatusCode()).append("` facebookErrorCode: ").append(error.getErrorCode()).append("` facebookErrorType: ").append(error.getErrorType()).append("` message: ").append(error.getErrorMessage()).append("}").toString();" is 330.,47
+rilsikane_dlt-nrct,com.facebook,GetTokenClient,GetTokenClient,Long Statement,The length of the statement "super(context`NativeProtocol.MESSAGE_GET_ACCESS_TOKEN_REQUEST`NativeProtocol.MESSAGE_GET_ACCESS_TOKEN_REPLY`NativeProtocol.PROTOCOL_VERSION_20121101`applicationId);" is 164.,27
+rilsikane_dlt-nrct,com.facebook,InsightsLogger,logConversionPixel,Long Identifier,The length of the field EVENT_NAME_LOG_CONVERSION_PIXEL is 31.,77
+rilsikane_dlt-nrct,com.facebook,NativeAppCallAttachmentStore,addAttachmentsForCall,Magic Number,The method contains a magic number: 100,46
+rilsikane_dlt-nrct,com.facebook,NativeAppCallAttachmentStore,processAttachment,Magic Number,The method contains a magic number: 100,63
+rilsikane_dlt-nrct,com.facebook,NativeAppCallAttachmentStore,addAttachmentFilesForCall,Magic Number,The method contains a magic number: 1024,75
+rilsikane_dlt-nrct,com.facebook,NativeAppCallAttachmentStore,processAttachment,Magic Number,The method contains a magic number: 1024,92
+rilsikane_dlt-nrct,com.facebook,NativeAppCallAttachmentStore,addAttachments,Empty catch clause,The method has an empty catch block.,112
+rilsikane_dlt-nrct,com.facebook,NativeAppCallContentProvider,query,Long Parameter List,The method has 5 parameters. ,78
+rilsikane_dlt-nrct,com.facebook,Request,Request,Long Parameter List,The method has 5 parameters. ,174
+rilsikane_dlt-nrct,com.facebook,Request,Request,Long Parameter List,The method has 6 parameters. ,198
+rilsikane_dlt-nrct,com.facebook,Request,newPlacesSearchRequest,Long Parameter List,The method has 6 parameters. ,399
+rilsikane_dlt-nrct,com.facebook,Request,newPlacesSearchRequest,Magic Number,The method contains a magic number: 5,399
+rilsikane_dlt-nrct,com.facebook,Request,newStatusUpdateRequest,Long Parameter List,The method has 5 parameters. ,466
+rilsikane_dlt-nrct,com.facebook,Request,newStatusUpdateRequest,Long Parameter List,The method has 5 parameters. ,499
+rilsikane_dlt-nrct,com.facebook,Request,newCustomAudienceThirdPartyIdRequest,Complex Method,Cyclomatic complexity of the method is 9,562
+rilsikane_dlt-nrct,com.facebook,Request,newCustomAudienceThirdPartyIdRequest,Long Statement,The length of the statement "String udid=attributionIdentifiers.getAttributionId() != null ? attributionIdentifiers.getAttributionId() : attributionIdentifiers.getAndroidAdvertiserId();" is 156.,562
+rilsikane_dlt-nrct,com.facebook,Request,newPostOpenGraphObjectRequest,Long Parameter List,The method has 8 parameters. ,718
+rilsikane_dlt-nrct,com.facebook,Request,newPostOpenGraphObjectRequest,Long Statement,The length of the statement "OpenGraphObject openGraphObject=OpenGraphObject.Factory.createForPost(OpenGraphObject.class`type`title`imageUrl`url`description);" is 129.,718
+rilsikane_dlt-nrct,com.facebook,Request,newUpdateOpenGraphObjectRequest,Long Parameter List,The method has 8 parameters. ,817
+rilsikane_dlt-nrct,com.facebook,Request,newUpdateOpenGraphObjectRequest,Long Statement,The length of the statement "OpenGraphObject openGraphObject=OpenGraphObject.Factory.createForPost(OpenGraphObject.class`null`title`imageUrl`url`description);" is 129.,817
+rilsikane_dlt-nrct,com.facebook,Request,executePlacesSearchRequestAsync,Long Parameter List,The method has 6 parameters. ,1260
+rilsikane_dlt-nrct,com.facebook,Request,toString,Long Statement,The length of the statement "return new StringBuilder().append("{Request: ").append(" session: ").append(session).append("` graphPath: ").append(graphPath).append("` graphObject: ").append(graphObject).append("` restMethod: ").append(restMethod).append("` httpMethod: ").append(httpMethod).append("` parameters: ").append(parameters).append("}").toString();" is 328.,1696
+rilsikane_dlt-nrct,com.facebook,Request,appendParametersToBaseUrl,Long Statement,The length of the statement "throw new IllegalArgumentException(String.format("Unsupported parameter type for GET request: %s"`value.getClass().getSimpleName()));" is 133.,1783
+rilsikane_dlt-nrct,com.facebook,Request,getUrlForSingleRequest,Complex Conditional,The conditional expression this.getHttpMethod() == HttpMethod.POST && graphPath != null && graphPath.endsWith(VIDEOS_SUFFIX) is complex.,1826
+rilsikane_dlt-nrct,com.facebook,Request,serializeToBatch,Complex Method,Cyclomatic complexity of the method is 8,1882
+rilsikane_dlt-nrct,com.facebook,Request,serializeToBatch,Long Identifier,The length of the field BATCH_ENTRY_OMIT_RESPONSE_ON_SUCCESS_PARAM is 42.,1882
+rilsikane_dlt-nrct,com.facebook,Request,processRequest,Complex Method,Cyclomatic complexity of the method is 9,2013
+rilsikane_dlt-nrct,com.facebook,Request,processRequest,Long Parameter List,The method has 5 parameters. ,2013
+rilsikane_dlt-nrct,com.facebook,Request,processRequest,Long Statement,The length of the statement "throw new FacebookException("At least one request in a batch must have an open Session` or a " + "default app ID must be specified.");" is 134.,2013
+rilsikane_dlt-nrct,com.facebook,Request,processGraphObject,Magic Number,The method contains a magic number: 3,2063
+rilsikane_dlt-nrct,com.facebook,Request,processGraphObjectProperty,Complex Conditional,The conditional expression String.class.isAssignableFrom(valueClass) || Number.class.isAssignableFrom(valueClass) || Boolean.class.isAssignableFrom(valueClass) is complex.,2085
+rilsikane_dlt-nrct,com.facebook,Request,processGraphObjectProperty,Complex Method,Cyclomatic complexity of the method is 12,2085
+rilsikane_dlt-nrct,com.facebook,Request,processGraphObjectProperty,Long Statement,The length of the statement "else if (String.class.isAssignableFrom(valueClass) || Number.class.isAssignableFrom(valueClass) || Boolean.class.isAssignableFrom(valueClass)) {" is 144.,2085
+rilsikane_dlt-nrct,com.facebook,Request,isSupportedAttachmentType,Long Statement,The length of the statement "return value instanceof Bitmap || value instanceof byte[] || value instanceof ParcelFileDescriptor|| value instanceof ParcelFileDescriptorWithMimeType;" is 151.,2213
+rilsikane_dlt-nrct,com.facebook,RequestAsyncTask,toString,Long Statement,The length of the statement "return new StringBuilder().append("{RequestAsyncTask: ").append(" connection: ").append(connection).append("` requests: ").append(requests).append("}").toString();" is 163.,135
+rilsikane_dlt-nrct,com.facebook,RequestAsyncTask,executeOnSettingsExecutor,Empty catch clause,The method has an empty catch block.,174
+rilsikane_dlt-nrct,com.facebook,RequestAsyncTask,executeOnSettingsExecutor,Empty catch clause,The method has an empty catch block.,174
+rilsikane_dlt-nrct,com.facebook,Response,Response,Long Parameter List,The method has 5 parameters. ,65
+rilsikane_dlt-nrct,com.facebook,Response,Response,Long Parameter List,The method has 5 parameters. ,69
+rilsikane_dlt-nrct,com.facebook,Response,Response,Long Parameter List,The method has 7 parameters. ,78
+rilsikane_dlt-nrct,com.facebook,Response,toString,Long Statement,The length of the statement "return new StringBuilder().append("{Response: ").append(" responseCode: ").append(responseCode).append("` graphObject: ").append(graphObject).append("` error: ").append(error).append("` isFromCache:").append(isFromCache).append("}").toString();" is 244.,230
+rilsikane_dlt-nrct,com.facebook,Response,toString,Magic Number,The method contains a magic number: 200,230
+rilsikane_dlt-nrct,com.facebook,Response,fromHttpConnection,Complex Conditional,The conditional expression !cacheableRequestBatch.getForceRoundTrip() && cache != null && !Utility.isNullOrEmpty(cacheKey) is complex.,268
+rilsikane_dlt-nrct,com.facebook,Response,fromHttpConnection,Complex Conditional,The conditional expression (cache != null) && (cacheKey != null) && (stream != null) is complex.,268
+rilsikane_dlt-nrct,com.facebook,Response,fromHttpConnection,Complex Method,Cyclomatic complexity of the method is 9,268
+rilsikane_dlt-nrct,com.facebook,Response,fromHttpConnection,Empty catch clause,The method has an empty catch block.,268
+rilsikane_dlt-nrct,com.facebook,Response,fromHttpConnection,Empty catch clause,The method has an empty catch block.,268
+rilsikane_dlt-nrct,com.facebook,Response,fromHttpConnection,Empty catch clause,The method has an empty catch block.,268
+rilsikane_dlt-nrct,com.facebook,Response,fromHttpConnection,Long Statement,The length of the statement "Logger.log(LoggingBehavior.REQUESTS`RESPONSE_CACHE_TAG`"Not using cache for cacheable request because no key was specified");" is 125.,268
+rilsikane_dlt-nrct,com.facebook,Response,fromHttpConnection,Magic Number,The method contains a magic number: 400,268
+rilsikane_dlt-nrct,com.facebook,Response,createResponsesFromStream,Long Statement,The length of the statement "Logger.log(LoggingBehavior.INCLUDE_RAW_RESPONSES`RESPONSE_LOG_TAG`"Response (raw)\n Size: %d\n Response:\n%s\n"`responseString.length()`responseString);" is 152.,336
+rilsikane_dlt-nrct,com.facebook,Response,createResponsesFromString,Long Statement,The length of the statement "Logger.log(LoggingBehavior.REQUESTS`RESPONSE_LOG_TAG`"Response\n Id: %s\n Size: %d\n Responses:\n%s\n"`requests.getId()`responseString.length()`responses);" is 155.,347
+rilsikane_dlt-nrct,com.facebook,Response,createResponsesFromObject,Magic Number,The method contains a magic number: 200,359
+rilsikane_dlt-nrct,com.facebook,Response,createResponseFromObject,Complex Method,Cyclomatic complexity of the method is 8,412
+rilsikane_dlt-nrct,com.facebook,Response,createResponseFromObject,Long Identifier,The length of the field INVALID_SESSION_FACEBOOK_ERROR_CODE is 35.,412
+rilsikane_dlt-nrct,com.facebook,Response,createResponseFromObject,Long Parameter List,The method has 5 parameters. ,412
+rilsikane_dlt-nrct,com.facebook,Session,Session,Long Parameter List,The method has 6 parameters. ,222
+rilsikane_dlt-nrct,com.facebook,Session,Session,Long Parameter List,The method has 7 parameters. ,239
+rilsikane_dlt-nrct,com.facebook,Session,refreshPermissions,Long Statement,The length of the statement "tokenInfo=AccessToken.createFromTokenWithRefreshedPermissions(tokenInfo`permissionsPair.getGrantedPermissions()`permissionsPair.getDeclinedPermissions());" is 154.,595
+rilsikane_dlt-nrct,com.facebook,Session,onCompleted,Long Statement,The length of the statement "tokenInfo=AccessToken.createFromTokenWithRefreshedPermissions(tokenInfo`permissionsPair.getGrantedPermissions()`permissionsPair.getDeclinedPermissions());" is 154.,608
+rilsikane_dlt-nrct,com.facebook,Session,handlePermissionResponse,Complex Method,Cyclomatic complexity of the method is 12,644
+rilsikane_dlt-nrct,com.facebook,Session,close,Complex Method,Cyclomatic complexity of the method is 8,760
+rilsikane_dlt-nrct,com.facebook,Session,toString,Long Statement,The length of the statement "return new StringBuilder().append("{Session").append(" state:").append(this.state).append("` token:").append((this.tokenInfo == null) ? "null" : this.tokenInfo).append("` appId:").append((this.applicationId == null) ? "null" : this.applicationId).append("}").toString();" is 270.,827
+rilsikane_dlt-nrct,com.facebook,Session,extendTokenCompleted,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@6893fa94,834
+rilsikane_dlt-nrct,com.facebook,Session,writeReplace,Long Statement,The length of the statement "return new SerializationProxyV1(applicationId`state`tokenInfo`lastAttemptedTokenExtendDate`false`pendingAuthorizationRequest);" is 126.,857
+rilsikane_dlt-nrct,com.facebook,Session,saveSession,Complex Conditional,The conditional expression bundle != null && session != null && !bundle.containsKey(SESSION_BUNDLE_SAVE_KEY) is complex.,867
+rilsikane_dlt-nrct,com.facebook,Session,openActiveSession,Long Statement,The length of the statement "return openActiveSession(activity`allowLoginUI`new OpenRequest(activity).setCallback(callback).setPermissions(permissions));" is 124.,1017
+rilsikane_dlt-nrct,com.facebook,Session,openActiveSession,Long Parameter List,The method has 5 parameters. ,1067
+rilsikane_dlt-nrct,com.facebook,Session,openActiveSession,Long Statement,The length of the statement "return openActiveSession(context`allowLoginUI`new OpenRequest(fragment).setCallback(callback).setPermissions(permissions));" is 123.,1067
+rilsikane_dlt-nrct,com.facebook,Session,authorize,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@303a413f,1147
+rilsikane_dlt-nrct,com.facebook,Session,open,Complex Method,Cyclomatic complexity of the method is 10,1190
+rilsikane_dlt-nrct,com.facebook,Session,open,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@4712670,1190
+rilsikane_dlt-nrct,com.facebook,Session,requestNewPermissions,Long Statement,The length of the statement "throw new UnsupportedOperationException("Session: an attempt was made to request new permissions for a session that has a pending request.");" is 141.,1238
+rilsikane_dlt-nrct,com.facebook,Session,requestNewPermissions,Long Statement,The length of the statement "throw new UnsupportedOperationException("Session: an attempt was made to request new permissions for a session that has been closed.");" is 135.,1238
+rilsikane_dlt-nrct,com.facebook,Session,requestNewPermissions,Long Statement,The length of the statement "throw new UnsupportedOperationException("Session: an attempt was made to request new permissions for a session that is not currently open.");" is 141.,1238
+rilsikane_dlt-nrct,com.facebook,Session,validateLoginBehavior,Long Statement,The length of the statement "throw new FacebookException(String.format("Cannot use SessionLoginBehavior %s when %s is not declared as an activity in AndroidManifest.xml"`request.getLoginBehavior()`LoginActivity.class.getName()));" is 200.,1265
+rilsikane_dlt-nrct,com.facebook,Session,validatePermissions,Long Statement,The length of the statement "throw new FacebookException(String.format("Cannot pass a publish or manage permission (%s) to a request for read authorization"`permission));" is 141.,1277
+rilsikane_dlt-nrct,com.facebook,Session,validatePermissions,Long Statement,The length of the statement "Log.w(TAG`String.format("Should not pass a read permission (%s) to a request for publish or manage authorization"`permission));" is 127.,1277
+rilsikane_dlt-nrct,com.facebook,Session,isPublishPermission,Long Statement,The length of the statement "return permission != null && (permission.startsWith(PUBLISH_PERMISSION_PREFIX) || permission.startsWith(MANAGE_PERMISSION_PREFIX) || OTHER_PUBLISH_PERMISSIONS.contains(permission));" is 181.,1303
+rilsikane_dlt-nrct,com.facebook,Session,logAuthorizationStart,Empty catch clause,The method has an empty catch block.,1330
+rilsikane_dlt-nrct,com.facebook,Session,logAuthorizationComplete,Complex Method,Cyclomatic complexity of the method is 9,1353
+rilsikane_dlt-nrct,com.facebook,Session,logAuthorizationComplete,Empty catch clause,The method has an empty catch block.,1353
+rilsikane_dlt-nrct,com.facebook,Session,logAuthorizationComplete,Long Statement,The length of the statement "bundle.putString(AuthorizationClient.EVENT_PARAM_ERROR_MESSAGE`"Unexpected call to logAuthorizationComplete with null pendingAuthorizationRequest.");" is 149.,1353
+rilsikane_dlt-nrct,com.facebook,Session,finishAuthOrReauth,Complex Method,Cyclomatic complexity of the method is 9,1453
+rilsikane_dlt-nrct,com.facebook,Session,postStateChange,Complex Conditional,The conditional expression (oldState == newState) && (oldState != SessionState.OPENED_TOKEN_UPDATED) && (exception == null) is complex.,1518
+rilsikane_dlt-nrct,com.facebook,Session,shouldExtendAccessToken,Complex Conditional,The conditional expression state.isOpened() && tokenInfo.getSource().canExtendToken() && now.getTime() - lastAttemptedTokenExtendDate.getTime() > TOKEN_EXTEND_RETRY_SECONDS * 1000 && now.getTime() - tokenInfo.getLastRefresh().getTime() > TOKEN_EXTEND_THRESHOLD_SECONDS * 1000 is complex.,1598
+rilsikane_dlt-nrct,com.facebook,Session,shouldExtendAccessToken,Long Identifier,The length of the field TOKEN_EXTEND_THRESHOLD_SECONDS is 30.,1598
+rilsikane_dlt-nrct,com.facebook,Session,shouldExtendAccessToken,Long Statement,The length of the statement "if (state.isOpened() && tokenInfo.getSource().canExtendToken() && now.getTime() - lastAttemptedTokenExtendDate.getTime() > TOKEN_EXTEND_RETRY_SECONDS * 1000 && now.getTime() - tokenInfo.getLastRefresh().getTime() > TOKEN_EXTEND_THRESHOLD_SECONDS * 1000) {" is 255.,1598
+rilsikane_dlt-nrct,com.facebook,Session,shouldExtendAccessToken,Magic Number,The method contains a magic number: 1000,1598
+rilsikane_dlt-nrct,com.facebook,Session,shouldExtendAccessToken,Magic Number,The method contains a magic number: 1000,1598
+rilsikane_dlt-nrct,com.facebook,Session,equals,Long Statement,The length of the statement "return areEqual(other.applicationId`applicationId) && areEqual(other.authorizationBundle`authorizationBundle) && areEqual(other.state`state)&& areEqual(other.getExpirationDate()`getExpirationDate());" is 199.,1749
+rilsikane_dlt-nrct,com.facebook,Settings,getExecutor,Long Statement,The length of the statement "executor=new ThreadPoolExecutor(DEFAULT_CORE_POOL_SIZE`DEFAULT_MAXIMUM_POOL_SIZE`DEFAULT_KEEP_ALIVE`TimeUnit.SECONDS`DEFAULT_WORK_QUEUE`DEFAULT_THREAD_FACTORY);" is 160.,172
+rilsikane_dlt-nrct,com.facebook,Settings,publishInstallAndWaitForResponse,Complex Method,Cyclomatic complexity of the method is 9,357
+rilsikane_dlt-nrct,com.facebook,Settings,publishInstallAndWaitForResponse,Empty catch clause,The method has an empty catch block.,357
+rilsikane_dlt-nrct,com.facebook,Settings,publishInstallAndWaitForResponse,Long Statement,The length of the statement "Utility.setAppEventAttributionParameters(publishParams`identifiers`Utility.getHashedDeviceAndAppID(context`applicationId)`getLimitEventAndDataUsage(context));" is 158.,357
+rilsikane_dlt-nrct,com.facebook,SharedPreferencesTokenCachingStrategy,serializeKey,Complex Method,Cyclomatic complexity of the method is 32,180
+rilsikane_dlt-nrct,com.facebook,SharedPreferencesTokenCachingStrategy,serializeKey,Long Method,The method has 119 lines of code.,180
+rilsikane_dlt-nrct,com.facebook,SharedPreferencesTokenCachingStrategy,deserializeKey,Complex Method,Cyclomatic complexity of the method is 31,294
+rilsikane_dlt-nrct,com.facebook,SharedPreferencesTokenCachingStrategy,deserializeKey,Empty catch clause,The method has an empty catch block.,294
+rilsikane_dlt-nrct,com.facebook,SharedPreferencesTokenCachingStrategy,deserializeKey,Empty catch clause,The method has an empty catch block.,294
+rilsikane_dlt-nrct,com.facebook,SharedPreferencesTokenCachingStrategy,deserializeKey,Long Method,The method has 124 lines of code.,294
+rilsikane_dlt-nrct,com.facebook,SharedPreferencesTokenCachingStrategy,deserializeKey,Long Statement,The length of the statement "@SuppressWarnings({"unchecked"`"rawtypes"}) Class<? extends Enum> enumClass=(Class<? extends Enum>)Class.forName(enumType);" is 123.,294
+rilsikane_dlt-nrct,com.facebook,TestSession,TestSession,Long Parameter List,The method has 5 parameters. ,84
+rilsikane_dlt-nrct,com.facebook,TestSession,retrieveTestAccountsForAppIfNeeded,Magic Number,The method contains a magic number: 2,228
+rilsikane_dlt-nrct,com.facebook,TestSession,toString,Long Statement,The length of the statement "return new StringBuilder().append("{TestSession").append(" testUserId:").append(testAccountId).append(" ").append(superString).append("}").toString();" is 150.,316
+rilsikane_dlt-nrct,com.facebook,TestSession,postStateChange,Complex Conditional,The conditional expression newState.isClosed() && id != null && mode == Mode.PRIVATE is complex.,333
+rilsikane_dlt-nrct,com.facebook,TestSession,forceExtendAccessToken,Long Statement,The length of the statement "setTokenInfo(new AccessToken(currentToken.getToken()`new Date()`currentToken.getPermissions()`currentToken.getDeclinedPermissions()`AccessTokenSource.TEST_USER`new Date(0)));" is 174.,349
+rilsikane_dlt-nrct,com.facebook,TestSession,finishAuthWithTestAccount,Long Statement,The length of the statement "AccessToken accessToken=AccessToken.createFromString(testAccount.getAccessToken()`requestedPermissions`AccessTokenSource.TEST_USER);" is 132.,387
+rilsikane_dlt-nrct,com.facebook,TestSession,getSharedTestAccountIdentifier,Magic Number,The method contains a magic number: 0xffffffffL,454
+rilsikane_dlt-nrct,com.facebook,TestSession,getSharedTestAccountIdentifier,Magic Number,The method contains a magic number: 0xffffffffL,454
+rilsikane_dlt-nrct,com.facebook,TestSession,validNameStringFromInteger,Magic Number,The method contains a magic number: 10,463
+rilsikane_dlt-nrct,com.facebook,UiLifecycleHelper,handleFacebookDialogActivityResult,Empty catch clause,The method has an empty catch block.,257
+rilsikane_dlt-nrct,com.facebook,UiLifecycleHelper,cancelPendingAppCall,Long Statement,The length of the statement "cancelIntent.putExtra(NativeProtocol.EXTRA_PROTOCOL_CALL_ID`pendingIntent.getStringExtra(NativeProtocol.EXTRA_PROTOCOL_CALL_ID));" is 129.,294
+rilsikane_dlt-nrct,com.facebook,UiLifecycleHelper,cancelPendingAppCall,Long Statement,The length of the statement "cancelIntent.putExtra(NativeProtocol.EXTRA_PROTOCOL_ACTION`pendingIntent.getStringExtra(NativeProtocol.EXTRA_PROTOCOL_ACTION));" is 127.,294
+rilsikane_dlt-nrct,com.facebook,UiLifecycleHelper,cancelPendingAppCall,Long Statement,The length of the statement "cancelIntent.putExtra(NativeProtocol.EXTRA_PROTOCOL_VERSION`pendingIntent.getIntExtra(NativeProtocol.EXTRA_PROTOCOL_VERSION`0));" is 128.,294
+rilsikane_dlt-nrct,com.facebook,UiLifecycleHelper,cancelPendingAppCall,Long Statement,The length of the statement "FacebookDialog.handleActivityResult(activity`pendingFacebookDialogCall`pendingFacebookDialogCall.getRequestCode()`cancelIntent`facebookDialogCallback);" is 151.,294
+rilsikane_dlt-nrct,com.facebook.android,AsyncFacebookRunner,request,Long Parameter List,The method has 5 parameters. ,234
+rilsikane_dlt-nrct,com.facebook.android,Facebook,Facebook,Long Statement,The length of the statement "throw new IllegalArgumentException("You must specify your application ID when instantiating " + "a Facebook object. See README for details.");" is 142.,111
+rilsikane_dlt-nrct,com.facebook.android,Facebook,authorize,Long Statement,The length of the statement "SessionLoginBehavior behavior=(activityCode >= 0) ? SessionLoginBehavior.SSO_WITH_FALLBACK : SessionLoginBehavior.SUPPRESS_SSO;" is 127.,152
+rilsikane_dlt-nrct,com.facebook.android,Facebook,authorize,Long Identifier,The length of the field pendingAuthorizationPermissions is 31.,224
+rilsikane_dlt-nrct,com.facebook.android,Facebook,authorize,Long Parameter List,The method has 5 parameters. ,224
+rilsikane_dlt-nrct,com.facebook.android,Facebook,authorize,Long Statement,The length of the statement "pendingOpeningSession=new Session.Builder(activity).setApplicationId(mAppId).setTokenCachingStrategy(getTokenCache()).build();" is 126.,224
+rilsikane_dlt-nrct,com.facebook.android,Facebook,authorize,Long Statement,The length of the statement "Session.OpenRequest openRequest=new Session.OpenRequest(activity).setCallback(callback).setLoginBehavior(behavior).setRequestCode(activityCode).setPermissions(Arrays.asList(pendingAuthorizationPermissions));" is 207.,224
+rilsikane_dlt-nrct,com.facebook.android,Facebook,onSessionCallback,Complex Conditional,The conditional expression (exception instanceof FacebookAuthorizationException) && (extras != null) && extras.containsKey(Session.WEB_VIEW_ERROR_CODE_KEY)&& extras.containsKey(Session.WEB_VIEW_FAILING_URL_KEY) is complex.,325
+rilsikane_dlt-nrct,com.facebook.android,Facebook,onSessionCallback,Long Statement,The length of the statement "else if ((exception instanceof FacebookAuthorizationException) && (extras != null) && extras.containsKey(Session.WEB_VIEW_ERROR_CODE_KEY)&& extras.containsKey(Session.WEB_VIEW_FAILING_URL_KEY)) {" is 195.,325
+rilsikane_dlt-nrct,com.facebook.android,Facebook,onSessionCallback,Long Statement,The length of the statement "DialogError error=new DialogError(exception.getMessage()`extras.getInt(Session.WEB_VIEW_ERROR_CODE_KEY)`extras.getString(Session.WEB_VIEW_FAILING_URL_KEY));" is 156.,325
+rilsikane_dlt-nrct,com.facebook.android,Facebook,authorizeCallback,Long Identifier,The length of the field pendingAuthorizationPermissions is 31.,406
+rilsikane_dlt-nrct,com.facebook.android,Facebook,shouldExtendAccessToken,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,491
+rilsikane_dlt-nrct,com.facebook.android,Facebook,shouldExtendAccessToken,Long Statement,The length of the statement "return isSessionValid() && (System.currentTimeMillis() - lastAccessUpdateMillisecondsAfterEpoch >= REFRESH_TOKEN_BARRIER);" is 122.,491
+rilsikane_dlt-nrct,com.facebook.android,Facebook,logoutImpl,Long Identifier,The length of the field accessExpiresMillisecondsAfterEpoch is 35.,645
+rilsikane_dlt-nrct,com.facebook.android,Facebook,logoutImpl,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,645
+rilsikane_dlt-nrct,com.facebook.android,Facebook,request,Long Statement,The length of the statement "throw new IllegalArgumentException("API method must be specified. " + "(parameters must contain key \"method\" and value). See" + " http://developers.facebook.com/docs/reference/rest/");" is 186.,671
+rilsikane_dlt-nrct,com.facebook.android,Facebook,getSession,Complex Method,Cyclomatic complexity of the method is 11,908
+rilsikane_dlt-nrct,com.facebook.android,Facebook,getSession,Long Identifier,The length of the field pendingAuthorizationPermissions is 31.,908
+rilsikane_dlt-nrct,com.facebook.android,Facebook,getSession,Long Statement,The length of the statement "Session newSession=new Session.Builder(pendingAuthorizationActivity).setApplicationId(mAppId).setTokenCachingStrategy(getTokenCache()).build();" is 143.,908
+rilsikane_dlt-nrct,com.facebook.android,Facebook,getAccessExpires,Long Identifier,The length of the field accessExpiresMillisecondsAfterEpoch is 35.,997
+rilsikane_dlt-nrct,com.facebook.android,Facebook,getLastAccessUpdate,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,1013
+rilsikane_dlt-nrct,com.facebook.android,Facebook,setTokenFromCache,Long Identifier,The length of the field accessExpiresMillisecondsAfterEpoch is 35.,1024
+rilsikane_dlt-nrct,com.facebook.android,Facebook,setTokenFromCache,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,1024
+rilsikane_dlt-nrct,com.facebook.android,Facebook,setAccessToken,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,1045
+rilsikane_dlt-nrct,com.facebook.android,Facebook,setAccessExpires,Long Identifier,The length of the field accessExpiresMillisecondsAfterEpoch is 35.,1063
+rilsikane_dlt-nrct,com.facebook.android,Facebook,setAccessExpires,Long Identifier,The length of the field lastAccessUpdateMillisecondsAfterEpoch is 38.,1063
+rilsikane_dlt-nrct,com.facebook.android,Facebook,setAccessExpiresIn,Long Statement,The length of the statement "long expires=expiresInSecsFromNow.equals("0") ? 0 : System.currentTimeMillis() + Long.parseLong(expiresInSecsFromNow) * 1000L;" is 126.,1082
+rilsikane_dlt-nrct,com.facebook.android,Facebook,setAccessExpiresIn,Magic Number,The method contains a magic number: 1000L,1082
+rilsikane_dlt-nrct,com.facebook.android,FbDialog,FbDialog,Long Parameter List,The method has 5 parameters. ,46
+rilsikane_dlt-nrct,com.facebook.android,FbDialog,callDialogListener,Long Statement,The length of the statement "DialogError dialogError=new DialogError(facebookDialogException.getMessage()`facebookDialogException.getErrorCode()`facebookDialogException.getFailingUrl());" is 157.,62
+rilsikane_dlt-nrct,com.facebook.android,Util,decodeUrl,Empty catch clause,The method has an empty catch block.,96
+rilsikane_dlt-nrct,com.facebook.android,Util,decodeUrl,Magic Number,The method contains a magic number: 2,96
+rilsikane_dlt-nrct,com.facebook.android,Util,openUrl,Complex Method,Cyclomatic complexity of the method is 9,140
+rilsikane_dlt-nrct,com.facebook.android,Util,read,Magic Number,The method contains a magic number: 1000,232
+rilsikane_dlt-nrct,com.facebook.android,Util,parseJson,Complex Method,Cyclomatic complexity of the method is 8,243
+rilsikane_dlt-nrct,com.facebook.internal,AttributionIdentifiers,getAndroidId,Long Statement,The length of the statement "Method isGooglePlayServicesAvailable=Utility.getMethodQuietly("com.google.android.gms.common.GooglePlayServicesUtil"`"isGooglePlayServicesAvailable"`Context.class);" is 164.,51
+rilsikane_dlt-nrct,com.facebook.internal,AttributionIdentifiers,getAndroidId,Long Statement,The length of the statement "Method getAdvertisingIdInfo=Utility.getMethodQuietly("com.google.android.gms.ads.identifier.AdvertisingIdClient"`"getAdvertisingIdInfo"`Context.class);" is 151.,51
+rilsikane_dlt-nrct,com.facebook.internal,AttributionIdentifiers,getAttributionIdentifiers,Complex Conditional,The conditional expression androidIdColumnIndex > 0 && limitTrackingColumnIndex > 0 && identifiers.getAndroidAdvertiserId() == null is complex.,96
+rilsikane_dlt-nrct,com.facebook.internal,AttributionIdentifiers,getAttributionIdentifiers,Long Identifier,The length of the field IDENTIFIER_REFRESH_INTERVAL_MILLIS is 34.,96
+rilsikane_dlt-nrct,com.facebook.internal,AttributionIdentifiers,getAttributionIdentifiers,Long Statement,The length of the statement "if (recentlyFetchedIdentifiers != null && System.currentTimeMillis() - recentlyFetchedIdentifiers.fetchTime < IDENTIFIER_REFRESH_INTERVAL_MILLIS) {" is 147.,96
+rilsikane_dlt-nrct,com.facebook.internal,FileLruCache,sizeInBytesForTest,Empty catch clause,The method has an empty catch block.,93
+rilsikane_dlt-nrct,com.facebook.internal,FileLruCache,get,Complex Conditional,The conditional expression (contentTag == null && headerContentTag != null) || (contentTag != null && !contentTag.equals(headerContentTag)) is complex.,118
+rilsikane_dlt-nrct,com.facebook.internal,FileLruCache,trim,Long Statement,The length of the statement "Logger.log(LoggingBehavior.CACHE`TAG`" trim considering time=" + Long.valueOf(modified.getModified()) + " name="+ modified.getFile().getName());" is 144.,280
+rilsikane_dlt-nrct,com.facebook.internal,ImageDownloader,download,Complex Method,Cyclomatic complexity of the method is 8,205
+rilsikane_dlt-nrct,com.facebook.internal,ImageDownloader,download,Magic Number,The method contains a magic number: 128,205
+rilsikane_dlt-nrct,com.facebook.internal,ImageDownloader,download,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@4201cf87,205
+rilsikane_dlt-nrct,com.facebook.internal,ImageResponseCache,interceptAndCacheImageStream,Empty catch clause,The method has an empty catch block.,61
+rilsikane_dlt-nrct,com.facebook.internal,ImageResponseCache,interceptAndCacheImageStream,Empty catch clause,The method has an empty catch block.,61
+rilsikane_dlt-nrct,com.facebook.internal,NativeProtocol,buildActionToAppInfoMap,Long Identifier,The length of the field ACTION_OGMESSAGEPUBLISH_DIALOG is 30.,261
+rilsikane_dlt-nrct,com.facebook.internal,NativeProtocol,createProxyAuthIntent,Long Identifier,The length of the field FACEBOOK_PROXY_AUTH_APP_ID_KEY is 30.,310
+rilsikane_dlt-nrct,com.facebook.internal,NativeProtocol,createProxyAuthIntent,Long Identifier,The length of the field FACEBOOK_PROXY_AUTH_PERMISSIONS_KEY is 35.,310
+rilsikane_dlt-nrct,com.facebook.internal,NativeProtocol,createProxyAuthIntent,Long Parameter List,The method has 5 parameters. ,310
+rilsikane_dlt-nrct,com.facebook.internal,NativeProtocol,createProxyAuthIntent,Long Statement,The length of the statement "Intent intent=new Intent().setClassName(appInfo.getPackage()`FACEBOOK_PROXY_AUTH_ACTIVITY).putExtra(FACEBOOK_PROXY_AUTH_APP_ID_KEY`applicationId);" is 146.,310
+rilsikane_dlt-nrct,com.facebook.internal,NativeProtocol,createTokenRefreshIntent,Long Identifier,The length of the field FACEBOOK_TOKEN_REFRESH_ACTIVITY is 31.,346
+rilsikane_dlt-nrct,com.facebook.internal,NativeProtocol,createPlatformActivityIntent,Long Identifier,The length of the field INTENT_ACTION_PLATFORM_ACTIVITY is 31.,392
+rilsikane_dlt-nrct,com.facebook.internal,NativeProtocol,createPlatformServiceIntent,Long Identifier,The length of the field INTENT_ACTION_PLATFORM_SERVICE is 30.,405
+rilsikane_dlt-nrct,com.facebook.internal,NativeProtocol,createPlatformServiceIntent,Long Statement,The length of the statement "Intent intent=new Intent(INTENT_ACTION_PLATFORM_SERVICE).setPackage(appInfo.getPackage()).addCategory(Intent.CATEGORY_DEFAULT);" is 127.,405
+rilsikane_dlt-nrct,com.facebook.internal,NativeProtocol,getLatestAvailableProtocolVersionForAppInfo,Long Identifier,The length of the field PLATFORM_PROVIDER_VERSION_COLUMN is 32.,464
+rilsikane_dlt-nrct,com.facebook.internal,PlatformServiceClient,PlatformServiceClient,Long Parameter List,The method has 5 parameters. ,41
+rilsikane_dlt-nrct,com.facebook.internal,UrlRedirectCache,getRedirectedUri,Empty catch clause,The method has an empty catch block.,43
+rilsikane_dlt-nrct,com.facebook.internal,UrlRedirectCache,getRedirectedUri,Empty catch clause,The method has an empty catch block.,43
+rilsikane_dlt-nrct,com.facebook.internal,UrlRedirectCache,getRedirectedUri,Magic Number,The method contains a magic number: 128,43
+rilsikane_dlt-nrct,com.facebook.internal,UrlRedirectCache,cacheUriRedirect,Empty catch clause,The method has an empty catch block.,84
+rilsikane_dlt-nrct,com.facebook.internal,Utility,hashBytes,Magic Number,The method contains a magic number: 4,171
+rilsikane_dlt-nrct,com.facebook.internal,Utility,hashBytes,Magic Number,The method contains a magic number: 0xf,171
+rilsikane_dlt-nrct,com.facebook.internal,Utility,hashBytes,Magic Number,The method contains a magic number: 0xf,171
+rilsikane_dlt-nrct,com.facebook.internal,Utility,closeQuietly,Empty catch clause,The method has an empty catch block.,208
+rilsikane_dlt-nrct,com.facebook.internal,Utility,convertJSONObjectToHashMap,Empty catch clause,The method has an empty catch block.,232
+rilsikane_dlt-nrct,com.facebook.internal,Utility,getStringPropertyAsJSON,Complex Conditional,The conditional expression value != null && !(value instanceof JSONObject || value instanceof JSONArray) is complex.,251
+rilsikane_dlt-nrct,com.facebook.internal,Utility,readStreamToString,Magic Number,The method contains a magic number: 1024,278
+rilsikane_dlt-nrct,com.facebook.internal,Utility,readStreamToString,Magic Number,The method contains a magic number: 2,278
+rilsikane_dlt-nrct,com.facebook.internal,Utility,logd,Complex Conditional,The conditional expression BuildConfig.DEBUG && tag != null && e != null is complex.,349
+rilsikane_dlt-nrct,com.facebook.internal,Utility,logd,Complex Conditional,The conditional expression BuildConfig.DEBUG && tag != null && msg != null is complex.,355
+rilsikane_dlt-nrct,com.facebook.internal,Utility,queryAppSettings,Long Statement,The length of the statement "FetchedAppSettings result=new FetchedAppSettings(safeGetBooleanFromResponse(supportResponse`SUPPORTS_ATTRIBUTION)`safeGetBooleanFromResponse(supportResponse`SUPPORTS_IMPLICIT_SDK_LOGGING)`safeGetStringFromResponse(supportResponse`NUX_CONTENT)`safeGetBooleanFromResponse(supportResponse`NUX_ENABLED));" is 300.,369
+rilsikane_dlt-nrct,com.facebook.widget,FacebookDialog,getNativeDialogCompletionGesture,Long Identifier,The length of the field EXTRA_DIALOG_COMPLETION_GESTURE_KEY is 35.,258
+rilsikane_dlt-nrct,com.facebook.widget,FacebookDialog,getNativeDialogPostId,Long Identifier,The length of the field EXTRA_DIALOG_COMPLETION_ID_KEY is 30.,269
+rilsikane_dlt-nrct,com.facebook.widget,FacebookDialog,present,Long Statement,The length of the statement "logDialogActivity(activity`fragment`getEventName(appCall.getRequestIntent())`AnalyticsEvents.PARAMETER_DIALOG_OUTCOME_VALUE_COMPLETED);" is 135.,293
+rilsikane_dlt-nrct,com.facebook.widget,FacebookDialog,handleActivityResult,Long Parameter List,The method has 5 parameters. ,321
+rilsikane_dlt-nrct,com.facebook.widget,FacebookDialog,handleCanPresent,Long Statement,The length of the statement "return getProtocolVersionForNativeDialog(context`getActionForFeatures(features)`getMinVersionForFeatures(features)) != NativeProtocol.NO_PROTOCOL_AVAILABLE;" is 156.,413
+rilsikane_dlt-nrct,com.facebook.widget,FacebookDialog,getEventName,Long Statement,The length of the statement "eventName=hasPhotos ? AnalyticsEvents.EVENT_NATIVE_DIALOG_TYPE_PHOTO_SHARE : AnalyticsEvents.EVENT_NATIVE_DIALOG_TYPE_SHARE;" is 124.,462
+rilsikane_dlt-nrct,com.facebook.widget,FacebookDialog,getEventName,Long Statement,The length of the statement "eventName=hasPhotos ? AnalyticsEvents.EVENT_NATIVE_DIALOG_TYPE_PHOTO_MESSAGE : AnalyticsEvents.EVENT_NATIVE_DIALOG_TYPE_MESSAGE;" is 128.,462
+rilsikane_dlt-nrct,com.facebook.widget,FacebookFragment,openSessionForRead,Long Statement,The length of the statement "openSessionForRead(applicationId`permissions`SessionLoginBehavior.SSO_WITH_FALLBACK`Session.DEFAULT_AUTHORIZE_ACTIVITY_CODE);" is 125.,205
+rilsikane_dlt-nrct,com.facebook.widget,FacebookFragment,openSessionForPublish,Long Statement,The length of the statement "openSessionForPublish(applicationId`permissions`SessionLoginBehavior.SSO_WITH_FALLBACK`Session.DEFAULT_AUTHORIZE_ACTIVITY_CODE);" is 128.,233
+rilsikane_dlt-nrct,com.facebook.widget,FacebookFragment,openSession,Long Parameter List,The method has 5 parameters. ,261
+rilsikane_dlt-nrct,com.facebook.widget,FacebookFragment,openSession,Long Statement,The length of the statement "Session.OpenRequest openRequest=new Session.OpenRequest(this).setPermissions(permissions).setLoginBehavior(behavior).setRequestCode(activityCode);" is 146.,261
+rilsikane_dlt-nrct,com.facebook.widget,FriendPickerFragment,logAppEvents,Long Statement,The length of the statement "String outcome=doneButtonClicked ? AnalyticsEvents.PARAMETER_DIALOG_OUTCOME_VALUE_COMPLETED : AnalyticsEvents.PARAMETER_DIALOG_OUTCOME_VALUE_UNKNOWN;" is 149.,230
+rilsikane_dlt-nrct,com.facebook.widget,GraphObjectAdapter,prioritizeViewRange,Complex Method,Cyclomatic complexity of the method is 11,181
+rilsikane_dlt-nrct,com.facebook.widget,GraphObjectAdapter,prioritizeViewRange,Long Identifier,The length of the identifier graphObjectsToPrefetchPicturesFor is 33.,181
+rilsikane_dlt-nrct,com.facebook.widget,GraphObjectAdapter,getPictureUriOfGraphObject,Empty catch clause,The method has an empty catch block.,262
+rilsikane_dlt-nrct,com.facebook.widget,GraphObjectAdapter,populateGraphObjectView,Complex Method,Cyclomatic complexity of the method is 8,351
+rilsikane_dlt-nrct,com.facebook.widget,GraphObjectAdapter,getSectionAndItem,Complex Method,Cyclomatic complexity of the method is 8,497
+rilsikane_dlt-nrct,com.facebook.widget,GraphObjectAdapter,getPosition,Complex Method,Cyclomatic complexity of the method is 8,544
+rilsikane_dlt-nrct,com.facebook.widget,GraphObjectAdapter,getViewTypeCount,Magic Number,The method contains a magic number: 3,644
+rilsikane_dlt-nrct,com.facebook.widget,GraphObjectAdapter,getItemViewType,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@20d05d41,649
+rilsikane_dlt-nrct,com.facebook.widget,GraphObjectAdapter,getView,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@2d1fbd8d,664
+rilsikane_dlt-nrct,com.facebook.widget,GraphObjectAdapter,downloadProfilePicture,Long Statement,The length of the statement "ImageRequest.Builder builder=new ImageRequest.Builder(context.getApplicationContext()`pictureURI).setCallerTag(this).setCallback(new ImageRequest.Callback(){" is 157.,728
+rilsikane_dlt-nrct,com.facebook.widget,GraphObjectPagingLoader,deliverResult,Complex Conditional,The conditional expression oldCursor != null && oldCursor != cursor && !oldCursor.isClosed() is complex.,103
+rilsikane_dlt-nrct,com.facebook.widget,GraphObjectPagingLoader,addResults,Long Statement,The length of the statement "SimpleGraphObjectCursor<T> cursorToModify=(cursor == null || !appendResults) ? new SimpleGraphObjectCursor<T>() : new SimpleGraphObjectCursor<T>(cursor);" is 153.,190
+rilsikane_dlt-nrct,com.facebook.widget,LoginButton,LoginButton,Long Statement,The length of the statement "this.setCompoundDrawablePadding(getResources().getDimensionPixelSize(R.dimen.com_facebook_loginview_compound_drawable_padding));" is 128.,223
+rilsikane_dlt-nrct,com.facebook.widget,LoginButton,LoginButton,Long Statement,The length of the statement "this.setPadding(getResources().getDimensionPixelSize(R.dimen.com_facebook_loginview_padding_left)`getResources().getDimensionPixelSize(R.dimen.com_facebook_loginview_padding_top)`getResources().getDimensionPixelSize(R.dimen.com_facebook_loginview_padding_right)`getResources().getDimensionPixelSize(R.dimen.com_facebook_loginview_padding_bottom));" is 347.,223
+rilsikane_dlt-nrct,com.facebook.widget,LoginButton,onDraw,Complex Conditional,The conditional expression !nuxChecked && nuxMode != ToolTipMode.NEVER_DISPLAY && !isInEditMode() is complex.,642
+rilsikane_dlt-nrct,com.facebook.widget,LoginButton,showNuxPerSettings,Complex Conditional,The conditional expression settings != null && settings.getNuxEnabled() && getVisibility() == View.VISIBLE is complex.,652
+rilsikane_dlt-nrct,com.facebook.widget,LoginButton,fetchUserInfo,Complex Method,Cyclomatic complexity of the method is 8,758
+rilsikane_dlt-nrct,com.facebook.widget,PickerFragment,layoutActivityCircle,Magic Number,The method contains a magic number: .25f,562
+rilsikane_dlt-nrct,com.facebook.widget,PickerFragment,inflateTitleBar,Complex Method,Cyclomatic complexity of the method is 9,626
+rilsikane_dlt-nrct,com.facebook.widget,PickerFragment,inflateTitleBar,Long Statement,The length of the statement "final RelativeLayout.LayoutParams layoutParams=new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT`RelativeLayout.LayoutParams.MATCH_PARENT);" is 162.,626
+rilsikane_dlt-nrct,com.facebook.widget,PickerFragment,updateAdapter,Long Statement,The length of the statement "final int top=(view != null && anchorItem.getType() != GraphObjectAdapter.SectionAndItem.Type.ACTIVITY_CIRCLE) ? view.getTop() : 0;" is 131.,714
+rilsikane_dlt-nrct,com.facebook.widget,PickerFragment,reprioritizeDownloads,Long Identifier,The length of the field PROFILE_PICTURE_PREFETCH_BUFFER is 31.,754
+rilsikane_dlt-nrct,com.facebook.widget,PlacePickerFragment,onSearchBoxTextChanged,Long Identifier,The length of the field hasSearchTextChangedSinceLastQuery is 34.,197
+rilsikane_dlt-nrct,com.facebook.widget,PlacePickerFragment,onLoadingData,Long Identifier,The length of the field hasSearchTextChangedSinceLastQuery is 34.,308
+rilsikane_dlt-nrct,com.facebook.widget,PlacePickerFragment,logAppEvents,Long Statement,The length of the statement "String outcome=doneButtonClicked ? AnalyticsEvents.PARAMETER_DIALOG_OUTCOME_VALUE_COMPLETED : AnalyticsEvents.PARAMETER_DIALOG_OUTCOME_VALUE_UNKNOWN;" is 149.,323
+rilsikane_dlt-nrct,com.facebook.widget,PlacePickerFragment,createRequest,Long Parameter List,The method has 6 parameters. ,385
+rilsikane_dlt-nrct,com.facebook.widget,PlacePickerFragment,createSearchTextTimer,Long Identifier,The length of the field searchTextTimerDelayInMilliseconds is 34.,429
+rilsikane_dlt-nrct,com.facebook.widget,PlacePickerFragment,onSearchTextTimerTriggered,Long Identifier,The length of the field hasSearchTextChangedSinceLastQuery is 34.,441
+rilsikane_dlt-nrct,com.facebook.widget,ProfilePictureView,setPresetSize,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@1632027d,161
+rilsikane_dlt-nrct,com.facebook.widget,ProfilePictureView,setDefaultProfilePicture,Long Identifier,The length of the field customizedDefaultProfilePicture is 31.,249
+rilsikane_dlt-nrct,com.facebook.widget,ProfilePictureView,onMeasure,Long Statement,The length of the statement "if (MeasureSpec.getMode(heightMeasureSpec) != MeasureSpec.EXACTLY && params.height == ViewGroup.LayoutParams.WRAP_CONTENT) {" is 124.,259
+rilsikane_dlt-nrct,com.facebook.widget,ProfilePictureView,onMeasure,Long Statement,The length of the statement "if (MeasureSpec.getMode(widthMeasureSpec) != MeasureSpec.EXACTLY && params.width == ViewGroup.LayoutParams.WRAP_CONTENT) {" is 122.,259
+rilsikane_dlt-nrct,com.facebook.widget,ProfilePictureView,onLayout,Long Parameter List,The method has 5 parameters. ,298
+rilsikane_dlt-nrct,com.facebook.widget,ProfilePictureView,refreshImage,Complex Conditional,The conditional expression profileId == null || profileId.length() == 0 || ((queryWidth == ImageRequest.UNSPECIFIED_DIMENSION) && (queryHeight == ImageRequest.UNSPECIFIED_DIMENSION)) is complex.,391
+rilsikane_dlt-nrct,com.facebook.widget,ProfilePictureView,refreshImage,Long Statement,The length of the statement "if (profileId == null || profileId.length() == 0 || ((queryWidth == ImageRequest.UNSPECIFIED_DIMENSION) && (queryHeight == ImageRequest.UNSPECIFIED_DIMENSION))) {" is 162.,391
+rilsikane_dlt-nrct,com.facebook.widget,ProfilePictureView,setBlankProfilePicture,Long Identifier,The length of the field customizedDefaultProfilePicture is 31.,404
+rilsikane_dlt-nrct,com.facebook.widget,ProfilePictureView,setBlankProfilePicture,Long Statement,The length of the statement "int blankImageResource=isCropped() ? R.drawable.com_facebook_profile_picture_blank_square : R.drawable.com_facebook_profile_picture_blank_portrait;" is 147.,404
+rilsikane_dlt-nrct,com.facebook.widget,ProfilePictureView,sendImageRequest,Long Statement,The length of the statement "ImageRequest.Builder requestBuilder=new ImageRequest.Builder(getContext()`ImageRequest.getProfilePictureUrl(profileId`queryWidth`queryHeight));" is 143.,426
+rilsikane_dlt-nrct,com.facebook.widget,ProfilePictureView,sendImageRequest,Long Statement,The length of the statement "ImageRequest request=requestBuilder.setAllowCachedRedirects(allowCachedResponse).setCallerTag(this).setCallback(new ImageRequest.Callback(){" is 140.,426
+rilsikane_dlt-nrct,com.facebook.widget,ProfilePictureView,getPresetSizeInPixels,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5a839acb,513
+rilsikane_dlt-nrct,com.facebook.widget,ToolTipPopup,onScrollChanged,Complex Conditional,The conditional expression mAnchorViewRef.get() != null && mPopupWindow != null && mPopupWindow.isShowing() is complex.,66
+rilsikane_dlt-nrct,com.facebook.widget,ToolTipPopup,show,Long Statement,The length of the statement "mPopupContent.onMeasure(View.MeasureSpec.makeMeasureSpec(decorWidth`View.MeasureSpec.AT_MOST)`View.MeasureSpec.makeMeasureSpec(decorHeight`View.MeasureSpec.AT_MOST));" is 166.,99
+rilsikane_dlt-nrct,com.facebook.widget,UserSettingsFragment,updateUI,Long Statement,The length of the statement "connectedStateLabel.setTextColor(getResources().getColor(R.color.com_facebook_usersettingsfragment_connected_text_color));" is 122.,369
+rilsikane_dlt-nrct,com.facebook.widget,UserSettingsFragment,updateUI,Long Statement,The length of the statement "connectedStateLabel.setShadowLayer(1f`0f`-1f`getResources().getColor(R.color.com_facebook_usersettingsfragment_connected_shadow_color));" is 136.,369
+rilsikane_dlt-nrct,com.facebook.widget,UserSettingsFragment,updateUI,Long Statement,The length of the statement "noProfilePic.setBounds(0`0`getResources().getDimensionPixelSize(R.dimen.com_facebook_usersettingsfragment_profile_picture_width)`getResources().getDimensionPixelSize(R.dimen.com_facebook_usersettingsfragment_profile_picture_height));" is 233.,369
+rilsikane_dlt-nrct,com.facebook.widget,UserSettingsFragment,getImageRequest,Empty catch clause,The method has an empty catch block.,413
+rilsikane_dlt-nrct,com.facebook.widget,UserSettingsFragment,getImageRequest,Long Statement,The length of the statement "ImageRequest.Builder requestBuilder=new ImageRequest.Builder(getActivity()`ImageRequest.getProfilePictureUrl(user.getId()`getResources().getDimensionPixelSize(R.dimen.com_facebook_usersettingsfragment_profile_picture_width)`getResources().getDimensionPixelSize(R.dimen.com_facebook_usersettingsfragment_profile_picture_height)));" is 329.,413
+rilsikane_dlt-nrct,com.facebook.widget,UserSettingsFragment,processImageResponse,Long Statement,The length of the statement "drawable.setBounds(0`0`getResources().getDimensionPixelSize(R.dimen.com_facebook_usersettingsfragment_profile_picture_width)`getResources().getDimensionPixelSize(R.dimen.com_facebook_usersettingsfragment_profile_picture_height));" is 229.,437
+rilsikane_dlt-nrct,com.facebook.widget,WebDialog,WebDialog,Long Parameter List,The method has 5 parameters. ,123
+rilsikane_dlt-nrct,com.facebook.widget,WebDialog,WebDialog,Long Statement,The length of the statement "Uri uri=Utility.buildUri(ServerProtocol.getDialogAuthority()`ServerProtocol.getAPIVersion() + "/" + ServerProtocol.DIALOG_PATH+ action`parameters);" is 147.,123
+rilsikane_dlt-nrct,com.facebook.widget,WebDialog,onCreate,Long Statement,The length of the statement "contentFrameLayout.addView(crossImageView`new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT));" is 143.,195
+rilsikane_dlt-nrct,com.facebook.widget,WebDialog,onCreate,Magic Number,The method contains a magic number: 2,195
+rilsikane_dlt-nrct,com.facebook.widget,WebDialog,calculateSize,Long Statement,The length of the statement "int dialogWidth=Math.min(getScaledSize(width`metrics.density`NO_PADDING_SCREEN_WIDTH`MAX_PADDING_SCREEN_WIDTH)`metrics.widthPixels);" is 132.,249
+rilsikane_dlt-nrct,com.facebook.widget,WebDialog,calculateSize,Long Statement,The length of the statement "int dialogHeight=Math.min(getScaledSize(height`metrics.density`NO_PADDING_SCREEN_HEIGHT`MAX_PADDING_SCREEN_HEIGHT)`metrics.heightPixels);" is 137.,249
+rilsikane_dlt-nrct,com.facebook.widget,WebDialog,getScaledSize,Long Statement,The length of the statement "scaleFactor=MIN_SCALE_FACTOR + ((double)(maxPaddingSize - scaledSize)) / ((double)(maxPaddingSize - noPaddingSize)) * (1.0 - MIN_SCALE_FACTOR);" is 143.,269
+rilsikane_dlt-nrct,com.facebook.widget,WebDialog,setUpWebView,Long Statement,The length of the statement "webView.setLayoutParams(new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT));" is 127.,337
+rilsikane_dlt-nrct,ru.truba.touchgallery.GalleryWidget,GalleryViewPager,onTouchEvent,Complex Conditional,The conditional expression difference != null && mCurrentView.onRightSide && difference[0] < 0 is complex.,53
+rilsikane_dlt-nrct,ru.truba.touchgallery.GalleryWidget,GalleryViewPager,onTouchEvent,Complex Conditional,The conditional expression difference != null && mCurrentView.onLeftSide && difference[0] > 0 is complex.,53
+rilsikane_dlt-nrct,ru.truba.touchgallery.GalleryWidget,GalleryViewPager,onTouchEvent,Complex Conditional,The conditional expression difference == null && (mCurrentView.onLeftSide || mCurrentView.onRightSide) is complex.,53
+rilsikane_dlt-nrct,ru.truba.touchgallery.GalleryWidget,GalleryViewPager,onInterceptTouchEvent,Complex Conditional,The conditional expression difference != null && mCurrentView.onRightSide && difference[0] < 0 is complex.,83
+rilsikane_dlt-nrct,ru.truba.touchgallery.GalleryWidget,GalleryViewPager,onInterceptTouchEvent,Complex Conditional,The conditional expression difference != null && mCurrentView.onLeftSide && difference[0] > 0 is complex.,83
+rilsikane_dlt-nrct,ru.truba.touchgallery.GalleryWidget,GalleryViewPager,onInterceptTouchEvent,Complex Conditional,The conditional expression difference == null && (mCurrentView.onLeftSide || mCurrentView.onRightSide) is complex.,83
+rilsikane_dlt-nrct,ru.truba.touchgallery.GalleryWidget,InfinityFilePagerAdapter,InfinityFilePagerAdapter,Magic Number,The method contains a magic number: 2,41
+rilsikane_dlt-nrct,ru.truba.touchgallery.GalleryWidget,InfinityUrlAdapter,InfinityUrlAdapter,Magic Number,The method contains a magic number: 2,23
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,init,Complex Method,Cyclomatic complexity of the method is 28,113
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,init,Long Method,The method has 131 lines of code.,113
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,init,Magic Number,The method contains a magic number: 9,113
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,init,Magic Number,The method contains a magic number: 8,113
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,init,Magic Number,The method contains a magic number: 10f,113
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,init,Magic Number,The method contains a magic number: 2,113
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,init,Magic Number,The method contains a magic number: 2,113
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,init,Magic Number,The method contains a magic number: 300,113
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,init,Magic Number,The method contains a magic number: 2,113
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,init,Magic Number,The method contains a magic number: 10,113
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,init,Magic Number,The method contains a magic number: 50,113
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,init,Magic Number,The method contains a magic number: 2,113
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,init,Magic Number,The method contains a magic number: 2,113
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onTouch,Complex Method,Cyclomatic complexity of the method is 27,125
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onTouch,Long Method,The method has 118 lines of code.,125
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onTouch,Magic Number,The method contains a magic number: 10f,125
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onTouch,Magic Number,The method contains a magic number: 2,125
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onTouch,Magic Number,The method contains a magic number: 2,125
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onTouch,Magic Number,The method contains a magic number: 300,125
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onTouch,Magic Number,The method contains a magic number: 2,125
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onTouch,Magic Number,The method contains a magic number: 10,125
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onTouch,Magic Number,The method contains a magic number: 50,125
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onTouch,Magic Number,The method contains a magic number: 2,125
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onTouch,Magic Number,The method contains a magic number: 2,125
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,resetScale,Magic Number,The method contains a magic number: 2,271
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,resetScale,Magic Number,The method contains a magic number: 2,271
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onDraw,Magic Number,The method contains a magic number: 0.1,291
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onDraw,Magic Number,The method contains a magic number: 0.1,291
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,checkAndSetTranslate,Complex Method,Cyclomatic complexity of the method is 11,306
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,checkSiding,Complex Conditional,The conditional expression (scaleWidth >= width && (matrixX + scaleWidth - width) < 10) || (scaleWidth <= width && -matrixX + scaleWidth <= width) is complex.,338
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,checkSiding,Long Statement,The length of the statement "if ((scaleWidth >= width && (matrixX + scaleWidth - width) < 10) || (scaleWidth <= width && -matrixX + scaleWidth <= width)) onRightSide=true;" is 142.,338
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,checkSiding,Magic Number,The method contains a magic number: 10.0f,338
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,checkSiding,Magic Number,The method contains a magic number: 10,338
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,checkSiding,Magic Number,The method contains a magic number: 10.0f,338
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,checkSiding,Magic Number,The method contains a magic number: 10.0f,338
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,calcPadding,Magic Number,The method contains a magic number: 2,352
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,calcPadding,Magic Number,The method contains a magic number: 2,352
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,scaleMatrixToBounds,Magic Number,The method contains a magic number: 2,363
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,scaleMatrixToBounds,Magic Number,The method contains a magic number: 0.5f,363
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,scaleMatrixToBounds,Magic Number,The method contains a magic number: 2,363
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,scaleMatrixToBounds,Magic Number,The method contains a magic number: 2,363
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,scaleMatrixToBounds,Magic Number,The method contains a magic number: 0.5f,363
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,scaleMatrixToBounds,Magic Number,The method contains a magic number: 2,363
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onMeasure,Magic Number,The method contains a magic number: 2,376
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onMeasure,Magic Number,The method contains a magic number: 2,376
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onMeasure,Magic Number,The method contains a magic number: 2,376
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,onMeasure,Magic Number,The method contains a magic number: 2,376
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,distanceBetween,Magic Number,The method contains a magic number: 2,406
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,distanceBetween,Magic Number,The method contains a magic number: 2,406
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,midPoint,Magic Number,The method contains a magic number: 2,418
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,midPoint,Magic Number,The method contains a magic number: 2,418
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,midPointF,Magic Number,The method contains a magic number: 2,425
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,TouchImageView,midPointF,Magic Number,The method contains a magic number: 2,425
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,UrlTouchImageView,init,Magic Number,The method contains a magic number: 30,57
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,UrlTouchImageView,init,Magic Number,The method contains a magic number: 30,57
+rilsikane_dlt-nrct,ru.truba.touchgallery.TouchView,UrlTouchImageView,init,Magic Number,The method contains a magic number: 100,57
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,getInterpolation,Magic Number,The method contains a magic number: 5,92
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,switchLayer,Long Parameter List,The method has 5 parameters. ,253
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,switchLayer,Long Statement,The length of the statement "boolean noVelocityInStickToMidle=mScreenSide == STICK_TO_MIDDLE && Math.abs(velocityX) < mMinimumVelocity && Math.abs(velocityY) < mMinimumVelocity;" is 148.,253
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,switchLayer,Magic Number,The method contains a magic number: 2,253
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,switchLayer,Magic Number,The method contains a magic number: 2,253
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,onInterceptTouchEvent,Complex Conditional,The conditional expression xDiff > mTouchSlop && xDiff > yDiff && allowDragingX(dx`mInitialX) is complex.,410
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,onInterceptTouchEvent,Complex Conditional,The conditional expression yDiff > mTouchSlop && yDiff > xDiff && allowDragingY(dy`mInitialY) is complex.,410
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,onInterceptTouchEvent,Complex Method,Cyclomatic complexity of the method is 18,410
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,onInterceptTouchEvent,Long Statement,The length of the statement "mActivePointerId=ev.getAction() & (Build.VERSION.SDK_INT >= 8 ? MotionEvent.ACTION_POINTER_INDEX_MASK : MotionEventCompat.ACTION_POINTER_INDEX_MASK);" is 149.,410
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,onInterceptTouchEvent,Magic Number,The method contains a magic number: 8,410
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,onTouchEvent,Complex Conditional,The conditional expression !mEnabled || !mIsDragging && !mLastTouchAllowed && !allowSlidingFromHereX(ev`mInitialX)&& !allowSlidingFromHereY(ev`mInitialY) is complex.,504
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,onTouchEvent,Complex Conditional,The conditional expression action == MotionEvent.ACTION_UP || action == MotionEvent.ACTION_CANCEL || action == MotionEvent.ACTION_OUTSIDE is complex.,504
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 30,504
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,onTouchEvent,Magic Number,The method contains a magic number: 1000,504
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,onTouchEvent,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@781bfe8f,504
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,allowSlidingFromHereX,Complex Method,Cyclomatic complexity of the method is 8,674
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,allowSlidingFromHereX,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@28b8c7d4,674
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,allowSlidingFromHereY,Complex Method,Cyclomatic complexity of the method is 8,695
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,allowSlidingFromHereY,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@2e9f1954,695
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,allowDragingX,Complex Conditional,The conditional expression mIsOpen && getLeft() <= initialX || getRight() >= initialX is complex.,716
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,allowDragingX,Complex Conditional,The conditional expression !mIsOpen && mOffsetWidth > 0 && dx > 0 is complex.,716
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,allowDragingX,Complex Method,Cyclomatic complexity of the method is 9,716
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,allowDragingY,Complex Conditional,The conditional expression mIsOpen && getTop() <= initialY || getBottom() >= initialY is complex.,749
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,allowDragingY,Complex Conditional,The conditional expression !mIsOpen && mOffsetWidth > 0 && dy > 0 is complex.,749
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,allowDragingY,Complex Method,Cyclomatic complexity of the method is 9,749
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,determineNextStateOpened,Complex Conditional,The conditional expression calcX && Math.abs(deltaX) > mFlingDistance && Math.abs(velocityX) > mMinimumVelocity is complex.,773
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,determineNextStateOpened,Complex Conditional,The conditional expression calcY && Math.abs(deltaY) > mFlingDistance && Math.abs(velocityY) > mMinimumVelocity is complex.,773
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,determineNextStateOpened,Complex Method,Cyclomatic complexity of the method is 13,773
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,determineNextStateOpened,Long Parameter List,The method has 7 parameters. ,773
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,determineNextStateOpened,Magic Number,The method contains a magic number: 2,773
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,determineNextStateOpened,Magic Number,The method contains a magic number: 2,773
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,determineNextStateOpened,Magic Number,The method contains a magic number: 2,773
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,determineNextStateOpened,Magic Number,The method contains a magic number: 2,773
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,determineNextStateOpened,Magic Number,The method contains a magic number: 2,773
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,determineNextStateOpened,Magic Number,The method contains a magic number: 2,773
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,determineNextStateOpened,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@688c9b8e,773
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,determineNextStateOpened,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@4f44ef96,773
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,smoothScrollTo,Magic Number,The method contains a magic number: 2,861
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,smoothScrollTo,Magic Number,The method contains a magic number: 4,861
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,smoothScrollTo,Magic Number,The method contains a magic number: 1000,861
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,distanceInfluenceForSnapDuration,Magic Number,The method contains a magic number: 0.5f,919
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,distanceInfluenceForSnapDuration,Magic Number,The method contains a magic number: 0.3f,919
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,distanceInfluenceForSnapDuration,Magic Number,The method contains a magic number: 2.0f,919
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,getScreenSideAuto,Long Statement,The length of the statement "if (boundToLeftBorder == boundToRightBorder && getLayoutParams().width == android.view.ViewGroup.LayoutParams.MATCH_PARENT) {" is 125.,1032
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,onLayout,Complex Method,Cyclomatic complexity of the method is 8,1092
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,onLayout,Long Parameter List,The method has 5 parameters. ,1092
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,getDestScrollPos,Complex Method,Cyclomatic complexity of the method is 10,1134
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,getDestScrollPos,Magic Number,The method contains a magic number: 2,1134
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,getDestScrollPos,Magic Number,The method contains a magic number: 2,1134
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,getDestScrollPos,Magic Number,The method contains a magic number: 2,1134
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,getDestScrollPos,Magic Number,The method contains a magic number: 2,1134
+rilsikane_dlt-nrct,com.slidinglayer,SlidingLayer,getDestScrollPos,Magic Number,The method contains a magic number: 2,1134
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,IPullToRefresh,setScrollingWhileRefreshingEnabled,Long Identifier,The length of the parameter scrollingWhileRefreshingEnabled is 31.,229
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,OverscrollHelper,overScrollBy,Long Parameter List,The method has 6 parameters. ,31
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,OverscrollHelper,overScrollBy,Long Parameter List,The method has 7 parameters. ,56
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,OverscrollHelper,overScrollBy,Complex Conditional,The conditional expression mode.permitsPullToRefresh() && !isTouchEvent && deltaValue != 0 is complex.,80
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,OverscrollHelper,overScrollBy,Complex Method,Cyclomatic complexity of the method is 14,80
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,OverscrollHelper,overScrollBy,Long Parameter List,The method has 9 parameters. ,80
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,OverscrollHelper,overScrollBy,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@21ac17cd,80
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshAdapterViewBase,onScroll,Long Statement,The length of the statement "Log.d(LOG_TAG`"First Visible: " + firstVisibleItem + ". Visible Count: "+ visibleItemCount+ ". Total Items:"+ totalItemCount);" is 126.,102
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshAdapterViewBase,onScrollStateChanged,Complex Conditional,The conditional expression state == OnScrollListener.SCROLL_STATE_IDLE && null != mOnLastItemVisibleListener && mLastItemVisible is complex.,129
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshAdapterViewBase,onPullToRefresh,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@77afef15,245
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshAdapterViewBase,onReleaseToRefresh,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@7b734a85,272
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshAdapterViewBase,addIndicatorViews,Long Statement,The length of the statement "FrameLayout.LayoutParams params=new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT);" is 134.,334
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshAdapterViewBase,addIndicatorViews,Long Statement,The length of the statement "FrameLayout.LayoutParams params=new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT`ViewGroup.LayoutParams.WRAP_CONTENT);" is 134.,334
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshAdapterViewBase,isLastItemVisible,Long Statement,The length of the statement "Log.d(LOG_TAG`"isLastItemVisible. Last Item Position: " + lastItemPosition + " Last Visible Pos: "+ lastVisiblePosition);" is 121.,402
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshAdapterViewBase,updateIndicatorViewsVisibility,Complex Method,Cyclomatic complexity of the method is 9,450
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,demo,Magic Number,The method contains a magic number: 2,144
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,demo,Magic Number,The method contains a magic number: 2,144
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,isPullToRefreshOverScrollEnabled,Long Statement,The length of the statement "return VERSION.SDK_INT >= VERSION_CODES.GINGERBREAD && mOverScrollEnabled && OverscrollHelper.isAndroidOverScrollEnabled(mRefreshableView);" is 139.,209
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,isScrollingWhileRefreshingEnabled,Long Identifier,The length of the field mScrollingWhileRefreshingEnabled is 32.,220
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onInterceptTouchEvent,Complex Conditional,The conditional expression absDiff > mTouchSlop && (!mFilterTouchEvents || absDiff > Math.abs(oppositeDiff)) is complex.,225
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onInterceptTouchEvent,Complex Conditional,The conditional expression mMode.showHeaderLoadingLayout() && diff >= 1f && isReadyForPullStart() is complex.,225
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onInterceptTouchEvent,Complex Conditional,The conditional expression mMode.showFooterLoadingLayout() && diff <= -1f && isReadyForPullEnd() is complex.,225
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onInterceptTouchEvent,Complex Method,Cyclomatic complexity of the method is 16,225
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onInterceptTouchEvent,Long Identifier,The length of the field mScrollingWhileRefreshingEnabled is 32.,225
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onInterceptTouchEvent,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@13a32222,225
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onTouchEvent,Complex Conditional,The conditional expression mState == State.RELEASE_TO_REFRESH && (null != mOnRefreshListener || null != mOnRefreshListener2) is complex.,309
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 13,309
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onTouchEvent,Long Identifier,The length of the field mScrollingWhileRefreshingEnabled is 32.,309
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,setScrollingWhileRefreshingEnabled,Long Identifier,The length of the field mScrollingWhileRefreshingEnabled is 32.,375
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,setDisableScrollingWhileRefreshing,Long Identifier,The length of the parameter disableScrollingWhileRefreshing is 31.,379
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,setRefreshingLabel,Long Statement,The length of the statement "getLoadingLayoutProxy(mode.showHeaderLoadingLayout()`mode.showFooterLoadingLayout()).setRefreshingLabel(refreshingLabel);" is 121.,498
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,setState,Complex Method,Cyclomatic complexity of the method is 9,539
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,disableLoadingLayoutVisibilityChanges,Long Identifier,The length of the field mLayoutVisibilityChangesEnabled is 31.,626
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,getPullToRefreshScrollDurationLonger,Long Identifier,The length of the field SMOOTH_SCROLL_LONG_DURATION_MS is 30.,650
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onPullToRefresh,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@52705de4,703
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onRefreshing,Complex Method,Cyclomatic complexity of the method is 8,721
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onRefreshing,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5a2fc7f8,721
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onReleaseToRefresh,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@3be9995a,765
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onReset,Long Identifier,The length of the field mLayoutVisibilityChangesEnabled is 31.,783
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onRestoreInstanceState,Long Identifier,The length of the field mScrollingWhileRefreshingEnabled is 32.,798
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onRestoreInstanceState,Long Identifier,The length of the field STATE_SCROLLING_REFRESHING_ENABLED is 34.,798
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onSaveInstanceState,Long Identifier,The length of the field STATE_SCROLLING_REFRESHING_ENABLED is 34.,825
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,onSaveInstanceState,Long Identifier,The length of the field mScrollingWhileRefreshingEnabled is 32.,825
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,refreshLoadingViewsSize,Complex Method,Cyclomatic complexity of the method is 8,869
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,refreshLoadingViewsSize,Magic Number,The method contains a magic number: 1.2f,869
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,setHeaderScroll,Complex Method,Cyclomatic complexity of the method is 8,942
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,setHeaderScroll,Long Identifier,The length of the field mLayoutVisibilityChangesEnabled is 31.,942
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,addRefreshableView,Long Statement,The length of the statement "mRefreshableViewWrapper.addView(refreshableView`ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT);" is 121.,1052
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,addRefreshableView,Long Statement,The length of the statement "addViewInternal(mRefreshableViewWrapper`new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT`LayoutParams.MATCH_PARENT));" is 124.,1052
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,init,Complex Method,Cyclomatic complexity of the method is 11,1073
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,init,Long Identifier,The length of the field mScrollingWhileRefreshingEnabled is 32.,1073
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,init,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@31d11e37,1073
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,isReadyForPull,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@619eea94,1145
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,pullEvent,Complex Method,Cyclomatic complexity of the method is 10,1158
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,pullEvent,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@452af158,1158
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,pullEvent,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@327e83ee,1158
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,pullEvent,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@b671330,1158
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,getLoadingLayoutLayoutParams,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@1d3b8282,1215
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,getMaximumPullScroll,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@f09104c,1227
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,smoothScrollTo,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@492e93b0,1247
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,mapIntToValue,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@7a63e736,1306
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshBase,createLoadingLayout,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@3b8d556a,1324
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshListView,onRefreshing,Complex Conditional,The conditional expression !mListViewExtrasEnabled || !getShowViewWhileRefreshing() || null == adapter || adapter.isEmpty() is complex.,65
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshListView,onRefreshing,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@7cc1b927,65
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshListView,onReset,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@41cf161c,129
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshListView,handleStyledAttributes,Long Statement,The length of the statement "final FrameLayout.LayoutParams lp=new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT`FrameLayout.LayoutParams.WRAP_CONTENT`Gravity.CENTER_HORIZONTAL);" is 166.,224
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library,PullToRefreshWebView,onProgressChanged,Magic Number,The method contains a magic number: 100,41
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,FlipLoadingLayout,Long Statement,The length of the statement "mResetRotateAnimation=new RotateAnimation(rotateAngle`0`Animation.RELATIVE_TO_SELF`0.5f`Animation.RELATIVE_TO_SELF`0.5f);" is 121.,40
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,FlipLoadingLayout,Magic Number,The method contains a magic number: 180,40
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,FlipLoadingLayout,Magic Number,The method contains a magic number: 180,40
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,FlipLoadingLayout,Magic Number,The method contains a magic number: 0.5f,40
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,FlipLoadingLayout,Magic Number,The method contains a magic number: 0.5f,40
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,FlipLoadingLayout,Magic Number,The method contains a magic number: 0.5f,40
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,FlipLoadingLayout,Magic Number,The method contains a magic number: 0.5f,40
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,onLoadingDrawableSet,Magic Number,The method contains a magic number: 2f,58
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,onLoadingDrawableSet,Magic Number,The method contains a magic number: 2f,58
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,onLoadingDrawableSet,Magic Number,The method contains a magic number: 2f,58
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,onLoadingDrawableSet,Magic Number,The method contains a magic number: 2f,58
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,getDrawableRotationAngle,Magic Number,The method contains a magic number: 90f,122
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,getDrawableRotationAngle,Magic Number,The method contains a magic number: 180f,122
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,getDrawableRotationAngle,Magic Number,The method contains a magic number: 270f,122
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,FlipLoadingLayout,getDrawableRotationAngle,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@24f00344,122
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,IndicatorLayout,IndicatorLayout,Long Identifier,The length of the field DEFAULT_ROTATION_ANIMATION_DURATION is 35.,46
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,IndicatorLayout,IndicatorLayout,Magic Number,The method contains a magic number: 180f,46
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,IndicatorLayout,IndicatorLayout,Magic Number,The method contains a magic number: 2f,46
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,IndicatorLayout,IndicatorLayout,Magic Number,The method contains a magic number: 2f,46
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,IndicatorLayout,IndicatorLayout,Magic Number,The method contains a magic number: 180,46
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,IndicatorLayout,IndicatorLayout,Magic Number,The method contains a magic number: 0.5f,46
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,IndicatorLayout,IndicatorLayout,Magic Number,The method contains a magic number: 0.5f,46
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,IndicatorLayout,IndicatorLayout,Magic Number,The method contains a magic number: 180,46
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,IndicatorLayout,IndicatorLayout,Magic Number,The method contains a magic number: 0.5f,46
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,IndicatorLayout,IndicatorLayout,Magic Number,The method contains a magic number: 0.5f,46
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,IndicatorLayout,IndicatorLayout,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@750734b5,46
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,LoadingLayout,LoadingLayout,Abstract Function Call From Constructor,The constructor LoadingLayout calls a virtual method getDefaultDrawableResId.,67
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,LoadingLayout,LoadingLayout,Complex Method,Cyclomatic complexity of the method is 21,67
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,LoadingLayout,LoadingLayout,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@47eb3b3,67
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,LoadingLayout,LoadingLayout,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@3db83ad6,67
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,LoadingLayout,LoadingLayout,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@1976e406,67
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,LoadingLayout,getContentSize,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5598c901,195
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,RotateLoadingLayout,RotateLoadingLayout,Magic Number,The method contains a magic number: 720,41
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,RotateLoadingLayout,RotateLoadingLayout,Magic Number,The method contains a magic number: 0.5f,41
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,RotateLoadingLayout,RotateLoadingLayout,Magic Number,The method contains a magic number: 0.5f,41
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,RotateLoadingLayout,onLoadingDrawableSet,Magic Number,The method contains a magic number: 2f,58
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,RotateLoadingLayout,onLoadingDrawableSet,Magic Number,The method contains a magic number: 2f,58
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,RotateLoadingLayout,onPullImpl,Magic Number,The method contains a magic number: 90f,65
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,RotateLoadingLayout,onPullImpl,Magic Number,The method contains a magic number: 180f,65
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,RotateLoadingLayout,onPullImpl,Magic Number,The method contains a magic number: 360f,65
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,RotateLoadingLayout,onPullImpl,Magic Number,The method contains a magic number: 180f,65
+rilsikane_dlt-nrct,com.handmark.pulltorefresh.library.internal,ViewCompat,postOnAnimation,Magic Number,The method contains a magic number: 16,27
+rilsikane_dlt-nrct,com.roscopeco.ormdroid,Entity,equals,Long Statement,The length of the statement "return other != null && other.getClass().equals(getClass()) && ((Entity)other).getPrimaryKeyValue().equals(getPrimaryKeyValue());" is 129.,631
+rilsikane_dlt-nrct,com.roscopeco.ormdroid,Entity,hashCode,Magic Number,The method contains a magic number: 31,642
+rilsikane_dlt-nrct,com.roscopeco.ormdroid,EntityTypeMapping,decodeValue,Long Statement,The length of the statement "String sql="SELECT * FROM " + map.mTableName + " WHERE "+ map.mPrimaryKeyColumnName+ "="+ c.getInt(columnIndex)+ " LIMIT 1";" is 124.,66
+rilsikane_dlt-nrct,com.roscopeco.ormdroid,ORMDroidApplication,initDatabaseConfig,Long Statement,The length of the statement "ApplicationInfo ai=mContext.getPackageManager().getApplicationInfo(mContext.getPackageName()`PackageManager.GET_META_DATA);" is 123.,103
+rilsikane_dlt-nrct,com.roscopeco.ormdroid,ORMDroidApplication,initDatabaseConfig,Long Statement,The length of the statement "throw new ORMDroidException("ORMDroid database configuration not found; Did you set properties in your app manifest?"`e);" is 121.,103
+rilsikane_dlt-nrct,com.hb.views,PinnedSectionListView,initShadow,Long Statement,The length of the statement "mShadowDrawable=new GradientDrawable(Orientation.TOP_BOTTOM`new int[]{Color.parseColor("#ffa0a0a0")`Color.parseColor("#50a0a0a0")`Color.parseColor("#00a0a0a0")});" is 162.,171
+rilsikane_dlt-nrct,com.hb.views,PinnedSectionListView,initShadow,Magic Number,The method contains a magic number: 8,171
+rilsikane_dlt-nrct,com.hb.views,PinnedSectionListView,ensureShadowForPosition,Long Statement,The length of the statement "int nextSectionPosition=findFirstVisibleSectionPosition(nextPosition`visibleItemCount - (nextPosition - firstVisibleItem));" is 123.,238
+rilsikane_dlt-nrct,com.hb.views,PinnedSectionListView,ensureShadowForPosition,Magic Number,The method contains a magic number: 2,238
+rilsikane_dlt-nrct,com.hb.views,PinnedSectionListView,setAdapter,Long Statement,The length of the statement "if (!(adapter instanceof PinnedSectionListAdapter)) throw new IllegalArgumentException("Does your adapter implement PinnedSectionListAdapter?");" is 144.,347
+rilsikane_dlt-nrct,com.hb.views,PinnedSectionListView,setAdapter,Long Statement,The length of the statement "if (adapter.getViewTypeCount() < 2) throw new IllegalArgumentException("Does your adapter handle at least two types" + " of views in getViewTypeCount() method: items and sections?");" is 182.,347
+rilsikane_dlt-nrct,com.hb.views,PinnedSectionListView,setAdapter,Magic Number,The method contains a magic number: 2,347
+rilsikane_dlt-nrct,com.hb.views,PinnedSectionListView,onLayout,Long Parameter List,The method has 5 parameters. ,370
+rilsikane_dlt-nrct,com.hb.views,PinnedSectionListView,dispatchDraw,Long Statement,The length of the statement "mShadowDrawable.setBounds(mPinnedSection.view.getLeft()`mPinnedSection.view.getBottom()`mPinnedSection.view.getRight()`mPinnedSection.view.getBottom() + mShadowHeight);" is 168.,382
+rilsikane_dlt-nrct,com.hb.views,PinnedSectionListView,dispatchTouchEvent,Complex Conditional,The conditional expression action == MotionEvent.ACTION_DOWN && mTouchTarget == null && mPinnedSection != null && isPinnedViewTouched(mPinnedSection.view`x`y) is complex.,417
+rilsikane_dlt-nrct,com.hb.views,PinnedSectionListView,dispatchTouchEvent,Complex Method,Cyclomatic complexity of the method is 8,417
+rilsikane_dlt-nrct,com.hb.views,PinnedSectionListView,dispatchTouchEvent,Long Statement,The length of the statement "if (action == MotionEvent.ACTION_DOWN && mTouchTarget == null && mPinnedSection != null && isPinnedViewTouched(mPinnedSection.view`x`y)) {" is 138.,417
+rilsikane_dlt-nrct,com.dlt.application.adapter,CommentListAdapter,getView,Long Statement,The length of the statement "LayoutInflater inflater=(LayoutInflater)_activity.getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);" is 124.,46
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getCount,Long Statement,The length of the statement "return flipPageSize != null && flipPageSize.size() > 0 ? (int)((Math.ceil((double)(flipPageSize.size() - 4) / 6)) + 1) : 1;" is 123.,43
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getCount,Magic Number,The method contains a magic number: 4,43
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getCount,Magic Number,The method contains a magic number: 6,43
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Complex Method,Cyclomatic complexity of the method is 9,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Long Statement,The length of the statement "viewPager.setAdapter(new ImagePagerAdapter(appContext.getApplicationContext()`slideList`utils.getScreenWidth()).setInfiniteLoop(true));" is 135.,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 4,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 3000,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 2,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 2,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 490,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 50,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 100,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 6,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 6,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 4,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 6,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 4,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 30,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,FlipViewAdapter,getView,Magic Number,The method contains a magic number: 100,61
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Complex Method,Cyclomatic complexity of the method is 15,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(R.drawable.menu2).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 131.,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(R.drawable.menu3).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 131.,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(R.drawable.menu4).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 131.,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(R.drawable.menu5).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 131.,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(R.drawable.menu6).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 131.,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(R.drawable.menu8).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 131.,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(R.drawable.menu9).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 131.,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(R.drawable.menu11).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 132.,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(R.drawable.menu12).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 132.,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(R.drawable.menu13).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 132.,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(menu.imgpath).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 127.,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(R.drawable.menukms).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 133.,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(R.drawable.promenu).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 133.,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewImageAdapter,getView,Magic Number,The method contains a magic number: 18,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewProfessorAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(pro.getProfessorImage()).placeholder(R.drawable.loading).error(R.drawable.loading).into(viewHolder.showCase);" is 138.,50
+rilsikane_dlt-nrct,com.dlt.application.adapter,GridViewProfessorAdapter,getView,Magic Number,The method contains a magic number: 2,50
+rilsikane_dlt-nrct,com.dlt.application.adapter,ImagePagerAdapter,getView,Long Statement,The length of the statement "Picasso.with(context).load(imageIdList.get(getPosition(position)).getImg_url()).placeholder(R.drawable.loading).error(R.drawable.loading).into(holder.imageView);" is 161.,33
+rilsikane_dlt-nrct,com.dlt.application.adapter,InformationDetailListAdapter,getView,Long Statement,The length of the statement "LayoutInflater inflater=(LayoutInflater)_activity.getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);" is 124.,58
+rilsikane_dlt-nrct,com.dlt.application.adapter,InformationDetailListAdapter,getView,Long Statement,The length of the statement "Picasso.with(_activity).load(temp.getImgUrl() == "" ? "http://www.google.co.th" : temp.getImgUrl()).transform(new RoundedTransformation(50`4)).placeholder(R.drawable.rounded_corners).error(R.drawable.rounded_corners).into(viewHolder.tumbnail);" is 243.,58
+rilsikane_dlt-nrct,com.dlt.application.adapter,InformationDetailListAdapter,getView,Magic Number,The method contains a magic number: 50,58
+rilsikane_dlt-nrct,com.dlt.application.adapter,InformationDetailListAdapter,getView,Magic Number,The method contains a magic number: 4,58
+rilsikane_dlt-nrct,com.dlt.application.adapter,KmsMenuListAdapter,getView,Long Statement,The length of the statement "LayoutInflater inflater=(LayoutInflater)_activity.getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);" is 124.,50
+rilsikane_dlt-nrct,com.dlt.application.adapter,ProfKatooListAdapter,ProfKatooListAdapter,Long Parameter List,The method has 5 parameters. ,29
+rilsikane_dlt-nrct,com.dlt.application.adapter,ProfKatooListAdapter,getView,Long Statement,The length of the statement "LayoutInflater inflater=(LayoutInflater)_activity.getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);" is 124.,56
+rilsikane_dlt-nrct,com.dlt.application.adapter,ReferenceListAdapter,getView,Long Statement,The length of the statement "LayoutInflater inflater=(LayoutInflater)_activity.getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);" is 124.,58
+rilsikane_dlt-nrct,com.dlt.application.adapter,RightMenuListAdapter,getView,Complex Method,Cyclomatic complexity of the method is 9,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,RightMenuListAdapter,getView,Magic Number,The method contains a magic number: 2,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,RightMenuListAdapter,getView,Magic Number,The method contains a magic number: 3,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,RightMenuListAdapter,getView,Magic Number,The method contains a magic number: 4,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,RightMenuListAdapter,getView,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5898fbe7,59
+rilsikane_dlt-nrct,com.dlt.application.adapter,RightMenuListAdapter,onClick,Magic Number,The method contains a magic number: 2,84
+rilsikane_dlt-nrct,com.dlt.application.adapter,RightMenuListAdapter,onClick,Magic Number,The method contains a magic number: 3,84
+rilsikane_dlt-nrct,com.dlt.application.adapter,RightMenuListAdapter,onClick,Magic Number,The method contains a magic number: 4,84
+rilsikane_dlt-nrct,com.dlt.application.adapter,RightMenuListAdapter,onClick,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5898fbe7,84
+rilsikane_dlt-nrct,com.dlt.application.adapter,SearchListAdapter,getView,Long Statement,The length of the statement "LayoutInflater inflater=(LayoutInflater)_activity.getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);" is 124.,52
+rilsikane_dlt-nrct,com.dlt.application.adapter,TaxonomyListAdapter,getView,Long Statement,The length of the statement "LayoutInflater inflater=(LayoutInflater)_activity.getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);" is 124.,53
+rilsikane_dlt-nrct,com.dlt.application.adapter,TaxonomyListAdapter,getView,Long Statement,The length of the statement "LinearLayout.LayoutParams layout_description=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FILL_PARENT`_eachListSize);" is 128.,53
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getMenus,Complex Method,Cyclomatic complexity of the method is 12,70
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getMenus,Magic Number,The method contains a magic number: 2,70
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getMenuById,Complex Method,Cyclomatic complexity of the method is 9,160
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getMenuById,Magic Number,The method contains a magic number: 2,160
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getRefreshMenus,Magic Number,The method contains a magic number: 2,224
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getBlog,Magic Number,The method contains a magic number: 2,276
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getBlog,Magic Number,The method contains a magic number: 1000,276
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getCalendar,Complex Method,Cyclomatic complexity of the method is 9,325
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getCalendar,Long Statement,The length of the statement "blogDto.setEventStart(DateUtil.convertStringToDateByFormat(blogJson.getString("event_start")`DateUtil.DEFAULT_DATE_PATTERN));" is 125.,325
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getCalendar,Long Statement,The length of the statement "blogDto.setEventEnd(DateUtil.convertStringToDateByFormat(blogJson.getString("event_end")`DateUtil.DEFAULT_DATE_PATTERN));" is 121.,325
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getCalendar,Magic Number,The method contains a magic number: 2,325
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getCalendar,Magic Number,The method contains a magic number: 1000,325
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getBlogById,Complex Method,Cyclomatic complexity of the method is 8,381
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getBlogById,Magic Number,The method contains a magic number: 2,381
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getBlogById,Magic Number,The method contains a magic number: 1000,381
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,writeBlog,Magic Number,The method contains a magic number: 2,432
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,registerProfile,Long Parameter List,The method has 6 parameters. ,473
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,registerProfile,Magic Number,The method contains a magic number: 2,473
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getComments,Magic Number,The method contains a magic number: 2,531
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getComments,Magic Number,The method contains a magic number: 1000,531
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getFiles,Magic Number,The method contains a magic number: 2,567
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getFiles,Magic Number,The method contains a magic number: 1000,567
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getFilesForBlog,Magic Number,The method contains a magic number: 2,606
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getFilesForBlog,Magic Number,The method contains a magic number: 1000,606
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getMyFiles,Magic Number,The method contains a magic number: 2,646
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getMyFiles,Magic Number,The method contains a magic number: 1000,646
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getGalleryForBlog,Magic Number,The method contains a magic number: 2,688
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,writeComment,Magic Number,The method contains a magic number: 2,716
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,editComment,Magic Number,The method contains a magic number: 2,736
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,delComment,Magic Number,The method contains a magic number: 2,756
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getAuthorize,Magic Number,The method contains a magic number: 2,775
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getUpdateProfile,Complex Method,Cyclomatic complexity of the method is 8,796
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getUpdateProfile,Magic Number,The method contains a magic number: 2,796
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getProfile,Magic Number,The method contains a magic number: 2,857
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getProfile,Magic Number,The method contains a magic number: 1000,857
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getProfile,Magic Number,The method contains a magic number: 1000,857
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getSlides,Magic Number,The method contains a magic number: 2,889
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getJsonObjfromURLDoPost,Magic Number,The method contains a magic number: 8,923
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getJsonfromURLDoPostForAttachBlog,Magic Number,The method contains a magic number: 8,963
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getJsonfromURLDoPostForAttach,Magic Number,The method contains a magic number: 8,1008
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getJsonfromURLDoPost,Magic Number,The method contains a magic number: 8,1054
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getJsonArrayFromUrlDoGet,Magic Number,The method contains a magic number: 8,1100
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getJsonArrayFromUrlDoPost,Magic Number,The method contains a magic number: 8,1143
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getDiffDay,Magic Number,The method contains a magic number: 24,1211
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getDiffDay,Magic Number,The method contains a magic number: 60,1211
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getDiffDay,Magic Number,The method contains a magic number: 60,1211
+rilsikane_dlt-nrct,com.dlt.application.json,JSONParserForGetList,getDiffDay,Magic Number,The method contains a magic number: 1000,1211
+rilsikane_dlt-nrct,com.dlt.application.main,AndroidGalleryMainActivity,onCreate,Magic Number,The method contains a magic number: 3,23
+rilsikane_dlt-nrct,com.dlt.application.main,CalendarMainActivity,onCreate,Magic Number,The method contains a magic number: 543,50
+rilsikane_dlt-nrct,com.dlt.application.main,CalendarMainActivity,back,Long Statement,The length of the statement "anim.getClass().getMethod(this.getIntent().getExtras().getString("backAnimation") + "Animation"`Activity.class).invoke(anim`this);" is 130.,184
+rilsikane_dlt-nrct,com.dlt.application.main,ComentMainActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 9,51
+rilsikane_dlt-nrct,com.dlt.application.main,ComentMainActivity,onCreate,Long Method,The method has 129 lines of code.,51
+rilsikane_dlt-nrct,com.dlt.application.main,ComentMainActivity,onCreate,Long Statement,The length of the statement "String label=DateUtils.formatDateTime(getApplicationContext()`System.currentTimeMillis()`DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_SHOW_DATE | DateUtils.FORMAT_ABBREV_ALL);" is 176.,51
+rilsikane_dlt-nrct,com.dlt.application.main,ComentMainActivity,onCreate,Long Statement,The length of the statement "ActionItem addItem=new ActionItem(ID_EDIT`getResources().getString(R.string.edit_text)`getResources().getDrawable(R.drawable.edit26));" is 134.,51
+rilsikane_dlt-nrct,com.dlt.application.main,ComentMainActivity,onCreate,Long Statement,The length of the statement "ActionItem acceptItem=new ActionItem(ID_DELETE`getResources().getString(R.string.delete_text)`getResources().getDrawable(R.drawable.delete23));" is 143.,51
+rilsikane_dlt-nrct,com.dlt.application.main,ComentMainActivity,onCreate,Long Statement,The length of the statement "builder.setMessage(getResources().getString(R.string.confirm_del)).setCancelable(false).setPositiveButton(getResources().getString(R.string.no)`new DialogInterface.OnClickListener(){" is 182.,51
+rilsikane_dlt-nrct,com.dlt.application.main,ComentMainActivity,onCreate,Magic Number,The method contains a magic number: 9,51
+rilsikane_dlt-nrct,com.dlt.application.main,ComentMainActivity,onRefresh,Long Statement,The length of the statement "String label=DateUtils.formatDateTime(getApplicationContext()`System.currentTimeMillis()`DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_SHOW_DATE | DateUtils.FORMAT_ABBREV_ALL);" is 176.,68
+rilsikane_dlt-nrct,com.dlt.application.main,ComentMainActivity,onItemClick,Long Statement,The length of the statement "builder.setMessage(getResources().getString(R.string.confirm_del)).setCancelable(false).setPositiveButton(getResources().getString(R.string.no)`new DialogInterface.OnClickListener(){" is 182.,88
+rilsikane_dlt-nrct,com.dlt.application.main,ContactUsActivity,setupWebView,Magic Number,The method contains a magic number: 100,139
+rilsikane_dlt-nrct,com.dlt.application.main,ContentMainActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 10,68
+rilsikane_dlt-nrct,com.dlt.application.main,ContentMainActivity,onCreate,Long Method,The method has 138 lines of code.,68
+rilsikane_dlt-nrct,com.dlt.application.main,ContentMainActivity,onCreate,Magic Number,The method contains a magic number: 9,68
+rilsikane_dlt-nrct,com.dlt.application.main,ContentMainActivity,onCreate,Magic Number,The method contains a magic number: 35,68
+rilsikane_dlt-nrct,com.dlt.application.main,ContentMainActivity,onCreate,Magic Number,The method contains a magic number: 35,68
+rilsikane_dlt-nrct,com.dlt.application.main,ContentMainActivity,postStatusMessage,Long Statement,The length of the statement "WebDialog feedDialog=(new WebDialog.FeedDialogBuilder(ContentMainActivity.this`Session.getActiveSession()`postParams)).setOnCompleteListener(new OnCompleteListener(){" is 166.,303
+rilsikane_dlt-nrct,com.dlt.application.main,ContentMainActivity,postStatusMessage,Magic Number,The method contains a magic number: 100,303
+rilsikane_dlt-nrct,com.dlt.application.main,InformDetailActivity,onCreate,Long Statement,The length of the statement "String label=DateUtils.formatDateTime(getApplicationContext()`System.currentTimeMillis()`DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_SHOW_DATE | DateUtils.FORMAT_ABBREV_ALL);" is 176.,44
+rilsikane_dlt-nrct,com.dlt.application.main,InformDetailActivity,onRefresh,Long Statement,The length of the statement "String label=DateUtils.formatDateTime(getApplicationContext()`System.currentTimeMillis()`DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_SHOW_DATE | DateUtils.FORMAT_ABBREV_ALL);" is 176.,57
+rilsikane_dlt-nrct,com.dlt.application.main,InformDetailActivity,back,Long Statement,The length of the statement "anim.getClass().getMethod(this.getIntent().getExtras().getString("backAnimation") + "Animation"`Activity.class).invoke(anim`this);" is 130.,136
+rilsikane_dlt-nrct,com.dlt.application.main,KatooContentActivity,onCreate,Magic Number,The method contains a magic number: 9,51
+rilsikane_dlt-nrct,com.dlt.application.main,KatooContentActivity,postStatusMessage,Long Statement,The length of the statement "WebDialog feedDialog=(new WebDialog.FeedDialogBuilder(KatooContentActivity.this`Session.getActiveSession()`postParams)).setOnCompleteListener(new OnCompleteListener(){" is 167.,104
+rilsikane_dlt-nrct,com.dlt.application.main,KatooContentActivity,postStatusMessage,Magic Number,The method contains a magic number: 100,104
+rilsikane_dlt-nrct,com.dlt.application.main,LoginPageActivity,onCreate,Magic Number,The method contains a magic number: 9,69
+rilsikane_dlt-nrct,com.dlt.application.main,MamberPageActivity,onCreate,Long Statement,The length of the statement "CommonDto dto=JSONParserForGetList.getInstance().getUpdateProfile(password.getText().toString()`confirm.getText().toString()`firstname.getText().toString()`lastName.getText().toString());" is 187.,42
+rilsikane_dlt-nrct,com.dlt.application.main,MamberPageActivity,onCreate,Magic Number,The method contains a magic number: 9,42
+rilsikane_dlt-nrct,com.dlt.application.main,MamberPageActivity,onClick,Long Statement,The length of the statement "CommonDto dto=JSONParserForGetList.getInstance().getUpdateProfile(password.getText().toString()`confirm.getText().toString()`firstname.getText().toString()`lastName.getText().toString());" is 187.,73
+rilsikane_dlt-nrct,com.dlt.application.main,MyWebView,onActivityCreated,Long Statement,The length of the statement "String loadWebWithCss="<html><style type='text/css'>img { max-width:300px; max-height:300px; height: auto; } table{max-width:300px;} iframe {max-width:305px; height: auto; }</style><body>" + url + "</body></html>";" is 214.,17
+rilsikane_dlt-nrct,com.dlt.application.main,NrctMainActivity,onBackPressed,Magic Number,The method contains a magic number: 2000,195
+rilsikane_dlt-nrct,com.dlt.application.main,ProfessorContentActivity,onCreate,Long Statement,The length of the statement "String label=DateUtils.formatDateTime(getApplicationContext()`System.currentTimeMillis()`DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_SHOW_DATE | DateUtils.FORMAT_ABBREV_ALL);" is 176.,36
+rilsikane_dlt-nrct,com.dlt.application.main,ProfessorContentActivity,onRefresh,Long Statement,The length of the statement "String label=DateUtils.formatDateTime(getApplicationContext()`System.currentTimeMillis()`DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_SHOW_DATE | DateUtils.FORMAT_ABBREV_ALL);" is 176.,52
+rilsikane_dlt-nrct,com.dlt.application.main,ProfessorMainActivity,InitilizeGridLayout,Long Statement,The length of the statement "columnWidth=(int)((utils.getScreenWidth() - ((AppConstant2.NUM_OF_COLUMNS + 1) * padding)) / AppConstant2.NUM_OF_COLUMNS);" is 122.,183
+rilsikane_dlt-nrct,com.dlt.application.main,ProfPostPageActivity,onCreate,Long Statement,The length of the statement "CommonDto common=JSONParserForGetList.getInstance().writeBlog(menu_id`title.getText().toString()`content.getText().toString());" is 127.,26
+rilsikane_dlt-nrct,com.dlt.application.main,ProfPostPageActivity,onCreate,Magic Number,The method contains a magic number: 9,26
+rilsikane_dlt-nrct,com.dlt.application.main,ProfPostPageActivity,onClick,Long Statement,The length of the statement "CommonDto common=JSONParserForGetList.getInstance().writeBlog(menu_id`title.getText().toString()`content.getText().toString());" is 127.,53
+rilsikane_dlt-nrct,com.dlt.application.main,ReferenceDetailMainActivity,onCreate,Long Statement,The length of the statement "@SuppressWarnings("deprecation") public void onReceivedError( WebView view` int errorCode` String description` String failingUrl){" is 130.,24
+rilsikane_dlt-nrct,com.dlt.application.main,RegistrationPageActivity,onCreate,Long Statement,The length of the statement "CommonDto common=JSONParserForGetList.getInstance().registerProfile(username.getText().toString()`email.getText().toString()`password.getText().toString()`repassword.getText().toString()`firstname.getText().toString()`lastname.getText().toString());" is 249.,25
+rilsikane_dlt-nrct,com.dlt.application.main,RegistrationPageActivity,onClick,Long Statement,The length of the statement "CommonDto common=JSONParserForGetList.getInstance().registerProfile(username.getText().toString()`email.getText().toString()`password.getText().toString()`repassword.getText().toString()`firstname.getText().toString()`lastname.getText().toString());" is 249.,43
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 60,31
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 100,31
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 40,31
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 100,31
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 30,31
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 40,31
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 100,31
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 100,31
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 30,31
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 40,31
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 100,31
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 100,31
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 60,31
+rilsikane_dlt-nrct,com.dlt.application.main,RightMenuActivity,onCreate,Magic Number,The method contains a magic number: 100,31
+rilsikane_dlt-nrct,com.dlt.application.main,SearchPageActivity,onCreate,Long Statement,The length of the statement "String label=DateUtils.formatDateTime(getApplicationContext()`System.currentTimeMillis()`DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_SHOW_DATE | DateUtils.FORMAT_ABBREV_ALL);" is 176.,49
+rilsikane_dlt-nrct,com.dlt.application.main,SearchPageActivity,onRefresh,Long Statement,The length of the statement "String label=DateUtils.formatDateTime(getApplicationContext()`System.currentTimeMillis()`DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_SHOW_DATE | DateUtils.FORMAT_ABBREV_ALL);" is 176.,59
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 60,34
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 100,34
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 40,34
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 100,34
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 30,34
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 40,34
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 100,34
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 100,34
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 30,34
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 40,34
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 100,34
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 100,34
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 60,34
+rilsikane_dlt-nrct,com.dlt.application.main,TaxonomyActivity,onCreate,Magic Number,The method contains a magic number: 100,34
+rilsikane_dlt-nrct,com.dlt.application.main,Utils,getFilePaths,Long Statement,The length of the statement "filePaths.add("http://media.digitalcameraworld.com/files/2013/01/Photo_ideas_photography_tips_DCM134.tenthings.mikko_lagerstedt_otherside.jpg");" is 144.,22
+rilsikane_dlt-nrct,com.dlt.application.main,Utils,getFilePaths,Magic Number,The method contains a magic number: 5,22
+rilsikane_dlt-nrct,com.dlt.application.model,Menu,Menu,Long Parameter List,The method has 8 parameters. ,25
+rilsikane_dlt-nrct,com.dlt.application.model,User,User,Long Parameter List,The method has 5 parameters. ,26
+rilsikane_dlt-nrct,com.dlt.application.utils,DateUtil,toStringThaiDateFullFormat,Magic Number,The method contains a magic number: 543,109
+rilsikane_dlt-nrct,com.dlt.application.utils,DateUtil,diffSecCalculate,Magic Number,The method contains a magic number: 1000,233
+rilsikane_dlt-nrct,com.dlt.application.utils,DateUtil,diffMonthCalculate,Magic Number,The method contains a magic number: 30,273
+rilsikane_dlt-nrct,com.dlt.application.utils,DateUtil,diffMonthCalculateIgnoreTime,Magic Number,The method contains a magic number: 30,283
+rilsikane_dlt-nrct,com.dlt.application.utils,DateUtil,diffYearCalculate,Magic Number,The method contains a magic number: 365,302
+rilsikane_dlt-nrct,com.dlt.application.utils,DateUtil,diffYearCalculateIgnoreTime,Magic Number,The method contains a magic number: 365,312
+rilsikane_dlt-nrct,com.dlt.application.utils,RoundedTransformation,transform,Long Statement,The length of the statement "canvas.drawRoundRect(new RectF(margin`margin`source.getWidth() - margin`source.getHeight() - margin)`radius`radius`paint);" is 122.,23
+rilsikane_dlt-nrct,com.jakewharton.salvage,ProgressHUD,show,Long Parameter List,The method has 5 parameters. ,39
+rilsikane_dlt-nrct,com.jakewharton.salvage,ProgressHUD,show,Magic Number,The method contains a magic number: 0.2f,39
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,QuickAction,Magic Number,The method contains a magic number: 1.55f,58
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,QuickAction,Magic Number,The method contains a magic number: 1.1f,58
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,QuickAction,Magic Number,The method contains a magic number: 1.2f,58
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,getInterpolation,Magic Number,The method contains a magic number: 1.55f,71
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,getInterpolation,Magic Number,The method contains a magic number: 1.1f,71
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,getInterpolation,Magic Number,The method contains a magic number: 1.2f,71
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,show,Magic Number,The method contains a magic number: 2,201
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,show,Magic Number,The method contains a magic number: 2,201
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,setAnimationStyle,Magic Number,The method contains a magic number: 2,245
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,setAnimationStyle,Magic Number,The method contains a magic number: 4,245
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,setAnimationStyle,Magic Number,The method contains a magic number: 4,245
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,setAnimationStyle,Magic Number,The method contains a magic number: 3,245
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,setAnimationStyle,Magic Number,The method contains a magic number: 4,245
+rilsikane_dlt-nrct,com.jakewharton.salvage,QuickAction,showArrow,Magic Number,The method contains a magic number: 2,281

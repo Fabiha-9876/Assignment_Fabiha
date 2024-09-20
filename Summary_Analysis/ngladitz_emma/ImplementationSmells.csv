@@ -1,0 +1,591 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+ngladitz_emma,com.vladium.emma.ant,GenericCfg,getFileSettings,Long Statement,The length of the statement "throw (BuildException)SuppressableTask.newBuildException(m_task.getTaskName() + ": property file [" + m_settingsFile.getAbsolutePath()+ "] could not be read"`ioe`m_task.getLocation()).fillInStackTrace();" is 203.,71
+ngladitz_emma,com.vladium.emma.ant,GenericCfg,getGenericSettings,Long Statement,The length of the statement "throw (BuildException)SuppressableTask.newBuildException(m_task.getTaskName() + ": conflicting settings for property [" + name+ "]: ["+ value+ "]"`m_task.getLocation()).fillInStackTrace();" is 188.,94
+ngladitz_emma,com.vladium.emma.ant,SuppressableTask,newBuildException,Long Statement,The length of the statement "final String prefixedMsg=((msg == null) || (msg.length() == 0)) ? msg : IAppConstants.APP_THROWABLE_BUILD_ID + " " + msg;" is 121.,80
+ngladitz_emma,com.vladium.emma.ant,SuppressableTask,newBuildException,Long Statement,The length of the statement "final String prefixedMsg=((msg == null) || (msg.length() == 0)) ? msg : IAppConstants.APP_THROWABLE_BUILD_ID + " " + msg;" is 121.,89
+ngladitz_emma,com.vladium.emma.ant,VerbosityCfg,getSettings,Long Statement,The length of the statement "if ((m_verbosity != null) && (m_verbosity.trim().length() > 0)) settings.setProperty(AppLoggers.PROPERTY_VERBOSITY_LEVEL`m_verbosity.trim());" is 141.,69
+ngladitz_emma,com.vladium.emma.ant,VerbosityCfg,getSettings,Long Statement,The length of the statement "if ((m_verbosityFilter != null) && (m_verbosityFilter.trim().length() > 0)) settings.setProperty(AppLoggers.PROPERTY_VERBOSITY_FILTER`m_verbosityFilter.trim());" is 160.,69
+ngladitz_emma,com.vladium.emma,ANTMain,main,Long Statement,The length of the statement "System.out.println("this jar contains ANT task definitions for " + IAppConstants.APP_NAME + " and is not meant to be executable");" is 130.,23
+ngladitz_emma,com.vladium.emma,emmajavaTask,execute,Complex Method,Cyclomatic complexity of the method is 24,54
+ngladitz_emma,com.vladium.emma,emmajavaTask,execute,Long Statement,The length of the statement "if (getClasspath() == null) throw (BuildException)SuppressableTask.newBuildException(getTaskName() + ": this task requires 'classpath' attribute to be set"`location).fillInStackTrace();" is 185.,54
+ngladitz_emma,com.vladium.emma,emmajavaTask,execute,Long Statement,The length of the statement "if (m_forkUserOverride && !m_fork) log(getTaskName() + ": 'fork=\"false\"' attribute setting ignored (this task always forks)"`Project.MSG_WARN);" is 145.,54
+ngladitz_emma,com.vladium.emma,emmajavaTask,execute,Long Statement,The length of the statement "if (m_outFile != null) log(getTaskName() + ": output file attribute ignored ('fullmetadata=\"true\"' not specified)"`Project.MSG_WARN);" is 135.,54
+ngladitz_emma,com.vladium.emma,emmajavaTask,execute,Long Statement,The length of the statement "if (m_outFileMerge != null) log(getTaskName() + ": merge attribute setting ignored ('fullmetadata=\"true\"' not specified)"`Project.MSG_WARN);" is 142.,54
+ngladitz_emma,com.vladium.emma,emmajavaTask,execute,Long Statement,The length of the statement "final IProperties settings=IProperties.Factory.combine(reportSettings`IProperties.Factory.combine(verbositySettings`IProperties.Factory.combine(genericSettings`fileSettings)));" is 176.,54
+ngladitz_emma,com.vladium.emma,emmajavaTask,execute,Long Statement,The length of the statement "else throw (BuildException)SuppressableTask.newBuildException(getTaskName() + "either 'jar' or 'classname' attribute must be set"`location).fillInStackTrace();" is 159.,54
+ngladitz_emma,com.vladium.emma,emmajavaTask,execute,Long Statement,The length of the statement "else throw (BuildException)SuppressableTask.newBuildException(getTaskName() + "either 'jar' or 'classname' attribute must be set"`location).fillInStackTrace();" is 159.,54
+ngladitz_emma,com.vladium.emma,emmajavaTask,setClassname,Long Statement,The length of the statement "if (getJar() != null) throw (BuildException)SuppressableTask.newBuildException(getTaskName() + "'jar' and 'classname' attributes cannot be set at the same time"`location).fillInStackTrace();" is 190.,244
+ngladitz_emma,com.vladium.emma,emmajavaTask,setJar,Long Statement,The length of the statement "if (getClassname() != null) throw (BuildException)SuppressableTask.newBuildException(getTaskName() + "'jar' and 'classname' attributes cannot be set at the same time"`location).fillInStackTrace();" is 196.,253
+ngladitz_emma,com.vladium.emma,emmajavaTask,setArgs,Long Statement,The length of the statement "throw (BuildException)SuppressableTask.newBuildException(getTaskName() + ": disallows using <java>'s deprecated 'args' attribute"`location).fillInStackTrace();" is 159.,284
+ngladitz_emma,com.vladium.emma,emmajavaTask,setSessiondatafile,Long Statement,The length of the statement "if (m_outFile != null) throw (BuildException)SuppressableTask.newBuildException(getTaskName() + ": session data file attribute already set"`location).fillInStackTrace();" is 169.,390
+ngladitz_emma,com.vladium.emma,emmajavaTask,setOutfile,Long Statement,The length of the statement "if (m_outFile != null) throw (BuildException)SuppressableTask.newBuildException(getTaskName() + ": session data file attribute already set"`location).fillInStackTrace();" is 169.,399
+ngladitz_emma,com.vladium.emma,Command,initialize,Empty catch clause,The method has an empty catch block.,72
+ngladitz_emma,com.vladium.emma,Command,getToolName,Magic Number,The method contains a magic number: 7,80
+ngladitz_emma,com.vladium.emma,Command,processOpt,Complex Method,Cyclomatic complexity of the method is 9,94
+ngladitz_emma,com.vladium.emma,Command,processOpt,Long Statement,The length of the statement "setPropertyOverride(AppLoggers.PROPERTY_VERBOSITY_FILTER`Strings.toListForm(Strings.merge(opt.getValues()`COMMA_DELIMITERS`true)`'`'));" is 135.,94
+ngladitz_emma,com.vladium.emma,Command,exit,Complex Method,Cyclomatic complexity of the method is 9,208
+ngladitz_emma,com.vladium.emma,Command,exit,Long Statement,The length of the statement "else if (t != null) throw msg != null ? new EMMARuntimeException(msg`t) : new EMMARuntimeException("unexpected failure: "`t);" is 125.,208
+ngladitz_emma,com.vladium.emma,EMMAProperties,getAppProperties,Long Statement,The length of the statement "properties=IProperties.Factory.combine(userOverrides`IProperties.Factory.combine(system`IProperties.Factory.combine(systemFile`IProperties.Factory.combine(appDefaults`systemRedirects))));" is 187.,125
+ngladitz_emma,com.vladium.emma,runCommand,run,Complex Method,Cyclomatic complexity of the method is 28,33
+ngladitz_emma,com.vladium.emma,runCommand,run,Long Method,The method has 151 lines of code.,33
+ngladitz_emma,com.vladium.emma,runCommand,run,Long Statement,The length of the statement "usageexit(parser`IOptsParser.SHORT_USAGE`"could not infer coverage classpath from 'java.class.path'; use an explicit -cp option");" is 130.,33
+ngladitz_emma,com.vladium.emma,runCommand,openJarFile,Empty catch clause,The method has an empty catch block.,294
+ngladitz_emma,com.vladium.emma.data,mergeTask,execute,Long Statement,The length of the statement "if ((files == null) || (files.length == 0)) throw (BuildException)newBuildException(getTaskName() + ": no valid input data files have been specified"`location).fillInStackTrace();" is 179.,33
+ngladitz_emma,com.vladium.emma.data,mergeTask,setMergefile,Long Statement,The length of the statement "if (m_outFile != null) throw (BuildException)newBuildException(getTaskName() + ": merge data file attribute already set"`location).fillInStackTrace();" is 150.,55
+ngladitz_emma,com.vladium.emma.data,mergeTask,setOutfile,Long Statement,The length of the statement "if (m_outFile != null) throw (BuildException)newBuildException(getTaskName() + ": merge data file attribute already set"`location).fillInStackTrace();" is 150.,64
+ngladitz_emma,com.vladium.emma.data,mergeTask,setTofile,Long Statement,The length of the statement "if (m_outFile != null) throw (BuildException)newBuildException(getTaskName() + ": merge data file attribute already set"`location).fillInStackTrace();" is 150.,73
+ngladitz_emma,com.vladium.emma.data,mergeTask,setFile,Long Statement,The length of the statement "if (m_outFile != null) throw (BuildException)newBuildException(getTaskName() + ": merge data file attribute already set"`location).fillInStackTrace();" is 150.,82
+ngladitz_emma,com.vladium.emma.data,ClassDescriptor,ClassDescriptor,Complex Method,Cyclomatic complexity of the method is 8,29
+ngladitz_emma,com.vladium.emma.data,ClassDescriptor,ClassDescriptor,Long Parameter List,The method has 5 parameters. ,29
+ngladitz_emma,com.vladium.emma.data,ClassDescriptor,hashCode,Magic Number,The method contains a magic number: 16661,86
+ngladitz_emma,com.vladium.emma.data,ClassDescriptor,toString,Long Statement,The length of the statement "StringBuffer s=new StringBuffer(indent + "class [" + (m_packageVMName.length() > 0 ? m_packageVMName + "/" : "")+ m_name+ "] descriptor:");" is 139.,150
+ngladitz_emma,com.vladium.emma.data,CoverageData,merge,Complex Conditional,The conditional expression (rhs == null) || rhs.isEmpty() || (rhs == this) is complex.,154
+ngladitz_emma,com.vladium.emma.data,CoverageOptionsFactory,create,Long Statement,The length of the statement "final boolean excludeSyntheticMethods=Property.toBoolean(properties.getProperty(InstrProcessor.PROPERTY_EXCLUDE_SYNTHETIC_METHODS`InstrProcessor.DEFAULT_EXCLUDE_SYNTHETIC_METHODS));" is 181.,26
+ngladitz_emma,com.vladium.emma.data,CoverageOptionsFactory,create,Long Statement,The length of the statement "final boolean excludeBridgeMethods=Property.toBoolean(properties.getProperty(InstrProcessor.PROPERTY_EXCLUDE_BRIDGE_METHODS`InstrProcessor.DEFAULT_EXCLUDE_BRIDGE_METHODS));" is 172.,26
+ngladitz_emma,com.vladium.emma.data,CoverageOptionsFactory,create,Long Statement,The length of the statement "final boolean doSUIDCompensaton=Property.toBoolean(properties.getProperty(InstrProcessor.PROPERTY_DO_SUID_COMPENSATION`InstrProcessor.DEFAULT_DO_SUID_COMPENSATION));" is 165.,26
+ngladitz_emma,com.vladium.emma.data,CoverageOptionsFactory,create,Long Statement,The length of the statement "final boolean excludeSyntheticMethods=Property.toBoolean(properties.getProperty(InstrProcessor.PROPERTY_EXCLUDE_SYNTHETIC_METHODS`InstrProcessor.DEFAULT_EXCLUDE_SYNTHETIC_METHODS));" is 181.,43
+ngladitz_emma,com.vladium.emma.data,CoverageOptionsFactory,create,Long Statement,The length of the statement "final boolean excludeBridgeMethods=Property.toBoolean(properties.getProperty(InstrProcessor.PROPERTY_EXCLUDE_BRIDGE_METHODS`InstrProcessor.DEFAULT_EXCLUDE_BRIDGE_METHODS));" is 172.,43
+ngladitz_emma,com.vladium.emma.data,CoverageOptionsFactory,create,Long Statement,The length of the statement "final boolean doSUIDCompensaton=Property.toBoolean(properties.getProperty(InstrProcessor.PROPERTY_DO_SUID_COMPENSATION`InstrProcessor.DEFAULT_DO_SUID_COMPENSATION));" is 165.,43
+ngladitz_emma,com.vladium.emma.data,DataFactory,readMetaData,Empty catch clause,The method has an empty catch block.,116
+ngladitz_emma,com.vladium.emma.data,DataFactory,readMetaData,Magic Number,The method contains a magic number: 32,116
+ngladitz_emma,com.vladium.emma.data,DataFactory,readMetaData,Magic Number,The method contains a magic number: 1024,116
+ngladitz_emma,com.vladium.emma.data,DataFactory,writeMetaData,Empty catch clause,The method has an empty catch block.,140
+ngladitz_emma,com.vladium.emma.data,DataFactory,readCoverageData,Empty catch clause,The method has an empty catch block.,160
+ngladitz_emma,com.vladium.emma.data,DataFactory,readCoverageData,Magic Number,The method contains a magic number: 32,160
+ngladitz_emma,com.vladium.emma.data,DataFactory,readCoverageData,Magic Number,The method contains a magic number: 1024,160
+ngladitz_emma,com.vladium.emma.data,DataFactory,mergeload,Complex Method,Cyclomatic complexity of the method is 18,393
+ngladitz_emma,com.vladium.emma.data,DataFactory,mergeload,Empty catch clause,The method has an empty catch block.,393
+ngladitz_emma,com.vladium.emma.data,DataFactory,mergeload,Long Statement,The length of the statement "throw new IOException("file [" + file.getAbsolutePath() + "] is corrupt or was not created by "+ IAppConstants.APP_NAME);" is 121.,393
+ngladitz_emma,com.vladium.emma.data,DataFactory,mergeload,Magic Number,The method contains a magic number: 2,393
+ngladitz_emma,com.vladium.emma.data,DataFactory,persist,Complex Method,Cyclomatic complexity of the method is 25,502
+ngladitz_emma,com.vladium.emma.data,DataFactory,persist,Empty catch clause,The method has an empty catch block.,502
+ngladitz_emma,com.vladium.emma.data,DataFactory,persist,Empty catch clause,The method has an empty catch block.,502
+ngladitz_emma,com.vladium.emma.data,DataFactory,persist,Long Method,The method has 103 lines of code.,502
+ngladitz_emma,com.vladium.emma.data,DataFactory,persist,Long Statement,The length of the statement "if (magic != MAGIC) throw new IOException("cannot overwrite [" + file.getAbsolutePath() + "]: not created by "+ IAppConstants.APP_NAME);" is 136.,502
+ngladitz_emma,com.vladium.emma.data,DataFactory,persist,Long Statement,The length of the statement "throw new IOException("cannot merge new data into [" + file.getAbsolutePath() + "]: created by another "+ IAppConstants.APP_NAME+ " version ["+ makeAppVersion(major`minor`build)+ "]");" is 184.,502
+ngladitz_emma,com.vladium.emma.data,DataFactory,persist,Long Statement,The length of the statement "throw new IOException("cannot merge new data into [" + file.getAbsolutePath() + "]: created by another "+ IAppConstants.APP_NAME+ " version");" is 142.,502
+ngladitz_emma,com.vladium.emma.data,DataFactory,persist,Long Statement,The length of the statement "if ($assert.ENABLED) $assert.ASSERT(raf.getFilePointer() == FILE_HEADER_LENGTH`"invalid header length: " + raf.getFilePointer());" is 129.,502
+ngladitz_emma,com.vladium.emma.data,DataFactory,persist,Magic Number,The method contains a magic number: 4,502
+ngladitz_emma,com.vladium.emma.data,DataFactory,writeEntry,Long Parameter List,The method has 5 parameters. ,708
+ngladitz_emma,com.vladium.emma.data,DataFactory,writeEntry,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@768dce22,708
+ngladitz_emma,com.vladium.emma.data,DataFactory,readEntry,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@39866843,748
+ngladitz_emma,com.vladium.emma.data,mergeCommand,run,Complex Method,Cyclomatic complexity of the method is 8,34
+ngladitz_emma,com.vladium.emma.data,MergeProcessor,setSessionOutFile,Long Statement,The length of the statement "if (_file.exists() && !_file.isFile()) throw new IllegalArgumentException("not a file: [" + _file.getAbsolutePath() + "]");" is 123.,57
+ngladitz_emma,com.vladium.emma.data,MergeProcessor,_run,Complex Conditional,The conditional expression ((mdata == null) || mdata.isEmpty()) && ((cdata == null) || cdata.isEmpty()) is complex.,94
+ngladitz_emma,com.vladium.emma.data,MergeProcessor,_run,Complex Method,Cyclomatic complexity of the method is 30,94
+ngladitz_emma,com.vladium.emma.data,MergeProcessor,_run,Long Method,The method has 136 lines of code.,94
+ngladitz_emma,com.vladium.emma.data,MergeProcessor,_run,Long Statement,The length of the statement "if (sdataOutFile == null) sdataOutFile=new File(toolProperties.getProperty(EMMAProperties.PROPERTY_SESSION_DATA_OUT_FILE`EMMAProperties.DEFAULT_SESSION_DATA_OUT_FILE));" is 168.,94
+ngladitz_emma,com.vladium.emma.data,MergeProcessor,_run,Long Statement,The length of the statement "throw new EMMARuntimeException("could not rename temporary file [" + tempDataOutFile.getAbsolutePath() + "] to ["+ canonicalDataOutFile+ "]: make sure the original file is not locked and can be deleted");" is 204.,94
+ngladitz_emma,com.vladium.emma.data,MergeProcessor,_run,Long Statement,The length of the statement "throw new EMMARuntimeException(UNEXPECTED_FAILURE`new Object[]{failure.toString()`IAppConstants.APP_BUG_REPORT_LINK}`failure);" is 126.,94
+ngladitz_emma,com.vladium.emma.data,MetaData,add,Complex Method,Cyclomatic complexity of the method is 8,108
+ngladitz_emma,com.vladium.emma.data,MetaData,merge,Complex Conditional,The conditional expression (rhs == null) || rhs.isEmpty() || (rhs == this) is complex.,166
+ngladitz_emma,com.vladium.emma.data,MethodDescriptor,MethodDescriptor,Complex Method,Cyclomatic complexity of the method is 10,34
+ngladitz_emma,com.vladium.emma.data,MethodDescriptor,MethodDescriptor,Long Parameter List,The method has 6 parameters. ,34
+ngladitz_emma,com.vladium.emma.data,MethodDescriptor,getLineMap,Complex Method,Cyclomatic complexity of the method is 9,123
+ngladitz_emma,com.vladium.emma.data,MethodDescriptor,toString,Complex Method,Cyclomatic complexity of the method is 8,192
+ngladitz_emma,com.vladium.emma.instr,FilterCfg,getFilterSpecs,Long Statement,The length of the statement "throw (BuildException)SuppressableTask.newBuildException(m_task.getTaskName() + ": I/O exception while processing input"`ioe`m_task.getLocation()).fillInStackTrace();" is 166.,144
+ngladitz_emma,com.vladium.emma.instr,instrTask,execute,Long Statement,The length of the statement "if (m_instrpath == null) throw (BuildException)newBuildException(getTaskName() + ": instrumentation path must be specified"`location).fillInStackTrace();" is 153.,52
+ngladitz_emma,com.vladium.emma.instr,instrTask,execute,Long Statement,The length of the statement "if ((m_outMode != InstrProcessor.OutMode.OUT_MODE_OVERWRITE) && (m_outDir == null)) throw (BuildException)newBuildException(getTaskName() + ": output directory must be specified for '" + m_outMode+ "' output mode"`location).fillInStackTrace();" is 243.,52
+ngladitz_emma,com.vladium.emma.instr,instrTask,setOutdir,Long Statement,The length of the statement "if (m_outDir != null) throw (BuildException)newBuildException(getTaskName() + ": outdir|destdir attribute already set"`location).fillInStackTrace();" is 148.,108
+ngladitz_emma,com.vladium.emma.instr,instrTask,setDestdir,Long Statement,The length of the statement "if (m_outDir != null) throw (BuildException)newBuildException(getTaskName() + ": outdir|destdir attribute already set"`location).fillInStackTrace();" is 148.,117
+ngladitz_emma,com.vladium.emma.instr,instrTask,setMetadatafile,Long Statement,The length of the statement "if (m_outFile != null) throw (BuildException)newBuildException(getTaskName() + ": metadata file attribute already set"`location).fillInStackTrace();" is 148.,129
+ngladitz_emma,com.vladium.emma.instr,instrTask,setOutfile,Long Statement,The length of the statement "if (m_outFile != null) throw (BuildException)newBuildException(getTaskName() + ": metadata file attribute already set"`location).fillInStackTrace();" is 148.,138
+ngladitz_emma,com.vladium.emma.instr,instrTask,setMode,Long Statement,The length of the statement "if (outMode == null) throw (BuildException)newBuildException(getTaskName() + ": invalid output mode: " + mode.getValue()`location).fillInStackTrace();" is 150.,157
+ngladitz_emma,com.vladium.emma.instr,instrCommand,run,Complex Method,Cyclomatic complexity of the method is 15,37
+ngladitz_emma,com.vladium.emma.instr,InstrProcessor,setMetaOutFile,Long Statement,The length of the statement "if (_file.exists() && !_file.isFile()) throw new IllegalArgumentException("not a file: [" + _file.getAbsolutePath() + "]");" is 123.,82
+ngladitz_emma,com.vladium.emma.instr,InstrProcessor,setInstrOutDir,Long Statement,The length of the statement "if (_outDir.exists() && !_outDir.isDirectory()) throw new IllegalArgumentException("not a directory: [" + _outDir.getAbsolutePath() + "]");" is 139.,110
+ngladitz_emma,com.vladium.emma.instr,InstrProcessor,validateState,Complex Method,Cyclomatic complexity of the method is 11,149
+ngladitz_emma,com.vladium.emma.instr,InstrProcessor,validateState,Long Statement,The length of the statement "if (dir.equals(canonicalInstrPath[ip])) throw new IllegalStateException("output directory [" + canonicalOutDir + "] cannot be one of the instrumentation path directories (or a child thereof)");" is 193.,149
+ngladitz_emma,com.vladium.emma.instr,InstrProcessor,createDir,Long Statement,The length of the statement "if (!dir.mkdirs() && !dir.exists()) throw new EMMARuntimeException(IAppErrorCodes.OUT_MKDIR_FAILURE`new Object[]{dir.getAbsolutePath()});" is 137.,217
+ngladitz_emma,com.vladium.emma.instr,InstrProcessor,createDir,Long Statement,The length of the statement "if (!dir.mkdir() && !dir.exists()) throw new EMMARuntimeException(IAppErrorCodes.OUT_MKDIR_FAILURE`new Object[]{dir.getAbsolutePath()});" is 136.,217
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,handleArchiveStart,Complex Method,Cyclomatic complexity of the method is 9,69
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,handleArchiveStart,Long Statement,The length of the statement "mainAttrs.put(new Attributes.Name("Created-By")`IAppConstants.APP_NAME + " v" + IAppConstants.APP_VERSION_WITH_BUILD_ID_AND_TAG);" is 129.,69
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,handleArchiveStart,Long Statement,The length of the statement "mainAttrs.put(Attributes.Name.SPECIFICATION_TITLE`"instrumented on " + new Date(m_timeStamp) + " ["+ Property.getSystemFingerprint()+ "]");" is 139.,69
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,handleArchiveStart,Long Statement,The length of the statement "if (log.atTRACE2()) log.trace2("handleArchiveStart"`"created temp archive [" + m_tempArchiveFile.getAbsolutePath() + "]");" is 122.,69
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,handleArchiveEntry,Complex Method,Cyclomatic complexity of the method is 22,150
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,handleArchiveEntry,Long Method,The method has 100 lines of code.,150
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,handleArchiveEntry,Long Statement,The length of the statement "if ($assert.ENABLED) $assert.ASSERT(m_instrResult.m_descriptor != null`"no descriptor created for an instrumented class");" is 122.,150
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,handleArchiveEntry,Magic Number,The method contains a magic number: 6,150
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,handleArchiveEnd,Long Statement,The length of the statement "throw new EMMARuntimeException("could not rename temporary file [" + m_tempArchiveFile + "] to ["+ m_origArchiveFile+ "]: make sure the original file is not locked and can be deleted");" is 185.,342
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,handleArchiveEnd,Long Statement,The length of the statement "if (log.atTRACE2()) log.trace2("handleArchiveEnd"`"renamed temp archive [" + m_tempArchiveFile.getAbsolutePath() + "] to ["+ m_origArchiveFile+ "]");" is 149.,342
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,handleFile,Complex Method,Cyclomatic complexity of the method is 16,402
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,handleFile,Long Statement,The length of the statement "if ($assert.ENABLED) $assert.ASSERT(m_instrResult.m_descriptor != null`"no descriptor created for an instrumented class");" is 122.,402
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,handleFile,Magic Number,The method contains a magic number: 6,402
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,reset,Empty catch clause,The method has an empty catch block.,596
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,reset,Long Identifier,The length of the field CLEANUP_TEMP_ARCHIVE_ON_ERRORS is 30.,596
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,_run,Complex Method,Cyclomatic complexity of the method is 16,621
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,_run,Long Method,The method has 104 lines of code.,621
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,_run,Long Statement,The length of the statement "if (mdataOutFile == null) mdataOutFile=new File(toolProperties.getProperty(EMMAProperties.PROPERTY_META_DATA_OUT_FILE`EMMAProperties.DEFAULT_META_DATA_OUT_FILE));" is 162.,621
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,_run,Long Statement,The length of the statement "final String _dataOutMerge=toolProperties.getProperty(EMMAProperties.PROPERTY_META_DATA_OUT_MERGE`EMMAProperties.DEFAULT_META_DATA_OUT_MERGE.toString());" is 153.,621
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,_run,Long Statement,The length of the statement "log.info("metadata " + (mdataOutMerge.booleanValue() ? "merged into" : "written to") + " ["+ mdataOutFile.getAbsolutePath()+ "] {in "+ (end - start)+ " ms}");" is 158.,621
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,_run,Long Statement,The length of the statement "throw new EMMARuntimeException(UNEXPECTED_FAILURE`new Object[]{failure.toString()`IAppConstants.APP_BUG_REPORT_LINK}`failure);" is 126.,621
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,readFile,Empty catch clause,The method has an empty catch block.,953
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,process,Long Parameter List,The method has 5 parameters. ,68
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,process,Long Statement,The length of the statement "out.m_descriptor=new ClassDescriptor(m_classPackageName`m_className`m_classSignature`m_classSrcFileName`m_classMethodDescriptors);" is 130.,68
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Complex Method,Cyclomatic complexity of the method is 23,127
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Method,The method has 122 lines of code.,127
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "if ((field.getAccessFlags() & (IAccessFlags.ACC_STATIC | IAccessFlags.ACC_FINAL)) == (IAccessFlags.ACC_STATIC | IAccessFlags.ACC_FINAL)) {" is 138.,127
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 2,127
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Complex Method,Cyclomatic complexity of the method is 37,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Method,The method has 151 lines of code.,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "m_classMethodDescriptors[m]=new MethodDescriptor(m_methodName`method.getDescriptor(cls)`IMetadataConstants.METHOD_EXCLUDED`m_methodBlockSizes`null`0);" is 150.,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "m_classMethodDescriptors[m]=new MethodDescriptor(m_methodName`method.getDescriptor(cls)`IMetadataConstants.METHOD_ABSTRACT_OR_NATIVE`m_methodBlockSizes`null`0);" is 160.,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "if ($assert.ENABLED) $assert.ASSERT(m_classBlockCounts[m_methodID] > 0`"invalid block count for method " + m_methodID + ": "+ m_classBlockCounts[m_methodID]);" is 158.,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "if ($assert.ENABLED) $assert.ASSERT(m_methodBlockSizes != null && m_methodBlockSizes.length == m_classBlockCounts[m_methodID]`"invalid block sizes map for method " + m_methodID);" is 178.,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "m_classMethodDescriptors[m]=new MethodDescriptor(m_methodName`method.getDescriptor(cls)`status`m_methodBlockSizes`methodBlockMetadata`m_methodFirstLine);" is 153.,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "final CodeAttribute_info code=new CodeAttribute_info(attribute_name_index`0`0`new byte[]{(byte)_return}`AttributeElementFactory.newExceptionHandlerTable(0)`ElementFactory.newAttributeCollection(0));" is 198.,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "if ($assert.ENABLED) $assert.ASSERT(blockCounts != null && blockCounts.length >= instrMethodCount`"invalid block count map");" is 125.,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "final CodeAttribute_info code=new CodeAttribute_info(attribute_name_index`5`0`EMPTY_BYTE_ARRAY`AttributeElementFactory.newExceptionHandlerTable(0)`ElementFactory.newAttributeCollection(0));" is 189.,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "final Method_info preclinit=new Method_info(IAccessFlags.ACC_STATIC | IAccessFlags.ACC_PRIVATE`name_index`descriptor_index`attributes);" is 135.,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "if ($assert.ENABLED) $assert.ASSERT(m_classBlockCounts[m_methodID] > 0`"invalid block count for method " + m_methodID + " ("+ IClassDefConstants.CLINIT_NAME+ "): "+ m_classBlockCounts[m_methodID]);" is 197.,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "if ($assert.ENABLED) $assert.ASSERT(m_methodBlockSizes != null && m_methodBlockSizes.length == m_classBlockCounts[m_methodID]`"invalid block sizes map for method " + m_methodID);" is 178.,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "if ((m_clinitStatus & IMetadataConstants.METHOD_ADDED) == 0) m_classMethodDescriptors[m_methodID]=new MethodDescriptor(IClassDefConstants.CLINIT_NAME`clinit.getDescriptor(cls)`m_clinitStatus`m_methodBlockSizes`methodBlockMetadata`m_methodFirstLine);" is 249.,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 2,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 2,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 4,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 5,356
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Complex Method,Cyclomatic complexity of the method is 78,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Method,The method has 306 lines of code.,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "final int npairs=((0xFF & code[++scan]) << 24) | ((0xFF & code[++scan]) << 16) | ((0xFF & code[++scan]) << 8)| (0xFF & code[++scan]);" is 133.,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "final int low=(code[++scan] << 24) | ((0xFF & code[++scan]) << 16) | ((0xFF & code[++scan]) << 8)| (0xFF & code[++scan]);" is 121.,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "final int high=(code[++scan] << 24) | ((0xFF & code[++scan]) << 16) | ((0xFF & code[++scan]) << 8)| (0xFF & code[++scan]);" is 122.,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "if ($assert.ENABLED) $assert.ASSERT(instructionMap.get(next_branch_location`intHolder)`"no mapping for " + next_branch_location);" is 129.,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "if ($assert.ENABLED) $assert.ASSERT(block.m_length == 0 || block.m_instrCount > 0`"invalid instr count for block " + bl + ": "+ block.m_instrCount);" is 148.,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Long Statement,The length of the statement "if ($assert.ENABLED) $assert.ASSERT(jumpAdjOffsets.length == jumpAdjMap.length`"jumpAdjOffsets and jumpAdjMap length mismatch");" is 128.,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 4,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 3,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 24,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 16,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 24,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 16,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 24,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 16,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 24,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 16,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 4,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 3,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 24,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 16,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 24,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 16,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 24,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 16,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 2,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 24,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 16,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 24,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 16,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 0xFF,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 3,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 2,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 4,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 24,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 16,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 2,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Magic Number,The method contains a magic number: 8,705
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,visit,Complex Method,Cyclomatic complexity of the method is 18,1237
+ngladitz_emma,com.vladium.emma.report,ReportCfg,ReportCfg,Magic Number,The method contains a magic number: 4,218
+ngladitz_emma,com.vladium.emma.report,ReportCfg,ReportCfg,Magic Number,The method contains a magic number: 4,218
+ngladitz_emma,com.vladium.emma.report,ReportCfg,addCfgElement,Long Statement,The length of the statement "setFailure((BuildException)SuppressableTask.newBuildException(m_task.getTaskName() + ": duplicate configuration for report type [" + type+ "]"`m_task.getLocation()).fillInStackTrace());" is 185.,378
+ngladitz_emma,com.vladium.emma.report,reportTask,execute,Long Statement,The length of the statement "if ((reportTypes == null) || (reportTypes.length == 0)) throw (BuildException)newBuildException(getTaskName() + ": no report types specified: provide at least one of <txt>` <html>` <xml> nested elements"`location).fillInStackTrace();" is 233.,42
+ngladitz_emma,com.vladium.emma.report,reportTask,execute,Long Statement,The length of the statement "if ((files == null) || (files.length == 0)) throw (BuildException)newBuildException(getTaskName() + ": no valid input data files have been specified"`location).fillInStackTrace();" is 179.,42
+ngladitz_emma,com.vladium.emma.report,AbstractReportGenerator,initialize,Complex Method,Cyclomatic complexity of the method is 19,55
+ngladitz_emma,com.vladium.emma.report,AbstractReportGenerator,initialize,Magic Number,The method contains a magic number: 2,55
+ngladitz_emma,com.vladium.emma.report,AbstractReportGenerator,initialize,Magic Number,The method contains a magic number: 2,55
+ngladitz_emma,com.vladium.emma.report,ClassItem,getAggregate,Complex Method,Cyclomatic complexity of the method is 15,84
+ngladitz_emma,com.vladium.emma.report,ClassItem,getAggregate,Magic Number,The method contains a magic number: 4,84
+ngladitz_emma,com.vladium.emma.report,ClassItem,getAggregate,Magic Number,The method contains a magic number: 2,84
+ngladitz_emma,com.vladium.emma.report,ClassItem,getAggregate,Magic Number,The method contains a magic number: 3,84
+ngladitz_emma,com.vladium.emma.report,ClassItem,getAggregate,Magic Number,The method contains a magic number: 2,84
+ngladitz_emma,com.vladium.emma.report,ClassItem,getAggregate,Magic Number,The method contains a magic number: 3,84
+ngladitz_emma,com.vladium.emma.report,ClassItem,getAggregate,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@463e8ae2,84
+ngladitz_emma,com.vladium.emma.report,MethodItem,MethodItem,Long Parameter List,The method has 5 parameters. ,26
+ngladitz_emma,com.vladium.emma.report,MethodItem,getAggregate,Complex Method,Cyclomatic complexity of the method is 14,56
+ngladitz_emma,com.vladium.emma.report,reportCommand,run,Complex Method,Cyclomatic complexity of the method is 10,36
+ngladitz_emma,com.vladium.emma.report,ReportDataModel,getView,Complex Method,Cyclomatic complexity of the method is 15,34
+ngladitz_emma,com.vladium.emma.report,ReportDataModel,getView,Long Statement,The length of the statement "if (srcView && !m_mdata.hasSrcFileData()) throw new IllegalStateException("source file data view requested for metadata with incomplete SourceFile debug info");" is 160.,34
+ngladitz_emma,com.vladium.emma.report,ReportDataModel,getView,Long Statement,The length of the statement "if (data.m_stamp != cls.getStamp()) throw new EMMARuntimeException(IAppErrorCodes.CLASS_STAMP_MISMATCH`new Object[]{Descriptors.vmNameToJavaName(cls.getClassVMName())});" is 169.,34
+ngladitz_emma,com.vladium.emma.report,ReportDataModel,ReportDataModel,Magic Number,The method contains a magic number: 2,138
+ngladitz_emma,com.vladium.emma.report,ReportProcessor,validateState,Long Statement,The length of the statement "if ((m_reportGenerators == null) || (m_reportGenerators.length == 0)) throw new IllegalStateException("report types not set");" is 126.,98
+ngladitz_emma,com.vladium.emma.report,ReportProcessor,_run,Complex Method,Cyclomatic complexity of the method is 24,114
+ngladitz_emma,com.vladium.emma.report,ReportProcessor,_run,Empty catch clause,The method has an empty catch block.,114
+ngladitz_emma,com.vladium.emma.report,ReportProcessor,_run,Long Method,The method has 117 lines of code.,114
+ngladitz_emma,com.vladium.emma.report,ReportProcessor,_run,Long Statement,The length of the statement "throw new EMMARuntimeException(UNEXPECTED_FAILURE`new Object[]{failure.toString()`IAppConstants.APP_BUG_REPORT_LINK}`failure);" is 126.,114
+ngladitz_emma,com.vladium.emma.report,ReportProperties,parseProperties,Complex Conditional,The conditional expression result.getHideClasses() && (result.getViewType() == IReportDataView.HIER_SRC_VIEW) && (result.getDepth() == IItemMetadata.TYPE_ID_CLASS) is complex.,242
+ngladitz_emma,com.vladium.emma.report,ReportProperties,parseProperties,Complex Method,Cyclomatic complexity of the method is 23,242
+ngladitz_emma,com.vladium.emma.report,ReportProperties,parseProperties,Magic Number,The method contains a magic number: 101.0,242
+ngladitz_emma,com.vladium.emma.report,ReportProperties,parseProperties,Magic Number,The method contains a magic number: 100.0,242
+ngladitz_emma,com.vladium.emma.report,ReportProperties,parseProperties,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5e5ab0d9,242
+ngladitz_emma,com.vladium.emma.report,ReportProperties,getReportProperty,Complex Conditional,The conditional expression !allowBlank && (result != null) && (result.trim().length() == 0) is complex.,543
+ngladitz_emma,com.vladium.emma.report,ReportProperties,getReportProperty,Long Parameter List,The method has 5 parameters. ,543
+ngladitz_emma,com.vladium.emma.report,SourcePathCache,SourcePathCache,Complex Conditional,The conditional expression !removeNonExistent || (dir.isDirectory() && dir.exists()) is complex.,34
+ngladitz_emma,com.vladium.emma.report,SourcePathCache,SourcePathCache,Complex Conditional,The conditional expression !removeNonExistent || (dir.isDirectory() && dir.exists()) is complex.,56
+ngladitz_emma,com.vladium.emma.report,SourcePathCache,find,Complex Method,Cyclomatic complexity of the method is 8,78
+ngladitz_emma,com.vladium.emma.report,SrcFileItem,getAggregate,Complex Method,Cyclomatic complexity of the method is 21,90
+ngladitz_emma,com.vladium.emma.report,SrcFileItem,getAggregate,Magic Number,The method contains a magic number: 4,90
+ngladitz_emma,com.vladium.emma.report,SrcFileItem,getAggregate,Magic Number,The method contains a magic number: 2,90
+ngladitz_emma,com.vladium.emma.report,SrcFileItem,getAggregate,Magic Number,The method contains a magic number: 3,90
+ngladitz_emma,com.vladium.emma.report,SrcFileItem,getAggregate,Magic Number,The method contains a magic number: 2,90
+ngladitz_emma,com.vladium.emma.report,SrcFileItem,getAggregate,Magic Number,The method contains a magic number: 3,90
+ngladitz_emma,com.vladium.emma.report,SrcFileItem,getAggregate,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@54940f21,90
+ngladitz_emma,com.vladium.emma.report.html.doc,HTMLWriter,close,Empty catch clause,The method has an empty catch block.,100
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,visit,Complex Conditional,The conditional expression m_srcView && m_hasSrcFileInfo && m_hasLineNumberInfo is complex.,141
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,visit,Complex Method,Cyclomatic complexity of the method is 12,141
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,visit,Long Method,The method has 103 lines of code.,141
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,visit,Magic Number,The method contains a magic number: 2,141
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,visit,Magic Number,The method contains a magic number: 2,141
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,visit,Complex Method,Cyclomatic complexity of the method is 10,326
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,visit,Long Statement,The length of the statement "final ItemComparator order=m_typeSortComparators[m_srcView ? SrcFileItem.getTypeMetadata().getTypeID() : ClassItem.getTypeMetadata().getTypeID()];" is 146.,326
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,visit,Magic Number,The method contains a magic number: 2,326
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,visit,Complex Method,Cyclomatic complexity of the method is 13,443
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,visit,Long Method,The method has 104 lines of code.,443
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,visit,Magic Number,The method contains a magic number: 2,443
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,visit,Magic Number,The method contains a magic number: 2,619
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,addItemRow,Long Parameter List,The method has 6 parameters. ,907
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,addItemRow,Magic Number,The method contains a magic number: 11,907
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,addClassRow,Long Parameter List,The method has 6 parameters. ,964
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,addClassRow,Magic Number,The method contains a magic number: 11,964
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,addClassItemRow,Long Parameter List,The method has 6 parameters. ,1031
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,addClassItemRow,Magic Number,The method contains a magic number: 11,1031
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,embedSrcFile,Complex Method,Cyclomatic complexity of the method is 19,1122
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,embedSrcFile,Empty catch clause,The method has an empty catch block.,1122
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,embedSrcFile,Magic Number,The method contains a magic number: 64,1122
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,embedSrcFile,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5495292e,1122
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,getFooterBottom,Long Statement,The length of the statement "_bottom.add(new HyperRef(IAppConstants.APP_BUG_REPORT_LINK`IAppConstants.APP_NAME + " " + IAppConstants.APP_VERSION_WITH_BUILD_ID_AND_TAG`true));" is 145.,1385
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,trimForDisplay,Magic Number,The method contains a magic number: 3,1410
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,embedSrcFileJson,Complex Method,Cyclomatic complexity of the method is 11,1646
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,embedSrcFileJson,Empty catch clause,The method has an empty catch block.,1646
+ngladitz_emma,com.vladium.emma.report.txt,ReportGenerator,visit,Magic Number,The method contains a magic number: 101,103
+ngladitz_emma,com.vladium.emma.report.txt,ReportGenerator,visit,Long Statement,The length of the statement "final ItemComparator order=m_typeSortComparators[m_srcView ? SrcFileItem.getTypeMetadata().getTypeID() : ClassItem.getTypeMetadata().getTypeID()];" is 146.,198
+ngladitz_emma,com.vladium.emma.report.txt,ReportGenerator,addItemRow,Magic Number,The method contains a magic number: 11,376
+ngladitz_emma,com.vladium.emma.report.xml,ReportGenerator,visit,Magic Number,The method contains a magic number: 101,94
+ngladitz_emma,com.vladium.emma.report.xml,ReportGenerator,visit,Long Statement,The length of the statement "final ItemComparator childrenOrder=m_typeSortComparators[m_srcView ? SrcFileItem.getTypeMetadata().getTypeID() : ClassItem.getTypeMetadata().getTypeID()];" is 154.,189
+ngladitz_emma,com.vladium.emma.report.xml,ReportGenerator,emitItem,Long Statement,The length of the statement "final boolean deeper=(childrenOrder != null) && (m_settings.getDepth() > metadata.getTypeID()) && (item.getChildCount() > 0);" is 125.,372
+ngladitz_emma,com.vladium.emma.report.xml,ReportGenerator,emitItemCoverage,Magic Number,The method contains a magic number: 64,421
+ngladitz_emma,com.vladium.emma.rt,AppRunner,setAppClass,Long Statement,The length of the statement "for (int a=0; a < _args.length; ++a) if (_args[a] == null) throw new IllegalArgumentException("null input: args[" + a + "]");" is 125.,152
+ngladitz_emma,com.vladium.emma.rt,AppRunner,setSessionOutFile,Long Statement,The length of the statement "if (_file.exists() && !_file.isFile()) throw new IllegalArgumentException("not a file: [" + _file.getAbsolutePath() + "]");" is 123.,184
+ngladitz_emma,com.vladium.emma.rt,AppRunner,validateState,Long Statement,The length of the statement "if ((m_appClassName == null) || (m_appClassName.length() == 0)) throw new IllegalStateException("application class name not set");" is 130.,238
+ngladitz_emma,com.vladium.emma.rt,AppRunner,validateState,Long Statement,The length of the statement "if ((m_reportGenerators == null) || (m_reportGenerators.length == 0)) throw new IllegalStateException("report types not set");" is 126.,238
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Complex Conditional,The conditional expression (mainFailure instanceof IllegalAccessException) || (mainFailure instanceof IllegalArgumentException) || (mainFailure instanceof NullPointerException) is complex.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Complex Method,Cyclomatic complexity of the method is 34,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Empty catch clause,The method has an empty catch block.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Empty catch clause,The method has an empty catch block.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Empty catch clause,The method has an empty catch block.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Identifier,The length of the field FORCED_DELEGATION_FILTER_SPECS is 30.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Identifier,The length of the field SOFT_CACHE_WRITE_CHK_FREQUENCY is 30.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Method,The method has 216 lines of code.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Statement,The length of the statement "if (sdataOutFile == null) sdataOutFile=new File(toolProperties.getProperty(EMMAProperties.PROPERTY_SESSION_DATA_OUT_FILE`EMMAProperties.DEFAULT_SESSION_DATA_OUT_FILE));" is 168.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Statement,The length of the statement "final String _dataOutMerge=toolProperties.getProperty(EMMAProperties.PROPERTY_SESSION_DATA_OUT_MERGE`EMMAProperties.DEFAULT_SESSION_DATA_OUT_MERGE.toString());" is 159.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Statement,The length of the statement "final IInclExclFilter forcedDelegationFilter=IInclExclFilter.Factory.create(toolProperties.getProperty(InstrClassLoader.PROPERTY_FORCED_DELEGATION_FILTER)`COMMA_DELIMITERS`FORCED_DELEGATION_FILTER_SPECS);" is 204.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Statement,The length of the statement "final IInclExclFilter throughDelegationFilter=IInclExclFilter.Factory.create(toolProperties.getProperty(InstrClassLoader.PROPERTY_THROUGH_DELEGATION_FILTER)`COMMA_DELIMITERS`null);" is 180.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Statement,The length of the statement "runnerExitHook=new AppRunnerExitHook(log`m_dumpSessionData`sdataOutFile`sdataOutMerge.booleanValue()`mdata`cdata`m_reportGenerators`srcpathCache`toolProperties);" is 161.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Statement,The length of the statement "if (USE_SOFT_CACHE) classIOCache=new SoftValueMap(INIT_CACHE_CAPACITY`0.75F`SOFT_CACHE_READ_CHK_FREQUENCY`SOFT_CACHE_WRITE_CHK_FREQUENCY);" is 138.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Statement,The length of the statement "final ClassPathProcessorST processor=new ClassPathProcessorST(m_coveragePath`m_canonical`mdata`m_coverageFilter`classIOCache);" is 126.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Statement,The length of the statement "appLoader=new InstrClassLoader(m_delegate`m_coveragePath`forcedDelegationFilter`throughDelegationFilter`loadHook`classIOCache);" is 127.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Statement,The length of the statement "throw new EMMARuntimeException(MAIN_CLASS_BAD_DELEGATION`new String[]{IAppConstants.APP_NAME`m_appClassName`loaderName});" is 121.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Statement,The length of the statement "else if ((mainFailure instanceof IllegalAccessException) || (mainFailure instanceof IllegalArgumentException) || (mainFailure instanceof NullPointerException)) {" is 161.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Long Statement,The length of the statement "if (exitHookDataDumpFailure != null) log.log(Logger.SEVERE`"exception while persisting raw session data:"`exitHookDataDumpFailure);" is 131.,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Magic Number,The method contains a magic number: 0.75F,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,_run,Magic Number,The method contains a magic number: 0.75F,265
+ngladitz_emma,com.vladium.emma.rt,AppRunner,joinNonDeamonThreads,Empty catch clause,The method has an empty catch block.,836
+ngladitz_emma,com.vladium.emma.rt,AppRunner,wrapFailure,Long Statement,The length of the statement "if (Exceptions.unexpectedFailure(t`EXPECTED_FAILURES)) return new EMMARuntimeException(UNEXPECTED_FAILURE`new Object[]{t.toString()`IAppConstants.APP_BUG_REPORT_LINK}`t);" is 170.,882
+ngladitz_emma,com.vladium.emma.rt,ClassPathProcessorST,handleArchiveEntry,Complex Method,Cyclomatic complexity of the method is 10,86
+ngladitz_emma,com.vladium.emma.rt,ClassPathProcessorST,handleArchiveEntry,Magic Number,The method contains a magic number: 6,86
+ngladitz_emma,com.vladium.emma.rt,ClassPathProcessorST,handleFile,Complex Method,Cyclomatic complexity of the method is 10,184
+ngladitz_emma,com.vladium.emma.rt,ClassPathProcessorST,handleFile,Magic Number,The method contains a magic number: 6,184
+ngladitz_emma,com.vladium.emma.rt,ClassPathProcessorST,ClassPathProcessorST,Long Parameter List,The method has 5 parameters. ,287
+ngladitz_emma,com.vladium.emma.rt,ClassPathProcessorST,readFile,Empty catch clause,The method has an empty catch block.,311
+ngladitz_emma,com.vladium.emma.rt,InstrClassLoader,InstrClassLoader,Long Parameter List,The method has 6 parameters. ,45
+ngladitz_emma,com.vladium.emma.rt,InstrClassLoader,loadClass,Complex Conditional,The conditional expression (parentsVersion.getClassLoader() != m_parent) || ((m_forcedDelegationFilter == null) || m_forcedDelegationFilter.included(name)) is complex.,70
+ngladitz_emma,com.vladium.emma.rt,InstrClassLoader,loadClass,Complex Method,Cyclomatic complexity of the method is 13,70
+ngladitz_emma,com.vladium.emma.rt,InstrClassLoader,loadClass,Long Statement,The length of the statement "if ((parentsVersion.getClassLoader() != m_parent) || ((m_forcedDelegationFilter == null) || m_forcedDelegationFilter.included(name))) {" is 135.,70
+ngladitz_emma,com.vladium.emma.rt,InstrClassLoader,findClass,Complex Method,Cyclomatic complexity of the method is 16,173
+ngladitz_emma,com.vladium.emma.rt,InstrClassLoader,findClass,Empty catch clause,The method has an empty catch block.,173
+ngladitz_emma,com.vladium.emma.rt,InstrClassLoader,defineClass,Long Statement,The length of the statement "definePackage(packageName`IAppConstants.APP_NAME`IAppConstants.APP_VERSION`IAppConstants.APP_COPYRIGHT`IAppConstants.APP_NAME`IAppConstants.APP_VERSION`IAppConstants.APP_COPYRIGHT`srcURL);" is 188.,341
+ngladitz_emma,com.vladium.emma.rt,RT,reset,Complex Method,Cyclomatic complexity of the method is 8,32
+ngladitz_emma,com.vladium.emma.rt,RT,getCoverageOutFile,Long Statement,The length of the statement "final String property=appProperties.getProperty(EMMAProperties.PROPERTY_COVERAGE_DATA_OUT_FILE`EMMAProperties.DEFAULT_COVERAGE_DATA_OUT_FILE);" is 142.,179
+ngladitz_emma,com.vladium.emma.rt,RT,getCoverageOutMerge,Long Statement,The length of the statement "final String property=appProperties.getProperty(EMMAProperties.PROPERTY_COVERAGE_DATA_OUT_MERGE`EMMAProperties.DEFAULT_COVERAGE_DATA_OUT_MERGE.toString());" is 155.,192
+ngladitz_emma,com.vladium.emma.rt,RTCoverageDataPersister,dumpCoverageData,Long Statement,The length of the statement "log.info("runtime coverage data " + (merge ? "merged into" : "written to") + " ["+ outFile.getAbsolutePath()+ "] {in "+ (end - start)+ " ms}");" is 143.,37
+ngladitz_emma,com.vladium.jcd.cls,AttributeCollection,length,Magic Number,The method contains a magic number: 2,61
+ngladitz_emma,com.vladium.jcd.cls,AttributeCollection,add,Long Identifier,The length of the field DISALLOW_MULTIPLE_SYNTHETIC_ATTRIBUTES is 38.,124
+ngladitz_emma,com.vladium.jcd.cls,AttributeCollection,add,Long Statement,The length of the statement "if (m_innerClassesAttributeOffset >= 0) throw new IllegalArgumentException("this attribute collection already has an InnerClasses attribute");" is 142.,124
+ngladitz_emma,com.vladium.jcd.cls,AttributeCollection,add,Long Statement,The length of the statement "if (DISALLOW_MULTIPLE_SYNTHETIC_ATTRIBUTES && $assert.ENABLED) $assert.ASSERT(m_syntheticRefCount >= 0 && m_syntheticRefCount <= 1`"bad synthetic attribute count: " + m_syntheticRefCount);" is 188.,124
+ngladitz_emma,com.vladium.jcd.cls,AttributeCollection,set,Complex Method,Cyclomatic complexity of the method is 8,150
+ngladitz_emma,com.vladium.jcd.cls,AttributeCollection,set,Long Identifier,The length of the field DISALLOW_MULTIPLE_SYNTHETIC_ATTRIBUTES is 38.,150
+ngladitz_emma,com.vladium.jcd.cls,AttributeCollection,set,Long Statement,The length of the statement "if (DISALLOW_MULTIPLE_SYNTHETIC_ATTRIBUTES && $assert.ENABLED) $assert.ASSERT(m_syntheticRefCount >= 0 && m_syntheticRefCount <= 1`"bad synthetic attribute count: " + m_syntheticRefCount);" is 188.,150
+ngladitz_emma,com.vladium.jcd.cls,AttributeCollection,remove,Long Identifier,The length of the field DISALLOW_MULTIPLE_SYNTHETIC_ATTRIBUTES is 38.,175
+ngladitz_emma,com.vladium.jcd.cls,AttributeCollection,remove,Long Statement,The length of the statement "if (DISALLOW_MULTIPLE_SYNTHETIC_ATTRIBUTES && $assert.ENABLED) $assert.ASSERT(m_syntheticRefCount >= 0 && m_syntheticRefCount <= 1`"bad synthetic attribute count: " + m_syntheticRefCount);" is 188.,175
+ngladitz_emma,com.vladium.jcd.cls,ClassDef,ClassDef,Magic Number,The method contains a magic number: 2,50
+ngladitz_emma,com.vladium.jcd.cls,ClassDef,computeSUID,Complex Method,Cyclomatic complexity of the method is 22,259
+ngladitz_emma,com.vladium.jcd.cls,ClassDef,computeSUID,Long Method,The method has 117 lines of code.,259
+ngladitz_emma,com.vladium.jcd.cls,ClassDef,computeSUID,Long Statement,The length of the statement "final int modifiers=(isNested(nestedAccessFlags) ? nestedAccessFlags[0] : getAccessFlags()) & (ACC_PUBLIC | ACC_FINAL | ACC_INTERFACE| ACC_ABSTRACT);" is 149.,259
+ngladitz_emma,com.vladium.jcd.cls,ClassDef,computeSUID,Long Statement,The length of the statement "if (((modifiers & ACC_PRIVATE) == 0) || ((modifiers & (ACC_STATIC | ACC_TRANSIENT)) == 0)) fds[fcount++]=new FieldDescriptor(field.getName(this)`modifiers`field.getDescriptor(this));" is 182.,259
+ngladitz_emma,com.vladium.jcd.cls,ClassDef,computeSUID,Long Statement,The length of the statement "if (IClassDefConstants.INIT_NAME.equals(name)) cds[ccount++]=new ConstructorDescriptor(modifiers`method.getDescriptor(this));" is 125.,259
+ngladitz_emma,com.vladium.jcd.cls,ClassDef,computeSUID,Magic Number,The method contains a magic number: 1024,259
+ngladitz_emma,com.vladium.jcd.cls,ClassDef,computeSUID,Magic Number,The method contains a magic number: 8,259
+ngladitz_emma,com.vladium.jcd.cls,ClassDef,computeSUID,Magic Number,The method contains a magic number: 8,259
+ngladitz_emma,com.vladium.jcd.cls,ClassDef,computeSUID,Magic Number,The method contains a magic number: 0xFF,259
+ngladitz_emma,com.vladium.jcd.cls,ClassDef,addField,Long Statement,The length of the statement "final Field_info field=new Field_info(access_flags`name_index`descriptor_index`ElementFactory.newAttributeCollection(0));" is 121.,536
+ngladitz_emma,com.vladium.jcd.cls,ClassDef,newEmptyMethod,Long Statement,The length of the statement "final CodeAttribute_info code=new CodeAttribute_info(attribute_name_index`0`0`CodeAttribute_info.EMPTY_BYTE_ARRAY`AttributeElementFactory.newExceptionHandlerTable(0)`ElementFactory.newAttributeCollection(0));" is 208.,573
+ngladitz_emma,com.vladium.jcd.cls,ConstantCollection,get,Long Statement,The length of the statement "if (result == null) throw new IllegalStateException("assertion failure: dereferencing an invalid constant pool slot " + index);" is 127.,31
+ngladitz_emma,com.vladium.jcd.cls,ConstantCollection,find,Complex Conditional,The conditional expression (constant != null) && (constant.tag() == type) && comparator.equals(constant) is complex.,46
+ngladitz_emma,com.vladium.jcd.cls,ConstantCollection,set,Long Statement,The length of the statement "if (result == null) throw new IllegalStateException("assertion failure: dereferencing an invalid constant pool slot " + index);" is 127.,136
+ngladitz_emma,com.vladium.jcd.cls,ConstantCollection,set,Long Statement,The length of the statement "if (result.width() != constant.width()) throw new IllegalArgumentException("assertion failure: can't set entry of type [" + result.getClass().getName() + "] to an entry of type ["+ result.getClass().getName()+ "] at pool slot "+ index);" is 236.,136
+ngladitz_emma,com.vladium.jcd.cls,ConstantCollection,add,Long Statement,The length of the statement "if ((m_CONSTANT_Utf8_index != null) && (constant instanceof CONSTANT_Utf8_info)) m_CONSTANT_Utf8_index.put(((CONSTANT_Utf8_info)constant).m_value`result - 1);" is 158.,170
+ngladitz_emma,com.vladium.jcd.cls,Field_info,toString,Long Statement,The length of the statement "return "field_info: [modifiers: 0x" + Integer.toHexString(m_access_flags) + "` name_index = "+ m_name_index+ "` descriptor_index = "+ m_descriptor_index+ ']';" is 158.,142
+ngladitz_emma,com.vladium.jcd.cls,Method_info,toString,Long Statement,The length of the statement "s.append("method_info: [modifiers: 0x" + Integer.toHexString(m_access_flags) + "` name_index = "+ m_name_index+ "` descriptor_index = "+ m_descriptor_index+ "]\n");" is 164.,159
+ngladitz_emma,com.vladium.jcd.cls.attribute,Attribute_info,new_Attribute_info,Complex Method,Cyclomatic complexity of the method is 9,94
+ngladitz_emma,com.vladium.jcd.cls.attribute,Attribute_info,writeInClassFormat,Magic Number,The method contains a magic number: 6,174
+ngladitz_emma,com.vladium.jcd.cls.attribute,BridgeAttribute_info,length,Magic Number,The method contains a magic number: 6,33
+ngladitz_emma,com.vladium.jcd.cls.attribute,BridgeAttribute_info,toString,Long Statement,The length of the statement "return "BridgeAttribute_info: [attribute_name_index = " + m_name_index + "` attribute_length = "+ m_attribute_length+ ']';" is 122.,45
+ngladitz_emma,com.vladium.jcd.cls.attribute,CodeAttribute_info,CodeAttribute_info,Long Parameter List,The method has 6 parameters. ,86
+ngladitz_emma,com.vladium.jcd.cls.attribute,CodeAttribute_info,CodeAttribute_info,Magic Number,The method contains a magic number: 8,86
+ngladitz_emma,com.vladium.jcd.cls.attribute,CodeAttribute_info,length,Magic Number,The method contains a magic number: 14,128
+ngladitz_emma,com.vladium.jcd.cls.attribute,CodeAttribute_info,toString,Long Statement,The length of the statement "s.append("CodeAttribute_info: [attribute_name_index = " + m_name_index + "` attribute_length = "+ m_attribute_length+ "]"+ eol);" is 128.,141
+ngladitz_emma,com.vladium.jcd.cls.attribute,ConstantValueAttribute_info,ConstantValueAttribute_info,Magic Number,The method contains a magic number: 2,65
+ngladitz_emma,com.vladium.jcd.cls.attribute,ConstantValueAttribute_info,length,Magic Number,The method contains a magic number: 8,77
+ngladitz_emma,com.vladium.jcd.cls.attribute,ConstantValueAttribute_info,toString,Long Statement,The length of the statement "return "ConstantValueAttribute_info: [attribute_name_index = " + m_name_index + "` attribute_length = "+ m_attribute_length+ ']';" is 129.,89
+ngladitz_emma,com.vladium.jcd.cls.attribute,ExceptionHandlerTable,length,Magic Number,The method contains a magic number: 2,37
+ngladitz_emma,com.vladium.jcd.cls.attribute,ExceptionHandlerTable,length,Magic Number,The method contains a magic number: 3,37
+ngladitz_emma,com.vladium.jcd.cls.attribute,ExceptionsAttribute_info,length,Magic Number,The method contains a magic number: 6,64
+ngladitz_emma,com.vladium.jcd.cls.attribute,ExceptionsAttribute_info,toString,Long Statement,The length of the statement "return "ExceptionsAttribute_info: [attribute_name_index = " + m_name_index + "` attribute_length = "+ m_attribute_length+ ']';" is 126.,76
+ngladitz_emma,com.vladium.jcd.cls.attribute,Exception_info,toString,Long Statement,The length of the statement "return "exception_info: [start_pc/end_pc = " + m_start_pc + '/'+ m_end_pc+ "` handler_pc = "+ m_handler_pc+ "` catch_type = "+ m_catch_type+ ']';" is 145.,75
+ngladitz_emma,com.vladium.jcd.cls.attribute,GenericAttribute_info,length,Magic Number,The method contains a magic number: 6,42
+ngladitz_emma,com.vladium.jcd.cls.attribute,GenericAttribute_info,toString,Long Statement,The length of the statement "return "generic attribute_info: [attribute_name_index = " + m_name_index + "` attribute_length = "+ m_attribute_length+ ']';" is 124.,54
+ngladitz_emma,com.vladium.jcd.cls.attribute,InnerClassesAttribute_info,length,Magic Number,The method contains a magic number: 8,72
+ngladitz_emma,com.vladium.jcd.cls.attribute,InnerClassesAttribute_info,length,Magic Number,The method contains a magic number: 3,72
+ngladitz_emma,com.vladium.jcd.cls.attribute,InnerClassesAttribute_info,toString,Long Statement,The length of the statement "final StringBuffer s=new StringBuffer("InnerClassesAttribute_info: [attribute_name_index = " + m_name_index + "` attribute_length = "+ length()+ "]\n");" is 152.,84
+ngladitz_emma,com.vladium.jcd.cls.attribute,InnerClass_info,toString,Long Statement,The length of the statement "return "innerclass_info: [m_outer_class_index = " + m_outer_class_index + "` m_inner_class_index = "+ m_inner_class_index+ "` m_inner_name_index = "+ m_inner_name_index+ "` m_inner_access_flags = "+ m_inner_access_flags+ "]";" is 225.,41
+ngladitz_emma,com.vladium.jcd.cls.attribute,LineNumberTableAttribute_info,length,Magic Number,The method contains a magic number: 8,99
+ngladitz_emma,com.vladium.jcd.cls.attribute,LineNumberTableAttribute_info,length,Magic Number,The method contains a magic number: 2,99
+ngladitz_emma,com.vladium.jcd.cls.attribute,LineNumberTableAttribute_info,toString,Long Statement,The length of the statement "final StringBuffer s=new StringBuffer("LineNumberTableAttribute_info: [attribute_name_index = " + m_name_index + "` attribute_length = "+ length()+ "]\n");" is 155.,111
+ngladitz_emma,com.vladium.jcd.cls.attribute,SourceFileAttribute_info,length,Magic Number,The method contains a magic number: 8,38
+ngladitz_emma,com.vladium.jcd.cls.attribute,SourceFileAttribute_info,toString,Long Statement,The length of the statement "return "SourceFileAttribute_info: [attribute_name_index = " + m_name_index + "` attribute_length = "+ m_attribute_length+ ']';" is 126.,55
+ngladitz_emma,com.vladium.jcd.cls.attribute,SyntheticAttribute_info,length,Magic Number,The method contains a magic number: 6,50
+ngladitz_emma,com.vladium.jcd.cls.attribute,SyntheticAttribute_info,toString,Long Statement,The length of the statement "return "SyntheticValueAttribute_info: [attribute_name_index = " + m_name_index + "` attribute_length = "+ m_attribute_length+ ']';" is 130.,62
+ngladitz_emma,com.vladium.jcd.cls.constant,CONSTANT_Double_info,width,Magic Number,The method contains a magic number: 2,58
+ngladitz_emma,com.vladium.jcd.cls.constant,CONSTANT_info,new_CONSTANT_info,Complex Method,Cyclomatic complexity of the method is 12,57
+ngladitz_emma,com.vladium.jcd.cls.constant,CONSTANT_info,new_CONSTANT_info,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@66ced0c4,57
+ngladitz_emma,com.vladium.jcd.cls.constant,CONSTANT_info,tagToString,Complex Method,Cyclomatic complexity of the method is 12,133
+ngladitz_emma,com.vladium.jcd.cls.constant,CONSTANT_info,tagToString,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@6d9978bc,133
+ngladitz_emma,com.vladium.jcd.cls.constant,CONSTANT_InterfaceMethodref_info,toString,Long Statement,The length of the statement "return "CONSTANT_InterfaceMethodref: [class_index = " + m_class_index + "` name_and_type_index = "+ m_name_and_type_index+ ']';" is 127.,52
+ngladitz_emma,com.vladium.jcd.cls.constant,CONSTANT_Long_info,width,Magic Number,The method contains a magic number: 2,60
+ngladitz_emma,com.vladium.jcd.cls.constant,CONSTANT_Methodref_info,toString,Long Statement,The length of the statement "return "CONSTANT_Methodref_info: [class_index = " + m_class_index + "` name_and_type_index = "+ m_name_and_type_index+ ']';" is 123.,53
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,load_local_object_var,Magic Number,The method contains a magic number: 3,26
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,load_local_object_var,Magic Number,The method contains a magic number: 0xFF,26
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,load_local_object_var,Magic Number,The method contains a magic number: 8,26
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,store_local_object_var,Magic Number,The method contains a magic number: 3,46
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,store_local_object_var,Magic Number,The method contains a magic number: 0xFF,46
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,store_local_object_var,Magic Number,The method contains a magic number: 8,46
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,push_int_value,Magic Number,The method contains a magic number: 5,68
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,push_int_value,Magic Number,The method contains a magic number: 128,68
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,push_int_value,Magic Number,The method contains a magic number: 127,68
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,push_int_value,Magic Number,The method contains a magic number: 32768,68
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,push_int_value,Magic Number,The method contains a magic number: 32767,68
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,push_int_value,Magic Number,The method contains a magic number: 8,68
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,push_int_value,Magic Number,The method contains a magic number: 0xFF,68
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,push_int_value,Magic Number,The method contains a magic number: 8,68
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,push_constant_index,Magic Number,The method contains a magic number: 0xFF,106
+ngladitz_emma,com.vladium.jcd.compiler,CodeGen,push_constant_index,Magic Number,The method contains a magic number: 8,106
+ngladitz_emma,com.vladium.jcd.lib,Types,accessFlagsToString,Complex Method,Cyclomatic complexity of the method is 9,42
+ngladitz_emma,com.vladium.jcd.lib,Types,descriptorToReturnType,Complex Conditional,The conditional expression (i1 < 0) || (i2 <= 0) || (i1 >= i2)|| (i2 >= methoddescriptor.length() - 1) is complex.,185
+ngladitz_emma,com.vladium.jcd.lib,Types,descriptorToReturnType,Long Statement,The length of the statement "if ((i1 < 0) || (i2 <= 0) || (i1 >= i2)|| (i2 >= methoddescriptor.length() - 1)) throw new IllegalArgumentException("malformed method descriptor: [" + methoddescriptor + "]");" is 175.,185
+ngladitz_emma,com.vladium.jcd.lib,UDataInputStream,readU2,Magic Number,The method contains a magic number: 0xFFFF,36
+ngladitz_emma,com.vladium.jcd.lib,UDataInputStream,readU4,Magic Number,The method contains a magic number: 0xFFFFFFFFL,44
+ngladitz_emma,com.vladium.logging,Logger,create,Long Parameter List,The method has 5 parameters. ,79
+ngladitz_emma,com.vladium.logging,Logger,stringToLevel,Complex Method,Cyclomatic complexity of the method is 11,373
+ngladitz_emma,com.vladium.logging,Logger,stringToLevel,Empty catch clause,The method has an empty catch block.,373
+ngladitz_emma,com.vladium.logging,Logger,stringToLevel,Long Statement,The length of the statement "if (ILogLevels.SEVERE_STRING.equalsIgnoreCase(level) || ILogLevels.SILENT_STRING.equalsIgnoreCase(level)) return ILogLevels.SEVERE;" is 131.,373
+ngladitz_emma,com.vladium.logging,Logger,stringToLevel,Long Statement,The length of the statement "else if (ILogLevels.WARNING_STRING.equalsIgnoreCase(level) || ILogLevels.QUIET_STRING.equalsIgnoreCase(level)) return ILogLevels.WARNING;" is 137.,373
+ngladitz_emma,com.vladium.logging,Logger,_log,Complex Method,Cyclomatic complexity of the method is 10,439
+ngladitz_emma,com.vladium.logging,Logger,_log,Magic Number,The method contains a magic number: 2,439
+ngladitz_emma,com.vladium.logging,Logger,_log,Complex Method,Cyclomatic complexity of the method is 11,487
+ngladitz_emma,com.vladium.logging,Logger,_log,Magic Number,The method contains a magic number: 2,487
+ngladitz_emma,com.vladium.util.args,OptsParser,usage,Complex Conditional,The conditional expression (usageOptDef != null) && (usageOptDef.getNames() != null) && (usageOptDef.getNames().length > 1) is complex.,42
+ngladitz_emma,com.vladium.util.args,OptsParser,usage,Complex Method,Cyclomatic complexity of the method is 14,42
+ngladitz_emma,com.vladium.util.args,OptsParser,usage,Magic Number,The method contains a magic number: 2,42
+ngladitz_emma,com.vladium.util.args,OptsParser,usage,Magic Number,The method contains a magic number: 16,42
+ngladitz_emma,com.vladium.util.args,OptsParser,usage,Magic Number,The method contains a magic number: 2,42
+ngladitz_emma,com.vladium.util.args,OptsParser,usage,Magic Number,The method contains a magic number: 16,42
+ngladitz_emma,com.vladium.util.args,OptsParser,parse,Complex Method,Cyclomatic complexity of the method is 35,118
+ngladitz_emma,com.vladium.util.args,OptsParser,parse,Long Method,The method has 159 lines of code.,118
+ngladitz_emma,com.vladium.util.args,OptsParser,parse,Long Statement,The length of the statement "opts.addError(formatMessage("option \'" + opt.getName() + "\' does not accept fewer than "+ cardinality[0]+ " value(s)"));" is 122.,118
+ngladitz_emma,com.vladium.util.args,OptsParser,parse,Long Statement,The length of the statement "opts.addError(formatMessage("option \'" + opt.getName() + "\' does not accept fewer than "+ cardinality[0]+ " value(s)"));" is 122.,118
+ngladitz_emma,com.vladium.util.args,OptsParser,parse,Long Statement,The length of the statement "if (opts.getOpt(requires[r]) == null) opts.addError(formatMessage("option \'" + opt.getName() + "\' requires option \'"+ requires[r]+ "\'"));" is 141.,118
+ngladitz_emma,com.vladium.util.args,OptsParser,parse,Long Statement,The length of the statement "if (xopt != null) opts.addError(formatMessage("option \'" + opt.getName() + "\' cannot be used with option \'"+ xopt.getName()+ "\'"));" is 135.,118
+ngladitz_emma,com.vladium.util.args,OptsParser,parse,Magic Number,The method contains a magic number: 2,118
+ngladitz_emma,com.vladium.util.args,OptsParser,OptsParser,Empty catch clause,The method has an empty catch block.,1405
+ngladitz_emma,com.vladium.util.args,OptsParser,OptsParser,Long Statement,The length of the statement "if (in == null) throw new IllegalArgumentException("resource [" + metadataResourceName + "] could not be loaded via ["+ loader+ "]");" is 133.,1405
+ngladitz_emma,com.vladium.util.args,OptsParser,parseOptDefMetadata,Complex Method,Cyclomatic complexity of the method is 13,1497
+ngladitz_emma,com.vladium.util.args,OptsParser,parseOptDefMetadata,Long Statement,The length of the statement "if (ropt == null) throw new IllegalArgumentException("option [" + optdef.getCanonicalName() + "] specifies an unknown option ["+ requires[r]+ "] in its \'requires\' set");" is 171.,1497
+ngladitz_emma,com.vladium.util.args,OptsParser,parseOptDefMetadata,Long Statement,The length of the statement "if (ropt == optdef) throw new IllegalArgumentException("option [" + optdef.getCanonicalName() + "] specifies itself in its \'requires\' set");" is 142.,1497
+ngladitz_emma,com.vladium.util.args,OptsParser,parseOptDefMetadata,Long Statement,The length of the statement "if (xopt == null) throw new IllegalArgumentException("option [" + optdef.getCanonicalName() + "] specifies an unknown option ["+ excludes[x]+ "] in its \'excludes\' set");" is 171.,1497
+ngladitz_emma,com.vladium.util.args,OptsParser,parseOptDefMetadata,Long Statement,The length of the statement "if (xopt.isRequired()) throw new IllegalArgumentException("option [" + optdef.getCanonicalName() + "] specifies a required option ["+ excludes[x]+ "] in its \'excludes\' set");" is 176.,1497
+ngladitz_emma,com.vladium.util.args,OptsParser,parseOptDefMetadata,Long Statement,The length of the statement "if (xopt == optdef) throw new IllegalArgumentException("option [" + optdef.getCanonicalName() + "] specifies itself in its \'excludes\' set");" is 142.,1497
+ngladitz_emma,com.vladium.util,ByteArrayIStream,read,Magic Number,The method contains a magic number: 0xFF,45
+ngladitz_emma,com.vladium.util,ByteArrayIStream,read,Long Statement,The length of the statement "if ($assert.ENABLED) $assert.ASSERT((offset >= 0) && (offset <= buf.length) && (length >= 0)&& ((offset + length) <= buf.length)`"invalid input (" + buf.length + "` "+ offset+ "` "+ length+ ")");" is 195.,53
+ngladitz_emma,com.vladium.util,ByteArrayOStream,write2,Magic Number,The method contains a magic number: 2,49
+ngladitz_emma,com.vladium.util,ByteArrayOStream,write3,Magic Number,The method contains a magic number: 3,73
+ngladitz_emma,com.vladium.util,ByteArrayOStream,write3,Magic Number,The method contains a magic number: 2,73
+ngladitz_emma,com.vladium.util,ByteArrayOStream,write4,Magic Number,The method contains a magic number: 4,98
+ngladitz_emma,com.vladium.util,ByteArrayOStream,write4,Magic Number,The method contains a magic number: 2,98
+ngladitz_emma,com.vladium.util,ByteArrayOStream,write4,Magic Number,The method contains a magic number: 3,98
+ngladitz_emma,com.vladium.util,ByteArrayOStream,write,Long Statement,The length of the statement "if ($assert.ENABLED) $assert.ASSERT((offset >= 0) && (offset <= buf.length) && (length >= 0)&& ((offset + length) <= buf.length)`"invalid input (" + buf.length + "` "+ offset+ "` "+ length+ ")");" is 195.,265
+ngladitz_emma,com.vladium.util,Descriptors,methodVMNameToJavaName,Complex Method,Cyclomatic complexity of the method is 9,84
+ngladitz_emma,com.vladium.util,Descriptors,methodVMNameToJavaName,Long Parameter List,The method has 6 parameters. ,84
+ngladitz_emma,com.vladium.util,Descriptors,typeDescriptorToJavaName,Complex Method,Cyclomatic complexity of the method is 20,163
+ngladitz_emma,com.vladium.util,Descriptors,typeDescriptorToJavaName,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@19808f29,163
+ngladitz_emma,com.vladium.util,Files,readFileList,Empty catch clause,The method has an empty catch block.,31
+ngladitz_emma,com.vladium.util,Files,readFileList,Magic Number,The method contains a magic number: 8,31
+ngladitz_emma,com.vladium.util,Files,readFileList,Magic Number,The method contains a magic number: 1024,31
+ngladitz_emma,com.vladium.util,Files,pathToFiles,Complex Method,Cyclomatic complexity of the method is 8,73
+ngladitz_emma,com.vladium.util,Files,createTempFile,Long Statement,The length of the statement "if ((parentDir == null) || !parentDir.exists()) throw new IllegalArgumentException("invalid parent directory: [" + parentDir + "]");" is 132.,291
+ngladitz_emma,com.vladium.util,Files,createTempFile,Long Statement,The length of the statement "if ((prefix == null) || (prefix.length() < 3)) throw new IllegalArgumentException("null or less than 3 chars long: " + prefix);" is 127.,291
+ngladitz_emma,com.vladium.util,Files,createTempFile,Magic Number,The method contains a magic number: 3,291
+ngladitz_emma,com.vladium.util,IntIntMap,IntIntMap,Magic Number,The method contains a magic number: 11,29
+ngladitz_emma,com.vladium.util,IntIntMap,IntIntMap,Magic Number,The method contains a magic number: 0.75F,29
+ngladitz_emma,com.vladium.util,IntIntMap,IntIntMap,Magic Number,The method contains a magic number: 0.75F,37
+ngladitz_emma,com.vladium.util,IntIntMap,IntIntMap,Long Statement,The length of the statement "if (initialCapacity < 0) throw new IllegalArgumentException("negative input: initialCapacity [" + initialCapacity + "]");" is 121.,45
+ngladitz_emma,com.vladium.util,IntIntMap,IntIntMap,Long Statement,The length of the statement "if ((loadFactor <= 0.0) || (loadFactor >= 1.0 + 1.0E-6)) throw new IllegalArgumentException("loadFactor not in (0.0` 1.0] range: " + loadFactor);" is 145.,45
+ngladitz_emma,com.vladium.util,IntIntMap,IntIntMap,Magic Number,The method contains a magic number: 1.0E-6,45
+ngladitz_emma,com.vladium.util,IntIntMap,contains,Magic Number,The method contains a magic number: 0x7FFFFFFF,84
+ngladitz_emma,com.vladium.util,IntIntMap,get,Magic Number,The method contains a magic number: 0x7FFFFFFF,99
+ngladitz_emma,com.vladium.util,IntIntMap,get,Magic Number,The method contains a magic number: 0x7FFFFFFF,127
+ngladitz_emma,com.vladium.util,IntIntMap,put,Magic Number,The method contains a magic number: 0x7FFFFFFF,162
+ngladitz_emma,com.vladium.util,IntIntMap,put,Magic Number,The method contains a magic number: 0x7FFFFFFF,162
+ngladitz_emma,com.vladium.util,IntIntMap,remove,Magic Number,The method contains a magic number: 0x7FFFFFFF,210
+ngladitz_emma,com.vladium.util,IntIntMap,rehash,Magic Number,The method contains a magic number: 0x7FFFFFFF,281
+ngladitz_emma,com.vladium.util,IntObjectMap,IntObjectMap,Magic Number,The method contains a magic number: 11,29
+ngladitz_emma,com.vladium.util,IntObjectMap,IntObjectMap,Magic Number,The method contains a magic number: 0.75F,29
+ngladitz_emma,com.vladium.util,IntObjectMap,IntObjectMap,Magic Number,The method contains a magic number: 0.75F,37
+ngladitz_emma,com.vladium.util,IntObjectMap,IntObjectMap,Long Statement,The length of the statement "if (initialCapacity < 0) throw new IllegalArgumentException("negative input: initialCapacity [" + initialCapacity + "]");" is 121.,45
+ngladitz_emma,com.vladium.util,IntObjectMap,IntObjectMap,Long Statement,The length of the statement "if ((loadFactor <= 0.0) || (loadFactor >= 1.0 + 1.0E-6)) throw new IllegalArgumentException("loadFactor not in (0.0` 1.0] range: " + loadFactor);" is 145.,45
+ngladitz_emma,com.vladium.util,IntObjectMap,IntObjectMap,Magic Number,The method contains a magic number: 1.0E-6,45
+ngladitz_emma,com.vladium.util,IntObjectMap,contains,Magic Number,The method contains a magic number: 0x7FFFFFFF,84
+ngladitz_emma,com.vladium.util,IntObjectMap,get,Magic Number,The method contains a magic number: 0x7FFFFFFF,100
+ngladitz_emma,com.vladium.util,IntObjectMap,put,Magic Number,The method contains a magic number: 0x7FFFFFFF,146
+ngladitz_emma,com.vladium.util,IntObjectMap,put,Magic Number,The method contains a magic number: 0x7FFFFFFF,146
+ngladitz_emma,com.vladium.util,IntObjectMap,rehash,Magic Number,The method contains a magic number: 0x7FFFFFFF,239
+ngladitz_emma,com.vladium.util,IntSet,IntSet,Magic Number,The method contains a magic number: 11,27
+ngladitz_emma,com.vladium.util,IntSet,IntSet,Magic Number,The method contains a magic number: 0.75F,27
+ngladitz_emma,com.vladium.util,IntSet,IntSet,Magic Number,The method contains a magic number: 0.75F,35
+ngladitz_emma,com.vladium.util,IntSet,IntSet,Long Statement,The length of the statement "if (initialCapacity < 0) throw new IllegalArgumentException("negative input: initialCapacity [" + initialCapacity + "]");" is 121.,43
+ngladitz_emma,com.vladium.util,IntSet,IntSet,Long Statement,The length of the statement "if ((loadFactor <= 0.0) || (loadFactor >= 1.0 + 1.0E-6)) throw new IllegalArgumentException("loadFactor not in (0.0` 1.0] range: " + loadFactor);" is 145.,43
+ngladitz_emma,com.vladium.util,IntSet,IntSet,Magic Number,The method contains a magic number: 1.0E-6,43
+ngladitz_emma,com.vladium.util,IntSet,contains,Magic Number,The method contains a magic number: 0x7FFFFFFF,82
+ngladitz_emma,com.vladium.util,IntSet,add,Magic Number,The method contains a magic number: 0x7FFFFFFF,135
+ngladitz_emma,com.vladium.util,IntSet,add,Magic Number,The method contains a magic number: 0x7FFFFFFF,135
+ngladitz_emma,com.vladium.util,IntSet,rehash,Magic Number,The method contains a magic number: 0x7FFFFFFF,211
+ngladitz_emma,com.vladium.util,IntVector,IntVector,Magic Number,The method contains a magic number: 5,20
+ngladitz_emma,com.vladium.util,ObjectIntMap,ObjectIntMap,Magic Number,The method contains a magic number: 11,31
+ngladitz_emma,com.vladium.util,ObjectIntMap,ObjectIntMap,Magic Number,The method contains a magic number: 0.75F,31
+ngladitz_emma,com.vladium.util,ObjectIntMap,ObjectIntMap,Magic Number,The method contains a magic number: 0.75F,39
+ngladitz_emma,com.vladium.util,ObjectIntMap,ObjectIntMap,Long Statement,The length of the statement "if (initialCapacity < 0) throw new IllegalArgumentException("negative input: initialCapacity [" + initialCapacity + "]");" is 121.,47
+ngladitz_emma,com.vladium.util,ObjectIntMap,ObjectIntMap,Long Statement,The length of the statement "if ((loadFactor <= 0.0) || (loadFactor >= 1.0 + 1.0E-6)) throw new IllegalArgumentException("loadFactor not in (0.0` 1.0] range: " + loadFactor);" is 145.,47
+ngladitz_emma,com.vladium.util,ObjectIntMap,ObjectIntMap,Magic Number,The method contains a magic number: 1.0E-6,47
+ngladitz_emma,com.vladium.util,ObjectIntMap,contains,Magic Number,The method contains a magic number: 0x7FFFFFFF,86
+ngladitz_emma,com.vladium.util,ObjectIntMap,get,Magic Number,The method contains a magic number: 0x7FFFFFFF,105
+ngladitz_emma,com.vladium.util,ObjectIntMap,put,Magic Number,The method contains a magic number: 0x7FFFFFFF,152
+ngladitz_emma,com.vladium.util,ObjectIntMap,put,Magic Number,The method contains a magic number: 0x7FFFFFFF,152
+ngladitz_emma,com.vladium.util,ObjectIntMap,remove,Magic Number,The method contains a magic number: 0x7FFFFFFF,203
+ngladitz_emma,com.vladium.util,ObjectIntMap,rehash,Magic Number,The method contains a magic number: 0x7FFFFFFF,277
+ngladitz_emma,com.vladium.util,Property,getProperties,Empty catch clause,The method has an empty catch block.,209
+ngladitz_emma,com.vladium.util,Property,getProperties,Empty catch clause,The method has an empty catch block.,242
+ngladitz_emma,com.vladium.util,Property,getPropertiesFromFile,Empty catch clause,The method has an empty catch block.,276
+ngladitz_emma,com.vladium.util,Property,getPropertiesFromFile,Magic Number,The method contains a magic number: 8,276
+ngladitz_emma,com.vladium.util,Property,getPropertiesFromFile,Magic Number,The method contains a magic number: 1024,276
+ngladitz_emma,com.vladium.util,SoftValueMap,SoftValueMap,Magic Number,The method contains a magic number: 11,49
+ngladitz_emma,com.vladium.util,SoftValueMap,SoftValueMap,Magic Number,The method contains a magic number: 0.75F,49
+ngladitz_emma,com.vladium.util,SoftValueMap,SoftValueMap,Long Statement,The length of the statement "if (initialCapacity < 0) throw new IllegalArgumentException("negative input: initialCapacity [" + initialCapacity + "]");" is 121.,57
+ngladitz_emma,com.vladium.util,SoftValueMap,SoftValueMap,Long Statement,The length of the statement "if ((loadFactor <= 0.0) || (loadFactor >= 1.0 + 1.0E-6)) throw new IllegalArgumentException("loadFactor not in (0.0` 1.0] range: " + loadFactor);" is 145.,57
+ngladitz_emma,com.vladium.util,SoftValueMap,SoftValueMap,Long Statement,The length of the statement "if (readClearCheckFrequency < 1) throw new IllegalArgumentException("readClearCheckFrequency not in [1` +inf) range: " + readClearCheckFrequency);" is 146.,57
+ngladitz_emma,com.vladium.util,SoftValueMap,SoftValueMap,Long Statement,The length of the statement "if (writeClearCheckFrequency < 1) throw new IllegalArgumentException("writeClearCheckFrequency not in [1` +inf) range: " + writeClearCheckFrequency);" is 149.,57
+ngladitz_emma,com.vladium.util,SoftValueMap,SoftValueMap,Magic Number,The method contains a magic number: 1.0E-6,57
+ngladitz_emma,com.vladium.util,SoftValueMap,get,Complex Conditional,The conditional expression (key == entryKey) || ((keyHashCode == entryKey.hashCode()) && key.equals(entryKey)) is complex.,146
+ngladitz_emma,com.vladium.util,SoftValueMap,get,Complex Method,Cyclomatic complexity of the method is 9,146
+ngladitz_emma,com.vladium.util,SoftValueMap,get,Magic Number,The method contains a magic number: 0x7FFFFFFF,146
+ngladitz_emma,com.vladium.util,SoftValueMap,put,Complex Conditional,The conditional expression (key == entryKey) || ((keyHashCode == entryKey.hashCode()) && key.equals(entryKey)) is complex.,212
+ngladitz_emma,com.vladium.util,SoftValueMap,put,Complex Method,Cyclomatic complexity of the method is 11,212
+ngladitz_emma,com.vladium.util,SoftValueMap,put,Magic Number,The method contains a magic number: 0x7FFFFFFF,212
+ngladitz_emma,com.vladium.util,SoftValueMap,put,Magic Number,The method contains a magic number: 0x7FFFFFFF,212
+ngladitz_emma,com.vladium.util,SoftValueMap,remove,Complex Conditional,The conditional expression (IDENTITY_OPTIMIZATION && (entryKey == key)) || ((keyHashCode == entryKey.hashCode()) && key.equals(entryKey)) is complex.,293
+ngladitz_emma,com.vladium.util,SoftValueMap,remove,Magic Number,The method contains a magic number: 0x7FFFFFFF,293
+ngladitz_emma,com.vladium.util,SoftValueMap,debugDump,Long Statement,The length of the statement "out.append("size threshold = " + m_sizeThreshold + "` get clear frequency = "+ m_readClearCheckFrequency+ "` put clear frequency = "+ m_writeClearCheckFrequency+ EOL);" is 167.,410
+ngladitz_emma,com.vladium.util,SoftValueMap,rehash,Long Statement,The length of the statement "if (m_size > newSize) System.out.println("DEBUG: rehash() cleared " + (m_size - newSize) + " values` new size = "+ newSize);" is 124.,465
+ngladitz_emma,com.vladium.util,SoftValueMap,rehash,Magic Number,The method contains a magic number: 0x7FFFFFFF,465
+ngladitz_emma,com.vladium.util,SoftValueMap,removeClearedValues,Complex Method,Cyclomatic complexity of the method is 9,538
+ngladitz_emma,com.vladium.util,SoftValueMap,removeClearedValues,Long Statement,The length of the statement "final StringBuffer msg=new StringBuffer("removeClearedValues(): soft reference [" + _ref + "] did not match within bucket #"+ bucketIndex+ EOL);" is 144.,538
+ngladitz_emma,com.vladium.util,Strings,merge,Complex Method,Cyclomatic complexity of the method is 8,78
+ngladitz_emma,com.vladium.util,Strings,merge,Long Statement,The length of the statement "if ((delimiters == null) || (delimiters.length() == 0)) throw new IllegalArgumentException("null/empty input: delimiters");" is 123.,78
+ngladitz_emma,com.vladium.util,Strings,mergeAT,Complex Method,Cyclomatic complexity of the method is 12,118
+ngladitz_emma,com.vladium.util,Strings,mergeAT,Long Statement,The length of the statement "if ((delimiters == null) || (delimiters.length() == 0)) throw new IllegalArgumentException("null/empty input: delimiters");" is 123.,118
+ngladitz_emma,com.vladium.util,Strings,HTMLEscape,Complex Method,Cyclomatic complexity of the method is 9,174
+ngladitz_emma,com.vladium.util,Strings,HTMLEscape,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@64a1096e,174
+ngladitz_emma,com.vladium.util,Strings,HTMLEscapeNB,Complex Method,Cyclomatic complexity of the method is 11,217
+ngladitz_emma,com.vladium.util,Strings,HTMLEscapeNB,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@74f9adce,217
+ngladitz_emma,com.vladium.util,WCMatcher,compile,Complex Method,Cyclomatic complexity of the method is 11,21
+ngladitz_emma,com.vladium.util.exception,ExceptionCommon,addExceptionResource,Complex Conditional,The conditional expression (namespace != null) && (messageResourceBundleName != null) && (messageResourceBundleName.length() > 0) is complex.,41
+ngladitz_emma,com.vladium.util.exception,ExceptionCommon,addExceptionResource,Long Statement,The length of the statement "throw new Error("addExceptionResource(): class [" + namespace + "] is not a subclass of "+ ABSTRACT_EXCEPTION.getName()+ " or "+ ABSTACT_RUNTIME_EXCEPTION.getName());" is 166.,41
+ngladitz_emma,com.vladium.util.exception,ExceptionCommon,lookup,Complex Method,Cyclomatic complexity of the method is 10,367
+ngladitz_emma,com.vladium.util.exception,ExceptionCommon,lookup,Empty catch clause,The method has an empty catch block.,367
+ngladitz_emma,com.vladium.util.exception,ExceptionCommon,lookup,Empty catch clause,The method has an empty catch block.,367
+ngladitz_emma,com.vladium.util.exception,ExceptionCommon,lookup,Long Statement,The length of the statement "while (namespace != ABSTRACT_EXCEPTION && namespace != ABSTACT_RUNTIME_EXCEPTION && namespace != THROWABLE && namespace != null) {" is 130.,367
+ngladitz_emma,com.vladium.util.exit,ExitHookManager,getSingleton,Long Statement,The length of the statement "throw new UnsupportedOperationException("no shutdown hook manager available [JVM: " + Property.getSystemFingerprint() + "]");" is 125.,35
+ngladitz_emma,com.vladium.tools,ClassDep,main,Long Statement,The length of the statement "if (args.length < 2) throw new IllegalArgumentException("usage: classpath output_file rootset_classname_1 [rootset_classname_2 ...]");" is 134.,44
+ngladitz_emma,com.vladium.tools,ClassDep,main,Magic Number,The method contains a magic number: 2,44
+ngladitz_emma,com.vladium.tools,ClassDep,main,Magic Number,The method contains a magic number: 2,44
+ngladitz_emma,com.vladium.tools,ClassDep,getDependencies,Complex Method,Cyclomatic complexity of the method is 11,111
+ngladitz_emma,com.vladium.tools,ClassDep,getDependencies,Long Statement,The length of the statement "throw new IllegalArgumentException("class [" + Descriptors.vmNameToJavaName(classVMName) + "] not found in the input classpath");" is 129.,111
+ngladitz_emma,com.vladium.tools,ClassDep,getDependencies,Magic Number,The method contains a magic number: 8,111
+ngladitz_emma,com.vladium.tools,ClassDep,getDependencies,Magic Number,The method contains a magic number: 1024,111
+ngladitz_emma,com.vladium.tools,ClassDep,getDependencies,Magic Number,The method contains a magic number: 8,111
+ngladitz_emma,com.vladium.tools,ClassDep,getDependencies,Magic Number,The method contains a magic number: 1024,111

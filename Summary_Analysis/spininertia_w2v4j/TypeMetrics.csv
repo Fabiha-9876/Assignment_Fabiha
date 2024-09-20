@@ -1,0 +1,20 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+spininertia_w2v4j,com.medallia.w2v4j.iterator,IteratorUtils,0,0,2,2,21,2,0,0,-1.0,1,0,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\iterator\IteratorUtils.java,9
+spininertia_w2v4j,com.medallia.w2v4j,NodeVector,2,0,3,2,28,5,0,0,0.0,1,0,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\NodeVector.java,6
+spininertia_w2v4j,com.medallia.w2v4j,Word2VecModel,2,0,8,7,61,15,0,0,0.0,4,3,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\Word2VecModel.java,15
+spininertia_w2v4j,com.medallia.w2v4j,Word2VecTrainer,38,0,10,5,457,32,0,0,0.2,2,6,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\Word2VecTrainer.java,30
+spininertia_w2v4j,com.medallia.w2v4j,Word2VecTrainer.Word2VecTrainerBuilder,9,0,0,0,89,0,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\Word2VecTrainer.java,69
+spininertia_w2v4j,com.medallia.w2v4j,Word2VecTrainer.TrainingContext,7,0,0,0,18,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\Word2VecTrainer.java,257
+spininertia_w2v4j,com.medallia.w2v4j,Word2VecTrainer.HuffmanTree,2,0,0,0,57,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\Word2VecTrainer.java,281
+spininertia_w2v4j,com.medallia.w2v4j,Word2VecTrainer.HuffmanNode,4,0,0,0,37,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\Word2VecTrainer.java,362
+spininertia_w2v4j,com.medallia.w2v4j,Word2VecTrainer.NeuralNetworkLanguageModel,0,0,0,0,75,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\Word2VecTrainer.java,398
+spininertia_w2v4j,com.medallia.w2v4j,Word2VecTrainer.Word2VecWorker,2,0,0,0,61,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\Word2VecTrainer.java,487
+spininertia_w2v4j,com.medallia.w2v4j,WordVector,6,0,8,3,58,10,0,0,0.25,2,1,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\WordVector.java,10
+spininertia_w2v4j,com.medallia.w2v4j,WordVector.Code,1,0,0,0,8,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\WordVector.java,16
+spininertia_w2v4j,com.medallia.w2v4j,WordWithSimilarity,2,0,5,4,23,5,0,0,0.0,1,0,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\WordWithSimilarity.java,3
+spininertia_w2v4j,com.medallia.w2v4j.tokenizer,RegexTokenizer,1,0,1,1,9,1,0,1,0.0,0,0,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\tokenizer\RegexTokenizer.java,5
+spininertia_w2v4j,com.medallia.w2v4j.tokenizer,Tokenizer,0,0,1,1,9,1,1,0,-1.0,2,0,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\tokenizer\Tokenizer.java,3
+spininertia_w2v4j,com.medallia.w2v4j.utils,MathUtils,0,0,8,8,75,15,0,0,-1.0,3,0,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\utils\MathUtils.java,5
+spininertia_w2v4j,com.medallia.w2v4j.utils,SerializationUtils,0,0,2,2,21,2,0,0,-1.0,1,1,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\main\java\com\medallia\w2v4j\utils\SerializationUtils.java,12
+spininertia_w2v4j,w2v4j,TestWord2Vec,0,0,1,1,16,1,0,0,-1.0,0,2,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-core\src\test\java\w2v4j\TestWord2Vec.java,18
+spininertia_w2v4j,com.medallia.w2v4j.example,Word2VecExample,2,2,3,3,19,4,0,0,0.0,0,3,E:\Repositories\Cloned_Reposit\spininertia_w2v4j\w2v4j-example\src\main\java\com\medallia\w2v4j\example\Word2VecExample.java,14

@@ -1,0 +1,180 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+PunchApp_volley,com.android.volley,CacheDispatcher,run,Complex Method,Cyclomatic complexity of the method is 9,78
+PunchApp_volley,com.android.volley,CacheDispatcher,run,Empty catch clause,The method has an empty catch block.,78
+PunchApp_volley,com.android.volley,CacheDispatcher,run,Empty catch clause,The method has an empty catch block.,144
+PunchApp_volley,com.android.volley,RequestQueue,RequestQueue,Long Identifier,The length of the field DEFAULT_NETWORK_THREAD_POOL_SIZE is 32.,117
+PunchApp_volley,com.android.volley,VolleyLog,buildMessage,Magic Number,The method contains a magic number: 2,74
+PunchApp_volley,com.android.volley,RequestQueueTest,testAdd_requestProcessedInCorrectOrder,Magic Number,The method contains a magic number: 100,68
+PunchApp_volley,com.android.volley,RequestQueueTest,testAdd_requestProcessedInCorrectOrder,Magic Number,The method contains a magic number: 2000,68
+PunchApp_volley,com.android.volley,RequestQueueTest,testAdd_dedupeByCacheKey,Magic Number,The method contains a magic number: 1500,85
+PunchApp_volley,com.android.volley,RequestQueueTest,testAdd_dedupeByCacheKey,Magic Number,The method contains a magic number: 2,85
+PunchApp_volley,com.android.volley,RequestQueueTest,testAdd_dedupeByCacheKey,Magic Number,The method contains a magic number: 3,85
+PunchApp_volley,com.android.volley,RequestQueueTest,testAdd_dedupeByCacheKey,Magic Number,The method contains a magic number: 2000,85
+PunchApp_volley,com.android.volley,RequestQueueTest,testCancelAll_onlyCorrectTag,Magic Number,The method contains a magic number: 3,109
+PunchApp_volley,com.android.volley,ResponseDeliveryTest,setUp,Magic Number,The method contains a magic number: 16,34
+PunchApp_volley,com.android.volley.toolbox,BasicNetwork,performRequest,Complex Method,Cyclomatic complexity of the method is 8,82
+PunchApp_volley,com.android.volley.toolbox,BasicNetwork,performRequest,Long Statement,The length of the statement "return new NetworkResponse(HttpStatus.SC_NOT_MODIFIED`request.getCacheEntry() == null ? null : request.getCacheEntry().data`responseHeaders`true);" is 146.,82
+PunchApp_volley,com.android.volley.toolbox,BasicNetwork,performRequest,Magic Number,The method contains a magic number: 200,82
+PunchApp_volley,com.android.volley.toolbox,BasicNetwork,performRequest,Magic Number,The method contains a magic number: 299,82
+PunchApp_volley,com.android.volley.toolbox,BasicNetwork,logSlowRequests,Long Statement,The length of the statement "VolleyLog.d("HTTP response for request=<%s> [lifetime=%d]` [size=%s]` " + "[rc=%d]` [retryCount=%s]"`request`requestLifetime`responseContents != null ? responseContents.length : "null"`statusLine.getStatusCode()`request.getRetryPolicy().getCurrentRetryCount());" is 261.,155
+PunchApp_volley,com.android.volley.toolbox,BasicNetwork,entityToBytes,Magic Number,The method contains a magic number: 1024,209
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,initialize,Empty catch clause,The method has an empty catch block.,134
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,put,Empty catch clause,The method has an empty catch block.,190
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,getFilenameForKey,Magic Number,The method contains a magic number: 2,226
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,pruneIfNeeded,Long Statement,The length of the statement "VolleyLog.v("pruned %d files` %d bytes` %d ms"`prunedFiles`(mTotalSize - before)`SystemClock.elapsedRealtime() - startTime);" is 124.,245
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeInt,Magic Number,The method contains a magic number: 0xff,478
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeInt,Magic Number,The method contains a magic number: 8,478
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeInt,Magic Number,The method contains a magic number: 0xff,478
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeInt,Magic Number,The method contains a magic number: 16,478
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeInt,Magic Number,The method contains a magic number: 0xff,478
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeInt,Magic Number,The method contains a magic number: 24,478
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeInt,Magic Number,The method contains a magic number: 0xff,478
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readInt,Magic Number,The method contains a magic number: 8,485
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readInt,Magic Number,The method contains a magic number: 16,485
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readInt,Magic Number,The method contains a magic number: 24,485
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeLong,Magic Number,The method contains a magic number: 8,494
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeLong,Magic Number,The method contains a magic number: 16,494
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeLong,Magic Number,The method contains a magic number: 24,494
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeLong,Magic Number,The method contains a magic number: 32,494
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeLong,Magic Number,The method contains a magic number: 40,494
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeLong,Magic Number,The method contains a magic number: 48,494
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,writeLong,Magic Number,The method contains a magic number: 56,494
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 0xFFL,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 0xFFL,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 8,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 0xFFL,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 16,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 0xFFL,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 24,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 0xFFL,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 32,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 0xFFL,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 40,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 0xFFL,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 48,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 0xFFL,505
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCache,readLong,Magic Number,The method contains a magic number: 56,505
+PunchApp_volley,com.android.volley.toolbox,HttpClientStack,performRequest,Magic Number,The method contains a magic number: 5000,74
+PunchApp_volley,com.android.volley.toolbox,HttpClientStack,createHttpRequest,Complex Method,Cyclomatic complexity of the method is 12,90
+PunchApp_volley,com.android.volley.toolbox,HttpClientStack,createHttpRequest,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@3b5d1662,90
+PunchApp_volley,com.android.volley.toolbox,HttpHeaderParser,parseCacheHeaders,Complex Method,Cyclomatic complexity of the method is 10,33
+PunchApp_volley,com.android.volley.toolbox,HttpHeaderParser,parseCacheHeaders,Empty catch clause,The method has an empty catch block.,33
+PunchApp_volley,com.android.volley.toolbox,HttpHeaderParser,parseCacheHeaders,Magic Number,The method contains a magic number: 8,33
+PunchApp_volley,com.android.volley.toolbox,HttpHeaderParser,parseCacheHeaders,Magic Number,The method contains a magic number: 1000,33
+PunchApp_volley,com.android.volley.toolbox,HttpHeaderParser,parseCharset,Magic Number,The method contains a magic number: 2,117
+PunchApp_volley,com.android.volley.toolbox,HurlStack,performRequest,Long Statement,The length of the statement "StatusLine responseStatus=new BasicStatusLine(protocolVersion`connection.getResponseCode()`connection.getResponseMessage());" is 124.,88
+PunchApp_volley,com.android.volley.toolbox,HurlStack,setConnectionParametersForRequest,Complex Method,Cyclomatic complexity of the method is 12,179
+PunchApp_volley,com.android.volley.toolbox,HurlStack,setConnectionParametersForRequest,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@227f6796,179
+PunchApp_volley,com.android.volley.toolbox,ImageLoader,getCacheKey,Long Statement,The length of the statement "return new StringBuilder(url.length() + 12).append("#W").append(maxWidth).append("#H").append(maxHeight).append(url).toString();" is 128.,470
+PunchApp_volley,com.android.volley.toolbox,ImageLoader,getCacheKey,Magic Number,The method contains a magic number: 12,470
+PunchApp_volley,com.android.volley.toolbox,ImageRequest,ImageRequest,Long Parameter List,The method has 6 parameters. ,52
+PunchApp_volley,com.android.volley.toolbox,ImageRequest,doParse,Complex Conditional,The conditional expression tempBitmap != null && (tempBitmap.getWidth() > desiredWidth || tempBitmap.getHeight() > desiredHeight) is complex.,134
+PunchApp_volley,com.android.volley.toolbox,ImageRequest,findBestSampleSize,Magic Number,The method contains a magic number: 2,189
+PunchApp_volley,com.android.volley.toolbox,ImageRequest,findBestSampleSize,Magic Number,The method contains a magic number: 2,189
+PunchApp_volley,com.android.volley.toolbox,JsonObjectRequest,JsonObjectRequest,Long Parameter List,The method has 5 parameters. ,36
+PunchApp_volley,com.android.volley.toolbox,JsonRequest,JsonRequest,Long Parameter List,The method has 5 parameters. ,56
+PunchApp_volley,com.android.volley.toolbox,NetworkImageView,loadImageIfNecessary,Complex Conditional,The conditional expression width == 0 && height == 0 && !isFullyWrapContent is complex.,99
+PunchApp_volley,com.android.volley.toolbox,NetworkImageView,loadImageIfNecessary,Complex Method,Cyclomatic complexity of the method is 11,99
+PunchApp_volley,com.android.volley.toolbox,NetworkImageView,onLayout,Long Parameter List,The method has 5 parameters. ,195
+PunchApp_volley,com.android.volley.toolbox,PoolingByteArrayOutputStream,expand,Magic Number,The method contains a magic number: 2,68
+PunchApp_volley,com.android.volley.toolbox,Volley,newRequestQueue,Empty catch clause,The method has an empty catch block.,35
+PunchApp_volley,com.android.volley.toolbox,Volley,newRequestQueue,Magic Number,The method contains a magic number: 9,35
+PunchApp_volley,com.android.volley.toolbox,BasicNetworkTest,testHeadersAndPostParams,Magic Number,The method contains a magic number: 200,43
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testReusesBuffer,Magic Number,The method contains a magic number: 32,22
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testReusesBuffer,Magic Number,The method contains a magic number: 16,22
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testReusesBuffer,Magic Number,The method contains a magic number: 16,22
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testReusesBuffer,Magic Number,The method contains a magic number: 16,22
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testReusesBuffer,Magic Number,The method contains a magic number: 16,22
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testObeysSizeLimit,Magic Number,The method contains a magic number: 32,38
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testObeysSizeLimit,Magic Number,The method contains a magic number: 16,38
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testObeysSizeLimit,Magic Number,The method contains a magic number: 16,38
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testObeysSizeLimit,Magic Number,The method contains a magic number: 16,38
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testObeysSizeLimit,Magic Number,The method contains a magic number: 16,38
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testObeysSizeLimit,Magic Number,The method contains a magic number: 16,38
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testObeysSizeLimit,Magic Number,The method contains a magic number: 16,38
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testReturnsBufferWithRightSize,Magic Number,The method contains a magic number: 32,59
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testReturnsBufferWithRightSize,Magic Number,The method contains a magic number: 16,59
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testReturnsBufferWithRightSize,Magic Number,The method contains a magic number: 17,59
+PunchApp_volley,com.android.volley.toolbox,ByteArrayPoolTest,testReturnsBufferWithRightSize,Magic Number,The method contains a magic number: 15,59
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testCacheHeaderSerialization,Magic Number,The method contains a magic number: 8,32
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testCacheHeaderSerialization,Magic Number,The method contains a magic number: 1234567L,32
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testCacheHeaderSerialization,Magic Number,The method contains a magic number: 9876543L,32
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testCacheHeaderSerialization,Magic Number,The method contains a magic number: 8765432L,32
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testSerializeInt,Magic Number,The method contains a magic number: 19791214,56
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testSerializeInt,Magic Number,The method contains a magic number: 20050711,56
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testSerializeInt,Magic Number,The method contains a magic number: 19791214,56
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testSerializeInt,Magic Number,The method contains a magic number: 20050711,56
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testSerializeLong,Magic Number,The method contains a magic number: 31337,71
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testSerializeLong,Magic Number,The method contains a magic number: 4160,71
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testSerializeLong,Magic Number,The method contains a magic number: 4295032832L,71
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testSerializeLong,Magic Number,The method contains a magic number: 4314824046L,71
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testSerializeLong,Magic Number,The method contains a magic number: 31337,71
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testSerializeLong,Magic Number,The method contains a magic number: 4160,71
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testSerializeLong,Magic Number,The method contains a magic number: 4295032832L,71
+PunchApp_volley,com.android.volley.toolbox,DiskBasedCacheTest,testSerializeLong,Magic Number,The method contains a magic number: 4314824046L,71
+PunchApp_volley,com.android.volley.toolbox,HttpHeaderParserTest,testParseCacheHeaders_serverRelative,Magic Number,The method contains a magic number: 4,106
+PunchApp_volley,com.android.volley.toolbox,HttpHeaderParserTest,testParseCacheHeaders_serverRelative,Magic Number,The method contains a magic number: 3,106
+PunchApp_volley,com.android.volley.toolbox,HttpHeaderParserTest,testParseCacheHeaders_cacheControlOverridesExpires,Magic Number,The method contains a magic number: 24,120
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 512,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 250,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 512,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 250,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 511,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 249,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 509,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 249,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 1080,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 500,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 1024,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 500,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 500,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 500,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 500,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 244,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 512,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 512,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 250,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 800,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 800,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 390,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 1024,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 1024,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 500,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 250,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 512,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 250,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 391,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 800,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 391,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 500,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 1024,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 500,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 1024,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testParseNetworkResponse_resizing,Magic Number,The method contains a magic number: 500,36
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,verifyResize,Long Parameter List,The method has 5 parameters. ,61
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 100,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 150,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 100,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 150,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 2,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 280,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 160,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 140,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 80,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 1000,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 800,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 501,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 401,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 4,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 100,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 200,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 24,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,testFindBestSampleSize,Magic Number,The method contains a magic number: 50,74
+PunchApp_volley,com.android.volley.toolbox,ImageRequestTest,readRawResource,Magic Number,The method contains a magic number: 1024,88
+PunchApp_volley,com.android.volley.toolbox,PoolingByteArrayOutputStreamTest,testPooledOneBuffer,Magic Number,The method contains a magic number: 32768,27
+PunchApp_volley,com.android.volley.toolbox,PoolingByteArrayOutputStreamTest,testPooledIndividualWrites,Magic Number,The method contains a magic number: 32768,34
+PunchApp_volley,com.android.volley.toolbox,PoolingByteArrayOutputStreamTest,writeOneBuffer,Magic Number,The method contains a magic number: 16384,55
+PunchApp_volley,com.android.volley.toolbox,PoolingByteArrayOutputStreamTest,writeOneBuffer,Magic Number,The method contains a magic number: 0xff,55
+PunchApp_volley,com.android.volley.toolbox,PoolingByteArrayOutputStreamTest,writeBytesIndividually,Magic Number,The method contains a magic number: 16384,66
+PunchApp_volley,com.android.volley.toolbox,PoolingByteArrayOutputStreamTest,writeBytesIndividually,Magic Number,The method contains a magic number: 0xff,66
+PunchApp_volley,com.android.volley.utils,CacheTestUtils,makeRandomCacheEntry,Magic Number,The method contains a magic number: 1024,11

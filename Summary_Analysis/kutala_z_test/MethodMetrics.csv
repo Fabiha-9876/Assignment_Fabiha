@@ -1,0 +1,5 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+kutala_z_test,z_test,Master,main,2,1,1,5,0,,
+kutala_z_test,z_test,Test,main,7,2,1,9,0,,
+kutala_z_test,z_test,User,add,2,1,0,5,0,,
+kutala_z_test,z_test,User,main,2,1,1,7,0,,

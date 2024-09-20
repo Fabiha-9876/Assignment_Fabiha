@@ -1,0 +1,7 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+btokumi15_btokumi-SecretCode,(default package),SecretCode,findIndex,Magic Number,The method contains a magic number: 27,20
+btokumi15_btokumi-SecretCode,(default package),SecretCode,scramble,Magic Number,The method contains a magic number: 26,33
+btokumi15_btokumi-SecretCode,(default package),SecretCode,scramble,Magic Number,The method contains a magic number: 27,33
+btokumi15_btokumi-SecretCode,(default package),SecretCode,scramble,Magic Number,The method contains a magic number: 27,33
+btokumi15_btokumi-SecretCode,(default package),SecretCode,scramble,Magic Number,The method contains a magic number: 27,33
+btokumi15_btokumi-SecretCode,(default package),SecretCode,unscramble,Magic Number,The method contains a magic number: 27,61

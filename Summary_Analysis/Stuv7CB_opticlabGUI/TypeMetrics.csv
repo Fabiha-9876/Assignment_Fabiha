@@ -1,0 +1,30 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+Stuv7CB_opticlabGUI,(default package),Main,0,0,2,2,11,2,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\Main.java,5
+Stuv7CB_opticlabGUI,stuv7cb.gui,ButtonRun,5,0,6,2,128,15,0,0,0.3333333333333333,1,2,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\ButtonRun.java,21
+Stuv7CB_opticlabGUI,stuv7cb.gui,LabelDisplay,4,0,10,1,85,12,1,1,0.0,2,0,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\LabelDisplay.java,11
+Stuv7CB_opticlabGUI,stuv7cb.gui,LabelEllepticMirror,5,0,12,1,69,13,0,1,0.0,1,0,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\LabelEllepticMirror.java,11
+Stuv7CB_opticlabGUI,stuv7cb.gui,LabelLaser,3,0,8,1,54,8,0,1,0.0,2,0,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\LabelLaser.java,9
+Stuv7CB_opticlabGUI,stuv7cb.gui,LabelLense,5,0,13,1,116,19,0,1,0.0,2,0,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\LabelLense.java,11
+Stuv7CB_opticlabGUI,stuv7cb.gui,LabelMirror,1,0,2,1,30,3,0,2,1.0,2,0,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\LabelMirror.java,10
+Stuv7CB_opticlabGUI,stuv7cb.gui,LabelObject,18,0,39,10,512,75,9,0,0.48717948717948717,0,13,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\LabelObject.java,23
+Stuv7CB_opticlabGUI,stuv7cb.gui,LabelPlate,6,0,14,1,80,14,0,1,0.0,2,0,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\LabelPlate.java,11
+Stuv7CB_opticlabGUI,stuv7cb.gui,LabelPrism,5,0,13,1,79,13,0,1,0.0,2,0,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\LabelPrism.java,12
+Stuv7CB_opticlabGUI,stuv7cb.gui,LabelRealLense,8,0,19,1,138,24,0,1,0.0,2,0,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\LabelRealLense.java,12
+Stuv7CB_opticlabGUI,stuv7cb.gui,LabelSource,2,0,6,1,36,6,0,1,0.3333333333333333,2,0,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\LabelSource.java,7
+Stuv7CB_opticlabGUI,stuv7cb.gui,LabelSphereMirror,5,0,12,1,62,12,0,1,0.0,2,0,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\LabelSphereMirror.java,11
+Stuv7CB_opticlabGUI,stuv7cb.gui,MainFrame,6,0,15,6,319,52,0,0,0.13333333333333333,16,12,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\MainFrame.java,18
+Stuv7CB_opticlabGUI,stuv7cb.gui,MainPanel,2,0,3,1,51,7,0,0,0.0,2,0,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\MainPanel.java,16
+Stuv7CB_opticlabGUI,stuv7cb.gui,SelectionLabel,4,0,1,0,28,1,0,0,0.0,1,1,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SelectionLabel.java,10
+Stuv7CB_opticlabGUI,stuv7cb.gui,SelectionLabel.MyMouseListener,0,0,0,0,13,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SelectionLabel.java,27
+Stuv7CB_opticlabGUI,stuv7cb.gui,SetDisplay,2,0,3,0,35,4,0,1,0.6666666666666666,2,2,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SetDisplay.java,9
+Stuv7CB_opticlabGUI,stuv7cb.gui,SetEllepticMirror,4,0,3,0,36,4,0,1,0.6666666666666666,2,2,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SetEllepticMirror.java,9
+Stuv7CB_opticlabGUI,stuv7cb.gui,SetFrame,5,0,5,1,128,15,0,0,0.4,2,11,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SetFrame.java,11
+Stuv7CB_opticlabGUI,stuv7cb.gui,SetLaser,1,0,3,0,26,3,0,1,1.0,2,2,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SetLaser.java,8
+Stuv7CB_opticlabGUI,stuv7cb.gui,SetLense,3,0,3,0,32,3,0,1,0.0,2,2,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SetLense.java,9
+Stuv7CB_opticlabGUI,stuv7cb.gui,SetMirror,2,0,3,0,29,3,0,1,0.6666666666666666,2,2,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SetMirror.java,9
+Stuv7CB_opticlabGUI,stuv7cb.gui,SetPanel,5,0,3,0,14,3,10,0,1.0,0,1,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SetPanel.java,6
+Stuv7CB_opticlabGUI,stuv7cb.gui,SetPlate,4,0,3,0,35,3,0,1,0.6666666666666666,2,2,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SetPlate.java,9
+Stuv7CB_opticlabGUI,stuv7cb.gui,SetPrism,6,0,3,0,41,3,0,1,0.6666666666666666,2,2,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SetPrism.java,9
+Stuv7CB_opticlabGUI,stuv7cb.gui,SetRealLense,6,0,3,0,50,4,0,1,0.6666666666666666,2,2,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SetRealLense.java,10
+Stuv7CB_opticlabGUI,stuv7cb.gui,SetSource,1,0,3,0,24,3,0,1,1.0,2,2,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SetSource.java,8
+Stuv7CB_opticlabGUI,stuv7cb.gui,SetSphereMirror,4,0,3,0,33,3,0,1,0.6666666666666666,2,2,E:\Repositories\Cloned_Reposit\Stuv7CB_opticlabGUI\OpticLabGUI\src\stuv7cb\gui\SetSphereMirror.java,9

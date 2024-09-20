@@ -1,0 +1,9 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+icol2006_appCSV,com.appcsv,R.attr,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+icol2006_appCSV,com.appcsv,R.color,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+icol2006_appCSV,com.appcsv,R.drawable,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+icol2006_appCSV,com.appcsv,R.id,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+icol2006_appCSV,com.appcsv,R.layout,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+icol2006_appCSV,com.appcsv,R.string,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+icol2006_appCSV,com.appcsv,R.style,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+icol2006_appCSV,com.appcsv,MainActivity,Hard-wired Dependency,The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: com.appcsv.CSVFile

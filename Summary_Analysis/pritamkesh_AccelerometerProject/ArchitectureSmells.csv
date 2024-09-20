@@ -1,0 +1,2 @@
+Project Name,Package Name,Architecture Smell,Cause of the Smell
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,Feature Concentration,The tool detected the smell in this component because the component realizes more than one architectural concern/feature. Independent sets of related classes within this component are: [BuildConfig]; [R; MainActivity]; [R.attr]; [R.drawable]; [R.id]; [R.layout]; [R.menu]; [R.string]; [R.style]. LCC (Lack of Component Cohesion) = 0.9

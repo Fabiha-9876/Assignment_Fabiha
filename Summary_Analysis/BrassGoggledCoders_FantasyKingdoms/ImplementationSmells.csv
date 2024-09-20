@@ -1,0 +1,269 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.entity,RenderBarrelPrimed,doRender,Long Parameter List,The method has 6 parameters. ,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.entity,RenderBarrelPrimed,doRender,Magic Number,The method contains a magic number: 10.0F,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.entity,RenderBarrelPrimed,doRender,Magic Number,The method contains a magic number: 10.0F,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.entity,RenderBarrelPrimed,doRender,Magic Number,The method contains a magic number: 0.3F,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.entity,RenderBarrelPrimed,doRender,Magic Number,The method contains a magic number: 100.0F,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.entity,RenderBarrelPrimed,doRender,Magic Number,The method contains a magic number: 0.8F,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.entity,RenderBarrelPrimed,doRender,Magic Number,The method contains a magic number: 5,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.entity,RenderBarrelPrimed,doRender,Magic Number,The method contains a magic number: 2,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.entity,RenderBarrelPrimed,doRender,Long Parameter List,The method has 6 parameters. ,60
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.tile,TileRunicAnvilRenderer,renderTileEntityAt,Long Parameter List,The method has 5 parameters. ,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.tile,TileRunicAnvilRenderer,renderTileEntityAt,Magic Number,The method contains a magic number: 0.5F,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.tile,TileRunicAnvilRenderer,renderTileEntityAt,Magic Number,The method contains a magic number: 1.1F,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.tile,TileRunicAnvilRenderer,renderTileEntityAt,Magic Number,The method contains a magic number: 0.25F,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.client.renderers.tile,TileRunicAnvilRenderer,renderTileEntityAt,Magic Number,The method contains a magic number: 90,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BaseBlock,BaseBlock,Magic Number,The method contains a magic number: 0.5F,32
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BaseBlock,registerBlockIcons,Magic Number,The method contains a magic number: 5,39
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BaseContainerBlock,BaseContainerBlock,Magic Number,The method contains a magic number: 0.5F,16
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BaseContainerBlock,registerBlockIcons,Magic Number,The method contains a magic number: 5,23
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockDecorativeStone,BlockDecorativeStone,Magic Number,The method contains a magic number: 2.0F,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockDecorativeStone,registerBlockIcons,Magic Number,The method contains a magic number: 2,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockDecorativeStone,registerBlockIcons,Magic Number,The method contains a magic number: 3,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockFog,onEntityCollidedWithBlock,Long Parameter List,The method has 5 parameters. ,25
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockGemstone,BlockGemstone,Magic Number,The method contains a magic number: 2.0F,24
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockGemstone,registerBlockIcons,Magic Number,The method contains a magic number: 2,38
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockGemstone,registerBlockIcons,Magic Number,The method contains a magic number: 3,38
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockGemstoneOre,BlockGemstoneOre,Magic Number,The method contains a magic number: 2.0F,24
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockGemstoneOre,getDrops,Long Parameter List,The method has 6 parameters. ,36
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockGemstoneOre,registerBlockIcons,Magic Number,The method contains a magic number: 2,53
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockGemstoneOre,registerBlockIcons,Magic Number,The method contains a magic number: 3,53
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockInvisLight,BlockInvisLight,Magic Number,The method contains a magic number: 0.40F,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockInvisLight,BlockInvisLight,Magic Number,The method contains a magic number: 0.40F,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockInvisLight,BlockInvisLight,Magic Number,The method contains a magic number: 0.40F,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockInvisLight,BlockInvisLight,Magic Number,The method contains a magic number: 0.60F,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockInvisLight,BlockInvisLight,Magic Number,The method contains a magic number: 0.60F,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockInvisLight,BlockInvisLight,Magic Number,The method contains a magic number: 0.60F,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockInvisLight,randomDisplayTick,Long Parameter List,The method has 5 parameters. ,22
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockMetal,BlockMetal,Magic Number,The method contains a magic number: 2.0F,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockMetal,registerBlockIcons,Magic Number,The method contains a magic number: 2,42
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockMetal,registerBlockIcons,Magic Number,The method contains a magic number: 3,42
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockMetal,registerBlockIcons,Magic Number,The method contains a magic number: 4,42
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockMetal,registerBlockIcons,Magic Number,The method contains a magic number: 5,42
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockOre,BlockOre,Magic Number,The method contains a magic number: 2.0F,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockOre,BlockOre,Magic Number,The method contains a magic number: 2,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockOre,registerBlockIcons,Magic Number,The method contains a magic number: 2,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockOre,registerBlockIcons,Magic Number,The method contains a magic number: 3,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockOre,registerBlockIcons,Magic Number,The method contains a magic number: 4,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,BlockSolidFog,BlockSolidFog,Magic Number,The method contains a magic number: 0.5F,7
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,FluidTreasure,FluidTreasure,Magic Number,The method contains a magic number: 3000,23
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks,FluidTreasure,FluidTreasure,Magic Number,The method contains a magic number: 1200,23
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockBarrel,getIcon,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@43076326,34
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockBarrel,onBlockActivated,Long Parameter List,The method has 9 parameters. ,60
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onNeighborBlockChange,Long Parameter List,The method has 5 parameters. ,50
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onBlockDestroyedByExplosion,Long Parameter List,The method has 5 parameters. ,74
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onBlockDestroyedByExplosion,Long Statement,The length of the statement "EntityBarrelPrimed entitytntprimed=new EntityBarrelPrimed(p_149723_1_`p_149723_2_ + 0.5F`p_149723_3_ + 0.5F`p_149723_4_ + 0.5F`p_149723_5_.getExplosivePlacedBy());" is 163.,74
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onBlockDestroyedByExplosion,Magic Number,The method contains a magic number: 0.5F,74
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onBlockDestroyedByExplosion,Magic Number,The method contains a magic number: 0.5F,74
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onBlockDestroyedByExplosion,Magic Number,The method contains a magic number: 0.5F,74
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onBlockDestroyedByExplosion,Magic Number,The method contains a magic number: 4,74
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onBlockDestroyedByExplosion,Magic Number,The method contains a magic number: 8,74
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onBlockDestroyedByPlayer,Long Parameter List,The method has 5 parameters. ,89
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,func_150114_a,Long Parameter List,The method has 6 parameters. ,99
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,func_150114_a,Magic Number,The method contains a magic number: 0.5F,99
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,func_150114_a,Magic Number,The method contains a magic number: 0.5F,99
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,func_150114_a,Magic Number,The method contains a magic number: 0.5F,99
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onBlockActivated,Long Parameter List,The method has 9 parameters. ,112
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onBlockActivated,Long Statement,The length of the statement "if ((p_149727_5_.getCurrentEquippedItem() != null) && (p_149727_5_.getCurrentEquippedItem().getItem() == Items.flint_and_steel)) {" is 130.,112
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onBlockActivated,Long Statement,The length of the statement "return super.onBlockActivated(world`p_149727_2_`p_149727_3_`p_149727_4_`p_149727_5_`p_149727_6_`p_149727_7_`p_149727_8_`p_149727_9_);" is 133.,112
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onEntityCollidedWithBlock,Long Parameter List,The method has 5 parameters. ,133
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,onEntityCollidedWithBlock,Long Statement,The length of the statement "this.func_150114_a(p_149670_1_`p_149670_2_`p_149670_3_`p_149670_4_`1`entityarrow.shootingEntity instanceof EntityLivingBase ? (EntityLivingBase)entityarrow.shootingEntity : null);" is 179.,133
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockExplosiveBarrel,getIcon,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@202ed88d,162
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockRunicAnvil,onBlockActivated,Long Parameter List,The method has 9 parameters. ,23
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockRunicAnvil,onBlockActivated,Magic Number,The method contains a magic number: 2000,23
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.blocks.dwarven,BlockRunicAnvil,onBlockActivated,Magic Number,The method contains a magic number: 4,23
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common,CommandMagic,processCommand,Magic Number,The method contains a magic number: 50,24
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common,CommandMagic,processCommand,Magic Number,The method contains a magic number: 50,24
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.entity,EntityBarrelPrimed,EntityBarrelPrimed,Long Parameter List,The method has 5 parameters. ,15
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitBlocks,registerBlocks,Long Statement,The length of the statement "blockTreasureFluid=new BlockCustomFiniteFluid(treasureFluid`Material.water`"treasure").setBlockName("treasureFluidBlock");" is 122.,56
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitEntities,init,Magic Number,The method contains a magic number: 40,10
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Method,The method has 109 lines of code.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "RegistryHelper.registerArmorSet(itemPlateHelmet`itemPlateChestplate`itemPlateLeggings`itemPlateBoots`"Plate"`ModInfo.MODID);" is 124.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemChainmailHelmet=new ItemNormalArmor(InitMaterials.ARMOR_CHAINMAIL`0`"chainmail").setUnlocalizedName("itemHelmetChainmail");" is 127.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemChainmailChestplate=new ItemNormalArmor(InitMaterials.ARMOR_CHAINMAIL`1`"chainmail").setUnlocalizedName("itemChestplateChainmail");" is 135.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemChainmailLeggings=new ItemNormalArmor(InitMaterials.ARMOR_CHAINMAIL`2`"chainmail").setUnlocalizedName("itemLegsChainmail");" is 127.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemChainmailBoots=new ItemNormalArmor(InitMaterials.ARMOR_CHAINMAIL`3`"chainmail").setUnlocalizedName("itemBootsChainmail");" is 125.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "RegistryHelper.registerArmorSet(itemChainmailHelmet`itemChainmailChestplate`itemChainmailLeggings`itemChainmailBoots`"Chainmail"`ModInfo.MODID);" is 144.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemJewelledPickaxe=new BasePickaxe(InitMaterials.TOOL_JEWELLED`ModInfo.PREFIX).setUnlocalizedName("itemPickaxeJewelled").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 166.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemJewelledSword=new BaseSword(InitMaterials.TOOL_JEWELLED`ModInfo.PREFIX).setUnlocalizedName("itemSwordJewelled").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 160.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemJewelledShovel=new BaseShovel(InitMaterials.TOOL_JEWELLED`ModInfo.PREFIX).setUnlocalizedName("itemShovelJewelled").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 163.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemJewelledAxe=new BaseAxe(InitMaterials.TOOL_JEWELLED`ModInfo.PREFIX).setUnlocalizedName("itemAxeJewelled").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 154.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemJewelledHoe=new BaseHoe(InitMaterials.TOOL_JEWELLED`ModInfo.PREFIX).setUnlocalizedName("itemHoeJewelled").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 154.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "RegistryHelper.registerToolSet(itemJewelledSword`itemJewelledShovel`itemJewelledPickaxe`itemJewelledAxe`itemJewelledHoe`"Jewelled"`ModInfo.MODID);" is 146.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemSilverPickaxe=new BasePickaxe(InitMaterials.TOOL_SILVER`ModInfo.PREFIX).setUnlocalizedName("itemPickaxeSilver").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 160.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemSilverSword=new BaseSword(InitMaterials.TOOL_SILVER`ModInfo.PREFIX).setUnlocalizedName("itemSwordSilver").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 154.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemSilverShovel=new BaseShovel(InitMaterials.TOOL_SILVER`ModInfo.PREFIX).setUnlocalizedName("itemShovelSilver").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 157.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemSilverAxe=new BaseAxe(InitMaterials.TOOL_SILVER`ModInfo.PREFIX).setUnlocalizedName("itemAxeSilver").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 148.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemSilverHoe=new BaseHoe(InitMaterials.TOOL_SILVER`ModInfo.PREFIX).setUnlocalizedName("itemHoeSilver").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 148.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "RegistryHelper.registerToolSet(itemSilverSword`itemSilverShovel`itemSilverPickaxe`itemSilverAxe`itemSilverHoe`"Silver"`ModInfo.MODID);" is 134.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemMythrilPickaxe=new BasePickaxe(InitMaterials.TOOL_MYTHRIL`ModInfo.PREFIX).setUnlocalizedName("itemPickaxeMythril").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 163.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemMythrilSword=new BaseSword(InitMaterials.TOOL_MYTHRIL`ModInfo.PREFIX).setUnlocalizedName("itemSwordMythril").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 157.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemMythrilShovel=new BaseShovel(InitMaterials.TOOL_MYTHRIL`ModInfo.PREFIX).setUnlocalizedName("itemShovelMythril").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 160.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemMythrilAxe=new BaseAxe(InitMaterials.TOOL_MYTHRIL`ModInfo.PREFIX).setUnlocalizedName("itemAxeMythril").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 151.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemMythrilHoe=new BaseHoe(InitMaterials.TOOL_MYTHRIL`ModInfo.PREFIX).setUnlocalizedName("itemHoeMythril").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 151.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "RegistryHelper.registerToolSet(itemMythrilSword`itemMythrilShovel`itemMythrilPickaxe`itemMythrilAxe`itemMythrilHoe`"Mythril"`ModInfo.MODID);" is 140.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemDragonbonePickaxe=new BasePickaxe(InitMaterials.TOOL_DRAGONBONE`ModInfo.PREFIX).setUnlocalizedName("itemPickaxeDragonbone").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 172.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemDragonboneSword=new BaseSword(InitMaterials.TOOL_DRAGONBONE`ModInfo.PREFIX).setUnlocalizedName("itemSwordDragonbone").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 166.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemDragonboneShovel=new BaseShovel(InitMaterials.TOOL_DRAGONBONE`ModInfo.PREFIX).setUnlocalizedName("itemShovelDragonbone").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 169.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemDragonboneAxe=new BaseAxe(InitMaterials.TOOL_DRAGONBONE`ModInfo.PREFIX).setUnlocalizedName("itemAxeDragonbone").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 160.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "itemDragonboneHoe=new BaseHoe(InitMaterials.TOOL_DRAGONBONE`ModInfo.PREFIX).setUnlocalizedName("itemHoeDragonbone").setCreativeTab(FantasyKingdoms.tabKingdoms);" is 160.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Long Statement,The length of the statement "RegistryHelper.registerToolSet(itemDragonboneSword`itemDragonboneShovel`itemDragonbonePickaxe`itemDragonboneAxe`itemDragonboneHoe`"Dragonbone"`ModInfo.MODID);" is 158.,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Magic Number,The method contains a magic number: 2,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Magic Number,The method contains a magic number: 3,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Magic Number,The method contains a magic number: 2,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Magic Number,The method contains a magic number: 3,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Magic Number,The method contains a magic number: 8,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Magic Number,The method contains a magic number: 120,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Magic Number,The method contains a magic number: 12,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitItems,registerItems,Magic Number,The method contains a magic number: 150,109
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 2,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 200,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 12.0F,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 32,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 2,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 128,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 6.0F,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 12,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 4,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 2000,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 12.0F,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 3.0F,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 20,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 4,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 4000,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 15.0F,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 4.0F,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 40,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 128,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 40,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 20,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 12,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 25,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 10,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 30,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 10,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 35,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 10,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 40,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 10,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 40,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitMaterials,initializeMaterials,Magic Number,The method contains a magic number: 10,14
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitRecipes,init,Long Statement,The length of the statement "RecipeUtils.addToolSet(new ItemStack(InitItems.itemIngot`1`2)`new ItemStack[]{new ItemStack(InitItems.itemSilverPickaxe)`new ItemStack(InitItems.itemSilverShovel)`new ItemStack(InitItems.itemSilverAxe)`new ItemStack(InitItems.itemSilverHoe)`new ItemStack(InitItems.itemSilverSword)});" is 284.,11
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitRecipes,init,Magic Number,The method contains a magic number: 6,11
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitRecipes,init,Magic Number,The method contains a magic number: 2,11
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitRecipes,init,Magic Number,The method contains a magic number: 3,11
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitRecipes,init,Magic Number,The method contains a magic number: 0.3F,11
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitRecipes,init,Magic Number,The method contains a magic number: 5,11
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.init,InitRecipes,init,Magic Number,The method contains a magic number: 0.3F,11
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,BaseItem,registerIcons,Magic Number,The method contains a magic number: 5,36
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemDeflectionBelt,onWornTick,Magic Number,The method contains a magic number: 5.0D,30
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemDeflectionBelt,onWornTick,Magic Number,The method contains a magic number: 5.0D,30
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemDeflectionBelt,onWornTick,Magic Number,The method contains a magic number: 5.0D,30
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemGem,registerIcons,Magic Number,The method contains a magic number: 2,42
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemGem,registerIcons,Magic Number,The method contains a magic number: 3,42
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemIngot,registerIcons,Magic Number,The method contains a magic number: 2,44
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemIngot,registerIcons,Magic Number,The method contains a magic number: 3,44
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemIngot,registerIcons,Magic Number,The method contains a magic number: 4,44
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemIngot,registerIcons,Magic Number,The method contains a magic number: 5,44
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemNugget,registerIcons,Magic Number,The method contains a magic number: 2,44
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemNugget,registerIcons,Magic Number,The method contains a magic number: 3,44
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemNugget,registerIcons,Magic Number,The method contains a magic number: 4,44
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemNugget,registerIcons,Magic Number,The method contains a magic number: 5,44
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemPotionBelt,onWornTick,Magic Number,The method contains a magic number: 2,28
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemPotionRing,onWornTick,Magic Number,The method contains a magic number: 2,28
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Complex Conditional,The conditional expression (f > 0.5F) && ((player.getRNG().nextFloat() * 30.0F) < ((f - 0.4F) * 2.0F)) && player.worldObj.canBlockSeeTheSky(MathHelper.floor_double(player.posX)`MathHelper.floor_double(player.posY)`MathHelper.floor_double(player.posZ)) is complex.,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Complex Method,Cyclomatic complexity of the method is 8,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Long Statement,The length of the statement "if ((f > 0.5F) && ((player.getRNG().nextFloat() * 30.0F) < ((f - 0.4F) * 2.0F)) && player.worldObj.canBlockSeeTheSky(MathHelper.floor_double(player.posX)`MathHelper.floor_double(player.posY)`MathHelper.floor_double(player.posZ))) {" is 231.,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Magic Number,The method contains a magic number: 0.5F,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Magic Number,The method contains a magic number: 30.0F,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Magic Number,The method contains a magic number: 0.4F,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Magic Number,The method contains a magic number: 2.0F,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Magic Number,The method contains a magic number: 4,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Magic Number,The method contains a magic number: 2,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Magic Number,The method contains a magic number: 4,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Magic Number,The method contains a magic number: 8,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Magic Number,The method contains a magic number: 300,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Magic Number,The method contains a magic number: 50,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items,ItemStygiumRing,onWornTick,Magic Number,The method contains a magic number: 2,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemEmptyTankard,onItemUse,Long Parameter List,The method has 10 parameters. ,17
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 2,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 3,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 4,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 5,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 6,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 7,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 8,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 9,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 10,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 11,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 12,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 13,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 14,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 15,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 16,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 17,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 18,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 19,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 20,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 21,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 22,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,registerIcons,Magic Number,The method contains a magic number: 23,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemRune,getSubItems,Magic Number,The method contains a magic number: 24,57
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemTankard,onItemRightClick,Magic Number,The method contains a magic number: 50,20
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemTankard,onItemRightClick,Magic Number,The method contains a magic number: 100,20
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemTankard,onItemRightClick,Magic Number,The method contains a magic number: 50,20
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.dwarven,ItemTankard,onItemRightClick,Magic Number,The method contains a magic number: 100,20
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemBattleaxe,ItemBattleaxe,Magic Number,The method contains a magic number: 4.0F,31
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemBattleaxe,getMaxItemUseDuration,Magic Number,The method contains a magic number: 72000,44
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemCrossbow,ItemCrossbow,Long Parameter List,The method has 6 parameters. ,20
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemCrossbow,registerIcons,Magic Number,The method contains a magic number: 5,26
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemCrossbow,shotBullet,Magic Number,The method contains a magic number: 0.6F,33
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemDagger,ItemDagger,Magic Number,The method contains a magic number: 2.0F,16
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemDagger,onUpdate,Long Parameter List,The method has 5 parameters. ,22
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemDagger,onUpdate,Magic Number,The method contains a magic number: 2,22
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,ItemLongbow,Magic Number,The method contains a magic number: 484,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,registerIcons,Magic Number,The method contains a magic number: 5,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,getMaxItemUseDuration,Magic Number,The method contains a magic number: 100000,34
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Complex Method,Cyclomatic complexity of the method is 10,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Long Statement,The length of the statement "boolean flag=p_77615_3_.capabilities.isCreativeMode || (EnchantmentHelper.getEnchantmentLevel(Enchantment.infinity.effectId`p_77615_1_) > 0);" is 141.,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 20.0F,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 2.0F,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 3.0F,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 0.1D,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 3.0F,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 0.5D,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 0.5D,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 100,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 0.4F,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 1.2F,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 0.5F,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 2,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemLongbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 2,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemMace,ItemMace,Magic Number,The method contains a magic number: 6.0F,16
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemMace,onUpdate,Long Parameter List,The method has 5 parameters. ,22
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemMace,onUpdate,Magic Number,The method contains a magic number: 2,22
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemRuneblade,hitEntity,Magic Number,The method contains a magic number: 4F,25
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemRuneblade,getMaxItemUseDuration,Magic Number,The method contains a magic number: 72000,44
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,ItemShortbow,Magic Number,The method contains a magic number: 284,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,registerIcons,Magic Number,The method contains a magic number: 5,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,getMaxItemUseDuration,Magic Number,The method contains a magic number: 50000,34
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Complex Method,Cyclomatic complexity of the method is 10,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Long Statement,The length of the statement "boolean flag=p_77615_3_.capabilities.isCreativeMode || (EnchantmentHelper.getEnchantmentLevel(Enchantment.infinity.effectId`p_77615_1_) > 0);" is 141.,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 20.0F,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 2.0F,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 3.0F,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 0.1D,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 0.5D,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 0.5D,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 100,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 0.4F,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 1.2F,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 0.5F,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 2,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.items.tools,ItemShortbow,onPlayerStoppedUsing,Magic Number,The method contains a magic number: 2,43
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.tiles,TileRunicAnvil,TileRunicAnvil,Magic Number,The method contains a magic number: 2,10
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.tiles,TileRunicAnvil,getClientGuiElement,Long Parameter List,The method has 6 parameters. ,21
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.tiles,TileRunicAnvil,getServerGuiElement,Long Parameter List,The method has 6 parameters. ,27
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.worldgen,WorldGeneratorFantasyKingdoms,generate,Long Parameter List,The method has 6 parameters. ,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.worldgen,WorldGeneratorFantasyKingdoms,generate,Magic Number,The method contains a magic number: 16,13
+BrassGoggledCoders_FantasyKingdoms,fantasykingdoms.common.worldgen,WorldGeneratorFantasyKingdoms,generate,Magic Number,The method contains a magic number: 16,13

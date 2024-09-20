@@ -1,0 +1,32 @@
+Project Name,Package Name,Type Name,Method Name,Test Smell,Cause of the Smell
+CXgamer_MC-ticker,test,Loading,testSetupSim,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+CXgamer_MC-ticker,test,Loading,testCreateWorldTypeStandard,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,Loading,testCreateWorldTypeCustom,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,Loading,testCreateGameTypeStandard,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,Loading,testCreateGameTypeNotSet,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,Loading,testCreateSeed,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,Loading,testCreateHardcore,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,Loading,testCreateDifficultyStandard,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,Loading,testCreateDifficultyCustom,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,Loading,testCanSpawnAnimals,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,Loading,testCanSpawnNPCS,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,Loading,testEmptyBox,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+CXgamer_MC-ticker,test,Loading,testMultiChunk,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+CXgamer_MC-ticker,test,Loading,testTileEntities,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+CXgamer_MC-ticker,test,Loading,testEntities,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+CXgamer_MC-ticker,test,McMechanics,testCobbleGenerator,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 3
+CXgamer_MC-ticker,test,McMechanics,testCobbleGenerator,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,McMechanics,testCobbleGenerator,Conditional test logic,The tool detected the smell in this test method because the test wraps the assert statements within control flow statements.
+CXgamer_MC-ticker,test,McMechanics,testEntityCreation,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,McMechanics,testTileTick,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+CXgamer_MC-ticker,test,McMechanics,testTileTick,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,McMechanics,testActivation,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+CXgamer_MC-ticker,test,McMechanics,testActivation,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,McMechanics,testTileEntities,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+CXgamer_MC-ticker,test,McMechanics,testTileEntities,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,McMechanics,testDispenser,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+CXgamer_MC-ticker,test,McMechanics,testDispenser,Exceptional handling,The tool detected the smell in this test method because the test uses try-catch block to assert/fail a check.
+CXgamer_MC-ticker,test,McMechanics,testClockPerformance,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+CXgamer_MC-ticker,test,McMechanics,testClockPerformance,Ignored test,The tool detected the smell in this test method because the test is excluded from testing.
+CXgamer_MC-ticker,test,QuickDebug,testLoadNTick,Conditional test logic,The tool detected the smell in this test method because the test wraps the assert statements within control flow statements.
+CXgamer_MC-ticker,test,SetBlock,testSetBlock,Conditional test logic,The tool detected the smell in this test method because the test wraps the assert statements within control flow statements.

@@ -1,0 +1,11 @@
+Project Name,Package Name,Type Name,Method Name,Test Smell,Cause of the Smell
+alexyem0222_amazon,Try2,Packages,clickonpackages,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+alexyem0222_amazon,Try2,PersonalityAssertLinks,jumptoanotherpage,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+alexyem0222_amazon,Try2,PersonalityPerks1,pillowtypebuttons,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+alexyem0222_amazon,Try2,PersonalityPerks1,specialrequesttext,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+alexyem0222_amazon,Try2,RegisteredUserLogin,login,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+alexyem0222_amazon,amazon,AmazonMobileTest,basic,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+alexyem0222_amazon,amazon,AmazonSearchTestParallel,AmazonSearchTestParallel,Constructor initialization,The tool detected the smell in this class because the class uses its constructor to initialize fields rather than test setup method.
+alexyem0222_amazon,amazon,PersonalityMobileTry,runTest,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+alexyem0222_amazon,googletry,GoogleTry,searchGoogle,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+alexyem0222_amazon,Various,WhenAUserLogsIntoPerks,loginwithExcel,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.

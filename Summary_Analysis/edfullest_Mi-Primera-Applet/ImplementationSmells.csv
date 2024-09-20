@@ -1,0 +1,25 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,init,Magic Number,The method contains a magic number: 600,46
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,init,Magic Number,The method contains a magic number: 600,46
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,init,Magic Number,The method contains a magic number: 4,46
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,init,Magic Number,The method contains a magic number: 4,46
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,init,Magic Number,The method contains a magic number: 4,46
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,run,Magic Number,The method contains a magic number: 20,149
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,actualiza,Complex Method,Cyclomatic complexity of the method is 17,177
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,actualiza,Magic Number,The method contains a magic number: 2,177
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,actualiza,Magic Number,The method contains a magic number: 3,177
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,actualiza,Magic Number,The method contains a magic number: 4,177
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,actualiza,Magic Number,The method contains a magic number: 10,177
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,actualiza,Magic Number,The method contains a magic number: 10,177
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,actualiza,Magic Number,The method contains a magic number: 10,177
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,actualiza,Magic Number,The method contains a magic number: 10,177
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,checaColision,Complex Method,Cyclomatic complexity of the method is 9,261
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,checaColision,Magic Number,The method contains a magic number: 2,261
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,checaColision,Magic Number,The method contains a magic number: 3,261
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,checaColision,Magic Number,The method contains a magic number: 4,261
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,keyReleased,Complex Method,Cyclomatic complexity of the method is 9,386
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,keyReleased,Magic Number,The method contains a magic number: 2,386
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,keyReleased,Magic Number,The method contains a magic number: 3,386
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,keyReleased,Magic Number,The method contains a magic number: 4,386
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,paint,Magic Number,The method contains a magic number: 20,431
+edfullest_Mi-Primera-Applet,(default package),JuegoApplet,paint,Magic Number,The method contains a magic number: 20,431

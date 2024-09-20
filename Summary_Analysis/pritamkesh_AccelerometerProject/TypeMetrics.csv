@@ -1,0 +1,11 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,BuildConfig,1,1,0,0,3,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\pritamkesh_AccelerometerProject\gen\com\example\accelerometerproject\BuildConfig.java,4
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,R,15,15,0,0,37,0,0,0,-1.0,1,0,E:\Repositories\Cloned_Reposit\pritamkesh_AccelerometerProject\gen\com\example\accelerometerproject\R.java,10
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,R.attr,0,0,0,0,2,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\pritamkesh_AccelerometerProject\gen\com\example\accelerometerproject\R.java,11
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,R.drawable,1,1,0,0,3,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\pritamkesh_AccelerometerProject\gen\com\example\accelerometerproject\R.java,13
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,R.id,7,7,0,0,9,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\pritamkesh_AccelerometerProject\gen\com\example\accelerometerproject\R.java,16
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,R.layout,1,1,0,0,3,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\pritamkesh_AccelerometerProject\gen\com\example\accelerometerproject\R.java,25
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,R.menu,1,1,0,0,3,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\pritamkesh_AccelerometerProject\gen\com\example\accelerometerproject\R.java,28
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,R.string,3,3,0,0,5,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\pritamkesh_AccelerometerProject\gen\com\example\accelerometerproject\R.java,31
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,R.style,2,2,0,0,10,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\pritamkesh_AccelerometerProject\gen\com\example\accelerometerproject\R.java,36
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,MainActivity,19,1,9,7,80,15,0,0,0.2222222222222222,0,1,E:\Repositories\Cloned_Reposit\pritamkesh_AccelerometerProject\src\com\example\accelerometerproject\MainActivity.java,13

@@ -1,0 +1,13 @@
+Project Name,Package Name,Type Name,Method Name,Test Smell,Cause of the Smell
+nikit-cpp_VkCachingPlayer,config,ConfigTest,testGetInjected,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testPlayFirstSong,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testPlaySecondSongAfterFirst,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 6
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testPlayThirdSongAfterSecondAfterFirst,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 6
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testBugPlaySecondSongAfterFirst,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 4
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testManuallyRePlay,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+nikit-cpp_VkCachingPlayer,megatest,RunVkEmulator,test,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+nikit-cpp_VkCachingPlayer,megatest,ShowWindow,testPlayFirstSong,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+nikit-cpp_VkCachingPlayer,vk,VkPlayListBuilderTest,testGetGidFromShortName,Ignored test,The tool detected the smell in this test method because the test is excluded from testing.
+nikit-cpp_VkCachingPlayer,vk,VkPlayListBuilderTest,testGetGidFromShortNameAnother,Ignored test,The tool detected the smell in this test method because the test is excluded from testing.
+nikit-cpp_VkCachingPlayer,vk,VkPlayListBuilderTest,testGetPlayListsFromGroup,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+nikit-cpp_VkCachingPlayer,vk,VkPlayListBuilderTest,testGetPlayListsFromGroup,Ignored test,The tool detected the smell in this test method because the test is excluded from testing.

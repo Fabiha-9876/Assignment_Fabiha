@@ -1,0 +1,117 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+The-WUUSTER_Randoms,(default package),AppendSums,main,Magic Number,The method contains a magic number: 2,5
+The-WUUSTER_Randoms,(default package),AppendSums,main,Magic Number,The method contains a magic number: 10,5
+The-WUUSTER_Randoms,(default package),AppendSums,main,Magic Number,The method contains a magic number: 20,5
+The-WUUSTER_Randoms,(default package),AppendSums,appendSums,Magic Number,The method contains a magic number: 25,16
+The-WUUSTER_Randoms,(default package),AppendSums,appendSums,Magic Number,The method contains a magic number: 2,16
+The-WUUSTER_Randoms,(default package),AppendSums,appendSums,Magic Number,The method contains a magic number: 3,16
+The-WUUSTER_Randoms,(default package),BankAccount,withdraw,Magic Number,The method contains a magic number: 5,35
+The-WUUSTER_Randoms,(default package),BankAccount,withdraw,Magic Number,The method contains a magic number: 5,35
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 5,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 5,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 15,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 20,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 5,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 20,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 15,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 30,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 15,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 50,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 30,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 15,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 5,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 20,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 15,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 30,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 25,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 5,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 15,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 15,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 30,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 25,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 20,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 5,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 15,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 5,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 15,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 10,48
+The-WUUSTER_Randoms,(default package),BankAccount,main,Magic Number,The method contains a magic number: 5,48
+The-WUUSTER_Randoms,(default package),Grid,update2,Complex Method,Cyclomatic complexity of the method is 12,5
+The-WUUSTER_Randoms,(default package),Grid,update2,Magic Number,The method contains a magic number: 2,5
+The-WUUSTER_Randoms,(default package),Grid,update2,Magic Number,The method contains a magic number: 3,5
+The-WUUSTER_Randoms,(default package),Grid,update2,Magic Number,The method contains a magic number: 3,5
+The-WUUSTER_Randoms,(default package),Grid,update,Complex Conditional,The conditional expression (i > 0 && j > 0) && (i < height - 1 && j < width - 1) is complex.,43
+The-WUUSTER_Randoms,(default package),Grid,update,Complex Method,Cyclomatic complexity of the method is 58,43
+The-WUUSTER_Randoms,(default package),Grid,update,Magic Number,The method contains a magic number: 2,43
+The-WUUSTER_Randoms,(default package),Grid,update,Magic Number,The method contains a magic number: 3,43
+The-WUUSTER_Randoms,(default package),Grid,update,Magic Number,The method contains a magic number: 3,43
+The-WUUSTER_Randoms,(default package),Grid,main,Magic Number,The method contains a magic number: .5,202
+The-WUUSTER_Randoms,(default package),Grid,main,Magic Number,The method contains a magic number: 3,202
+The-WUUSTER_Randoms,(default package),Grid,main,Magic Number,The method contains a magic number: 3,202
+The-WUUSTER_Randoms,(default package),Plausibility,Plausibility,Magic Number,The method contains a magic number: 2,13
+The-WUUSTER_Randoms,(default package),Plausibility,indexLookup,Complex Method,Cyclomatic complexity of the method is 8,21
+The-WUUSTER_Randoms,(default package),Plausibility,indexLookup,Magic Number,The method contains a magic number: 97,21
+The-WUUSTER_Randoms,(default package),Plausibility,indexLookup,Magic Number,The method contains a magic number: 26,21
+The-WUUSTER_Randoms,(default package),Plausibility,indexLookup,Magic Number,The method contains a magic number: 27,21
+The-WUUSTER_Randoms,(default package),Plausibility,indexLookup,Magic Number,The method contains a magic number: 28,21
+The-WUUSTER_Randoms,(default package),Plausibility,indexLookup,Magic Number,The method contains a magic number: 29,21
+The-WUUSTER_Randoms,(default package),Plausibility,indexLookup,Magic Number,The method contains a magic number: 30,21
+The-WUUSTER_Randoms,(default package),Plausibility,indexLookup,Magic Number,The method contains a magic number: 31,21
+The-WUUSTER_Randoms,(default package),Plausibility,indexLookup,Magic Number,The method contains a magic number: 32,21
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Complex Conditional,The conditional expression (ch >= 65 && ch <= 90) || (ch >= 97 && ch <= 122) || ch == 32 || ch == 33 || ch == 44 || ch == 46 || ch == 63 is complex.,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Complex Conditional,The conditional expression (next >= 65 && next <= 90) || (next >= 97 && next <= 122) || next == 32 || next == 33 || next == 44 || next == 46 || next == 63 is complex.,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Complex Method,Cyclomatic complexity of the method is 8,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Long Statement,The length of the statement "if ((next >= 65 && next <= 90) || (next >= 97 && next <= 122) || next == 32 || next == 33 || next == 44 || next == 46 || next == 63) {" is 134.,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 33,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 65,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 90,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 97,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 122,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 32,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 33,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 44,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 46,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 63,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 65,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 90,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 97,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 122,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 32,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 33,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 44,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 46,52
+The-WUUSTER_Randoms,(default package),Plausibility,createMatrix,Magic Number,The method contains a magic number: 63,52
+The-WUUSTER_Randoms,(default package),Plausibility,main,Magic Number,The method contains a magic number: 31,133
+The-WUUSTER_Randoms,(default package),Prime,isPrime,Magic Number,The method contains a magic number: 2,5
+The-WUUSTER_Randoms,(default package),Prime,isPrime,Magic Number,The method contains a magic number: 3,5
+The-WUUSTER_Randoms,(default package),Prime,isPrime,Magic Number,The method contains a magic number: 2,5
+The-WUUSTER_Randoms,(default package),Prime,isPrime,Magic Number,The method contains a magic number: 2,5
+The-WUUSTER_Randoms,(default package),Twenty48,merge,Complex Method,Cyclomatic complexity of the method is 9,47
+The-WUUSTER_Randoms,(default package),Twenty48,merge,Magic Number,The method contains a magic number: 2,47
+The-WUUSTER_Randoms,(default package),Twenty48,newTile,Magic Number,The method contains a magic number: 10,90
+The-WUUSTER_Randoms,(default package),Twenty48,newTile,Magic Number,The method contains a magic number: 4,90
+The-WUUSTER_Randoms,(default package),Twenty48,newTile,Magic Number,The method contains a magic number: 2,90
+The-WUUSTER_Randoms,hangman,Hangman,play_hangman,Complex Method,Cyclomatic complexity of the method is 16,27
+The-WUUSTER_Randoms,hangman,Hangman,play_hangman,Magic Number,The method contains a magic number: 100,27
+The-WUUSTER_Randoms,hangman,Hangman,play_hangman,Magic Number,The method contains a magic number: 2,27
+The-WUUSTER_Randoms,hangman,Hangman,play_hangman,Magic Number,The method contains a magic number: 2,27
+The-WUUSTER_Randoms,hangman,Hangman,play_hangman,Magic Number,The method contains a magic number: 10,27
+The-WUUSTER_Randoms,hangman,Hangman,play_hangman,Magic Number,The method contains a magic number: 2,27
+The-WUUSTER_Randoms,hangman,Hangman,play_hangman,Magic Number,The method contains a magic number: 2,27
+The-WUUSTER_Randoms,markov,monteCarlo,monteCarlo,Magic Number,The method contains a magic number: 2,27
+The-WUUSTER_Randoms,markov,monteCarlo,main,Long Statement,The length of the statement "System.out.println("The plausibility of a paragraph from War and Peace is: " + test.calcPlaus("Prince Vasili kept the promise he had given to Princess Drubetskaya who had spoken to him on behalf of her only son Boris on the evening of Anna Pavlovnas soiree. The matter was mentioned to the Emperor` an exception made` and Boris transferred into the regiment of Semenov Guards with the rank of cornet. He received` however` no appointment to Kutuzovs staff despite all Anna Mikhaylovnas endeavors and entreaties. Soon after Anna Pavlovnas reception Anna Mikhaylovna returned to Moscow and went straight to her rich relations` the Rostovs` with whom she stayed when in the town and where her darling Bory` who had only just entered a regiment of the line and was being at once transferred to the Guards as a cornet` had been educated from childhood and lived for years at a time. The Guards had already left Petersburg on the tenth of August` and her son` who had remained in Moscow for his equipment` was to join them on the march to Radzivilov. It was St. Natalias day and the name day of two of the Rostovs the mother and the youngest daughter both named Nataly. Ever since the morning` carriages with six horses had been coming and going continually` bringing visitors to the Countess Rostovas big house on the Povarskaya` so well known to all Moscow. The countess herself and her handsome eldest daughter were in the drawing room with the visitors who came to congratulate` and who constantly succeeded one another in relays. The countess was a woman of about forty five` with a thin Oriental type of face` evidently worn out with childbearing she had had twelve. A languor of motion and speech` resulting from weakness` gave her a distinguished air which inspired respect. Princess Anna Mikhaylovna Drubetskaya` who as a member of the household was also seated in the drawing room` helped to receive and entertain the visitors. The young people were in one of the inner rooms` not considering it necessary to take part in receiving the visitors. The count met the guests and saw them off` inviting them all to dinner."));" is 2125.,173
+The-WUUSTER_Randoms,markov,monteCarlo,main,Long Statement,The length of the statement "System.out.println("The plausibility of the string \"The quick brown fox jumped over the lazy dog.\" is: " + test.calcPlaus("The quick brown fox jumped over the lazy dog"));" is 173.,173

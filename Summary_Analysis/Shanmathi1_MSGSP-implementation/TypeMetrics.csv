@@ -1,0 +1,9 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,CandidateGen,0,0,8,2,193,51,0,0,-1.0,0,4,E:\Repositories\Cloned_Reposit\Shanmathi1_MSGSP-implementation\src\edu\uic\cs583\msgsp\CandidateGen.java,5
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,FrequentSeq,2,1,7,5,27,7,0,0,0.0,4,1,E:\Repositories\Cloned_Reposit\Shanmathi1_MSGSP-implementation\src\edu\uic\cs583\msgsp\FrequentSeq.java,9
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,Input,0,0,3,3,65,10,0,0,-1.0,1,3,E:\Repositories\Cloned_Reposit\Shanmathi1_MSGSP-implementation\src\edu\uic\cs583\msgsp\Input.java,14
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,ItemSet,1,1,2,2,9,2,0,0,0.0,5,0,E:\Repositories\Cloned_Reposit\Shanmathi1_MSGSP-implementation\src\edu\uic\cs583\msgsp\ItemSet.java,8
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,Level2CandidateGen,0,0,1,1,49,9,0,0,-1.0,1,4,E:\Repositories\Cloned_Reposit\Shanmathi1_MSGSP-implementation\src\edu\uic\cs583\msgsp\Level2CandidateGen.java,5
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSCandidateGen,0,0,7,1,146,42,0,0,-1.0,1,3,E:\Repositories\Cloned_Reposit\Shanmathi1_MSGSP-implementation\src\edu\uic\cs583\msgsp\MSCandidateGen.java,3
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,MSGSPMain,5,5,6,5,112,27,0,0,0.0,5,6,E:\Repositories\Cloned_Reposit\Shanmathi1_MSGSP-implementation\src\edu\uic\cs583\msgsp\MSGSPMain.java,19
+Shanmathi1_MSGSP-implementation,edu.uic.cs583.msgsp,TransactionData,2,2,15,14,159,43,0,0,0.0,6,2,E:\Repositories\Cloned_Reposit\Shanmathi1_MSGSP-implementation\src\edu\uic\cs583\msgsp\TransactionData.java,9

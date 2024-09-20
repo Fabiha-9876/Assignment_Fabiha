@@ -1,0 +1,9 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Welon5656_media-app-for-android,com.jy.image,ImageActivity,onCreate,Long Statement,The length of the statement "SimpleAdapter simpleAdapter=new SimpleAdapter(this`listItems`R.layout.image_cell`new String[]{"image"}`new int[]{R.id.image_cell});" is 131.,49
+Welon5656_media-app-for-android,com.jy.multimedia,HistoryActivity,inflateList,Long Statement,The length of the statement "SimpleCursorAdapter adapter=new SimpleCursorAdapter(HistoryActivity.this`R.layout.history_cell`cursor`new String[]{"history"}`new int[]{R.id.history_cell}`CursorAdapter.FLAG_REGISTER_CONTENT_OBSERVER);" is 201.,40
+Welon5656_media-app-for-android,com.jy.music,MusicActivity,onCreate,Long Statement,The length of the statement "SimpleAdapter simpleAdapter=new SimpleAdapter(this`listItems`R.layout.music_cell`new String[]{"music"}`new int[]{R.id.music_cell});" is 131.,45
+Welon5656_media-app-for-android,com.jy.music,MusicPlayer,pause,Magic Number,The method contains a magic number: 2,102
+Welon5656_media-app-for-android,com.jy.video,VideoActivity,onCreate,Long Statement,The length of the statement "SimpleAdapter simpleAdapter=new SimpleAdapter(this`listItems`R.layout.video_cell`new String[]{"video"}`new int[]{R.id.video_cell});" is 131.,45
+Welon5656_media-app-for-android,com.jy.video,VideoPlayer,onTouchEvent,Magic Number,The method contains a magic number: 4,88
+Welon5656_media-app-for-android,com.jy.video,VideoPlayer,onTouchEvent,Magic Number,The method contains a magic number: 4,88
+Welon5656_media-app-for-android,com.jy.video,VideoPlayer,onTouchEvent,Magic Number,The method contains a magic number: 2,88

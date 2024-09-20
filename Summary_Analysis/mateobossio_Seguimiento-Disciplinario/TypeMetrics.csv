@@ -1,0 +1,12 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+mateobossio_Seguimiento-Disciplinario,Codigo,Alumno,8,1,18,18,79,20,0,0,0.16666666666666666,3,1,E:\Repositories\Cloned_Reposit\mateobossio_Seguimiento-Disciplinario\src\Codigo\Alumno.java,9
+mateobossio_Seguimiento-Disciplinario,Codigo,ListadoAlumnos,1,1,2,2,18,4,0,0,0.0,3,1,E:\Repositories\Cloned_Reposit\mateobossio_Seguimiento-Disciplinario\src\Codigo\ListadoAlumnos.java,8
+mateobossio_Seguimiento-Disciplinario,Codigo,ListadoObservacion,1,1,1,1,15,3,0,0,0.0,2,1,E:\Repositories\Cloned_Reposit\mateobossio_Seguimiento-Disciplinario\src\Codigo\ListadoObservacion.java,10
+mateobossio_Seguimiento-Disciplinario,Codigo,Observacion,1,0,4,4,18,4,0,0,0.5,4,0,E:\Repositories\Cloned_Reposit\mateobossio_Seguimiento-Disciplinario\src\Codigo\Observacion.java,9
+mateobossio_Seguimiento-Disciplinario,interfaz,Ayuda,15,0,6,4,115,8,0,0,0.5,1,1,E:\Repositories\Cloned_Reposit\mateobossio_Seguimiento-Disciplinario\src\interfaz\Ayuda.java,9
+mateobossio_Seguimiento-Disciplinario,interfaz,Buscador,19,0,20,11,190,25,0,0,0.15,1,2,E:\Repositories\Cloned_Reposit\mateobossio_Seguimiento-Disciplinario\src\interfaz\Buscador.java,12
+mateobossio_Seguimiento-Disciplinario,interfaz,CargarAlumnos,19,0,17,10,180,19,0,0,0.17647058823529413,1,3,E:\Repositories\Cloned_Reposit\mateobossio_Seguimiento-Disciplinario\src\interfaz\CargarAlumnos.java,11
+mateobossio_Seguimiento-Disciplinario,interfaz,CargarObservaciones,9,0,10,7,116,12,0,0,0.3,1,3,E:\Repositories\Cloned_Reposit\mateobossio_Seguimiento-Disciplinario\src\interfaz\CargarObservaciones.java,12
+mateobossio_Seguimiento-Disciplinario,interfaz,Configuracion,4,0,10,6,105,12,0,0,0.3,3,3,E:\Repositories\Cloned_Reposit\mateobossio_Seguimiento-Disciplinario\src\interfaz\Configuracion.java,11
+mateobossio_Seguimiento-Disciplinario,interfaz,Principal,20,0,19,10,244,27,0,0,0.15789473684210525,4,8,E:\Repositories\Cloned_Reposit\mateobossio_Seguimiento-Disciplinario\src\interfaz\Principal.java,16
+mateobossio_Seguimiento-Disciplinario,interfaz,Registro,4,1,6,4,84,8,0,0,0.5,1,1,E:\Repositories\Cloned_Reposit\mateobossio_Seguimiento-Disciplinario\src\interfaz\Registro.java,10

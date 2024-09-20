@@ -1,0 +1,30 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+nikit-cpp_VkCachingPlayer,gui,MainWindow,MainWindow,Long Method,The method has 114 lines of code.,93
+nikit-cpp_VkCachingPlayer,gui,MainWindow,MainWindow,Magic Number,The method contains a magic number: 600,93
+nikit-cpp_VkCachingPlayer,gui,MainWindow,MainWindow,Magic Number,The method contains a magic number: 500,93
+nikit-cpp_VkCachingPlayer,gui,MainWindow,MainWindow,Magic Number,The method contains a magic number: 2,93
+nikit-cpp_VkCachingPlayer,gui,MainWindow,MainWindow,Magic Number,The method contains a magic number: 600,93
+nikit-cpp_VkCachingPlayer,gui,MainWindow,MainWindow,Magic Number,The method contains a magic number: 16,93
+nikit-cpp_VkCachingPlayer,gui,MainWindow,mouseClicked,Magic Number,The method contains a magic number: 2,187
+nikit-cpp_VkCachingPlayer,player,CustomPlayer,pause,Empty catch clause,The method has an empty catch block.,65
+nikit-cpp_VkCachingPlayer,player,CustomPlayer,stop,Empty catch clause,The method has an empty catch block.,81
+nikit-cpp_VkCachingPlayer,player,CustomPlayerRunner,main,Magic Number,The method contains a magic number: 5000,6
+nikit-cpp_VkCachingPlayer,player,CustomPlayerRunner,main,Magic Number,The method contains a magic number: 5000,6
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testPlayFirstSong,Magic Number,The method contains a magic number: 1500,60
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testPlaySecondSongAfterFirst,Magic Number,The method contains a magic number: 500,80
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testPlaySecondSongAfterFirst,Magic Number,The method contains a magic number: 2500,80
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testPlayThirdSongAfterSecondAfterFirst,Magic Number,The method contains a magic number: 500,99
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testPlayThirdSongAfterSecondAfterFirst,Magic Number,The method contains a magic number: 500,99
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testPlayThirdSongAfterSecondAfterFirst,Magic Number,The method contains a magic number: 2500,99
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testBugPlaySecondSongAfterFirst,Magic Number,The method contains a magic number: 500,122
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testBugPlaySecondSongAfterFirst,Magic Number,The method contains a magic number: 500,122
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testBugPlaySecondSongAfterFirst,Magic Number,The method contains a magic number: 2,122
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testManuallyRePlay,Magic Number,The method contains a magic number: 4000,139
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testManuallyRePlay,Magic Number,The method contains a magic number: 3,139
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testManuallyRePlay,Magic Number,The method contains a magic number: 4000,139
+nikit-cpp_VkCachingPlayer,megatest,GUITestIT,testManuallyRePlay,Magic Number,The method contains a magic number: 3,139
+nikit-cpp_VkCachingPlayer,megatest,ShowWindow,tearDown,Magic Number,The method contains a magic number: 200,78
+nikit-cpp_VkCachingPlayer,com.github.nikit.cpp.player,Song,hashCode,Magic Number,The method contains a magic number: 31,80
+nikit-cpp_VkCachingPlayer,vk,VkPlayListBuilderTest,testGetGidFromShortName,Magic Number,The method contains a magic number: 11081630,30
+nikit-cpp_VkCachingPlayer,vk,VkPlayListBuilderTest,testGetGidFromShortNameAnother,Magic Number,The method contains a magic number: 64183,41
+nikit-cpp_VkCachingPlayer,vk,VkPlayListBuilderTest,testGetPlayListsFromGroup,Magic Number,The method contains a magic number: 11081630,52

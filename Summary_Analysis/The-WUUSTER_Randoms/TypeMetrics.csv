@@ -1,0 +1,10 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+The-WUUSTER_Randoms,(default package),AppendSums,0,0,2,2,17,3,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\The-WUUSTER_Randoms\src\AppendSums.java,3
+The-WUUSTER_Randoms,(default package),BankAccount,3,0,7,7,77,8,0,0,0.2857142857142857,0,0,E:\Repositories\Cloned_Reposit\The-WUUSTER_Randoms\src\BankAccount.java,2
+The-WUUSTER_Randoms,(default package),Grid,0,0,4,4,160,79,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\The-WUUSTER_Randoms\src\Grid.java,4
+The-WUUSTER_Randoms,(default package),Plausibility,4,0,7,7,98,24,0,0,0.42857142857142855,0,0,E:\Repositories\Cloned_Reposit\The-WUUSTER_Randoms\src\Plausibility.java,6
+The-WUUSTER_Randoms,(default package),Prime,0,0,2,2,22,7,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\The-WUUSTER_Randoms\src\Prime.java,3
+The-WUUSTER_Randoms,(default package),Test,0,0,1,1,13,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\The-WUUSTER_Randoms\src\Test.java,2
+The-WUUSTER_Randoms,(default package),Twenty48,3,0,9,9,96,25,0,0,0.3333333333333333,0,0,E:\Repositories\Cloned_Reposit\The-WUUSTER_Randoms\src\Twenty48.java,2
+The-WUUSTER_Randoms,hangman,Hangman,0,0,3,3,105,21,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\The-WUUSTER_Randoms\src\hangman\Hangman.java,6
+The-WUUSTER_Randoms,markov,monteCarlo,4,0,10,5,136,34,0,0,0.2,0,0,E:\Repositories\Cloned_Reposit\The-WUUSTER_Randoms\src\markov\monteCarlo.java,10

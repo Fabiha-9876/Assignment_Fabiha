@@ -1,0 +1,194 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,InitRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,45
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,InitRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,45
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,InitRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,45
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,InitRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,45
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,InitRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,45
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,InitRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,45
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,InitRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,45
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,InitRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,45
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,LuaLoader,invoke,Long Statement,The length of the statement "NamedJavaFunction[] luaFunctions=new NamedJavaFunction[]{new InitWrapper()`new LoadProductsWrapper()`new PurchaseWrapper()`new ConsumePurchaseWrapper()`new PurchaseSubscriptionWrapper()`new FinishTransactionWrapper()`new RestoreWrapper()};" is 239.,71
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,LuaLoader,invoke,Magic Number,The method contains a magic number: 2,71
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,LuaLoader,invoke,Magic Number,The method contains a magic number: 2,71
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,LuaLoader,invoke,Magic Number,The method contains a magic number: 2,71
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,LuaLoader,invoke,Magic Number,The method contains a magic number: 2,71
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,LuaLoader,invoke,Magic Number,The method contains a magic number: 2,71
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,LuaLoader,init,Complex Method,Cyclomatic complexity of the method is 12,115
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,LuaLoader,loadProducts,Long Statement,The length of the statement "final int listener=CoronaLua.isListener(L`listenerIndex`"productList") ? CoronaLua.newRef(L`listenerIndex) : CoronaLua.REFNIL;" is 126.,194
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,LuaLoader,loadProducts,Long Statement,The length of the statement "fHelper.queryInventoryAsync(true`managedProducts`finalSubscriptionProducts`new IabHelper.QueryInventoryFinishedListener(){" is 122.,194
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,LuaLoader,loadProducts,Magic Number,The method contains a magic number: 2,194
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,LuaLoader,purchaseSubscription,Long Statement,The length of the statement "@Override public void onHandleActivityResult( CoronaActivity activity` int requestCode` int resultCode` android.content.Intent data){" is 133.,274
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,LuaLoader,purchase,Long Statement,The length of the statement "@Override public void onHandleActivityResult( CoronaActivity activity` int requestCode` int resultCode` android.content.Intent data){" is 133.,309
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,LuaLoader,consumePurchase,Complex Method,Cyclomatic complexity of the method is 10,344
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,ProductListRuntimeTask,ProductListRuntimeTask,Long Parameter List,The method has 5 parameters. ,40
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,ProductListRuntimeTask,executeUsing,Complex Method,Cyclomatic complexity of the method is 10,48
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,ProductListRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,48
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,ProductListRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,48
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,ProductListRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,48
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,ProductListRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,48
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,ProductListRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,48
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,ProductListRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,48
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,ProductListRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,48
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,ProductListRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,48
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,ProductListRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,48
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Magic Number,The method contains a magic number: 2,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3,StoreTransactionRuntimeTask,executeUsing,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@2ca132ad,41
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Long Parameter List,The method has 6 parameters. ,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 24,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 8,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 24,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 16,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 24,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 24,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 3,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 18,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 12,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 6,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 3,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 18,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 12,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 6,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 3,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 18,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 12,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Magic Number,The method contains a magic number: 3,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode3to4,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@7438c3d5,174
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Long Parameter List,The method has 5 parameters. ,261
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Long Parameter List,The method has 5 parameters. ,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Long Statement,The length of the statement "int inBuff=((source[d + off] << 24) >>> 8) | ((source[d + 1 + off] << 24) >>> 16) | ((source[d + 2 + off] << 24) >>> 24);" is 121.,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 2,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 3,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 4,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 2,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 3,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 4,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 24,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 8,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 24,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 16,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 2,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 24,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 24,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 18,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 12,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 0x3f,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 2,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 6,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 0x3f,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 3,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 0x3f,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 4,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 4,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 4,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 4,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,encode,Magic Number,The method contains a magic number: 4,289
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Long Parameter List,The method has 5 parameters. ,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Long Statement,The length of the statement "int outBuff=((decodabet[source[srcOffset]] << 24) >>> 6) | ((decodabet[source[srcOffset + 1]] << 24) >>> 12) | ((decodabet[source[srcOffset + 2]] << 24) >>> 18);" is 161.,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Long Statement,The length of the statement "int outBuff=((decodabet[source[srcOffset]] << 24) >>> 6) | ((decodabet[source[srcOffset + 1]] << 24) >>> 12) | ((decodabet[source[srcOffset + 2]] << 24) >>> 18)| ((decodabet[source[srcOffset + 3]] << 24) >>> 24);" is 212.,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 6,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 12,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 16,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 3,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 6,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 12,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 18,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 16,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 8,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 6,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 12,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 18,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 3,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 24,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 16,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 8,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode4to3,Magic Number,The method contains a magic number: 3,352
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode,Complex Conditional,The conditional expression (b4Posn == 3 && bytesLeft > 2) || (b4Posn == 4 && bytesLeft > 1) is complex.,492
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode,Complex Method,Cyclomatic complexity of the method is 11,492
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode,Magic Number,The method contains a magic number: 3,492
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode,Magic Number,The method contains a magic number: 4,492
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode,Magic Number,The method contains a magic number: 2,492
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode,Magic Number,The method contains a magic number: 4,492
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode,Magic Number,The method contains a magic number: 0x7f,492
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode,Magic Number,The method contains a magic number: 0x7f,492
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode,Magic Number,The method contains a magic number: 3,492
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode,Magic Number,The method contains a magic number: 2,492
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode,Magic Number,The method contains a magic number: 4,492
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Base64,decode,Magic Number,The method contains a magic number: 4,492
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,startSetup,Complex Conditional,The conditional expression mContext != null && mContext.getPackageManager() != null && mContext.getPackageManager().queryIntentServices(serviceIntent`0) != null && !mContext.getPackageManager().queryIntentServices(serviceIntent`0).isEmpty() is complex.,198
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,startSetup,Complex Method,Cyclomatic complexity of the method is 12,198
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,startSetup,Long Identifier,The length of the field BILLING_RESPONSE_RESULT_BILLING_UNAVAILABLE is 43.,198
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,startSetup,Long Statement,The length of the statement "listener.onIabSetupFinished(new IabResult(IABHELPER_REMOTE_EXCEPTION`"RemoteException while setting up in-app billing."));" is 122.,198
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,startSetup,Long Statement,The length of the statement "if (mContext != null && mContext.getPackageManager() != null && mContext.getPackageManager().queryIntentServices(serviceIntent`0) != null && !mContext.getPackageManager().queryIntentServices(serviceIntent`0).isEmpty()) {" is 220.,198
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,startSetup,Long Statement,The length of the statement "listener.onIabSetupFinished(new IabResult(BILLING_RESPONSE_RESULT_ERROR`"Binding the Billing Service to the Context failed."));" is 127.,198
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,startSetup,Long Statement,The length of the statement "listener.onIabSetupFinished(new IabResult(BILLING_RESPONSE_RESULT_BILLING_UNAVAILABLE`"Billing service unavailable on device."));" is 129.,198
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,startSetup,Magic Number,The method contains a magic number: 3,198
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,startSetup,Magic Number,The method contains a magic number: 3,198
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,onServiceConnected,Long Statement,The length of the statement "listener.onIabSetupFinished(new IabResult(IABHELPER_REMOTE_EXCEPTION`"RemoteException while setting up in-app billing."));" is 122.,222
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,onServiceConnected,Magic Number,The method contains a magic number: 3,222
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,onServiceConnected,Magic Number,The method contains a magic number: 3,222
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,launchPurchaseFlow,Long Parameter List,The method has 5 parameters. ,358
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,launchSubscriptionPurchaseFlow,Long Parameter List,The method has 5 parameters. ,368
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,launchPurchaseFlow,Complex Method,Cyclomatic complexity of the method is 9,373
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,launchPurchaseFlow,Long Identifier,The length of the field IABHELPER_SUBSCRIPTIONS_NOT_AVAILABLE is 37.,373
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,launchPurchaseFlow,Long Parameter List,The method has 6 parameters. ,373
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,launchPurchaseFlow,Long Statement,The length of the statement "act.startIntentSenderForResult(pendingIntent.getIntentSender()`requestCode`new Intent()`Integer.valueOf(0)`Integer.valueOf(0)`Integer.valueOf(0));" is 146.,373
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,launchPurchaseFlow,Magic Number,The method contains a magic number: 3,373
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,handleActivityResult,Complex Method,Cyclomatic complexity of the method is 17,448
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,handleActivityResult,Long Identifier,The length of the field BILLING_RESPONSE_RESULT_ITEM_ALREADY_OWNED is 42.,448
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,handleActivityResult,Long Identifier,The length of the field IABHELPER_UNKNOWN_PURCHASE_RESPONSE is 35.,448
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,handleActivityResult,Long Statement,The length of the statement "logError("Purchase failed. Result code: " + Integer.toString(resultCode) + ". Response: "+ getResponseDesc(responseCode));" is 122.,448
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,handleActivityResult,Magic Number,The method contains a magic number: 7,448
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,queryInventory,Complex Method,Cyclomatic complexity of the method is 8,549
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,consume,Magic Number,The method contains a magic number: 3,665
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,getResponseDesc,Long Statement,The length of the statement "String[] iab_msgs=("0:OK/1:User Canceled/2:Unknown/" + "3:Billing Unavailable/4:Item unavailable/" + "5:Developer Error/6:Error/7:Item Already Owned/"+ "8:Item not owned").split("/");" is 183.,765
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,getResponseDesc,Long Statement,The length of the statement "String[] iabhelper_msgs=("0:OK/-1001:Remote exception during initialization/" + "-1002:Bad response received/" + "-1003:Purchase signature verification failed/"+ "-1004:Send intent failed/"+ "-1005:User cancelled/"+ "-1006:Unknown purchase response/"+ "-1007:Missing token/"+ "-1008:Unknown error/"+ "-1009:Subscriptions not available/"+ "-1010:Invalid consumption attempt").split("/");" is 386.,765
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,queryPurchases,Complex Conditional,The conditional expression !ownedItems.containsKey(RESPONSE_INAPP_ITEM_LIST) || !ownedItems.containsKey(RESPONSE_INAPP_PURCHASE_DATA_LIST) || !ownedItems.containsKey(RESPONSE_INAPP_SIGNATURE_LIST) is complex.,840
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,queryPurchases,Complex Method,Cyclomatic complexity of the method is 8,840
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,queryPurchases,Long Identifier,The length of the field RESPONSE_INAPP_PURCHASE_DATA_LIST is 33.,840
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,queryPurchases,Long Statement,The length of the statement "if (!ownedItems.containsKey(RESPONSE_INAPP_ITEM_LIST) || !ownedItems.containsKey(RESPONSE_INAPP_PURCHASE_DATA_LIST) || !ownedItems.containsKey(RESPONSE_INAPP_SIGNATURE_LIST)) {" is 176.,840
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,queryPurchases,Magic Number,The method contains a magic number: 3,840
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,querySkuDetails,Complex Method,Cyclomatic complexity of the method is 12,907
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,querySkuDetails,Magic Number,The method contains a magic number: 19,907
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,IabHelper,querySkuDetails,Magic Number,The method contains a magic number: 3,907
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Purchase,Purchase,Magic Number,The method contains a magic number: 2,45
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Purchase,Purchase,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@1fba3fd6,45
+coronalabs_plugins-source-google-iap-v3,plugin.google.iap.v3.util,Security,verifyPurchase,Complex Conditional,The conditional expression TextUtils.isEmpty(signedData) || TextUtils.isEmpty(base64PublicKey) || TextUtils.isEmpty(signature) is complex.,48

@@ -1,0 +1,41 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+bbemis017_StudentManagement,controller,AddRecordClicked,actionPerformed,Long Statement,The length of the statement "if (result == JOptionPane.OK_OPTION) control.dataBaseManager.addRecord(col1.getText()`col2.getText()`control.getTableName());" is 125.,18
+bbemis017_StudentManagement,controller,AddRecordClicked,actionPerformed,Long Statement,The length of the statement "if (result == JOptionPane.OK_OPTION) control.dataBaseManager.addRecord("" + newID`column2.getText()`control.getTableName());" is 124.,18
+bbemis017_StudentManagement,controller,AddRecordClicked,actionPerformed,Magic Number,The method contains a magic number: 2,18
+bbemis017_StudentManagement,controller,DeleteRecordClicked,actionPerformed,Magic Number,The method contains a magic number: 2,18
+bbemis017_StudentManagement,controller,UpdateRecordClicked,actionPerformed,Long Statement,The length of the statement "control.dataBaseManager.updateRecord(control.getTableName()`col1Name + "=" + Manager.addSingleQuotes(col1.getText())`where);" is 124.,20
+bbemis017_StudentManagement,controller,UpdateRecordClicked,actionPerformed,Long Statement,The length of the statement "control.dataBaseManager.updateRecord(control.getTableName()`col2Name + "=" + Manager.addSingleQuotes(col2.getText())`where);" is 124.,20
+bbemis017_StudentManagement,database,Manager,deleteCompositeRecord,Long Parameter List,The method has 5 parameters. ,112
+bbemis017_StudentManagement,database,Manager,getTable,Magic Number,The method contains a magic number: 2,161
+bbemis017_StudentManagement,view,DataBaseView,createPanel,Magic Number,The method contains a magic number: 10,61
+bbemis017_StudentManagement,view,DataBaseView,createPanel,Magic Number,The method contains a magic number: 10,61
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 20,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 10,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 80,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 25,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 20,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 2,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 80,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 10,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 160,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 25,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 20,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 40,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 80,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 25,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 20,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 2,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 80,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 40,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 160,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 25,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 2,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 40,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 70,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 80,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 25,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 2,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 40,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 100,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 80,45
+bbemis017_StudentManagement,view,LoginView,createPanel,Magic Number,The method contains a magic number: 25,45

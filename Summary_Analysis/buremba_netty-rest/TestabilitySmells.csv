@@ -1,0 +1,12 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+buremba_netty-rest,org.rakam.server.http,HttpServer,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11
+buremba_netty-rest,org.rakam.server.http,HttpServer.ErrorMessage,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+buremba_netty-rest,org.rakam.server.http,HttpServer.JsonAPIError,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+buremba_netty-rest,org.rakam.server.http,HttpServerHandler.ChainByteArrayInputStream,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+buremba_netty-rest,org.rakam.server.http,RouteMatcher.PatternBinding,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+buremba_netty-rest,org.rakam.server.http,RouteMatcher.MicroRouteMatcher,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+buremba_netty-rest,org.rakam.server.http,SHttpServer.Holder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+buremba_netty-rest,org.rakam.server.http,WebSocketService.WebSocketRequest,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+buremba_netty-rest,(default package),HttpServerTest.ParameterHttpService,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+buremba_netty-rest,(default package),HttpServerTest.SimpleHttpService,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+buremba_netty-rest,(default package),HttpServerTest.DemoBean,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.

@@ -1,0 +1,19 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onMeasure,Magic Number,The method contains a magic number: 2.0f,88
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onDraw,Magic Number,The method contains a magic number: 2,124
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onDraw,Magic Number,The method contains a magic number: 2,124
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onLayout,Long Parameter List,The method has 5 parameters. ,135
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onLayout,Magic Number,The method contains a magic number: 2,135
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onLayout,Magic Number,The method contains a magic number: 2,135
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onLayout,Magic Number,The method contains a magic number: 2,135
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onLayout,Magic Number,The method contains a magic number: 2,135
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 10,155
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onTouchEvent,Magic Number,The method contains a magic number: 2,155
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onTouchEvent,Magic Number,The method contains a magic number: 3,155
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onTouchEvent,Magic Number,The method contains a magic number: 4,155
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onTouchEvent,Magic Number,The method contains a magic number: 360,155
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,onTouchEvent,Magic Number,The method contains a magic number: 360,155
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,getQuaDrant,Magic Number,The method contains a magic number: 4,232
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,getQuaDrant,Magic Number,The method contains a magic number: 2,232
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,getQuaDrant,Magic Number,The method contains a magic number: 3,232
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,getTranslateAngle,Magic Number,The method contains a magic number: 180,250

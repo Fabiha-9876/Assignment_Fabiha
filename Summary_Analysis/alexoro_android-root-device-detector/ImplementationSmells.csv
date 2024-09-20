@@ -1,0 +1,12 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+alexoro_android-root-device-detector,com.alexoro.androidrootdevicedetector,RootDeviceDetector,isRooted,Long Statement,The length of the statement "return isSpecificApplicationsIsInstalled() || isCanExecuteRootCommands() || isRootUserId()|| isDeviceRunningWithRomNonReleaseKeys();" is 132.,28
+alexoro_android-root-device-detector,com.alexoro.androidrootdevicedetector,RootDeviceDetector,isSpecificApplicationsIsInstalled,Complex Method,Cyclomatic complexity of the method is 8,35
+alexoro_android-root-device-detector,com.alexoro.androidrootdevicedetector,RootDeviceDetector,isSpecificApplicationsIsInstalled,Empty catch clause,The method has an empty catch block.,35
+alexoro_android-root-device-detector,com.alexoro.androidrootdevicedetector,RootDeviceDetector,isSpecificApplicationsIsInstalled,Empty catch clause,The method has an empty catch block.,35
+alexoro_android-root-device-detector,com.alexoro.androidrootdevicedetector,RootDeviceDetector,isSpecificApplicationsIsInstalled,Empty catch clause,The method has an empty catch block.,35
+alexoro_android-root-device-detector,com.alexoro.androidrootdevicedetector,RootDeviceDetector,isSpecificApplicationsIsInstalled,Long Statement,The length of the statement "String[] rootApps=new String[]{"eu.chainfire.supersu"`"eu.chainfire.supersu.pro"`"eu.chainfire.mobileodin"`"eu.chainfire.mobileodin.pro"`"eu.chainfire.pryfi"};" is 159.,35
+alexoro_android-root-device-detector,com.alexoro.androidrootdevicedetector,RootDeviceDetector,isCanExecuteRootCommands,Long Statement,The length of the statement "return canExecuteCommand("/system/xbin/which su") || canExecuteCommand("/system/bin/which su") || canExecuteCommand("which su");" is 128.,89
+alexoro_android-root-device-detector,com.alexoro.androidrootdevicedetector,RootDeviceDetector,isRootUserId,Empty catch clause,The method has an empty catch block.,94
+alexoro_android-root-device-detector,com.alexoro.androidrootdevicedetector,RootDeviceDetector,isRootUserId,Empty catch clause,The method has an empty catch block.,94
+alexoro_android-root-device-detector,com.alexoro.androidrootdevicedetector,RootDeviceDetector,isRootUserId,Empty catch clause,The method has an empty catch block.,94
+alexoro_android-root-device-detector,com.alexoro.androidrootdevicedetector,RootDeviceDetector,isRootUserId,Empty catch clause,The method has an empty catch block.,94

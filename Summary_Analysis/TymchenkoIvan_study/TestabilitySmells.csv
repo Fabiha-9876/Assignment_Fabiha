@@ -1,0 +1,10 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+TymchenkoIvan_study,com.company.util,BeanUtil,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11
+TymchenkoIvan_study,com.company.util,Validator,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+TymchenkoIvan_study,com.company.util,BeanUtilTest,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+TymchenkoIvan_study,com.company.util.querygenerator.select,ChainGenerator,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+TymchenkoIvan_study,com.company.web.controller,LoginServlet,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+TymchenkoIvan_study,com.company.web.controller,MakeOrderServlet,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+TymchenkoIvan_study,com.company.web.controller,ProductsServlet,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+TymchenkoIvan_study,com.company.web.controller,RegistrationServlet,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+TymchenkoIvan_study,com.company.web.listener,ContextListener,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9

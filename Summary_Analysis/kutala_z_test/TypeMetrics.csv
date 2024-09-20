@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+kutala_z_test,z_test,Master,0,0,1,1,4,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\kutala_z_test\src\z_test\Master.java,3
+kutala_z_test,z_test,Test,1,0,1,1,10,2,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\kutala_z_test\src\z_test\Test.java,6
+kutala_z_test,z_test,User,0,0,2,2,6,2,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\kutala_z_test\src\z_test\User.java,3

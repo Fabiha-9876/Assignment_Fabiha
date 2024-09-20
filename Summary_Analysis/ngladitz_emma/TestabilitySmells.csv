@@ -1,0 +1,40 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+ngladitz_emma,com.vladium.emma.ant,VerbosityCfg.VerbosityAttribute,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+ngladitz_emma,com.vladium.emma,Command,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+ngladitz_emma,com.vladium.emma.data,DataFactory,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+ngladitz_emma,com.vladium.emma.data,MergeProcessor,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12
+ngladitz_emma,com.vladium.emma.instr,FilterCfg.filterElement,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+ngladitz_emma,com.vladium.emma.instr,instrTask.ModeAttribute,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+ngladitz_emma,com.vladium.emma.instr,InstrProcessor.OutMode,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+ngladitz_emma,com.vladium.emma.instr,InstrProcessorST,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 19
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 25
+ngladitz_emma,com.vladium.emma.instr,InstrVisitor.InstrResult,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+ngladitz_emma,com.vladium.emma.report,ReportCfg.Element,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+ngladitz_emma,com.vladium.emma.report,ReportCfg.Element_HTML,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+ngladitz_emma,com.vladium.emma.report,ReportCfg.Element_TXT,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+ngladitz_emma,com.vladium.emma.report,ReportCfg.Element_XML,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+ngladitz_emma,com.vladium.emma.report,AbstractReportGenerator,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 17
+ngladitz_emma,com.vladium.emma.report,ClassItem,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+ngladitz_emma,com.vladium.emma.report,MethodItem,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11
+ngladitz_emma,com.vladium.emma.report,ReportDataModel,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 15
+ngladitz_emma,com.vladium.emma.report,ReportProcessor,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 15
+ngladitz_emma,com.vladium.emma.report,ReportProperties,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 17
+ngladitz_emma,com.vladium.emma.report,ReportProperties.ParsedProperties,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+ngladitz_emma,com.vladium.emma.report,SrcFileItem,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11
+ngladitz_emma,com.vladium.emma.report.html.doc,HTMLDocument,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+ngladitz_emma,com.vladium.emma.report.html.doc,HTMLTable.ICell,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+ngladitz_emma,com.vladium.emma.report.html.doc,HTMLTable.IRow,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+ngladitz_emma,com.vladium.emma.report.html,ReportGenerator,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 22
+ngladitz_emma,com.vladium.emma.report.txt,ReportGenerator,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 17
+ngladitz_emma,com.vladium.emma.report.xml,ReportGenerator,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 19
+ngladitz_emma,com.vladium.emma.rt,AppRunner,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 26
+ngladitz_emma,com.vladium.emma.rt,ClassPathProcessorST,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+ngladitz_emma,com.vladium.emma.rt,InstrClassLoadHook,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+ngladitz_emma,com.vladium.emma.rt,RT,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+ngladitz_emma,com.vladium.jcd.cls,ClassDef,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 18
+ngladitz_emma,com.vladium.jcd.cls.attribute,CodeAttribute_info,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+ngladitz_emma,com.vladium.jcd.cls.attribute,IAttributeVisitor,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+ngladitz_emma,com.vladium.jcd.cls.constant,CONSTANT_info,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 14
+ngladitz_emma,com.vladium.jcd.cls.constant,ICONSTANTVisitor,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11
+ngladitz_emma,com.vladium.util,IPathEnumerator.IPathHandler,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+ngladitz_emma,com.vladium.util,IPathEnumerator.Factory,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.

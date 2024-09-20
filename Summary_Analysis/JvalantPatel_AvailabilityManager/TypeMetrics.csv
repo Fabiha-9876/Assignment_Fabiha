@@ -1,0 +1,15 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+JvalantPatel_AvailabilityManager,com.app.application,AvailabilityManagerApp,0,0,1,1,6,1,0,0,-1.0,0,2,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\com\app\application\AvailabilityManagerApp.java,7
+JvalantPatel_AvailabilityManager,com.app.data,InfrastructureData,4,0,7,5,78,13,0,0,0.2857142857142857,9,1,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\com\app\data\InfrastructureData.java,19
+JvalantPatel_AvailabilityManager,com.app.data,VirtualHost,0,0,0,0,2,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\com\app\data\VirtualHost.java,3
+JvalantPatel_AvailabilityManager,com.app.handlers,AlarmHandler,1,0,3,2,118,16,0,0,0.0,4,1,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\com\app\handlers\AlarmHandler.java,19
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,0,0,6,2,136,36,0,0,-1.0,1,2,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\com\app\handlers\RecoveryHandler.java,32
+JvalantPatel_AvailabilityManager,com.app.handlers,SnapshotHandler,0,0,5,3,109,15,0,0,-1.0,1,1,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\com\app\handlers\SnapshotHandler.java,13
+JvalantPatel_AvailabilityManager,com.app.managers,HeartbeatManager,3,0,5,5,110,19,0,0,0.6,2,3,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\com\app\managers\HeartbeatManager.java,24
+JvalantPatel_AvailabilityManager,com.app.managers,SnapshotManager,4,0,3,3,30,5,0,0,0.6666666666666666,1,2,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\com\app\managers\SnapshotManager.java,7
+JvalantPatel_AvailabilityManager,test.com.app.handlers,AlarmHandlerTest,0,0,1,1,11,2,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\test\com\app\handlers\AlarmHandlerTest.java,7
+JvalantPatel_AvailabilityManager,test.com.app.handlers,HeartbeatManagerTest,0,0,1,1,11,2,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\test\com\app\handlers\HeartbeatManagerTest.java,9
+JvalantPatel_AvailabilityManager,test.com.app.handlers,ReconnectHost,0,0,1,1,19,1,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\test\com\app\handlers\ReconnectHost.java,27
+JvalantPatel_AvailabilityManager,test.com.app.handlers,RecoveryHandlerTest,0,0,2,1,64,15,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\test\com\app\handlers\RecoveryHandlerTest.java,32
+JvalantPatel_AvailabilityManager,test.com.app.handlers,RecoverySnapshot,0,0,1,1,33,7,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\test\com\app\handlers\RecoverySnapshot.java,27
+JvalantPatel_AvailabilityManager,test.com.app.handlers,VMinfo,0,0,1,1,26,3,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\JvalantPatel_AvailabilityManager\src\test\com\app\handlers\VMinfo.java,32

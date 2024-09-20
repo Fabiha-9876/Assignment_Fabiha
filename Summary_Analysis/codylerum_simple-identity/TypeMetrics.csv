@@ -1,0 +1,12 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+codylerum_simple-identity,com.outjected.identity,AuthenticationStatus,0,0,0,0,4,0,0,0,-1.0,2,0,E:\Repositories\Cloned_Reposit\codylerum_simple-identity\src\main\java\com\outjected\identity\AuthenticationStatus.java,3
+codylerum_simple-identity,com.outjected.identity,Authenticator,0,0,3,0,8,3,0,0,-1.0,1,2,E:\Repositories\Cloned_Reposit\codylerum_simple-identity\src\main\java\com\outjected\identity\Authenticator.java,3
+codylerum_simple-identity,com.outjected.identity,BaseAuthenticator,2,0,4,2,16,4,0,0,0.5,0,2,E:\Repositories\Cloned_Reposit\codylerum_simple-identity\src\main\java\com\outjected\identity\BaseAuthenticator.java,3
+codylerum_simple-identity,com.outjected.identity,Identity,2,2,10,0,17,10,1,0,-1.0,0,3,E:\Repositories\Cloned_Reposit\codylerum_simple-identity\src\main\java\com\outjected\identity\Identity.java,3
+codylerum_simple-identity,com.outjected.identity,IdentityImpl,7,0,10,10,56,12,0,1,0.2,0,5,E:\Repositories\Cloned_Reposit\codylerum_simple-identity\src\main\java\com\outjected\identity\IdentityImpl.java,16
+codylerum_simple-identity,com.outjected.identity,IdentityUser,0,0,1,0,6,1,0,0,-1.0,5,0,E:\Repositories\Cloned_Reposit\codylerum_simple-identity\src\main\java\com\outjected\identity\IdentityUser.java,3
+codylerum_simple-identity,com.outjected.identity,RoleType,0,0,0,0,2,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\codylerum_simple-identity\src\main\java\com\outjected\identity\RoleType.java,3
+codylerum_simple-identity,com.outjected.identity,SimplePermission,0,0,1,0,3,1,0,0,-1.0,2,1,E:\Repositories\Cloned_Reposit\codylerum_simple-identity\src\main\java\com\outjected\identity\SimplePermission.java,3
+codylerum_simple-identity,com.outjected.identity,SimplePermissionType,0,0,0,0,2,0,0,0,-1.0,2,0,E:\Repositories\Cloned_Reposit\codylerum_simple-identity\src\main\java\com\outjected\identity\SimplePermissionType.java,3
+codylerum_simple-identity,com.outjected.identity,SimpleRole,0,0,2,0,7,2,0,0,-1.0,2,1,E:\Repositories\Cloned_Reposit\codylerum_simple-identity\src\main\java\com\outjected\identity\SimpleRole.java,5
+codylerum_simple-identity,com.outjected.identity.events,PostLoggedOutEvent,1,0,2,2,9,2,0,0,0.0,1,1,E:\Repositories\Cloned_Reposit\codylerum_simple-identity\src\main\java\com\outjected\identity\events\PostLoggedOutEvent.java,5

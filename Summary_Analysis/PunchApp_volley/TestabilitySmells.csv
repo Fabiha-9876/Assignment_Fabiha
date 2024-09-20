@@ -1,0 +1,21 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+PunchApp_volley,com.android.volley,Cache.Entry,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley,NetworkDispatcher,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+PunchApp_volley,com.android.volley,Request,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+PunchApp_volley,com.android.volley,VolleyLog,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: TAG (28); DEBUG (30)
+PunchApp_volley,com.android.volley,CacheDispatcherTest,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+PunchApp_volley,com.android.volley.toolbox,BasicNetwork,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+PunchApp_volley,com.android.volley.toolbox,HttpClientStack.HttpPatch,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley.mock,TestRequest.DeprecatedGet,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley.mock,TestRequest.DeprecatedPost,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley.mock,TestRequest.Get,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley.mock,TestRequest.Post,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley.mock,TestRequest.PostWithBody,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley.mock,TestRequest.Put,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley.mock,TestRequest.PutWithBody,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley.mock,TestRequest.Delete,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley.mock,TestRequest.Head,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley.mock,TestRequest.Options,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley.mock,TestRequest.Trace,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley.mock,TestRequest.Patch,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+PunchApp_volley,com.android.volley.mock,TestRequest.PatchWithBody,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.

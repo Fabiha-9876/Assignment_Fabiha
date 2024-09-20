@@ -1,0 +1,14 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+TechplexEngineer_OmniNode,omninode28,Connect,2,0,9,9,81,16,0,0,0.0,3,1,E:\Repositories\Cloned_Reposit\TechplexEngineer_OmniNode\OmniNode\src\omninode28\Connect.java,16
+TechplexEngineer_OmniNode,omninode28,Driver,0,0,1,1,18,1,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\TechplexEngineer_OmniNode\OmniNode\src\omninode28\Driver.java,11
+TechplexEngineer_OmniNode,omninode28,EditPanel,1,0,4,3,111,10,0,1,0.5,1,2,E:\Repositories\Cloned_Reposit\TechplexEngineer_OmniNode\OmniNode\src\omninode28\EditPanel.java,15
+TechplexEngineer_OmniNode,omninode28,EditPanel.DynamicListener,16,0,0,0,246,0,0,0,-1.0,0,3,E:\Repositories\Cloned_Reposit\TechplexEngineer_OmniNode\OmniNode\src\omninode28\EditPanel.java,189
+TechplexEngineer_OmniNode,omninode28,EndUserPanel,20,0,3,3,120,9,0,1,0.0,0,3,E:\Repositories\Cloned_Reposit\TechplexEngineer_OmniNode\OmniNode\src\omninode28\EndUserPanel.java,13
+TechplexEngineer_OmniNode,omninode28,EndUserPanel.DynamicListener,13,0,0,0,64,0,0,0,-1.0,0,3,E:\Repositories\Cloned_Reposit\TechplexEngineer_OmniNode\OmniNode\src\omninode28\EndUserPanel.java,82
+TechplexEngineer_OmniNode,omninode28,IO,0,0,7,7,126,24,0,0,-1.0,5,2,E:\Repositories\Cloned_Reposit\TechplexEngineer_OmniNode\OmniNode\src\omninode28\IO.java,20
+TechplexEngineer_OmniNode,omninode28,Node,9,0,33,33,226,51,0,0,0.09090909090909091,8,2,E:\Repositories\Cloned_Reposit\TechplexEngineer_OmniNode\OmniNode\src\omninode28\Node.java,22
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,28,0,4,4,169,12,0,0,0.0,0,3,E:\Repositories\Cloned_Reposit\TechplexEngineer_OmniNode\OmniNode\src\omninode28\NodeEditFrame.java,24
+TechplexEngineer_OmniNode,omninode28,NodePanel,7,0,2,2,77,13,0,0,0.0,6,0,E:\Repositories\Cloned_Reposit\TechplexEngineer_OmniNode\OmniNode\src\omninode28\NodePanel.java,24
+TechplexEngineer_OmniNode,omninode28,OmniPanel,2,0,3,3,71,11,2,0,1.0,3,3,E:\Repositories\Cloned_Reposit\TechplexEngineer_OmniNode\OmniNode\src\omninode28\OmniPanel.java,16
+TechplexEngineer_OmniNode,omninode28,PopupPanel,0,0,0,0,5,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\TechplexEngineer_OmniNode\OmniNode\src\omninode28\PopupPanel.java,8
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,10,0,4,4,155,12,0,0,0.0,0,3,E:\Repositories\Cloned_Reposit\TechplexEngineer_OmniNode\OmniNode\src\omninode28\SettingsFrame.java,24

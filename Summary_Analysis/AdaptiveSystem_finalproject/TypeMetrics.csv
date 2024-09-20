@@ -1,0 +1,20 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+AdaptiveSystem_finalproject,com.movie.worth.controller,MovieRating,3,0,12,11,90,15,0,0,0.3333333333333333,0,3,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\controller\MovieRating.java,25
+AdaptiveSystem_finalproject,com.movie.worth.controller,Test,2,0,3,3,25,5,0,0,0.6666666666666666,0,1,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\controller\Test.java,20
+AdaptiveSystem_finalproject,com.movie.worth.controller,UserControl,1,0,3,3,27,8,0,0,0.6666666666666666,0,2,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\controller\UserControl.java,20
+AdaptiveSystem_finalproject,com.movie.worth.dao,MovieDAO,0,0,1,1,3,1,1,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\dao\MovieDAO.java,5
+AdaptiveSystem_finalproject,com.movie.worth.dao,Movies,1,0,8,8,62,12,0,1,0.875,1,1,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\dao\Movies.java,16
+AdaptiveSystem_finalproject,com.movie.worth.dao,RatingDAO,0,0,2,2,4,2,1,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\dao\RatingDAO.java,7
+AdaptiveSystem_finalproject,com.movie.worth.dao,Ratings,0,0,9,9,59,12,0,1,-1.0,4,1,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\dao\Ratings.java,15
+AdaptiveSystem_finalproject,com.movie.worth.dao,UserDAO,0,0,2,2,4,2,1,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\dao\UserDAO.java,5
+AdaptiveSystem_finalproject,com.movie.worth.dao,Users,0,0,5,5,28,6,0,1,-1.0,3,1,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\dao\Users.java,13
+AdaptiveSystem_finalproject,com.movie.worth.service,MovieService,5,0,6,6,61,11,0,0,0.0,1,7,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\service\MovieService.java,20
+AdaptiveSystem_finalproject,com.movie.worth.service,RatingService,2,0,3,3,26,4,0,0,0.0,1,4,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\service\RatingService.java,13
+AdaptiveSystem_finalproject,com.movie.worth.service,UserService,1,0,2,2,9,2,0,0,0.0,1,2,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\service\UserService.java,11
+AdaptiveSystem_finalproject,com.movie.worth.util,AdjustedSimilarity,7,0,7,3,125,21,0,0,0.2857142857142857,2,1,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\util\AdjustedSimilarity.java,25
+AdaptiveSystem_finalproject,com.movie.worth.util,Movie,6,0,12,12,44,12,0,0,0.5,3,0,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\util\Movie.java,5
+AdaptiveSystem_finalproject,com.movie.worth.util,MovieUserRel,3,0,6,6,23,6,0,0,0.5,2,1,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\util\MovieUserRel.java,3
+AdaptiveSystem_finalproject,com.movie.worth.util,Rating,4,0,8,8,30,8,0,0,0.5,3,0,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\util\Rating.java,3
+AdaptiveSystem_finalproject,com.movie.worth.util,SlopeOne,13,0,7,7,142,33,0,0,0.0,1,1,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\util\SlopeOne.java,10
+AdaptiveSystem_finalproject,com.movie.worth.util,SlopeOne.FloatEntryComparator,0,0,0,0,5,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\util\SlopeOne.java,146
+AdaptiveSystem_finalproject,com.movie.worth.util,User,7,0,14,14,51,14,0,0,0.5,5,0,E:\Repositories\Cloned_Reposit\AdaptiveSystem_finalproject\movieWorth\src\main\java\com\movie\worth\util\User.java,3

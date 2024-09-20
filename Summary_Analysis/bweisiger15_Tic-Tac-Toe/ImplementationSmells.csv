@@ -1,0 +1,267 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,initialBoard,Magic Number,The method contains a magic number: 3,22
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,initialBoard,Magic Number,The method contains a magic number: 3,22
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,determineStarter,Magic Number,The method contains a magic number: 10,34
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,determineStarter,Magic Number,The method contains a magic number: 5,34
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,displayBoard,Magic Number,The method contains a magic number: 2,50
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,displayBoard,Magic Number,The method contains a magic number: 2,50
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,displayBoard,Magic Number,The method contains a magic number: 2,50
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,displayBoard,Magic Number,The method contains a magic number: 2,50
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,displayBoard,Magic Number,The method contains a magic number: 2,50
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,displayBoard,Magic Number,The method contains a magic number: 2,50
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[0][0] == 'O' && board[0][1] == 'O' && board[0][2] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[0][0] == 'O' && board[0][2] == 'O' && board[0][1] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[0][1] == 'O' && board[0][2] == 'O' && board[0][0] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][0] == 'O' && board[1][1] == 'O' && board[1][2] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][0] == 'O' && board[1][2] == 'O' && board[1][1] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][1] == 'O' && board[1][2] == 'O' && board[1][0] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][0] == 'O' && board[2][1] == 'O' && board[2][2] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][0] == 'O' && board[2][2] == 'O' && board[2][1] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][1] == 'O' && board[2][2] == 'O' && board[2][0] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[0][0] == 'O' && board[1][1] == 'O' && board[2][2] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][2] == 'O' && board[0][0] == 'O' && board[1][1] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][1] == 'O' && board[2][2] == 'O' && board[0][0] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][0] == 'O' && board[1][1] == 'O' && board[0][2] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][0] == 'O' && board[0][2] == 'O' && board[1][1] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][1] == 'O' && board[0][2] == 'O' && board[2][0] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][0] == 'O' && board[1][0] == 'O' && board[0][0] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][0] == 'O' && board[0][0] == 'O' && board[1][0] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][0] == 'O' && board[0][0] == 'O' && board[2][0] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[0][1] == 'O' && board[1][1] == 'O' && board[2][1] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][1] == 'O' && board[2][1] == 'O' && board[0][1] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[0][1] == 'O' && board[2][1] == 'O' && board[1][1] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[0][2] == 'O' && board[2][2] == 'O' && board[1][2] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][2] == 'O' && board[1][2] == 'O' && board[0][2] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][2] == 'O' && board[0][2] == 'O' && board[2][2] != 'X' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[0][0] == 'X' && board[0][1] == 'X' && board[0][2] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[0][0] == 'X' && board[0][2] == 'X' && board[0][1] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[0][1] == 'X' && board[0][2] == 'X' && board[0][0] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][0] == 'X' && board[1][1] == 'X' && board[1][2] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][0] == 'X' && board[1][2] == 'X' && board[1][1] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][1] == 'X' && board[1][2] == 'X' && board[1][0] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][0] == 'X' && board[2][1] == 'X' && board[2][2] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][0] == 'X' && board[2][2] == 'X' && board[2][1] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][1] == 'X' && board[2][2] == 'X' && board[2][0] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[0][0] == 'X' && board[1][1] == 'X' && board[2][2] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][2] == 'X' && board[0][0] == 'X' && board[1][1] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][1] == 'X' && board[2][2] == 'X' && board[0][0] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][0] == 'X' && board[1][1] == 'X' && board[0][2] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][0] == 'X' && board[0][2] == 'X' && board[1][1] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][1] == 'X' && board[0][2] == 'X' && board[2][0] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][1] == 'X' && board[1][1] == 'X' && board[0][1] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][1] == 'X' && board[0][1] == 'X' && board[1][1] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][1] == 'X' && board[0][1] == 'X' && board[2][1] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[0][0] == 'X' && board[1][0] == 'X' && board[2][0] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][0] == 'X' && board[2][0] == 'X' && board[0][0] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[0][0] == 'X' && board[2][0] == 'X' && board[1][0] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][2] == 'X' && board[1][2] == 'X' && board[0][2] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[2][2] == 'X' && board[0][2] == 'X' && board[1][2] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Conditional,The conditional expression board[1][2] == 'X' && board[0][2] == 'X' && board[2][2] != 'O' is complex.,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Complex Method,Cyclomatic complexity of the method is 70,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,compPlayer,Magic Number,The method contains a magic number: 2,88
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Complex Method,Cyclomatic complexity of the method is 20,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkXWin,Magic Number,The method contains a magic number: 2,277
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Complex Method,Cyclomatic complexity of the method is 20,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkOWin,Magic Number,The method contains a magic number: 2,340
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkTie,Magic Number,The method contains a magic number: 2,411
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkTie,Magic Number,The method contains a magic number: 2,411
+bweisiger15_Tic-Tac-Toe,(default package),TicTacToe,checkTie,Magic Number,The method contains a magic number: 9,411

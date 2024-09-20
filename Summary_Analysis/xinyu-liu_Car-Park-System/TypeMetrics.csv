@@ -1,0 +1,24 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+xinyu-liu_Car-Park-System,carparksystem.controls,AccountControl,0,0,3,3,43,3,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\controls\AccountControl.java,6
+xinyu-liu_Car-Park-System,carparksystem.controls,EmergencyControl,0,0,1,1,13,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\controls\EmergencyControl.java,3
+xinyu-liu_Car-Park-System,carparksystem.controls,InControl,0,0,9,8,94,14,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\controls\InControl.java,9
+xinyu-liu_Car-Park-System,carparksystem.controls,OutControl,0,0,8,8,101,16,0,0,-1.0,0,3,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\controls\OutControl.java,10
+xinyu-liu_Car-Park-System,carparksystem.controls,ReportControl,0,0,8,4,97,12,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\controls\ReportControl.java,10
+xinyu-liu_Car-Park-System,carparksystem.controls,SettingControl,0,0,8,8,70,8,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\controls\SettingControl.java,6
+xinyu-liu_Car-Park-System,carparksystem.entities,Admin,3,0,7,6,73,9,0,0,0.0,1,0,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\entities\Admin.java,9
+xinyu-liu_Car-Park-System,carparksystem.entities,DBUtil,2,0,8,8,159,21,0,0,0.0,3,0,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\entities\DBUtil.java,10
+xinyu-liu_Car-Park-System,carparksystem.entities,Nonworkingdays,2,0,6,5,104,14,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\entities\Nonworkingdays.java,12
+xinyu-liu_Car-Park-System,carparksystem.entities,ParkStatus,4,0,8,7,73,9,0,0,0.0,1,0,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\entities\ParkStatus.java,9
+xinyu-liu_Car-Park-System,carparksystem.entities,PublicRecord,3,0,10,8,101,14,0,0,0.0,1,1,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\entities\PublicRecord.java,7
+xinyu-liu_Car-Park-System,carparksystem.entities,Record,4,0,10,10,60,10,0,0,0.6,0,0,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\entities\Record.java,6
+xinyu-liu_Car-Park-System,carparksystem.entities,StaffAccount,7,0,16,14,117,18,0,0,0.0,1,1,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\entities\StaffAccount.java,6
+xinyu-liu_Car-Park-System,carparksystem.entities,StaffRecord,3,0,8,6,90,12,0,0,0.0,1,1,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\entities\StaffRecord.java,7
+xinyu-liu_Car-Park-System,carparksystem.views,AccountUI,6,0,5,5,0,12,0,0,0.0,1,0,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\views\AccountUI.java,14
+xinyu-liu_Car-Park-System,carparksystem.views,AdminUI,6,0,2,2,68,5,0,0,0.0,1,2,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\views\AdminUI.java,11
+xinyu-liu_Car-Park-System,carparksystem.views,EntranceUI,8,0,3,3,108,10,0,0,0.0,1,1,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\views\EntranceUI.java,10
+xinyu-liu_Car-Park-System,carparksystem.views,ExitUI,6,0,2,2,81,7,0,0,0.0,1,1,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\views\ExitUI.java,9
+xinyu-liu_Car-Park-System,carparksystem.views,OutFrame,16,0,10,10,132,11,0,0,0.3,5,8,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\views\OutFrame.java,13
+xinyu-liu_Car-Park-System,carparksystem.views,ParkStatusUI,8,0,4,4,0,9,0,0,0.0,1,1,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\views\ParkStatusUI.java,11
+xinyu-liu_Car-Park-System,carparksystem.views,PaymentUI,13,0,4,4,123,11,0,0,0.0,1,1,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\views\PaymentUI.java,12
+xinyu-liu_Car-Park-System,carparksystem.views,PublicRecordsUI,4,0,4,4,63,6,0,0,0.5,1,0,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\views\PublicRecordsUI.java,16
+xinyu-liu_Car-Park-System,carparksystem.views,StaffRecordsUI,7,0,4,4,82,7,0,0,0.0,1,0,E:\Repositories\Cloned_Reposit\xinyu-liu_Car-Park-System\views\StaffRecordsUI.java,16

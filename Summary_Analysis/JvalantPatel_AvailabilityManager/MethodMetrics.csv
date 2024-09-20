@@ -1,0 +1,38 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+JvalantPatel_AvailabilityManager,com.app.application,AvailabilityManagerApp,main,4,1,1,9,0,com.app.managers.HeartbeatManager,com.app.managers.HeartbeatManager; com.app.managers.SnapshotManager
+JvalantPatel_AvailabilityManager,com.app.data,InfrastructureData,getHostSystems,3,1,0,23,0,,
+JvalantPatel_AvailabilityManager,com.app.data,InfrastructureData,InfrastructureData,7,1,0,31,0,,
+JvalantPatel_AvailabilityManager,com.app.data,InfrastructureData,getServiceInstance,3,1,0,39,0,,
+JvalantPatel_AvailabilityManager,com.app.data,InfrastructureData,getAdminServiceInstance,3,1,0,43,0,,
+JvalantPatel_AvailabilityManager,com.app.data,InfrastructureData,getInstance,14,2,0,47,0,,
+JvalantPatel_AvailabilityManager,com.app.data,InfrastructureData,updateInfra,23,3,0,64,0,com.app.data.InfrastructureData,com.app.data.InfrastructureData
+JvalantPatel_AvailabilityManager,com.app.data,InfrastructureData,checkAndUpdateAlerts,19,4,1,87,0,,
+JvalantPatel_AvailabilityManager,com.app.handlers,AlarmHandler,createAlarm,46,6,1,27,0,com.app.data.InfrastructureData,com.app.data.InfrastructureData; com.app.handlers.AlarmHandler
+JvalantPatel_AvailabilityManager,com.app.handlers,AlarmHandler,checkAlarm,49,9,1,94,0,com.app.data.InfrastructureData,com.app.data.InfrastructureData
+JvalantPatel_AvailabilityManager,com.app.handlers,AlarmHandler,createAlarmExpression,8,1,0,165,0,,
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,recoverVM,37,8,2,34,0,com.app.handlers.RecoveryHandler,com.app.handlers.RecoveryHandler; com.app.data.InfrastructureData
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,getvHostFromAdminVCenter,23,7,1,106,0,com.app.data.InfrastructureData,com.app.data.InfrastructureData
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,migrateVMandRecover,19,5,2,139,0,,
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,recoverVMtoSameHost,11,4,2,160,0,,
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,reconnectHostandRecoverVM,32,9,2,198,0,com.app.handlers.RecoveryHandler,com.app.handlers.RecoveryHandler
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,recoverHostandVM,12,3,2,251,0,com.app.handlers.RecoveryHandler,com.app.handlers.RecoveryHandler
+JvalantPatel_AvailabilityManager,com.app.handlers,SnapshotHandler,createSnapShotForVM,25,4,1,15,0,com.app.handlers.SnapshotHandler,com.app.handlers.SnapshotHandler
+JvalantPatel_AvailabilityManager,com.app.handlers,SnapshotHandler,createSnapShotForHOST,33,6,2,65,0,com.app.handlers.SnapshotHandler,com.app.handlers.SnapshotHandler
+JvalantPatel_AvailabilityManager,com.app.handlers,SnapshotHandler,createSnapShot,15,2,1,138,0,,
+JvalantPatel_AvailabilityManager,com.app.handlers,SnapshotHandler,removeSnapShot,15,2,1,161,0,,
+JvalantPatel_AvailabilityManager,com.app.handlers,SnapshotHandler,createSnapShotForHost,3,1,1,183,0,,
+JvalantPatel_AvailabilityManager,com.app.managers,HeartbeatManager,HeartbeatManager,3,2,0,30,0,com.app.data.InfrastructureData,com.app.data.InfrastructureData
+JvalantPatel_AvailabilityManager,com.app.managers,HeartbeatManager,getInstance,6,2,0,35,0,,
+JvalantPatel_AvailabilityManager,com.app.managers,HeartbeatManager,ping,50,8,0,42,0,com.app.data.InfrastructureData,com.app.data.InfrastructureData; com.app.managers.HeartbeatManager; com.app.handlers.RecoveryHandler
+JvalantPatel_AvailabilityManager,com.app.managers,HeartbeatManager,pingVirtualMachine,33,5,1,94,0,,
+JvalantPatel_AvailabilityManager,com.app.managers,HeartbeatManager,run,13,2,0,133,0,com.app.data.InfrastructureData,com.app.data.InfrastructureData; com.app.managers.HeartbeatManager
+JvalantPatel_AvailabilityManager,com.app.managers,SnapshotManager,SnapshotManager,5,1,0,13,0,com.app.data.InfrastructureData,com.app.data.InfrastructureData
+JvalantPatel_AvailabilityManager,com.app.managers,SnapshotManager,getInstance,6,2,0,19,0,,
+JvalantPatel_AvailabilityManager,com.app.managers,SnapshotManager,run,13,2,0,26,0,com.app.handlers.SnapshotHandler,com.app.handlers.SnapshotHandler
+JvalantPatel_AvailabilityManager,test.com.app.handlers,AlarmHandlerTest,testCheckAlarm,9,2,0,16,1,,
+JvalantPatel_AvailabilityManager,test.com.app.handlers,HeartbeatManagerTest,testPing,9,2,0,11,1,com.app.managers.HeartbeatManager,com.app.managers.HeartbeatManager
+JvalantPatel_AvailabilityManager,test.com.app.handlers,ReconnectHost,getStatusOfAllvHosts,14,1,0,45,1,com.app.data.InfrastructureData,com.app.data.InfrastructureData
+JvalantPatel_AvailabilityManager,test.com.app.handlers,RecoveryHandlerTest,powerOnvHost,32,8,0,93,1,com.app.data.InfrastructureData,com.app.data.InfrastructureData
+JvalantPatel_AvailabilityManager,test.com.app.handlers,RecoveryHandlerTest,getvHostFromAdminVCenter,27,7,1,146,0,com.app.data.InfrastructureData,com.app.data.InfrastructureData
+JvalantPatel_AvailabilityManager,test.com.app.handlers,RecoverySnapshot,getStatusOfAllvHosts,28,7,0,45,1,com.app.data.InfrastructureData,com.app.data.InfrastructureData
+JvalantPatel_AvailabilityManager,test.com.app.handlers,VMinfo,getStatusOfAllvHosts,21,3,0,40,1,com.app.data.InfrastructureData,com.app.data.InfrastructureData

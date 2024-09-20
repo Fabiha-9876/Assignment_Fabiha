@@ -1,0 +1,26 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+miguelslemos_Ecommerce,Controller,ControladorCliente,saveCliente,Complex Conditional,The conditional expression c.getClienteEmail() != "" && c.getClienteLogin() != "" && c.getClienteSenha() != "" is complex.,25
+miguelslemos_Ecommerce,Entidades,TblCliente,TblCliente,Long Parameter List,The method has 11 parameters. ,35
+miguelslemos_Ecommerce,Entidades,TblCliente,TblCliente,Long Parameter List,The method has 15 parameters. ,48
+miguelslemos_Ecommerce,Entidades,TblEnvios,TblEnvios,Long Parameter List,The method has 5 parameters. ,31
+miguelslemos_Ecommerce,Entidades,TblFatura,TblFatura,Long Parameter List,The method has 6 parameters. ,30
+miguelslemos_Ecommerce,Entidades,TblItensPedido,TblItensPedido,Long Parameter List,The method has 6 parameters. ,31
+miguelslemos_Ecommerce,Entidades,TblMetodosPagamentoCliente,TblMetodosPagamentoCliente,Long Identifier,The length of the parameter refMetodosPagamentoCartaoCreditoNumero is 38.,26
+miguelslemos_Ecommerce,Entidades,TblMetodosPagamentoCliente,TblMetodosPagamentoCliente,Long Identifier,The length of the field refMetodosPagamentoCartaoCreditoNumero is 38.,26
+miguelslemos_Ecommerce,Entidades,TblMetodosPagamentoCliente,getRefMetodosPagamentoCartaoCreditoNumero,Long Identifier,The length of the field refMetodosPagamentoCartaoCreditoNumero is 38.,54
+miguelslemos_Ecommerce,Entidades,TblMetodosPagamentoCliente,setRefMetodosPagamentoCartaoCreditoNumero,Long Identifier,The length of the parameter refMetodosPagamentoCartaoCreditoNumero is 38.,58
+miguelslemos_Ecommerce,Entidades,TblMetodosPagamentoCliente,setRefMetodosPagamentoCartaoCreditoNumero,Long Identifier,The length of the field refMetodosPagamentoCartaoCreditoNumero is 38.,58
+miguelslemos_Ecommerce,Entidades,TblPedidos,TblPedidos,Long Parameter List,The method has 7 parameters. ,31
+miguelslemos_Ecommerce,Entidades,TblProduto,TblProduto,Long Parameter List,The method has 7 parameters. ,34
+miguelslemos_Ecommerce,Entidades,TblRefTipoProduto,TblRefTipoProduto,Long Identifier,The length of the parameter refTipoProdutoCategoriaProduto is 30.,25
+miguelslemos_Ecommerce,Entidades,TblRefTipoProduto,TblRefTipoProduto,Long Identifier,The length of the field refTipoProdutoCategoriaProduto is 30.,25
+miguelslemos_Ecommerce,Entidades,TblRefTipoProduto,TblRefTipoProduto,Long Identifier,The length of the parameter refTipoProdutoCategoriaProduto is 30.,30
+miguelslemos_Ecommerce,Entidades,TblRefTipoProduto,TblRefTipoProduto,Long Identifier,The length of the field refTipoProdutoCategoriaProduto is 30.,30
+miguelslemos_Ecommerce,Entidades,TblRefTipoProduto,TblRefTipoProduto,Long Parameter List,The method has 5 parameters. ,30
+miguelslemos_Ecommerce,Entidades,TblRefTipoProduto,getRefTipoProdutoCategoriaProduto,Long Identifier,The length of the field refTipoProdutoCategoriaProduto is 30.,52
+miguelslemos_Ecommerce,Entidades,TblRefTipoProduto,setRefTipoProdutoCategoriaProduto,Long Identifier,The length of the parameter refTipoProdutoCategoriaProduto is 30.,56
+miguelslemos_Ecommerce,Entidades,TblRefTipoProduto,setRefTipoProdutoCategoriaProduto,Long Identifier,The length of the field refTipoProdutoCategoriaProduto is 30.,56
+miguelslemos_Ecommerce,Repositorio,RepositorioTblCliente,searchClientePorNome,Long Statement,The length of the statement "SQLQuery query=session.createSQLQuery("SELECT {tbl_cliente.*}" + "FROM tbl_cliente {tbl_cliente} WHERE cliente_ultimonome= '" + c.getClientePrimeironome() + " WHERE cliente_segundonome = '"+ c.getClienteUltimonome()+ "'");" is 222.,56
+miguelslemos_Ecommerce,Repositorio,RepositorioTblCliente,searchClientePorEmail,Long Statement,The length of the statement "SQLQuery query=session.createSQLQuery("SELECT {tbl_cliente.*}" + "FROM tbl_cliente {tbl_cliente} WHERE cliente_login= '" + c.getClienteEmail() + "'");" is 150.,73
+miguelslemos_Ecommerce,Repositorio,RepositorioTblProduto,searchProdutoPorNome,Long Statement,The length of the statement "SQLQuery query=session.createSQLQuery("SELECT{tbl_produto.*}" + "FROM tbl_produto {produto} WHERE produto_nome= '" + p.getProdutoNome() + "'");" is 143.,59
+miguelslemos_Ecommerce,Repositorio,RepositorioTblProduto,searchProdutoPorDescricao,Long Statement,The length of the statement "SQLQuery query=session.createSQLQuery("SELECT{tbl_produto.*}" + "FROM tbl_produto {produto} WHERE produto_descricao = '" + p.getProdutoDescricao() + "'");" is 154.,78

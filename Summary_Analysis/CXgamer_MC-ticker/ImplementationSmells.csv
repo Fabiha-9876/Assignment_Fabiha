@@ -1,0 +1,676 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+CXgamer_MC-ticker,logging,Log,getCallerName,Magic Number,The method contains a magic number: 4,83
+CXgamer_MC-ticker,logging,TimeString,toString,Complex Method,Cyclomatic complexity of the method is 9,28
+CXgamer_MC-ticker,logging,TimeString,toString,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@7c6f6a74,28
+CXgamer_MC-ticker,presentation.blocks,BlockLogic,setSides,Complex Method,Cyclomatic complexity of the method is 8,68
+CXgamer_MC-ticker,presentation.blocks,BlockLogic,setSides,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@a5c63f7,68
+CXgamer_MC-ticker,presentation.blocks,BlockLogic,getIncreaseFromMask,Magic Number,The method contains a magic number: 8,163
+CXgamer_MC-ticker,presentation.blocks,BlockLogic,getIncreaseFromMask,Magic Number,The method contains a magic number: 2,163
+CXgamer_MC-ticker,presentation.blocks,BlockLogic,increaseData,Long Parameter List,The method has 5 parameters. ,174
+CXgamer_MC-ticker,presentation.blocks,BlockLogic,decreaseData,Long Parameter List,The method has 5 parameters. ,184
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,prepareHandler,Complex Method,Cyclomatic complexity of the method is 40,25
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,prepareHandler,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@2d8ef723,25
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,prepareHandler,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@336eeaf0,25
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,prepareHandler,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@47c614b4,25
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,prepareHandler,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@2e6c9460,25
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,prepareHandler,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@74014961,25
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,prepareHandler,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@307c147b,25
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,prepareHandler,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@47e8c574,25
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,startElement,Complex Method,Cyclomatic complexity of the method is 29,35
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,startElement,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@2d8ef723,35
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,startElement,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@336eeaf0,35
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,startElement,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@47c614b4,35
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,startElement,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@2e6c9460,35
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,startElement,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@74014961,35
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,startElement,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@307c147b,35
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,startElement,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@47e8c574,35
+CXgamer_MC-ticker,presentation.blocks,BlocksXML,endElement,Complex Method,Cyclomatic complexity of the method is 10,250
+CXgamer_MC-ticker,presentation.controllers,MainController,MainController,Long Statement,The length of the statement "if (sim.constants.Constants.DEBUG_SWING) Toolkit.getDefaultToolkit().getSystemEventQueue().push(new TracingEventQueue());" is 121.,51
+CXgamer_MC-ticker,presentation.controllers,MainController,setupSim,Long Statement,The length of the statement "catch ( ClassNotFoundException|NoSuchFieldException|SecurityException|InstantiationException|IllegalAccessException|NoSuchMethodException|IllegalArgumentException|InvocationTargetException|IOException e) {" is 205.,100
+CXgamer_MC-ticker,presentation.controllers,MainController,openSchematic,Long Statement,The length of the statement "catch ( IOException|NoSuchAlgorithmException|IllegalAccessException|IllegalArgumentException|InvocationTargetException|InstantiationException e) {" is 146.,125
+CXgamer_MC-ticker,presentation.controllers,MainController,createNewWorld,Complex Method,Cyclomatic complexity of the method is 13,143
+CXgamer_MC-ticker,presentation.controllers,MainController,createNewWorld,Long Parameter List,The method has 11 parameters. ,143
+CXgamer_MC-ticker,presentation.controllers,MainController,createNewWorld,Magic Number,The method contains a magic number: 2,143
+CXgamer_MC-ticker,presentation.controllers,MainController,createNewWorld,Magic Number,The method contains a magic number: 3,143
+CXgamer_MC-ticker,presentation.controllers,MainController,createNewWorld,Magic Number,The method contains a magic number: 8,143
+CXgamer_MC-ticker,presentation.controllers,MainController,createNewWorld,Magic Number,The method contains a magic number: 2,143
+CXgamer_MC-ticker,presentation.controllers,MainController,createNewWorld,Magic Number,The method contains a magic number: 3,143
+CXgamer_MC-ticker,presentation.controllers,MainController,createNewWorld,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@d6d867d,143
+CXgamer_MC-ticker,presentation.controllers,MainController,createNewWorld,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@73599cf0,143
+CXgamer_MC-ticker,presentation.controllers,MainController,createNewWorld,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@2356912c,143
+CXgamer_MC-ticker,presentation.controllers,SimController,setBlock,Long Parameter List,The method has 6 parameters. ,107
+CXgamer_MC-ticker,presentation.controllers,SimController,analyseException,Complex Conditional,The conditional expression e instanceof IllegalAccessException || e instanceof SecurityException || e instanceof InstantiationException|| e instanceof ArrayIndexOutOfBoundsException|| e instanceof NoSuchFieldException|| e instanceof IllegalArgumentException|| e instanceof NoSuchMethodException|| e instanceof ClassNotFoundException is complex.,246
+CXgamer_MC-ticker,presentation.controllers,SimController,analyseException,Complex Method,Cyclomatic complexity of the method is 8,246
+CXgamer_MC-ticker,presentation.controllers,SimController,analyseException,Long Statement,The length of the statement "if (e instanceof IllegalAccessException || e instanceof SecurityException || e instanceof InstantiationException|| e instanceof ArrayIndexOutOfBoundsException|| e instanceof NoSuchFieldException|| e instanceof IllegalArgumentException|| e instanceof NoSuchMethodException|| e instanceof ClassNotFoundException) msg="Internal reflection error` are we using the correct version? " + e.getCause();" is 394.,246
+CXgamer_MC-ticker,presentation.controllers,TileController,getGraphic,Magic Number,The method contains a magic number: 0xFF,43
+CXgamer_MC-ticker,presentation.controllers,TileController,rotate,Magic Number,The method contains a magic number: 0.5,74
+CXgamer_MC-ticker,presentation.controllers,TileController,rotate,Magic Number,The method contains a magic number: 0.5,74
+CXgamer_MC-ticker,presentation.controllers,TileController,rotate,Magic Number,The method contains a magic number: 180,74
+CXgamer_MC-ticker,presentation.controllers,TileController,rotate,Magic Number,The method contains a magic number: 0.5,74
+CXgamer_MC-ticker,presentation.controllers,TileController,rotate,Magic Number,The method contains a magic number: 0.5,74
+CXgamer_MC-ticker,presentation.controllers,TileController,mirror,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@c0e9730,98
+CXgamer_MC-ticker,presentation.controllers,TileController,getHash,Magic Number,The method contains a magic number: 2,130
+CXgamer_MC-ticker,presentation.controllers,TileController,getHash,Magic Number,The method contains a magic number: 3,130
+CXgamer_MC-ticker,presentation.controllers,TileController,getHash,Magic Number,The method contains a magic number: 10,130
+CXgamer_MC-ticker,presentation.controllers,TileController,getHash,Magic Number,The method contains a magic number: 2,130
+CXgamer_MC-ticker,presentation.controllers,TileController,getHash,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@a3bb459,130
+CXgamer_MC-ticker,presentation.controllers,TimeController,setPlaystate,Complex Method,Cyclomatic complexity of the method is 10,63
+CXgamer_MC-ticker,presentation.controllers,TimeController,setTickCounter,Long Statement,The length of the statement "if (tickCounter - minCount > sim.constants.Constants.TIMELINE_LENGTH) this.minCount=tickCounter - sim.constants.Constants.TIMELINE_LENGTH;" is 138.,150
+CXgamer_MC-ticker,presentation.controllers,WorldController,WorldController,Long Parameter List,The method has 6 parameters. ,60
+CXgamer_MC-ticker,presentation.controllers,WorldController,WorldController,Long Statement,The length of the statement "viewData=new ViewData(schematicFile.getName()`(short)schematic.findTagByName("Width").getValue()`(short)schematic.findTagByName("Height").getValue()`(short)schematic.findTagByName("Length").getValue());" is 202.,73
+CXgamer_MC-ticker,presentation.controllers,WorldController,initiliseMinFrameDelay,Magic Number,The method contains a magic number: 1000,94
+CXgamer_MC-ticker,presentation.controllers,WorldController,setBlock,Long Parameter List,The method has 5 parameters. ,167
+CXgamer_MC-ticker,presentation.controllers,WorldController,preferenceChanged,Magic Number,The method contains a magic number: 1000,354
+CXgamer_MC-ticker,presentation.debug,TracingEventQueue,TracingEventQueue,Magic Number,The method contains a magic number: 500,14
+CXgamer_MC-ticker,presentation.debug,TracingEventQueueThreadJMX,checkEventTime,Complex Method,Cyclomatic complexity of the method is 9,55
+CXgamer_MC-ticker,presentation.debug,TracingEventQueueThreadJMX,checkEventTime,Long Statement,The length of the statement "System.out.println("Event [" + event.hashCode() + "] "+ event.getClass().getName()+ " is taking too much time on EDT ("+ currProcessingTime+ ")");" is 146.,55
+CXgamer_MC-ticker,presentation.debug,TracingEventQueueThreadJMX,run,Magic Number,The method contains a magic number: 100,99
+CXgamer_MC-ticker,presentation.debug,TracingRepaintManager,addDirtyRegion,Long Parameter List,The method has 5 parameters. ,6
+CXgamer_MC-ticker,presentation.debug,TracingRepaintManager,addDirtyRegion,Magic Number,The method contains a magic number: 8,6
+CXgamer_MC-ticker,presentation.gui,BlockChooser,buildGUI,Magic Number,The method contains a magic number: 5.0,37
+CXgamer_MC-ticker,presentation.gui,BlockChooser,buildGUI,Magic Number,The method contains a magic number: 5,37
+CXgamer_MC-ticker,presentation.gui,BlockChooser,buildGUI,Magic Number,The method contains a magic number: 150,37
+CXgamer_MC-ticker,presentation.gui,BlockChooser,buildGUI,Magic Number,The method contains a magic number: 1337,37
+CXgamer_MC-ticker,presentation.gui,LogPane,LogPane,Magic Number,The method contains a magic number: 0.86,13
+CXgamer_MC-ticker,presentation.gui,RSFrame,RSFrame,Magic Number,The method contains a magic number: 1200,30
+CXgamer_MC-ticker,presentation.gui,RSFrame,RSFrame,Magic Number,The method contains a magic number: 800,30
+CXgamer_MC-ticker,presentation.gui.choosers,MCPFolderChooser,init,Magic Number,The method contains a magic number: 720,22
+CXgamer_MC-ticker,presentation.gui.choosers,MCPFolderChooser,init,Magic Number,The method contains a magic number: 540,22
+CXgamer_MC-ticker,presentation.gui.choosers,MinecraftFolderChooser,init,Magic Number,The method contains a magic number: 720,23
+CXgamer_MC-ticker,presentation.gui.choosers,MinecraftFolderChooser,init,Magic Number,The method contains a magic number: 540,23
+CXgamer_MC-ticker,presentation.gui.desktop,BoundedDesktopManager,setBoundsForFrame,Long Parameter List,The method has 5 parameters. ,23
+CXgamer_MC-ticker,presentation.gui.desktop,BoundedDesktopManager,inBounds,Long Parameter List,The method has 5 parameters. ,49
+CXgamer_MC-ticker,presentation.gui.editor.block,BlockPanel,getRedstoneWire,Long Statement,The length of the statement "cons[i]=(Block.isConnectable(testBlock`i % 2 == 0)) || (Block.isTransparentBlock(Block.getId(testBlock)) && Block.getId(viewData.getBlock(XCORDS[i]`(short)(y - 1)`ZCORDS[i])) == Block.BLOCK_WIRE) || (up && Block.getId(viewData.getBlock(XCORDS[i]`(short)(y + 1)`ZCORDS[i])) == Block.BLOCK_WIRE);" is 294.,139
+CXgamer_MC-ticker,presentation.gui.editor.block,BlockPanel,getRedstoneWire,Magic Number,The method contains a magic number: 4,139
+CXgamer_MC-ticker,presentation.gui.editor.block,BlockPanel,getRedstoneWire,Magic Number,The method contains a magic number: 4,139
+CXgamer_MC-ticker,presentation.gui.editor.block,BlockPanel,getRedstoneWire,Magic Number,The method contains a magic number: 2,139
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Complex Conditional,The conditional expression (cons[0] || cons[2]) && !cons[1] && !cons[3] is complex.,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Complex Conditional,The conditional expression (cons[1] || cons[3]) && !cons[0] && !cons[2] is complex.,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Complex Conditional,The conditional expression (cons[1] || cons[3]) && !cons[0] && !cons[2] is complex.,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Complex Conditional,The conditional expression (cons[0] || cons[2]) && !cons[1] && !cons[3] is complex.,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Complex Method,Cyclomatic complexity of the method is 16,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 16,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 16,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 2,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 3,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 16,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 3,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 2,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 16,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 2,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 10,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 3,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 10,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 3,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 2,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 12,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 16,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 12,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 3,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 10,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 12,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 12,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 2,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 3,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 12,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 16,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 10,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 12,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 2,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 12,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 6,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 12,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,drawWire,Magic Number,The method contains a magic number: 4,23
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,getHashCode,Magic Number,The method contains a magic number: 3,86
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,getHashCode,Magic Number,The method contains a magic number: 2,86
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,getHashCode,Magic Number,The method contains a magic number: 2,86
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,getHashCode,Magic Number,The method contains a magic number: 3,86
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,getHashCode,Magic Number,The method contains a magic number: 2,86
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,getHashCode,Magic Number,The method contains a magic number: 8,86
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,getHashCode,Magic Number,The method contains a magic number: 4,86
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,draw,Magic Number,The method contains a magic number: 16,112
+CXgamer_MC-ticker,presentation.gui.editor.block,RedstoneWire,draw,Magic Number,The method contains a magic number: 16,112
+CXgamer_MC-ticker,presentation.gui.editor,CursorPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,35
+CXgamer_MC-ticker,presentation.gui.editor,CursorPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,35
+CXgamer_MC-ticker,presentation.gui.editor,CursorPanel,onSelectionUpdated,Complex Conditional,The conditional expression (curX == mouseX && curY == mouseY) || curX < 0 || curX >= editorWidth || curY < 0 || curY >= editorHeight is complex.,45
+CXgamer_MC-ticker,presentation.gui.editor,Editor,Editor,Long Statement,The length of the statement "this(worldController`parent`(short)0`Preferences.userRoot().getFloat(Prefs.EDITOR_DEFAULTZOOM`Constants.DEFAULTZOOM)`orientation);" is 130.,81
+CXgamer_MC-ticker,presentation.gui.editor,Editor,Editor,Long Parameter List,The method has 5 parameters. ,86
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,EntityPanel,Long Statement,The length of the statement "entityVectorColor=new Color(Preferences.userRoot().getInt(Prefs.EDITOR_COLOR_ENTITYSPEED`Constants.COLORENTITYVECTOR.getRGB())`true);" is 133.,28
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,position,Long Statement,The length of the statement "setBounds((int)(scaledX - scaledWidth / 2 + 2)`(int)(scaledZ - scaledWidth / 2 + 2)`(int)(scaledWidth)`(int)(scaledWidth));" is 123.,52
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,position,Long Statement,The length of the statement "setBounds((int)(scaledX - scaledWidth / 2 + 2)`(int)(editorHeight * Editor.SIZE - scaledY - scaledHeight + 1)`(int)(scaledWidth)`(int)(scaledHeight));" is 150.,52
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,position,Long Statement,The length of the statement "setBounds((int)(editorWidth * Editor.SIZE - scaledZ - scaledWidth / 2 + 1)`(int)(editorHeight * Editor.SIZE - scaledY - scaledHeight + 1)`(int)(scaledWidth)`(int)(scaledHeight));" is 178.,52
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,position,Magic Number,The method contains a magic number: 2,52
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,position,Magic Number,The method contains a magic number: 2,52
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,position,Magic Number,The method contains a magic number: 2,52
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,position,Magic Number,The method contains a magic number: 2,52
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,position,Magic Number,The method contains a magic number: 2,52
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,position,Magic Number,The method contains a magic number: 2,52
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,position,Magic Number,The method contains a magic number: 2,52
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,checkVisibility,Magic Number,The method contains a magic number: 2,83
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,checkVisibility,Magic Number,The method contains a magic number: 2,83
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,checkVisibility,Magic Number,The method contains a magic number: 2,83
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,checkVisibility,Magic Number,The method contains a magic number: 2,83
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,paintComponent,Complex Method,Cyclomatic complexity of the method is 13,107
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,107
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,107
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,107
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,107
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,107
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,paintComponent,Magic Number,The method contains a magic number: 2,107
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,paintComponent,Magic Number,The method contains a magic number: 2,107
+CXgamer_MC-ticker,presentation.gui.editor.entity,EntityPanel,preferenceChanged,Long Statement,The length of the statement "entityVectorColor=new Color(Preferences.userRoot().getInt(Prefs.EDITOR_COLOR_ENTITYSPEED`Constants.COLORENTITYVECTOR.getRGB())`true);" is 133.,171
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerManager,LayerManager,Magic Number,The method contains a magic number: 3,24
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,LayerPanel,Complex Method,Cyclomatic complexity of the method is 13,23
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,LayerPanel,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@7bf8c66,23
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,LayerPanel,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@7ff03cb6,23
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,LayerPanel,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@283ed66d,23
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,LayerPanel,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@1ddb3741,23
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,85
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,85
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,85
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,85
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,85
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,85
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,85
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,85
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,85
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,paintComponent,Magic Number,The method contains a magic number: 0.5f,85
+CXgamer_MC-ticker,presentation.gui.editor.layer,LayerPanel,preferenceChanged,Long Statement,The length of the statement "activeLayerColor=new Color(Preferences.userRoot().getInt(Prefs.EDITOR_COLOR_LAYER`Constants.COLORACTIVELAYER.getRGB())`true);" is 125.,120
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionManager,selectRegion,Long Statement,The length of the statement "for (int x=start.x; x <= end.x; x++) for (int y=start.y; y <= end.y; y++) for (int z=start.z; z <= end.z; z++) selection[x][y][z]=positiveSelection;" is 148.,70
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionManager,selectBoundedRectangle,Magic Number,The method contains a magic number: 3,83
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionPanel,SelectionPanel,Long Statement,The length of the statement "selectionBorderColor=new Color(Preferences.userRoot().getInt(Prefs.EDITOR_COLOR_SELECTIONBORDER`Constants.COLORSELECTIONBORDER.getRGB())`true);" is 143.,31
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionPanel,SelectionPanel,Long Statement,The length of the statement "selectionInteriorColor=new Color(Preferences.userRoot().getInt(Prefs.EDITOR_COLOR_SELECTIONINTERIOR`Constants.COLORSELECTIONINTERIOR.getRGB())`true);" is 149.,31
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionPanel,paintComponent,Long Statement,The length of the statement "g.draw(new Rectangle2D.Float(start.x * Editor.SIZE`start.y * Editor.SIZE`(end.x - start.x + 1) * Editor.SIZE + 1f`(end.y - start.y + 1) * Editor.SIZE + 1f));" is 157.,43
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionPanel,paintComponent,Long Statement,The length of the statement "if (selectionManager.isSelected(c.x`c.y`c.z)) g.fill(new Rectangle2D.Float(x * Editor.SIZE + 1f`y * Editor.SIZE + 1f`Editor.SIZE`Editor.SIZE));" is 143.,43
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionPanel,paintComponent,Magic Number,The method contains a magic number: 2,43
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionPanel,isPositionOnBorder,Long Statement,The length of the statement "Rectangle2D outer=new Rectangle2D.Float(start.x * Editor.SIZE - 1f`start.y * Editor.SIZE - 1f`(end.x - start.x + 1) * Editor.SIZE + 3f`(end.y - start.y + 1) * Editor.SIZE + 3f);" is 177.,77
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionPanel,isPositionOnBorder,Long Statement,The length of the statement "Rectangle2D inner=new Rectangle2D.Float(start.x * Editor.SIZE + 1f`start.y * Editor.SIZE + 1f`(end.x - start.x + 1) * Editor.SIZE - 1f`(end.y - start.y + 1) * Editor.SIZE - 1f);" is 177.,77
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionPanel,isPositionOnBorder,Magic Number,The method contains a magic number: 3f,77
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionPanel,isPositionOnBorder,Magic Number,The method contains a magic number: 3f,77
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionPanel,projectBoundedRectangle,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@667c5420,99
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionPanel,preferenceChanged,Long Statement,The length of the statement "selectionBorderColor=new Color(Preferences.userRoot().getInt(Prefs.EDITOR_COLOR_SELECTIONBORDER`Constants.COLORSELECTIONBORDER.getRGB())`true);" is 143.,143
+CXgamer_MC-ticker,presentation.gui.editor.selection,SelectionPanel,preferenceChanged,Long Statement,The length of the statement "selectionInteriorColor=new Color(Preferences.userRoot().getInt(Prefs.EDITOR_COLOR_SELECTIONINTERIOR`Constants.COLORSELECTIONINTERIOR.getRGB())`true);" is 149.,143
+CXgamer_MC-ticker,presentation.gui.menu,WorldMenu,buildGUI,Long Statement,The length of the statement "int reply=JOptionPane.showConfirmDialog(controller.getMainController().getFrame()`"Are you sure you want to revert all changes?"`"Revert changes"`JOptionPane.YES_NO_OPTION);" is 173.,24
+CXgamer_MC-ticker,presentation.gui.tiles.conditions,Condition,eval,Long Parameter List,The method has 6 parameters. ,55
+CXgamer_MC-ticker,presentation.gui.tiles.conditions,ConditionCustom,eval,Long Parameter List,The method has 6 parameters. ,25
+CXgamer_MC-ticker,presentation.gui.tiles.conditions,ConditionData,eval,Long Parameter List,The method has 6 parameters. ,29
+CXgamer_MC-ticker,presentation.gui.tiles.conditions,ConditionId,eval,Long Parameter List,The method has 6 parameters. ,20
+CXgamer_MC-ticker,presentation.gui.tiles.conditions,ConditionOrientation,eval,Long Parameter List,The method has 6 parameters. ,20
+CXgamer_MC-ticker,presentation.gui.tiles,TileSet,TileSet,Magic Number,The method contains a magic number: 256,14
+CXgamer_MC-ticker,presentation.gui.tiles,TilesXml,prepareHandler,Complex Method,Cyclomatic complexity of the method is 42,32
+CXgamer_MC-ticker,presentation.gui.tiles,TilesXml,prepareHandler,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@1897c1d5,32
+CXgamer_MC-ticker,presentation.gui.tiles,TilesXml,prepareHandler,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@46c4e114,32
+CXgamer_MC-ticker,presentation.gui.tiles,TilesXml,prepareHandler,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@261b7b2,32
+CXgamer_MC-ticker,presentation.gui.tiles,TilesXml,prepareHandler,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@6382e8a,32
+CXgamer_MC-ticker,presentation.gui.tiles,TilesXml,prepareHandler,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@2087def1,32
+CXgamer_MC-ticker,presentation.gui.tiles,TilesXml,startElement,Complex Method,Cyclomatic complexity of the method is 26,41
+CXgamer_MC-ticker,presentation.gui.tiles,TilesXml,startElement,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@1897c1d5,41
+CXgamer_MC-ticker,presentation.gui.tiles,TilesXml,startElement,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@46c4e114,41
+CXgamer_MC-ticker,presentation.gui.tiles,TilesXml,startElement,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@261b7b2,41
+CXgamer_MC-ticker,presentation.gui.tiles,TilesXml,parseConditionAttributes,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@6382e8a,198
+CXgamer_MC-ticker,presentation.gui.tiles,TilesXml,endElement,Complex Method,Cyclomatic complexity of the method is 10,227
+CXgamer_MC-ticker,presentation.gui.tiles,TilesXml,endElement,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@2087def1,227
+CXgamer_MC-ticker,presentation.gui.toolbar,Timebar,buildGUI,Long Method,The method has 103 lines of code.,41
+CXgamer_MC-ticker,presentation.gui.toolbar,Timebar,buildGUI,Magic Number,The method contains a magic number: 150,41
+CXgamer_MC-ticker,presentation.gui.toolbar,Timebar,buildGUI,Magic Number,The method contains a magic number: 35,41
+CXgamer_MC-ticker,presentation.gui.toolbar,Timebar,buildGUI,Magic Number,The method contains a magic number: 9,41
+CXgamer_MC-ticker,presentation.gui.toolbar,Timebar,buildGUI,Magic Number,The method contains a magic number: 9,41
+CXgamer_MC-ticker,presentation.gui.toolbar,Timebar,buildGUI,Magic Number,The method contains a magic number: 18,41
+CXgamer_MC-ticker,presentation.gui.toolbar,Toolbar,Toolbar,Long Statement,The length of the statement "Tool[] tools=new Tool[]{new ToolActivate(mainController)`new ToolSelect(mainController)`new ToolPlace(mainController)`new ToolRotate(mainController)`new ToolUpdate(mainController)`new ToolDebug(mainController)};" is 211.,19
+CXgamer_MC-ticker,presentation.gui.toolbar,Toolbar,addTool,Magic Number,The method contains a magic number: 35,39
+CXgamer_MC-ticker,presentation.gui.toolbar,Toolbar,addTool,Magic Number,The method contains a magic number: 35,39
+CXgamer_MC-ticker,presentation.gui.toolbar,Toolbar,selectTool,Long Statement,The length of the statement "for ( WorldController worldController : mainController.getWorldControllers()) for ( Editor editor : worldController.getEditors()) {" is 131.,69
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,WrappingLayout,Magic Number,The method contains a magic number: 5,20
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,WrappingLayout,Magic Number,The method contains a magic number: 5,20
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,WrappingLayout,Magic Number,The method contains a magic number: 5,24
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,WrappingLayout,Magic Number,The method contains a magic number: 5,24
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,setAlignment,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@412a57b4,38
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,preferredLayoutSize,Magic Number,The method contains a magic number: 2,68
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,preferredLayoutSize,Magic Number,The method contains a magic number: 2,68
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,minimumLayoutSize,Magic Number,The method contains a magic number: 2,101
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,minimumLayoutSize,Magic Number,The method contains a magic number: 2,101
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,layoutContainer,Magic Number,The method contains a magic number: 2,124
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,moveComponents,Complex Method,Cyclomatic complexity of the method is 9,160
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,moveComponents,Long Parameter List,The method has 8 parameters. ,160
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,moveComponents,Magic Number,The method contains a magic number: 2,160
+CXgamer_MC-ticker,presentation.gui.toolbar,WrappingLayout,moveComponents,Magic Number,The method contains a magic number: 2,160
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Complex Method,Cyclomatic complexity of the method is 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Long Method,The method has 239 lines of code.,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 200,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 100,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 20,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 100,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 100,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 3,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 100,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 2.0d,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 0.1d,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10d,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 0.1d,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 4,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 100,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 2,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 100,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10000,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 100,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 25,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 2,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 4,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 4,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 10,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 50,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 300,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,ExportWindow,Magic Number,The method contains a magic number: 5,48
+CXgamer_MC-ticker,presentation.gui.windows.main,ExportWindow,run,Empty catch clause,The method has an empty catch block.,527
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,NewWorldWindow,Magic Number,The method contains a magic number: 200,20
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,NewWorldWindow,Magic Number,The method contains a magic number: 200,20
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,NewWorldWindow,Magic Number,The method contains a magic number: 250,20
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,NewWorldWindow,Magic Number,The method contains a magic number: 250,20
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Long Statement,The length of the statement "add(cmbWorldType=new JComboBox(new IdStringMapping[]{new IdStringMapping(0`"Default")`new IdStringMapping(1`"Flat")`new IdStringMapping(2`"Large biomes")`new IdStringMapping(3`"Amplified")`new IdStringMapping(8`"Default_1_1")}));" is 229.,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Long Statement,The length of the statement "add(cmbWorldProvider=new JComboBox(new IdStringMapping[]{new IdStringMapping(0`"Overworld")`new IdStringMapping(-1`"Nether")`new IdStringMapping(1`"End")}));" is 157.,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Long Statement,The length of the statement "add(cmbDifficulty=new JComboBox(new IdStringMapping[]{new IdStringMapping(0`"Peaceful")`new IdStringMapping(1`"Easy")`new IdStringMapping(2`"Normal")`new IdStringMapping(3`"Hard")}));" is 183.,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Long Statement,The length of the statement "mainController.createNewWorld(name`(short)xSize`(short)ySize`(short)zSize`worldType.id`worldType.name`gameType`seed`worldProvider`hardcore`difficulty);" is 151.,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Magic Number,The method contains a magic number: 8,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Magic Number,The method contains a magic number: 2,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Magic Number,The method contains a magic number: 3,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Magic Number,The method contains a magic number: 16,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Magic Number,The method contains a magic number: 16,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Magic Number,The method contains a magic number: 16,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Magic Number,The method contains a magic number: 2,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Magic Number,The method contains a magic number: 3,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Magic Number,The method contains a magic number: 8,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Magic Number,The method contains a magic number: 2,31
+CXgamer_MC-ticker,presentation.gui.windows.main,NewWorldWindow,buildGUI,Magic Number,The method contains a magic number: 3,31
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,OptionsWindow,Magic Number,The method contains a magic number: 200,18
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,OptionsWindow,Magic Number,The method contains a magic number: 200,18
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,OptionsWindow,Magic Number,The method contains a magic number: 250,18
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,OptionsWindow,Magic Number,The method contains a magic number: 300,18
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Long Statement,The length of the statement "JSpinner spinnerDefaultZoom=new JSpinner(new SpinnerNumberModel(prefs.getFloat(Prefs.EDITOR_DEFAULTZOOM`Constants.DEFAULTZOOM)`0f`100f`0.1f));" is 142.,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Long Statement,The length of the statement "JSpinner spinnerMaxFPS=new JSpinner(new SpinnerNumberModel(prefs.getInt(Prefs.EDITOR_MAXFPS`Constants.MAX_FPS)`1`1000`1));" is 122.,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Long Statement,The length of the statement "pnlColorLayer.add(new ColorPickerButton("Layer"`prefs.getInt(Prefs.EDITOR_COLOR_LAYER`Constants.COLORACTIVELAYER.getRGB())){" is 124.,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Long Statement,The length of the statement "pnlColorCursor.add(new ColorPickerButton("Cursor"`prefs.getInt(Prefs.EDITOR_COLOR_CURSOR`Constants.COLORCURSOR.getRGB())){" is 122.,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Long Statement,The length of the statement "pnlColorEntitySpeed.add(new ColorPickerButton("Entity speed"`prefs.getInt(Prefs.EDITOR_COLOR_ENTITYSPEED`Color.ORANGE.getRGB())){" is 129.,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Long Statement,The length of the statement "pnlColorSelectionBorder.add(new ColorPickerButton("Selection border"`prefs.getInt(Prefs.EDITOR_COLOR_SELECTIONBORDER`Color.BLACK.getRGB())){" is 140.,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Long Statement,The length of the statement "pnlColorSelectionInterior.add(new ColorPickerButton("Selection interior"`prefs.getInt(Prefs.EDITOR_COLOR_SELECTIONINTERIOR`new Color(0`0`0`64).getRGB())){" is 154.,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 5,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 5,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 100f,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 0.1f,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 5,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 5,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 5,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 1000,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 5,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 6,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 5,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 5,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 200,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 150,35
+CXgamer_MC-ticker,presentation.gui.windows.main.options,OptionsWindow,buildGUI,Magic Number,The method contains a magic number: 64,35
+CXgamer_MC-ticker,presentation.gui.windows.world,DrawingWindow,DrawingWindow,Magic Number,The method contains a magic number: 164,31
+CXgamer_MC-ticker,presentation.gui.windows.world,DrawingWindow,DrawingWindow,Magic Number,The method contains a magic number: 109,31
+CXgamer_MC-ticker,presentation.gui.windows.world,DrawingWindow,DrawingWindow,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@4e79a404,31
+CXgamer_MC-ticker,presentation.gui.windows.world,DrawingWindow,zoom,Magic Number,The method contains a magic number: 1.25f,141
+CXgamer_MC-ticker,presentation.gui.windows.world,DrawingWindow,zoom,Magic Number,The method contains a magic number: 0.8f,141
+CXgamer_MC-ticker,presentation.gui.windows.world,DrawingWindow,moveLayer,Complex Method,Cyclomatic complexity of the method is 8,146
+CXgamer_MC-ticker,presentation.gui.windows.world,NBTviewer,buildGUI,Magic Number,The method contains a magic number: 300,48
+CXgamer_MC-ticker,presentation.gui.windows.world,NBTviewer,buildGUI,Magic Number,The method contains a magic number: 500,48
+CXgamer_MC-ticker,presentation.gui.windows.world,NBTviewer,buildGUI,Magic Number,The method contains a magic number: 500,48
+CXgamer_MC-ticker,presentation.gui.windows.world,NBTviewer,buildGUI,Magic Number,The method contains a magic number: 500,48
+CXgamer_MC-ticker,presentation.gui.windows.world,NBTviewer,createNodes,Complex Method,Cyclomatic complexity of the method is 21,77
+CXgamer_MC-ticker,presentation.gui.windows.world,NBTviewer,createNodes,Magic Number,The method contains a magic number: 100,77
+CXgamer_MC-ticker,presentation.gui.windows.world,NBTviewer,createNodes,Magic Number,The method contains a magic number: 100,77
+CXgamer_MC-ticker,presentation.gui.windows.world,NBTviewer,createNodes,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@9f28f3f,77
+CXgamer_MC-ticker,presentation.main,GifSequenceWriter,GifSequenceWriter,Magic Number,The method contains a magic number: 10,29
+CXgamer_MC-ticker,presentation.main,GifSequenceWriter,GifSequenceWriter,Magic Number,The method contains a magic number: 0xFF,29
+CXgamer_MC-ticker,presentation.main,GifSequenceWriter,GifSequenceWriter,Magic Number,The method contains a magic number: 8,29
+CXgamer_MC-ticker,presentation.main,GifSequenceWriter,GifSequenceWriter,Magic Number,The method contains a magic number: 0xFF,29
+CXgamer_MC-ticker,presentation.objects,Block,getId,Magic Number,The method contains a magic number: 0xff0,16
+CXgamer_MC-ticker,presentation.objects,Block,getId,Magic Number,The method contains a magic number: 4,16
+CXgamer_MC-ticker,presentation.objects,Block,getData,Magic Number,The method contains a magic number: 0xf,20
+CXgamer_MC-ticker,presentation.objects,Block,getChar,Magic Number,The method contains a magic number: 0xff,24
+CXgamer_MC-ticker,presentation.objects,Block,getChar,Magic Number,The method contains a magic number: 4,24
+CXgamer_MC-ticker,presentation.objects,Block,getChar,Magic Number,The method contains a magic number: 0xf,24
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Long Statement,The length of the statement "return !Arrays.asList(1`2`3`4`5`7`14`15`16`17`19`21`22`24`35`41`42`43`45`48`49`56`57`58`60`61`62`73`74`80`82`84`86`87`88`91`97`98`103`110`112`121`(int)((byte)155)`(int)((byte)159)`(int)((byte)162)`(int)((byte)170)`(int)((byte)172)`(int)((byte)173)).contains((int)id);" is 267.,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 2,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 3,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 4,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 5,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 7,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 14,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 15,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 16,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 17,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 19,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 21,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 22,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 24,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 35,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 41,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 42,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 43,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 45,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 48,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 49,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 56,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 57,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 58,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 60,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 61,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 62,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 73,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 74,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 80,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 82,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 84,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 86,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 87,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 88,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 91,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 97,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 98,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 103,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 110,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 112,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 121,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 155,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 159,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 162,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 170,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 172,51
+CXgamer_MC-ticker,presentation.objects,Block,isTransparentBlock,Magic Number,The method contains a magic number: 173,51
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Long Statement,The length of the statement "if (Arrays.asList(55`69`70`72`75`76`77`(int)((byte)143)`(int)((byte)147)`(int)((byte)148)`(int)((byte)149)`(int)((byte)152)).contains((int)id)) return true;" is 156.,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 55,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 69,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 70,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 72,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 75,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 76,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 77,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 143,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 147,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 148,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 149,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 152,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 93,58
+CXgamer_MC-ticker,presentation.objects,Block,isConnectable,Magic Number,The method contains a magic number: 94,58
+CXgamer_MC-ticker,presentation.objects,Block,compansateForJavasLackOfUnsignedBytes,Magic Number,The method contains a magic number: 256,80
+CXgamer_MC-ticker,presentation.objects,Block,toString,Magic Number,The method contains a magic number: 256,90
+CXgamer_MC-ticker,presentation.objects,Block,toShort,Magic Number,The method contains a magic number: 256,103
+CXgamer_MC-ticker,presentation.objects,Block,toShort,Magic Number,The method contains a magic number: 4,103
+CXgamer_MC-ticker,presentation.objects,Entity,Entity,Long Parameter List,The method has 5 parameters. ,23
+CXgamer_MC-ticker,presentation.objects,Entity,Entity,Long Parameter List,The method has 11 parameters. ,27
+CXgamer_MC-ticker,presentation.objects,Entity,toString,Long Statement,The length of the statement "return "Entity{" + "x=" + x + "` y="+ y+ "` z="+ z+ "` vX="+ vX+ "` vY="+ vY+ "` vZ="+ vZ+ "` width="+ width+ "` height="+ height+ "` isDead="+ isDead+ "` id='"+ id+ '\''+ "` uuid='"+ uuid+ '\''+ '}';" is 200.,88
+CXgamer_MC-ticker,presentation,StatusPanel,StatusPanel,Magic Number,The method contains a magic number: 4,18
+CXgamer_MC-ticker,presentation,StatusPanel,StatusPanel,Magic Number,The method contains a magic number: 20,18
+CXgamer_MC-ticker,presentation.threads,ExportSeriesRunnable,ExportSeriesRunnable,Long Parameter List,The method has 9 parameters. ,30
+CXgamer_MC-ticker,presentation.threads,ExportSeriesRunnable,ExportSeriesRunnable,Long Parameter List,The method has 10 parameters. ,37
+CXgamer_MC-ticker,presentation.tools,ToolPlace,mousePressed,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@179ca8a6,28
+CXgamer_MC-ticker,presentation.tools,ToolPlace,setBlock,Long Statement,The length of the statement "if (blockId != 0 && blockController.getBlock(blockId).isSideDependent()) ToolRotate.rotateUntilValid(worldController`mainController.getBlockController()`c`true);" is 161.,51
+CXgamer_MC-ticker,presentation.tools,ToolSelect,mouseMoved,Long Statement,The length of the statement "if (editor.getSelectionPanel().isPositionOnBorder(e.getPoint())) editor.setCursor(Cursor.getPredefinedCursor(Cursor.MOVE_CURSOR));" is 130.,109
+CXgamer_MC-ticker,sim.constants,Globals,getMinecraftFolder,Long Statement,The length of the statement "if (result != MinecraftFolderChooser.APPROVE_OPTION) if (result == MinecraftFolderChooser.ERROR_OPTION) Log.e("Something went wrong when finding .minecraft folder.");" is 166.,16
+CXgamer_MC-ticker,sim.loading,ClassExtractor,extractClasses,Magic Number,The method contains a magic number: 6,20
+CXgamer_MC-ticker,sim.loading,ClassExtractor,addLibaryClasses,Magic Number,The method contains a magic number: 3,71
+CXgamer_MC-ticker,sim.loading,ClassExtractor,addLibaryClasses,Magic Number,The method contains a magic number: 2,71
+CXgamer_MC-ticker,sim.loading,ClassExtractor,getClassFromJar,Magic Number,The method contains a magic number: 6,84
+CXgamer_MC-ticker,sim.loading,CSVparser,readDeobfuscation,Complex Conditional,The conditional expression parsingLine[1].equals(requirement[0]) && (requirement.length == 1 || (parsingLine.length >= 4 && parsingLine[3].contains(requirement[1]) && !parsingLine[3].isEmpty())) is complex.,17
+CXgamer_MC-ticker,sim.loading,CSVparser,readDeobfuscation,Complex Method,Cyclomatic complexity of the method is 9,17
+CXgamer_MC-ticker,sim.loading,CSVparser,readDeobfuscation,Long Statement,The length of the statement "if (parsingLine[1].equals(requirement[0]) && (requirement.length == 1 || (parsingLine.length >= 4 && parsingLine[3].contains(requirement[1]) && !parsingLine[3].isEmpty()))) {" is 174.,17
+CXgamer_MC-ticker,sim.loading,CSVparser,readDeobfuscation,Magic Number,The method contains a magic number: 2,17
+CXgamer_MC-ticker,sim.loading,CSVparser,readDeobfuscation,Magic Number,The method contains a magic number: 4,17
+CXgamer_MC-ticker,sim.loading,CSVparser,readDeobfuscation,Magic Number,The method contains a magic number: 3,17
+CXgamer_MC-ticker,sim.loading,CSVparser,readDeobfuscation,Magic Number,The method contains a magic number: 3,17
+CXgamer_MC-ticker,sim.loading,CSVparser,readDeobfuscation,Magic Number,The method contains a magic number: 3,17
+CXgamer_MC-ticker,sim.loading,CSVparser,readDeobfuscation,Magic Number,The method contains a magic number: 2,17
+CXgamer_MC-ticker,sim.loading,JoinedParser,readDeobfuscation,Complex Method,Cyclomatic complexity of the method is 11,41
+CXgamer_MC-ticker,sim.loading,JoinedParser,readDeobfuscation,Magic Number,The method contains a magic number: 2,41
+CXgamer_MC-ticker,sim.loading,JoinedParser,readDeobfuscation,Magic Number,The method contains a magic number: 2,41
+CXgamer_MC-ticker,sim.loading,JoinedParser,readDeobfuscation,Magic Number,The method contains a magic number: 3,41
+CXgamer_MC-ticker,sim.loading,Linker,Linker,Long Statement,The length of the statement "HashMap<String`String> o_methods=parser.readDeobfuscation(new File(mcpFolder + File.separator + Constants.METHODSCSV)`Constants.REQUIREDMETHODS);" is 145.,22
+CXgamer_MC-ticker,sim.loading,Linker,Linker,Long Statement,The length of the statement "HashMap<String`String> o_fields=parser.readDeobfuscation(new File(mcpFolder + File.separator + Constants.FIELDSCSV)`Constants.REQUIREDFIELDS);" is 142.,22
+CXgamer_MC-ticker,sim.loading,Linker,Linker,Long Statement,The length of the statement "translator=joinedParser.readDeobfuscation(new File(mcpFolder + File.separator + Constants.JOINEDSRG)`Constants.REQUIREDCLASSES`o_methods`o_fields);" is 147.,22
+CXgamer_MC-ticker,sim.logic,RBlock,prepareBlock,Long Statement,The length of the statement "m_onBlockActivated=linker.method("onBlockActivated"`Block`linker.getClass("World")`linker.getClass("BlockPos")`IBlockState`EntityPlayer`linker.getClass("EnumFacing")`float.class`float.class`float.class);" is 203.,47
+CXgamer_MC-ticker,sim.logic,RBlock,getBlockById,Magic Number,The method contains a magic number: 256,120
+CXgamer_MC-ticker,sim.logic,RBlock,onBlockActivated,Long Parameter List,The method has 8 parameters. ,148
+CXgamer_MC-ticker,sim.logic,RBlock,onBlockEventReceived,Long Parameter List,The method has 6 parameters. ,181
+CXgamer_MC-ticker,sim.logic,RBlock,updateBlock,Long Parameter List,The method has 7 parameters. ,218
+CXgamer_MC-ticker,sim.logic,RChunk,generateEmptyChunk,Magic Number,The method contains a magic number: 65536,65
+CXgamer_MC-ticker,sim.logic,RChunk,getData,Magic Number,The method contains a magic number: 4,91
+CXgamer_MC-ticker,sim.logic,RChunkPrimer,setData,Long Statement,The length of the statement "if (data.length != 65536) throw new RuntimeException("The data array passed to chunkProvider should be 65536 long` but is " + data.length);" is 139.,38
+CXgamer_MC-ticker,sim.logic,RChunkPrimer,setData,Magic Number,The method contains a magic number: 65536,38
+CXgamer_MC-ticker,sim.logic,RChunkProvider,getChunk,Magic Number,The method contains a magic number: 4,79
+CXgamer_MC-ticker,sim.logic,RChunkProvider,getChunk,Magic Number,The method contains a magic number: 4,79
+CXgamer_MC-ticker,sim.logic,RChunkProvider,invoke,Complex Method,Cyclomatic complexity of the method is 11,117
+CXgamer_MC-ticker,sim.logic,RChunkProvider,invoke,Long Statement,The length of the statement "if (paramSize == 2) if (paramTypes[0] == int.class && paramTypes[1] == int.class) return chunkExists((int)args[0]`(int)args[1]);" is 128.,117
+CXgamer_MC-ticker,sim.logic,RChunkProvider,invoke,Long Statement,The length of the statement "if (paramSize == 2) if (paramTypes[0] == int.class && paramTypes[1] == int.class) return getChunk((int)args[0]`(int)args[1]);" is 125.,117
+CXgamer_MC-ticker,sim.logic,RChunkProvider,invoke,Long Statement,The length of the statement "throw new UnimplementedException("METHBOD: " + method + "\nList getPossibleCreatures(EnumCreatureType var1` int var2` int var3` int var4)\n"+ "ChunkPosition func_147416_a(World var1` String var2` int var3` int var4` int var5)");" is 228.,117
+CXgamer_MC-ticker,sim.logic,RChunkProvider,invoke,Magic Number,The method contains a magic number: 2,117
+CXgamer_MC-ticker,sim.logic,RChunkProvider,invoke,Magic Number,The method contains a magic number: 2,117
+CXgamer_MC-ticker,sim.logic,RNBTTags,getTagList,Magic Number,The method contains a magic number: 10,88
+CXgamer_MC-ticker,sim.logic,RWorld,RWorld,Long Parameter List,The method has 6 parameters. ,40
+CXgamer_MC-ticker,sim.logic,RWorld,prepareWorld,Long Identifier,The length of the field f_pendingTickListEntriesTreeSet is 31.,52
+CXgamer_MC-ticker,sim.logic,RWorld,prepareWorld,Long Identifier,The length of the field f_pendingTickListEntriesHashSet is 31.,52
+CXgamer_MC-ticker,sim.logic,RWorld,prepareWorld,Long Identifier,The length of the field f_pendingTickListEntriesThisTick is 32.,52
+CXgamer_MC-ticker,sim.logic,RWorld,createInstance,Long Identifier,The length of the field f_pendingTickListEntriesTreeSet is 31.,151
+CXgamer_MC-ticker,sim.logic,RWorld,createInstance,Long Identifier,The length of the field f_pendingTickListEntriesHashSet is 31.,151
+CXgamer_MC-ticker,sim.logic,RWorld,createInstance,Long Identifier,The length of the field f_pendingTickListEntriesThisTick is 32.,151
+CXgamer_MC-ticker,sim.logic,RWorld,createInstance,Long Parameter List,The method has 10 parameters. ,151
+CXgamer_MC-ticker,sim.logic,RWorld,createInstance,Long Statement,The length of the statement "Object gameProfile=c_gameProfile.newInstance(UUID.fromString("4865726f-6272-696e-6520-3d207265616c")`Constants.PLAYERNAME);" is 123.,151
+CXgamer_MC-ticker,sim.logic,RWorld,createInstance,Magic Number,The method contains a magic number: 2,151
+CXgamer_MC-ticker,sim.logic,RWorld,createInstance,Magic Number,The method contains a magic number: 32768,151
+CXgamer_MC-ticker,sim.logic,RWorld,tick,Long Statement,The length of the statement "if (Constants.DEBUG_WORLD) System.out.println("Ticking " + world.getPendingTickListEntries().size() + " pending updates...");" is 125.,254
+CXgamer_MC-ticker,sim.logic,RWorld,tickBlockEvents,Long Statement,The length of the statement "if (block.equals(worldBlock)) rBlock.onBlockEventReceived(block`world.getWorld()`blockPos`blockState`eventId`eventParameter);" is 125.,303
+CXgamer_MC-ticker,sim.logic,RWorld,setBlockState,Long Parameter List,The method has 7 parameters. ,399
+CXgamer_MC-ticker,sim.logic,RWorld,setBlockState,Magic Number,The method contains a magic number: 4,399
+CXgamer_MC-ticker,sim.logic,RWorld,setBlockState,Magic Number,The method contains a magic number: 2,399
+CXgamer_MC-ticker,sim.logic,RWorld,addTickEntry,Long Parameter List,The method has 7 parameters. ,420
+CXgamer_MC-ticker,sim.logic,Simulator,createWorld,Long Statement,The length of the statement "return new SimWorld(rBlock`rChunk`rEntity`rNBTTags`rNextTickListEntry`rProfiler`rTileEntity`rWorld`rChunkPrimer`rBlockPos);" is 123.,59
+CXgamer_MC-ticker,sim.logic,SimWorld,SimWorld,Long Parameter List,The method has 10 parameters. ,38
+CXgamer_MC-ticker,sim.logic,SimWorld,createInstance,Long Statement,The length of the statement "createInstance(Constants.WORLDTYPEID`Constants.WORLDTYPE`Constants.GAMETYPE`Constants.SEED`Constants.WORLDPROVIDER`Constants.HARDCOREENABLED);" is 142.,59
+CXgamer_MC-ticker,sim.logic,SimWorld,createInstance,Long Parameter List,The method has 6 parameters. ,64
+CXgamer_MC-ticker,sim.logic,SimWorld,createInstance,Long Statement,The length of the statement "world=rWorld.createInstance(worldTypeId`worldType`gameType`seed`worldProvider`Constants.MAPFEATURESENABLED`hardcoreEnabled`rChunk`rChunkProvider`rProfiler);" is 156.,64
+CXgamer_MC-ticker,sim.logic,SimWorld,createEmptyWorld,Long Statement,The length of the statement "for (short y=0; y < ySize; y++) for (short z=0; z < zSize; z++) for (short x=0; x < xSize; x++) if (y != 0) blocks[x][y][z]=Block.BLOCK_AIR;" is 140.,76
+CXgamer_MC-ticker,sim.logic,SimWorld,setSchematic,Complex Method,Cyclomatic complexity of the method is 9,105
+CXgamer_MC-ticker,sim.logic,SimWorld,setSchematic,Long Statement,The length of the statement "if (!schematicTag.findNextTagByName("Materials"`null).getValue().equals("Alpha")) Log.w("The schematic is encoded for Minecraft classic or something else` which is not supported` but I'll try.");" is 195.,105
+CXgamer_MC-ticker,sim.logic,SimWorld,linkBlocks,Magic Number,The method contains a magic number: 4,161
+CXgamer_MC-ticker,sim.logic,SimWorld,linkBlocks,Magic Number,The method contains a magic number: 4,161
+CXgamer_MC-ticker,sim.logic,SimWorld,linkBlocks,Magic Number,The method contains a magic number: 4,161
+CXgamer_MC-ticker,sim.logic,SimWorld,setBlockObjects,Complex Method,Cyclomatic complexity of the method is 11,187
+CXgamer_MC-ticker,sim.logic,SimWorld,setBlockObjects,Magic Number,The method contains a magic number: 16,187
+CXgamer_MC-ticker,sim.logic,SimWorld,setBlockObjects,Magic Number,The method contains a magic number: 16,187
+CXgamer_MC-ticker,sim.logic,SimWorld,setBlockObjects,Magic Number,The method contains a magic number: 2,187
+CXgamer_MC-ticker,sim.logic,SimWorld,setBlockObjects,Magic Number,The method contains a magic number: 16,187
+CXgamer_MC-ticker,sim.logic,SimWorld,setBlockObjects,Magic Number,The method contains a magic number: 16,187
+CXgamer_MC-ticker,sim.logic,SimWorld,setBlockObjects,Magic Number,The method contains a magic number: 65536,187
+CXgamer_MC-ticker,sim.logic,SimWorld,setBlockObjects,Magic Number,The method contains a magic number: 16,187
+CXgamer_MC-ticker,sim.logic,SimWorld,setBlockObjects,Magic Number,The method contains a magic number: 16,187
+CXgamer_MC-ticker,sim.logic,SimWorld,setBlockObjects,Magic Number,The method contains a magic number: 256,187
+CXgamer_MC-ticker,sim.logic,SimWorld,setBlockObjects,Magic Number,The method contains a magic number: 12,187
+CXgamer_MC-ticker,sim.logic,SimWorld,setBlockObjects,Magic Number,The method contains a magic number: 8,187
+CXgamer_MC-ticker,sim.logic,SimWorld,setTileEntities,Magic Number,The method contains a magic number: 4,242
+CXgamer_MC-ticker,sim.logic,SimWorld,setTileEntities,Magic Number,The method contains a magic number: 4,242
+CXgamer_MC-ticker,sim.logic,SimWorld,getSchematic,Complex Method,Cyclomatic complexity of the method is 9,305
+CXgamer_MC-ticker,sim.logic,SimWorld,getSchematic,Long Statement,The length of the statement "for (short y=0; y < world.getySize(); y++) for (short z=0; z < world.getzSize(); z++) for (short x=0; x < world.getxSize(); x++) {" is 130.,305
+CXgamer_MC-ticker,sim.logic,SimWorld,getSchematic,Long Statement,The length of the statement "cachedSchematic=new Tag(Tag.Type.TAG_Compound`"Schematic"`new Tag[]{tHeight`tLength`tWidth`tMaterials`tData`tBlocks`tEnd});" is 123.,305
+CXgamer_MC-ticker,sim.logic,SimWorld,setBlock,Long Parameter List,The method has 6 parameters. ,473
+CXgamer_MC-ticker,sim.logic,SimWorld,getBlocks,Long Statement,The length of the statement "for (int y=0; y < world.getySize(); y++) for (int z=0; z < world.getzSize(); z++) for (int x=0; x < world.getxSize(); x++) blocks[x][y][z]=world.getBlockRaw(x`y`z);" is 164.,540
+CXgamer_MC-ticker,sim.objects,ChunkCord,hashCode,Magic Number,The method contains a magic number: 31,18
+CXgamer_MC-ticker,sim.objects,WorldInstance,setSize,Magic Number,The method contains a magic number: 4,140
+CXgamer_MC-ticker,sim.objects,WorldInstance,setSize,Magic Number,The method contains a magic number: 4,140
+CXgamer_MC-ticker,sim.objects,WorldInstance,setSize,Magic Number,The method contains a magic number: 4,140
+CXgamer_MC-ticker,sim.objects,WorldInstance,setSize,Magic Number,The method contains a magic number: 4096,140
+CXgamer_MC-ticker,sim.objects,WorldInstance,setBlockRaw,Magic Number,The method contains a magic number: 4,164
+CXgamer_MC-ticker,sim.objects,WorldInstance,setBlockRaw,Magic Number,The method contains a magic number: 4,164
+CXgamer_MC-ticker,sim.objects,WorldInstance,setBlockRaw,Magic Number,The method contains a magic number: 4,164
+CXgamer_MC-ticker,sim.objects,WorldInstance,setBlockRaw,Magic Number,The method contains a magic number: 0xf,164
+CXgamer_MC-ticker,sim.objects,WorldInstance,setBlockRaw,Magic Number,The method contains a magic number: 0xf,164
+CXgamer_MC-ticker,sim.objects,WorldInstance,setBlockRaw,Magic Number,The method contains a magic number: 0xf,164
+CXgamer_MC-ticker,sim.objects,WorldInstance,getBlockRaw,Magic Number,The method contains a magic number: 4,168
+CXgamer_MC-ticker,sim.objects,WorldInstance,getBlockRaw,Magic Number,The method contains a magic number: 4,168
+CXgamer_MC-ticker,sim.objects,WorldInstance,getBlockRaw,Magic Number,The method contains a magic number: 4,168
+CXgamer_MC-ticker,sim.objects,WorldInstance,getBlockRaw,Magic Number,The method contains a magic number: 0xf,168
+CXgamer_MC-ticker,sim.objects,WorldInstance,getBlockRaw,Magic Number,The method contains a magic number: 0xf,168
+CXgamer_MC-ticker,sim.objects,WorldInstance,getBlockRaw,Magic Number,The method contains a magic number: 0xf,168
+CXgamer_MC-ticker,sim.objects,WorldInstance,getCoordinateIndex,Magic Number,The method contains a magic number: 8,172
+CXgamer_MC-ticker,sim.objects,WorldInstance,getCoordinateIndex,Magic Number,The method contains a magic number: 4,172
+CXgamer_MC-ticker,utils,CircularByteBuffer,resize,Magic Number,The method contains a magic number: 2,252
+CXgamer_MC-ticker,utils,Steneography,hide,Magic Number,The method contains a magic number: 3,12
+CXgamer_MC-ticker,utils,Steneography,hide,Magic Number,The method contains a magic number: 8,12
+CXgamer_MC-ticker,utils,Steneography,hide,Magic Number,The method contains a magic number: 4,12
+CXgamer_MC-ticker,utils,Steneography,hide,Magic Number,The method contains a magic number: 4,12
+CXgamer_MC-ticker,utils,Steneography,hide,Magic Number,The method contains a magic number: 8,12
+CXgamer_MC-ticker,utils,Steneography,hide,Magic Number,The method contains a magic number: 8,12
+CXgamer_MC-ticker,utils,Steneography,hide,Magic Number,The method contains a magic number: 32,12
+CXgamer_MC-ticker,utils,Steneography,hide,Magic Number,The method contains a magic number: 8,23
+CXgamer_MC-ticker,utils,Steneography,hide,Magic Number,The method contains a magic number: 0xFE,23
+CXgamer_MC-ticker,utils,Steneography,getDataFromImage,Magic Number,The method contains a magic number: 8,34
+CXgamer_MC-ticker,utils,Steneography,getDataFromImage,Magic Number,The method contains a magic number: 4,34
+CXgamer_MC-ticker,utils,Steneography,getDataFromImage,Magic Number,The method contains a magic number: 8,34
+CXgamer_MC-ticker,utils,Steneography,getDataFromImage,Magic Number,The method contains a magic number: 32,34
+CXgamer_MC-ticker,utils,Steneography,read,Magic Number,The method contains a magic number: 8,44
+CXgamer_MC-ticker,utils,Tag,Tag,Complex Method,Cyclomatic complexity of the method is 26,63
+CXgamer_MC-ticker,utils,Tag,Tag,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@418ca16,63
+CXgamer_MC-ticker,utils,Tag,setValue,Complex Method,Cyclomatic complexity of the method is 26,148
+CXgamer_MC-ticker,utils,Tag,setValue,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@7421715,148
+CXgamer_MC-ticker,utils,Tag,insertTag,Long Statement,The length of the statement "if (subtags.length > 0) if (type == Type.TAG_List && tag.getType() != getListType()) throw new IllegalArgumentException();" is 122.,233
+CXgamer_MC-ticker,utils,Tag,findNextTagByName,Complex Conditional,The conditional expression (subtag.name == null && name == null) || (subtag.name != null && subtag.name.equals(name)) is complex.,303
+CXgamer_MC-ticker,utils,Tag,createCompountTag,Magic Number,The method contains a magic number: 10,356
+CXgamer_MC-ticker,utils,Tag,readPayload,Complex Method,Cyclomatic complexity of the method is 16,371
+CXgamer_MC-ticker,utils,Tag,readPayload,Magic Number,The method contains a magic number: 2,371
+CXgamer_MC-ticker,utils,Tag,readPayload,Magic Number,The method contains a magic number: 3,371
+CXgamer_MC-ticker,utils,Tag,readPayload,Magic Number,The method contains a magic number: 4,371
+CXgamer_MC-ticker,utils,Tag,readPayload,Magic Number,The method contains a magic number: 5,371
+CXgamer_MC-ticker,utils,Tag,readPayload,Magic Number,The method contains a magic number: 6,371
+CXgamer_MC-ticker,utils,Tag,readPayload,Magic Number,The method contains a magic number: 7,371
+CXgamer_MC-ticker,utils,Tag,readPayload,Magic Number,The method contains a magic number: 8,371
+CXgamer_MC-ticker,utils,Tag,readPayload,Magic Number,The method contains a magic number: 9,371
+CXgamer_MC-ticker,utils,Tag,readPayload,Magic Number,The method contains a magic number: 10,371
+CXgamer_MC-ticker,utils,Tag,writePayload,Complex Method,Cyclomatic complexity of the method is 17,442
+CXgamer_MC-ticker,utils,Tag,getTypeString,Complex Method,Cyclomatic complexity of the method is 13,506
+CXgamer_MC-ticker,utils,Tag,toString,Complex Method,Cyclomatic complexity of the method is 9,548
+CXgamer_MC-ticker,utils,Tag,toString,Magic Number,The method contains a magic number: 4,548
+CXgamer_MC-ticker,utils,Tag,print,Complex Method,Cyclomatic complexity of the method is 9,591
+CXgamer_MC-ticker,utils,Tag,print,Magic Number,The method contains a magic number: 4,591
+CXgamer_MC-ticker,utils,Tag,replaceTag,Long Statement,The length of the statement "if (toTag.getType() != fromTag.getType()) throw new RuntimeException("Mismatched types when copying " + toTag.getName() + "` from "+ fromTag.getType()+ " to "+ toTag.getType());" is 177.,645
+CXgamer_MC-ticker,utils,Tag,replaceTags,Long Statement,The length of the statement "if (getType() != Type.TAG_Compound && getType() != Type.TAG_List) throw new RuntimeException("Replacing tags of non-list type: " + getType());" is 142.,661
+CXgamer_MC-ticker,test,Loading,testCreateWorldTypeStandard,Magic Number,The method contains a magic number: 2,59
+CXgamer_MC-ticker,test,Loading,testCreateWorldTypeStandard,Magic Number,The method contains a magic number: 3,59
+CXgamer_MC-ticker,test,Loading,testCreateWorldTypeStandard,Magic Number,The method contains a magic number: 8,59
+CXgamer_MC-ticker,test,Loading,testCreateWorldTypeCustom,Magic Number,The method contains a magic number: 15,78
+CXgamer_MC-ticker,test,Loading,testCreateWorldTypeCustom,Magic Number,The method contains a magic number: 2,78
+CXgamer_MC-ticker,test,Loading,testCreateWorldTypeCustom,Magic Number,The method contains a magic number: 3,78
+CXgamer_MC-ticker,test,Loading,testCreateWorldTypeCustom,Magic Number,The method contains a magic number: 8,78
+CXgamer_MC-ticker,test,Loading,testCreateWorldTypeCustom,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@1d802064,78
+CXgamer_MC-ticker,test,Loading,testCreateWorldTypeOutOfRange,Magic Number,The method contains a magic number: 16,103
+CXgamer_MC-ticker,test,McMechanics,loadWorld,Long Statement,The length of the statement "catch ( NoSuchAlgorithmException|IOException|IllegalAccessException|IllegalArgumentException|InvocationTargetException|InstantiationException e) {" is 146.,45
+CXgamer_MC-ticker,test,McMechanics,testCobbleGenerator,Magic Number,The method contains a magic number: 10,63
+CXgamer_MC-ticker,test,McMechanics,testCobbleGenerator,Magic Number,The method contains a magic number: 10,63
+CXgamer_MC-ticker,test,McMechanics,testCobbleGenerator,Magic Number,The method contains a magic number: 10,63
+CXgamer_MC-ticker,test,McMechanics,testCobbleGenerator,Magic Number,The method contains a magic number: 9,63
+CXgamer_MC-ticker,test,McMechanics,testCobbleGenerator,Magic Number,The method contains a magic number: 4,63
+CXgamer_MC-ticker,test,McMechanics,testEntityCreation,Magic Number,The method contains a magic number: 4,115
+CXgamer_MC-ticker,test,McMechanics,testEntityCreation,Magic Number,The method contains a magic number: 30,115
+CXgamer_MC-ticker,test,McMechanics,testActivation,Magic Number,The method contains a magic number: 2,173
+CXgamer_MC-ticker,test,McMechanics,testActivation,Magic Number,The method contains a magic number: 2,173
+CXgamer_MC-ticker,test,McMechanics,testActivation,Magic Number,The method contains a magic number: 2,173
+CXgamer_MC-ticker,test,McMechanics,testTileEntities,Magic Number,The method contains a magic number: 14,234
+CXgamer_MC-ticker,test,McMechanics,testDispenser,Magic Number,The method contains a magic number: 4,257
+CXgamer_MC-ticker,test,McMechanics,testDispenser,Magic Number,The method contains a magic number: 15,257
+CXgamer_MC-ticker,test,McMechanics,testDispenser,Magic Number,The method contains a magic number: 4,257
+CXgamer_MC-ticker,test,McMechanics,testClockPerformance,Long Statement,The length of the statement "String[] tests={"pref-torch.schematic"`"pref-burnout.schematic"`"pref-repeater-1.schematic"`"pref-repeater-1-opt.schematic"`"pref-repeater-2.schematic"`"pref-repeater-2-opt.schematic"`"pref-repeater-3.schematic"`"pref-repeater-3-opt.schematic"`"pref-repeater-4.schematic"`"pref-repeater-4-opt.schematic"`"pref-comp-naked.schematic"`"pref-comp-opt.schematic"`"pref-comp-repeater.schematic"`"pref-hopper-closed.schematic"`"pref-hopper-open.schematic"};" is 450.,283
+CXgamer_MC-ticker,test,McMechanics,testClockPerformance,Magic Number,The method contains a magic number: 100000,283
+CXgamer_MC-ticker,test,SetBlock,ensureWorldIsReady,Long Statement,The length of the statement "catch ( NoSuchAlgorithmException|IOException|IllegalAccessException|IllegalArgumentException|InvocationTargetException|InstantiationException e) {" is 146.,44
+CXgamer_MC-ticker,test,SetBlock,testSetBlock,Long Statement,The length of the statement "System.out.println("SetBlock / GetBlock mismatch (id/data): " + (id >= 0 ? id : id + 128) + '/'+ data+ " -> "+ getBlockId+ '/'+ getBlockData);" is 142.,62
+CXgamer_MC-ticker,test,SetBlock,testSetBlock,Long Statement,The length of the statement "System.out.println("Could not setBlock with id=" + (id >= 0 ? id : id + 128) + " data="+ data+ ": "+ e.getCause().getClass());" is 126.,62
+CXgamer_MC-ticker,test,SetBlock,testSetBlock,Magic Number,The method contains a magic number: 16,62
+CXgamer_MC-ticker,test,SetBlock,testSetBlock,Magic Number,The method contains a magic number: 128,62
+CXgamer_MC-ticker,test,SetBlock,testSetBlock,Magic Number,The method contains a magic number: 128,62

@@ -1,0 +1,26 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+JvalantPatel_AvailabilityManager,com.app.handlers,AlarmHandler,checkAlarm,Complex Method,Cyclomatic complexity of the method is 9,94
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,recoverVM,Complex Method,Cyclomatic complexity of the method is 8,34
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,recoverVM,Long Statement,The length of the statement "else if (hs.getSummary().runtime.powerState == hs.getSummary().runtime.powerState.poweredOff || hs.getSummary().runtime.connectionState == hs.getSummary().runtime.connectionState.disconnected) {" is 194.,34
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,migrateVMandRecover,Long Statement,The length of the statement "Task taskVm=vm.migrateVM_Task(cr.getResourcePool()`hs`VirtualMachineMovePriority.highPriority`VirtualMachinePowerState.poweredOff);" is 131.,139
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,reconnectHostandRecoverVM,Complex Method,Cyclomatic complexity of the method is 9,198
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,reconnectHostandRecoverVM,Magic Number,The method contains a magic number: 11,198
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,reconnectHostandRecoverVM,Magic Number,The method contains a magic number: 1000,198
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,reconnectHostandRecoverVM,Magic Number,The method contains a magic number: 60,198
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,reconnectHostandRecoverVM,Magic Number,The method contains a magic number: 15,198
+JvalantPatel_AvailabilityManager,com.app.handlers,RecoveryHandler,recoverHostandVM,Magic Number,The method contains a magic number: 11,251
+JvalantPatel_AvailabilityManager,com.app.handlers,SnapshotHandler,createSnapShotForVM,Long Statement,The length of the statement "if ((vm.getSummary().runtime.powerState == vm.getSummary().runtime.powerState.poweredOn) && (vm.getGuest().getIpAddress() != null)) {" is 133.,15
+JvalantPatel_AvailabilityManager,com.app.handlers,SnapshotHandler,createSnapShotForHOST,Long Statement,The length of the statement "if (vm.getName().toString().contains(hs.getName().substring(7)) && (vm.getSummary().runtime.powerState == vm.getSummary().runtime.powerState.poweredOn)) {" is 154.,65
+JvalantPatel_AvailabilityManager,com.app.handlers,SnapshotHandler,createSnapShotForHOST,Long Statement,The length of the statement "System.out.println("Snapshot Handler: The current status of the host " + vm.getName().toString() + " is: "+ vm.getSummary().runtime.powerState.toString()+ "\n");" is 161.,65
+JvalantPatel_AvailabilityManager,com.app.handlers,SnapshotHandler,createSnapShotForHOST,Magic Number,The method contains a magic number: 7,65
+JvalantPatel_AvailabilityManager,com.app.handlers,SnapshotHandler,createSnapShotForHOST,Magic Number,The method contains a magic number: 7,65
+JvalantPatel_AvailabilityManager,com.app.managers,HeartbeatManager,ping,Complex Method,Cyclomatic complexity of the method is 8,42
+JvalantPatel_AvailabilityManager,com.app.managers,HeartbeatManager,pingVirtualMachine,Magic Number,The method contains a magic number: 2,94
+JvalantPatel_AvailabilityManager,com.app.managers,HeartbeatManager,run,Magic Number,The method contains a magic number: 1000,133
+JvalantPatel_AvailabilityManager,com.app.managers,HeartbeatManager,run,Magic Number,The method contains a magic number: 60,133
+JvalantPatel_AvailabilityManager,com.app.managers,HeartbeatManager,run,Magic Number,The method contains a magic number: 6,133
+JvalantPatel_AvailabilityManager,com.app.managers,SnapshotManager,run,Magic Number,The method contains a magic number: 60000,26
+JvalantPatel_AvailabilityManager,com.app.managers,SnapshotManager,run,Magic Number,The method contains a magic number: 10,26
+JvalantPatel_AvailabilityManager,test.com.app.handlers,RecoveryHandlerTest,powerOnvHost,Complex Method,Cyclomatic complexity of the method is 8,93
+JvalantPatel_AvailabilityManager,test.com.app.handlers,RecoveryHandlerTest,powerOnvHost,Long Statement,The length of the statement "if (taskvm.getTaskInfo().state == taskvm.getTaskInfo().state.success) System.out.println(vHost.getRuntime().getConnectionState().equals("connected"));" is 150.,93
+JvalantPatel_AvailabilityManager,test.com.app.handlers,RecoveryHandlerTest,powerOnvHost,Magic Number,The method contains a magic number: 15,93

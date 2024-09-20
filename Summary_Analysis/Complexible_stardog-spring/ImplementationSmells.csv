@@ -1,0 +1,26 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Complexible_stardog-spring,com.stardog.ext.spring,DataSourceFactoryBean,afterPropertiesSet,Long Statement,The length of the statement "poolConfig=ConnectionPoolConfig.using(connectionConfig).minPool(minPool).maxPool(maxPool).expiration(expirationTime`expirationTimeUnit).blockAtCapacity(blockCapacityTime`blockCapacityTimeUnit);" is 193.,134
+Complexible_stardog-spring,com.stardog.ext.spring,SnarlTemplate,add,Long Statement,The length of the statement "add(ImmutableSet.of(Values.statement(Values.iri(subject.toString())`Values.iri(predicate.toString())`Values.iri(object.toString()))));" is 134.,580
+Complexible_stardog-spring,com.stardog.ext.spring,EmbeddedProvider,execute,Empty catch clause,The method has an empty catch block.,18
+Complexible_stardog-spring,com.stardog.ext.spring,EmbeddedProvider,execute,Empty catch clause,The method has an empty catch block.,38
+Complexible_stardog-spring,com.stardog.ext.spring,ServerProvider,execute,Empty catch clause,The method has an empty catch block.,18
+Complexible_stardog-spring,com.stardog.ext.spring,ServerProvider,execute,Empty catch clause,The method has an empty catch block.,38
+Complexible_stardog-spring,com.stardog.ext.spring,TestDataSourceFactory,testSnarlTemplate,Magic Number,The method contains a magic number: 5,127
+Complexible_stardog-spring,com.stardog.ext.spring,TestDataSourceFactory,testSimpleRowMapper,Magic Number,The method contains a magic number: 5,147
+Complexible_stardog-spring,com.stardog.ext.spring,TestDataSourceFactory,testRemoveGraph,Magic Number,The method contains a magic number: 5,176
+Complexible_stardog-spring,com.stardog.ext.spring,TestDataSourceFactory,testQueryForObject,Magic Number,The method contains a magic number: 2,243
+Complexible_stardog-spring,com.stardog.ext.spring,TestDataSourceFactory,testQueryWithParams,Magic Number,The method contains a magic number: 5,272
+Complexible_stardog-spring,com.stardog.ext.spring,TestDataSourceFactory,testLegacyQueryWithParams,Magic Number,The method contains a magic number: 5,297
+Complexible_stardog-spring,com.stardog.ext.spring,TestDataSourceFactory,testQueryForObjectWithParams,Magic Number,The method contains a magic number: 2,322
+Complexible_stardog-spring,com.stardog.ext.spring,TestDataSourceFactory,testUpdateWithParams,Magic Number,The method contains a magic number: 2,353
+Complexible_stardog-spring,com.stardog.ext.spring,TestDataSourceFactory,testAdd,Magic Number,The method contains a magic number: 2,432
+Complexible_stardog-spring,com.stardog.ext.spring,TestDataSourceFactory,testDoWithGetter,Magic Number,The method contains a magic number: 2,465
+Complexible_stardog-spring,com.stardog.ext.spring,TestDataSourceFactory,testDoWithAdder,Magic Number,The method contains a magic number: 2,549
+Complexible_stardog-spring,com.stardog.ext.spring,EmbeddedProvider,execute,Empty catch clause,The method has an empty catch block.,19
+Complexible_stardog-spring,com.stardog.ext.spring,EmbeddedProvider,execute,Empty catch clause,The method has an empty catch block.,39
+Complexible_stardog-spring,com.stardog.ext.spring.utils,TestTypeConverter,testAsLiteralObject,Magic Number,The method contains a magic number: 5,37
+Complexible_stardog-spring,com.stardog.ext.spring.batch,TestBatchCallback,write,Long Statement,The length of the statement "adder.statement(new IRIImpl(item.getName())`new IRIImpl("urn:test:propertyUpdate")`new StringLiteral((String)item.getValue() + "update"));" is 138.,41
+Complexible_stardog-spring,com.stardog.ext.spring.batch,TestSpringBatch,setUp,Magic Number,The method contains a magic number: 20,91
+Complexible_stardog-spring,com.stardog.ext.spring.batch,TestSpringBatch,add,Magic Number,The method contains a magic number: 20,105
+Complexible_stardog-spring,com.stardog.ext.spring.batch,TestSpringBatch,testWrite,Magic Number,The method contains a magic number: 2,166
+Complexible_stardog-spring,com.stardog.ext.spring.batch,TestSpringBatch,integrationTest,Magic Number,The method contains a magic number: 20,216

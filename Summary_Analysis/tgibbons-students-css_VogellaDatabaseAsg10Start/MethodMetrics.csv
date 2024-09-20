@@ -1,0 +1,22 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,ApplicationTest,ApplicationTest,3,1,0,10,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,Comment,getId,3,1,0,7,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,Comment,setId,3,1,1,10,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,Comment,getComment,3,1,0,14,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,Comment,setComment,3,1,1,17,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,Comment,toString,3,1,0,23,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,CommentsDataSource,CommentsDataSource,3,1,1,18,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,CommentsDataSource,open,3,1,0,22,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,CommentsDataSource,close,3,1,0,26,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,CommentsDataSource,createComment,10,1,1,31,0,edu.css.cis3334.vogellasampleinclass.CommentsDataSource,edu.css.cis3334.vogellasampleinclass.CommentsDataSource
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,CommentsDataSource,deleteComment,5,1,1,50,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,CommentsDataSource,getAllComments,12,2,0,57,0,edu.css.cis3334.vogellasampleinclass.CommentsDataSource,edu.css.cis3334.vogellasampleinclass.CommentsDataSource
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,CommentsDataSource,cursorToComment,6,1,1,76,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,MySQLiteHelper,MySQLiteHelper,3,1,1,23,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,MySQLiteHelper,onCreate,3,1,1,27,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,MySQLiteHelper,onUpgrade,5,1,3,32,0,edu.css.cis3334.vogellasampleinclass.MySQLiteHelper,edu.css.cis3334.vogellasampleinclass.MySQLiteHelper
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,TestDatabaseActivity,onCreate,16,1,1,17,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,TestDatabaseActivity,onItemClick,3,1,4,36,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,TestDatabaseActivity,onClick,21,4,1,47,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,TestDatabaseActivity,onResume,4,1,0,77,0,,
+tgibbons-students-css_VogellaDatabaseAsg10Start,edu.css.cis3334.vogellasampleinclass,TestDatabaseActivity,onPause,4,1,0,83,0,,

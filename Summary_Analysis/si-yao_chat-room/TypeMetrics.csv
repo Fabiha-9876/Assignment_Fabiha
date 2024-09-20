@@ -1,0 +1,20 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+si-yao_chat-room,client,LifeKeeper,1,0,1,1,44,5,0,0,0.0,0,3,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\client\LifeKeeper.java,7
+si-yao_chat-room,client,ReceiveHandle,1,0,2,2,72,10,0,0,0.0,0,3,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\client\ReceiveHandle.java,8
+si-yao_chat-room,client,ReceiveService,5,0,4,3,41,7,0,0,0.5,1,1,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\client\ReceiveService.java,4
+si-yao_chat-room,client,SendHandle,2,0,10,2,298,46,0,0,0.0,0,3,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\client\SendHandle.java,10
+si-yao_chat-room,client,SendService,17,11,5,4,127,15,0,0,0.4,5,0,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\client\SendService.java,7
+si-yao_chat-room,client,SendService.Block,0,0,0,0,14,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\client\SendService.java,52
+si-yao_chat-room,(default package),Client,0,0,2,2,43,7,0,0,-1.0,0,4,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\Client.java,12
+si-yao_chat-room,(default package),Main,0,0,1,1,4,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\Main.java,1
+si-yao_chat-room,(default package),Server,0,0,2,2,31,6,0,0,-1.0,0,2,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\Server.java,11
+si-yao_chat-room,server,HubHandle,8,0,14,2,436,64,0,0,0.0,0,1,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\server\HubHandle.java,8
+si-yao_chat-room,server,HubHandle.OfflineMsg,2,0,0,0,25,0,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\server\HubHandle.java,180
+si-yao_chat-room,server,HubHandle.GroupMsg,2,0,0,0,22,0,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\server\HubHandle.java,290
+si-yao_chat-room,server,HubService,14,8,4,3,67,8,0,0,0.5,5,0,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\server\HubService.java,8
+si-yao_chat-room,server,LifeKiller,5,0,2,2,67,6,0,0,0.0,0,3,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\server\LifeKiller.java,11
+si-yao_chat-room,server,LifeKiller.Logout,1,0,0,0,26,0,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\server\LifeKiller.java,53
+si-yao_chat-room,utility,KVSerialize,1,0,4,3,74,13,0,0,0.5,6,0,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\utility\KVSerialize.java,4
+si-yao_chat-room,utility,KVSerializeTest,0,0,1,1,13,1,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\utility\KVSerializeTest.java,3
+si-yao_chat-room,utility,LogService,2,0,4,3,27,5,0,0,0.0,2,0,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\utility\LogService.java,3
+si-yao_chat-room,utility,SocketService,4,0,6,5,76,7,0,0,0.6666666666666666,6,1,E:\Repositories\Cloned_Reposit\si-yao_chat-room\src\utility\SocketService.java,6

@@ -1,0 +1,21 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+MavenDevoxxFR2015_demos,animalsniffer,Main,main,4,1,1,10,0,,
+MavenDevoxxFR2015_demos,animalsniffer,Main,callJava7API,3,1,1,18,0,,
+MavenDevoxxFR2015_demos,bytecode,Display,esc,3,1,1,30,0,,
+MavenDevoxxFR2015_demos,bytecode,Display,display,12,2,1,35,0,bytecode.Display,bytecode.Display
+MavenDevoxxFR2015_demos,bytecode,Display,run,5,1,0,54,0,bytecode.Display,bytecode.Display
+MavenDevoxxFR2015_demos,bytecode,Display,main,3,1,1,63,0,bytecode.Display,bytecode.Display
+MavenDevoxxFR2015_demos,bytecode,Display,esc,3,1,1,30,0,,
+MavenDevoxxFR2015_demos,bytecode,Display,display,12,2,1,35,0,bytecode.Display,bytecode.Display
+MavenDevoxxFR2015_demos,bytecode,Display,run,5,1,0,54,0,bytecode.Display,bytecode.Display
+MavenDevoxxFR2015_demos,bytecode,Display,main,3,1,1,63,0,bytecode.Display,bytecode.Display
+MavenDevoxxFR2015_demos,bytecode,Display2,main,3,1,1,29,0,bytecode.Display2,bytecode.Display2
+MavenDevoxxFR2015_demos,bytecode,Display2,run,4,1,0,35,0,bytecode.Display2,bytecode.Display2
+MavenDevoxxFR2015_demos,bytecode,Display2,callJava7Library,3,1,0,43,0,,
+MavenDevoxxFR2015_demos,bytecode,Display,esc,3,1,1,30,0,,
+MavenDevoxxFR2015_demos,bytecode,Display,display,12,2,1,35,0,bytecode.Display,bytecode.Display
+MavenDevoxxFR2015_demos,bytecode,Display,run,5,1,0,54,0,bytecode.Display,bytecode.Display
+MavenDevoxxFR2015_demos,bytecode,Display,main,3,1,1,63,0,bytecode.Display,bytecode.Display
+MavenDevoxxFR2015_demos,toolchains,Main,main,4,1,1,9,0,toolchains.Main,toolchains.Main
+MavenDevoxxFR2015_demos,toolchains,Main,callMap,3,1,0,20,0,,
+MavenDevoxxFR2015_demos,toolchains,MainTest,test,3,1,0,8,1,,

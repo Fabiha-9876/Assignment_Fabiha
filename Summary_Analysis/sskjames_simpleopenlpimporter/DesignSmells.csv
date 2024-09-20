@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,Design Smell,Cause of the Smell
+sskjames_simpleopenlpimporter,org.simpleopenlpimporter.dao,SqliteSongImportDaoTest,Feature Envy,The tool detected a instance of this smell because testImportSongs is more interested in members of the type: SqliteSongImportDao
+sskjames_simpleopenlpimporter,org.simpleopenlpimporter,Main,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)
+sskjames_simpleopenlpimporter,org.simpleopenlpimporter,SongsImporterTest,Feature Envy,The tool detected a instance of this smell because testWrapLyricsInXml is more interested in members of the type: SongsImporter

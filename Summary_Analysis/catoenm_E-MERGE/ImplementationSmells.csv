@@ -1,0 +1,143 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+catoenm_E-MERGE,(default package),GUI,initComponents,Long Statement,The length of the statement "modelNumberText.setModel(new javax.swing.DefaultComboBoxModel(new String[]{"EM1-15"`"EM1-15HS"`"EM1-30"`"EM1-30HS"`"EM1-30UHS"`"EM1-30-22"`"EM2-50"`"EM2-50HS"`"EM2-50UHS"`"EM2-80"`"EM2-80HS"`"EM2-80UHS"`"EM3-100"`"EM3-100HS"`"EM3-200"`"EM3-200HS"`"EM3-250"`"EM4-350"`"EM4-550"`"EM4-350HP"`"EM4-550HP"`"EM4-350HS"`"EM4-550MHS"`"EM4-550HS"}));" is 341.,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Long Statement,The length of the statement "screwDiameterText.setModel(new javax.swing.DefaultComboBoxModel(new String[]{"12"`"14"`"16"`"18"`"20"`"22"`"25"`"28"`"32"`"35"`"38"`"40"`"45"`"50"`"55"}));" is 155.,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Long Statement,The length of the statement "layout.setHorizontalGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addComponent(jScrollPane1).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addComponent(jLabel4).addGap(100`100`100)).addGroup(javax.swing.GroupLayout.Alignment.TRAILING`layout.createSequentialGroup().addComponent(jLabel2).addGap(18`18`18).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING`false).addComponent(modelNumberText`0`javax.swing.GroupLayout.DEFAULT_SIZE`Short.MAX_VALUE).addComponent(specSheetPath`javax.swing.GroupLayout.DEFAULT_SIZE`280`Short.MAX_VALUE)))).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING`false).addGroup(layout.createSequentialGroup().addGap(10`10`10).addComponent(button2`javax.swing.GroupLayout.DEFAULT_SIZE`javax.swing.GroupLayout.DEFAULT_SIZE`Short.MAX_VALUE)).addGroup(layout.createSequentialGroup().addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addComponent(jLabel3))).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addComponent(machineDataPath).addComponent(screwDiameterText`0`javax.swing.GroupLayout.DEFAULT_SIZE`Short.MAX_VALUE))).addGroup(layout.createSequentialGroup().addComponent(jLabel1).addGap(0`168`Short.MAX_VALUE)).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING`false).addComponent(button1`javax.swing.GroupLayout.Alignment.LEADING`javax.swing.GroupLayout.DEFAULT_SIZE`158`Short.MAX_VALUE).addComponent(StartButton`javax.swing.GroupLayout.Alignment.LEADING`javax.swing.GroupLayout.DEFAULT_SIZE`javax.swing.GroupLayout.DEFAULT_SIZE`Short.MAX_VALUE)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED`526`Short.MAX_VALUE).addComponent(proceedButton`javax.swing.GroupLayout.PREFERRED_SIZE`javax.swing.GroupLayout.DEFAULT_SIZE`javax.swing.GroupLayout.PREFERRED_SIZE))).addContainerGap()));" is 2247.,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Long Statement,The length of the statement "layout.setVerticalGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jLabel1).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addComponent(jLabel4).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addComponent(button1`javax.swing.GroupLayout.PREFERRED_SIZE`40`javax.swing.GroupLayout.PREFERRED_SIZE).addComponent(specSheetPath`javax.swing.GroupLayout.PREFERRED_SIZE`40`javax.swing.GroupLayout.PREFERRED_SIZE).addComponent(button2`javax.swing.GroupLayout.PREFERRED_SIZE`40`javax.swing.GroupLayout.PREFERRED_SIZE).addComponent(machineDataPath`javax.swing.GroupLayout.PREFERRED_SIZE`40`javax.swing.GroupLayout.PREFERRED_SIZE)).addGap(30`30`30).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE).addComponent(jLabel2).addComponent(jLabel3).addComponent(modelNumberText`javax.swing.GroupLayout.PREFERRED_SIZE`37`javax.swing.GroupLayout.PREFERRED_SIZE).addComponent(screwDiameterText`javax.swing.GroupLayout.PREFERRED_SIZE`37`javax.swing.GroupLayout.PREFERRED_SIZE)).addGap(46`46`46).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING).addComponent(proceedButton`javax.swing.GroupLayout.PREFERRED_SIZE`39`javax.swing.GroupLayout.PREFERRED_SIZE).addComponent(StartButton`javax.swing.GroupLayout.PREFERRED_SIZE`39`javax.swing.GroupLayout.PREFERRED_SIZE)).addGap(18`18`18).addComponent(jScrollPane1`javax.swing.GroupLayout.DEFAULT_SIZE`283`Short.MAX_VALUE).addContainerGap()));" is 1641.,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 48,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 20,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 5,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 22,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 20,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 24,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 100,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 100,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 100,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 18,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 18,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 18,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 280,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 10,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 10,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 10,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 168,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 158,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 526,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 40,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 40,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 40,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 40,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 30,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 30,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 30,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 37,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 37,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 46,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 46,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 46,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 39,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 39,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 18,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 18,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 18,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 283,55
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Complex Method,Cyclomatic complexity of the method is 23,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Long Method,The method has 113 lines of code.,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Long Statement,The length of the statement "if (Double.parseDouble(specSheetValues.get(i).replaceAll("`"`"")) == Double.parseDouble(xmlValues.get(j).replaceAll("`"`""))) {" is 127.,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Magic Number,The method contains a magic number: 2,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Magic Number,The method contains a magic number: 2,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Magic Number,The method contains a magic number: 4,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Magic Number,The method contains a magic number: 8,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Magic Number,The method contains a magic number: 462,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Magic Number,The method contains a magic number: 10,203
+catoenm_E-MERGE,(default package),GUI,initComponents,Long Statement,The length of the statement "modelNumberText.setModel(new javax.swing.DefaultComboBoxModel(new String[]{"EM1-15"`"EM1-15HS"`"EM1-30"`"EM1-30HS"`"EM1-30UHS"`"EM1-30-22"`"EM2-50"`"EM2-50HS"`"EM2-50UHS"`"EM2-80"`"EM2-80HS"`"EM2-80UHS"`"EM3-100"`"EM3-100HS"`"EM3-200"`"EM3-200HS"`"EM3-250"`"EM4-350"`"EM4-550"`"EM4-350HP"`"EM4-550HP"`"EM4-350HS"`"EM4-550MHS"`"EM4-550HS"}));" is 341.,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Long Statement,The length of the statement "screwDiameterText.setModel(new javax.swing.DefaultComboBoxModel(new String[]{"12"`"14"`"16"`"18"`"20"`"22"`"25"`"28"`"32"`"35"`"38"`"40"`"45"`"50"`"55"}));" is 155.,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Long Statement,The length of the statement "layout.setHorizontalGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addComponent(jScrollPane1).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addComponent(jLabel4).addGap(100`100`100)).addGroup(javax.swing.GroupLayout.Alignment.TRAILING`layout.createSequentialGroup().addComponent(jLabel2).addGap(18`18`18).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING`false).addComponent(modelNumberText`0`javax.swing.GroupLayout.DEFAULT_SIZE`Short.MAX_VALUE).addComponent(specSheetPath`javax.swing.GroupLayout.DEFAULT_SIZE`280`Short.MAX_VALUE)))).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING`false).addGroup(layout.createSequentialGroup().addGap(10`10`10).addComponent(button2`javax.swing.GroupLayout.DEFAULT_SIZE`javax.swing.GroupLayout.DEFAULT_SIZE`Short.MAX_VALUE)).addGroup(layout.createSequentialGroup().addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addComponent(jLabel3))).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addComponent(machineDataPath).addComponent(screwDiameterText`0`javax.swing.GroupLayout.DEFAULT_SIZE`Short.MAX_VALUE))).addGroup(layout.createSequentialGroup().addComponent(jLabel1).addGap(0`168`Short.MAX_VALUE)).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING`false).addComponent(button1`javax.swing.GroupLayout.Alignment.LEADING`javax.swing.GroupLayout.DEFAULT_SIZE`158`Short.MAX_VALUE).addComponent(StartButton`javax.swing.GroupLayout.Alignment.LEADING`javax.swing.GroupLayout.DEFAULT_SIZE`javax.swing.GroupLayout.DEFAULT_SIZE`Short.MAX_VALUE)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED`526`Short.MAX_VALUE).addComponent(proceedButton`javax.swing.GroupLayout.PREFERRED_SIZE`javax.swing.GroupLayout.DEFAULT_SIZE`javax.swing.GroupLayout.PREFERRED_SIZE))).addContainerGap()));" is 2247.,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Long Statement,The length of the statement "layout.setVerticalGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jLabel1).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addComponent(jLabel4).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addComponent(button1`javax.swing.GroupLayout.PREFERRED_SIZE`40`javax.swing.GroupLayout.PREFERRED_SIZE).addComponent(specSheetPath`javax.swing.GroupLayout.PREFERRED_SIZE`40`javax.swing.GroupLayout.PREFERRED_SIZE).addComponent(button2`javax.swing.GroupLayout.PREFERRED_SIZE`40`javax.swing.GroupLayout.PREFERRED_SIZE).addComponent(machineDataPath`javax.swing.GroupLayout.PREFERRED_SIZE`40`javax.swing.GroupLayout.PREFERRED_SIZE)).addGap(30`30`30).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE).addComponent(jLabel2).addComponent(jLabel3).addComponent(modelNumberText`javax.swing.GroupLayout.PREFERRED_SIZE`37`javax.swing.GroupLayout.PREFERRED_SIZE).addComponent(screwDiameterText`javax.swing.GroupLayout.PREFERRED_SIZE`37`javax.swing.GroupLayout.PREFERRED_SIZE)).addGap(46`46`46).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING).addComponent(proceedButton`javax.swing.GroupLayout.PREFERRED_SIZE`39`javax.swing.GroupLayout.PREFERRED_SIZE).addComponent(StartButton`javax.swing.GroupLayout.PREFERRED_SIZE`39`javax.swing.GroupLayout.PREFERRED_SIZE)).addGap(18`18`18).addComponent(jScrollPane1`javax.swing.GroupLayout.DEFAULT_SIZE`283`Short.MAX_VALUE).addContainerGap()));" is 1641.,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 48,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 20,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 5,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 22,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 20,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 24,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 100,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 100,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 100,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 18,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 18,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 18,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 280,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 10,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 10,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 10,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 168,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 158,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 526,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 40,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 40,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 40,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 40,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 30,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 30,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 30,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 37,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 37,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 46,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 46,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 46,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 39,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 39,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 18,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 18,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 18,55
+catoenm_E-MERGE,(default package),GUI,initComponents,Magic Number,The method contains a magic number: 283,55
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Complex Method,Cyclomatic complexity of the method is 23,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Long Method,The method has 113 lines of code.,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Long Statement,The length of the statement "if (Double.parseDouble(specSheetValues.get(i).replaceAll("`"`"")) == Double.parseDouble(xmlValues.get(j).replaceAll("`"`""))) {" is 127.,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Magic Number,The method contains a magic number: 2,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Magic Number,The method contains a magic number: 2,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Magic Number,The method contains a magic number: 4,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Magic Number,The method contains a magic number: 8,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Magic Number,The method contains a magic number: 462,203
+catoenm_E-MERGE,(default package),GUI,StartButtonActionPerformed,Magic Number,The method contains a magic number: 10,203
+catoenm_E-MERGE,(default package),ChangeXML,ChangeXML,Long Parameter List,The method has 6 parameters. ,50
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Long Statement,The length of the statement "layout.setHorizontalGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addComponent(Comparison2`javax.swing.GroupLayout.DEFAULT_SIZE`javax.swing.GroupLayout.DEFAULT_SIZE`Short.MAX_VALUE).addComponent(Comparison1`javax.swing.GroupLayout.DEFAULT_SIZE`javax.swing.GroupLayout.DEFAULT_SIZE`Short.MAX_VALUE)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING`false).addGroup(layout.createSequentialGroup().addComponent(comparison1`javax.swing.GroupLayout.PREFERRED_SIZE`305`javax.swing.GroupLayout.PREFERRED_SIZE).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED`javax.swing.GroupLayout.DEFAULT_SIZE`Short.MAX_VALUE).addComponent(comparison2`javax.swing.GroupLayout.PREFERRED_SIZE`333`javax.swing.GroupLayout.PREFERRED_SIZE)).addComponent(jLabel1).addGroup(layout.createSequentialGroup().addComponent(button1`javax.swing.GroupLayout.PREFERRED_SIZE`281`javax.swing.GroupLayout.PREFERRED_SIZE).addGap(280`280`280).addComponent(button2`javax.swing.GroupLayout.PREFERRED_SIZE`279`javax.swing.GroupLayout.PREFERRED_SIZE)).addComponent(jScrollPane1`javax.swing.GroupLayout.PREFERRED_SIZE`840`javax.swing.GroupLayout.PREFERRED_SIZE)).addContainerGap(36`Short.MAX_VALUE)));" is 1436.,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Long Statement,The length of the statement "layout.setVerticalGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jLabel1).addGap(53`53`53).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING`false).addComponent(button1`javax.swing.GroupLayout.DEFAULT_SIZE`44`Short.MAX_VALUE).addComponent(button2`javax.swing.GroupLayout.DEFAULT_SIZE`javax.swing.GroupLayout.DEFAULT_SIZE`Short.MAX_VALUE)).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(164`164`164).addComponent(Comparison1`javax.swing.GroupLayout.PREFERRED_SIZE`48`javax.swing.GroupLayout.PREFERRED_SIZE).addGap(18`18`18).addComponent(Comparison2`javax.swing.GroupLayout.PREFERRED_SIZE`52`javax.swing.GroupLayout.PREFERRED_SIZE)).addGroup(layout.createSequentialGroup().addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addComponent(jScrollPane1`javax.swing.GroupLayout.PREFERRED_SIZE`290`javax.swing.GroupLayout.PREFERRED_SIZE))).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE).addComponent(comparison1`javax.swing.GroupLayout.PREFERRED_SIZE`47`javax.swing.GroupLayout.PREFERRED_SIZE).addComponent(comparison2`javax.swing.GroupLayout.PREFERRED_SIZE`42`javax.swing.GroupLayout.PREFERRED_SIZE)).addContainerGap(103`Short.MAX_VALUE)));" is 1461.,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 48,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 24,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 24,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 24,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 24,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 305,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 333,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 281,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 280,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 280,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 280,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 279,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 840,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 36,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 53,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 53,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 53,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 44,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 164,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 164,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 164,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 48,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 18,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 18,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 18,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 52,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 290,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 47,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 42,60
+catoenm_E-MERGE,(default package),ChangeXML,initComponents,Magic Number,The method contains a magic number: 103,60
+catoenm_E-MERGE,(default package),ChangeXML,button2ActionPerformed,Magic Number,The method contains a magic number: 10,179
+catoenm_E-MERGE,(default package),MachineDataCompare,main,Complex Method,Cyclomatic complexity of the method is 21,29
+catoenm_E-MERGE,(default package),MachineDataCompare,main,Long Method,The method has 126 lines of code.,29
+catoenm_E-MERGE,(default package),MachineDataCompare,main,Long Statement,The length of the statement "if (Double.parseDouble(specSheetValues.get(i).replaceAll("`"`"")) == Double.parseDouble(xmlValues.get(j).replaceAll("`"`""))) {" is 127.,29
+catoenm_E-MERGE,(default package),MachineDataCompare,main,Magic Number,The method contains a magic number: 2,29
+catoenm_E-MERGE,(default package),MachineDataCompare,main,Magic Number,The method contains a magic number: 2,29
+catoenm_E-MERGE,(default package),MachineDataCompare,main,Magic Number,The method contains a magic number: 4,29
+catoenm_E-MERGE,(default package),MachineDataCompare,main,Magic Number,The method contains a magic number: 8,29
+catoenm_E-MERGE,(default package),MachineDataCompare,main,Magic Number,The method contains a magic number: 462,29

@@ -1,0 +1,25 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+yangqing0314_CircelProgressTime,com.yq.circlepress,MainActivity,onCreate,7,1,1,10,0,com.yq.circlepress.RoundProgressBar,com.yq.circlepress.RoundProgressBar
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,RoundProgressBar,3,1,1,90,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,RoundProgressBar,3,1,2,94,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,RoundProgressBar,15,1,3,98,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,setEndTime,4,1,1,119,0,com.yq.circlepress.RoundProgressBar,com.yq.circlepress.RoundProgressBar
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,startTimer,26,4,0,129,0,com.yq.circlepress.RoundProgressBar,com.yq.circlepress.RoundProgressBar
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,run,18,4,0,137,0,com.yq.circlepress.RoundProgressBar,com.yq.circlepress.RoundProgressBar
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,onDraw,38,6,1,168,0,com.yq.circlepress.RoundProgressBar,com.yq.circlepress.RoundProgressBar
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,getMax,3,1,0,229,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,dealTime,9,1,1,233,0,com.yq.circlepress.RoundProgressBar,com.yq.circlepress.RoundProgressBar
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,timeStrFormat,8,2,1,249,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,setMax,6,2,1,264,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,getProgress,3,1,0,275,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,setProgress,12,4,1,283,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,getCricleColor,3,1,0,302,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,setCricleColor,3,1,1,306,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,getCricleProgressColor,3,1,0,310,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,setCricleProgressColor,3,1,1,314,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,getTextColor,3,1,0,318,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,setTextColor,3,1,1,322,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,getTextSize,3,1,0,326,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,setTextSize,3,1,1,330,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,getRoundWidth,3,1,0,334,0,,
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,setRoundWidth,3,1,1,338,0,,

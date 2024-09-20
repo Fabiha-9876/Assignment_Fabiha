@@ -1,0 +1,55 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+buremba_netty-rest,org.rakam.server.http,HaProxyBackendServerHandler,1,0,3,2,22,5,0,1,0.6666666666666666,1,2,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HaProxyBackendServerHandler.java,10
+buremba_netty-rest,org.rakam.server.http,HttpRequestException,3,0,6,6,29,7,0,0,0.3333333333333333,1,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HttpRequestException.java,10
+buremba_netty-rest,org.rakam.server.http,HttpRequestHandler,0,0,1,0,3,1,3,0,-1.0,2,1,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HttpRequestHandler.java,3
+buremba_netty-rest,org.rakam.server.http,HttpServer,31,10,30,8,600,84,0,0,0.1,8,11,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HttpServer.java,105
+buremba_netty-rest,org.rakam.server.http,HttpServer.ErrorMessage,2,2,0,0,8,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HttpServer.java,809
+buremba_netty-rest,org.rakam.server.http,HttpServer.JsonAPIError,7,7,0,0,27,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HttpServer.java,822
+buremba_netty-rest,org.rakam.server.http,HttpServerBuilder,15,0,16,16,107,21,0,0,0.0,1,3,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HttpServerBuilder.java,22
+buremba_netty-rest,org.rakam.server.http,HttpServerBuilder.ExceptionHandler,0,0,0,0,3,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HttpServerBuilder.java,172
+buremba_netty-rest,org.rakam.server.http,HttpServerBuilder.IRequestParameterFactory,0,0,0,0,3,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HttpServerBuilder.java,177
+buremba_netty-rest,org.rakam.server.http,HttpServerHandler,11,0,7,5,183,25,1,0,0.0,1,2,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HttpServerHandler.java,28
+buremba_netty-rest,org.rakam.server.http,HttpServerHandler.ReferenceCountedByteBufInputStream,1,0,0,0,27,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HttpServerHandler.java,175
+buremba_netty-rest,org.rakam.server.http,HttpServerHandler.ChainByteArrayInputStream,4,0,0,0,36,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HttpServerHandler.java,223
+buremba_netty-rest,org.rakam.server.http,HttpService,0,0,0,0,2,0,0,0,-1.0,3,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HttpService.java,3
+buremba_netty-rest,org.rakam.server.http,HttpServiceProcessor,0,0,2,2,30,8,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\HttpServiceProcessor.java,21
+buremba_netty-rest,org.rakam.server.http,IRequestParameter,14,10,1,0,118,1,5,0,-1.0,2,1,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\IRequestParameter.java,16
+buremba_netty-rest,org.rakam.server.http,IRequestParameter.HeaderParameter,3,2,0,0,22,0,0,1,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\IRequestParameter.java,21
+buremba_netty-rest,org.rakam.server.http,IRequestParameter.CookieParameter,2,2,0,0,19,0,0,1,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\IRequestParameter.java,51
+buremba_netty-rest,org.rakam.server.http,IRequestParameter.QueryParameter,3,2,0,0,27,0,0,1,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\IRequestParameter.java,81
+buremba_netty-rest,org.rakam.server.http,IRequestParameter.BodyParameter,4,3,0,0,31,0,0,1,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\IRequestParameter.java,116
+buremba_netty-rest,org.rakam.server.http,IRequestParameter.FullBodyParameter,2,1,0,0,16,0,0,1,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\IRequestParameter.java,157
+buremba_netty-rest,org.rakam.server.http,JsonBeanRequestHandler,7,0,2,2,76,5,0,1,0.0,0,4,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\JsonBeanRequestHandler.java,22
+buremba_netty-rest,org.rakam.server.http,JsonParametrizedRequestHandler,11,0,3,2,115,9,0,1,0.0,0,4,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\JsonParametrizedRequestHandler.java,21
+buremba_netty-rest,org.rakam.server.http,ModelConverters,4,0,9,8,64,16,0,0,0.0,2,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\ModelConverters.java,21
+buremba_netty-rest,org.rakam.server.http,ParameterProcessor,7,0,2,1,279,26,0,0,0.0,1,1,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\ParameterProcessor.java,41
+buremba_netty-rest,org.rakam.server.http,ParameterProcessor.ParamWrapper,0,0,0,0,16,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\ParameterProcessor.java,163
+buremba_netty-rest,org.rakam.server.http,ParameterProcessor.AnnotationsHelper,4,0,0,0,66,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\ParameterProcessor.java,191
+buremba_netty-rest,org.rakam.server.http,ParameterProcessor.ApiParamWrapper,1,0,0,0,42,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\ParameterProcessor.java,266
+buremba_netty-rest,org.rakam.server.http,ParameterProcessor.ApiImplicitParamWrapper,1,0,0,0,42,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\ParameterProcessor.java,334
+buremba_netty-rest,org.rakam.server.http,PostProcessorEntry,1,0,2,2,9,2,0,0,0.0,0,1,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\PostProcessorEntry.java,6
+buremba_netty-rest,org.rakam.server.http,PreprocessorEntry,2,0,3,3,14,3,0,0,0.0,0,1,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\PreprocessorEntry.java,6
+buremba_netty-rest,org.rakam.server.http,RakamHttpRequest,15,0,35,29,241,51,0,0,0.08571428571428572,11,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\RakamHttpRequest.java,28
+buremba_netty-rest,org.rakam.server.http,RakamHttpRequest.StreamResponse,2,0,0,0,32,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\RakamHttpRequest.java,288
+buremba_netty-rest,org.rakam.server.http,RakamHttpRequest.InvalidInputStream,0,0,0,0,5,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\RakamHttpRequest.java,329
+buremba_netty-rest,org.rakam.server.http,RakamWebSocketFrame,3,0,3,3,15,3,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\RakamWebSocketFrame.java,7
+buremba_netty-rest,org.rakam.server.http,RequestPreprocessor,0,0,1,0,3,1,0,0,-1.0,2,1,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\RequestPreprocessor.java,3
+buremba_netty-rest,org.rakam.server.http,Response,3,0,9,8,61,17,0,0,0.3333333333333333,2,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\Response.java,10
+buremba_netty-rest,org.rakam.server.http,ResponsePostProcessor,0,0,1,0,3,1,0,0,-1.0,2,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\ResponsePostProcessor.java,5
+buremba_netty-rest,org.rakam.server.http,RouteMatcher,8,0,6,5,122,18,0,0,0.0,2,3,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\RouteMatcher.java,11
+buremba_netty-rest,org.rakam.server.http,RouteMatcher.PatternBinding,2,0,0,0,29,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\RouteMatcher.java,107
+buremba_netty-rest,org.rakam.server.http,RouteMatcher.MicroRouteMatcher,2,0,0,0,12,0,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\RouteMatcher.java,149
+buremba_netty-rest,org.rakam.server.http,SHttpServer,3,2,3,3,31,3,0,1,0.0,0,1,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\SHttpServer.java,7
+buremba_netty-rest,org.rakam.server.http,SHttpServer.Holder,2,2,0,0,16,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\SHttpServer.java,35
+buremba_netty-rest,org.rakam.server.http,SHttpServerMBean,0,0,2,0,4,2,1,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\SHttpServerMBean.java,5
+buremba_netty-rest,org.rakam.server.http,SwaggerReader,5,0,24,10,966,215,0,0,0.08333333333333333,0,4,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\SwaggerReader.java,82
+buremba_netty-rest,org.rakam.server.http,WebSocketService,2,0,7,6,61,11,0,1,0.2857142857142857,1,1,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\WebSocketService.java,21
+buremba_netty-rest,org.rakam.server.http,WebSocketService.WebSocketRequest,1,0,0,0,18,0,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\WebSocketService.java,76
+buremba_netty-rest,org.rakam.server.http.util,Lambda,4,0,5,5,54,5,0,0,0.0,2,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\java\org\rakam\server\http\util\Lambda.java,19
+buremba_netty-rest,(default package),HttpServerTest,2,1,3,3,59,3,0,0,1.0,0,1,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\test\HttpServerTest.java,16
+buremba_netty-rest,(default package),HttpServerTest.ParameterHttpService,0,0,0,0,5,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\test\HttpServerTest.java,49
+buremba_netty-rest,(default package),HttpServerTest.SimpleWebhookService,1,0,0,0,13,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\test\HttpServerTest.java,59
+buremba_netty-rest,(default package),HttpServerTest.SimpleHttpService,1,1,0,0,27,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\test\HttpServerTest.java,79
+buremba_netty-rest,(default package),HttpServerTest.DemoBean,1,1,0,0,6,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\test\HttpServerTest.java,121
+buremba_netty-rest,(default package),MethodHandleTest,0,0,1,1,19,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\test\MethodHandleTest.java,7
+buremba_netty-rest,(default package),MethodHandleTest.Foo,0,0,0,0,2,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\buremba_netty-rest\src\main\test\MethodHandleTest.java,28

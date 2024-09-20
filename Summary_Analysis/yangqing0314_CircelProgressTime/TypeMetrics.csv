@@ -1,0 +1,12 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+yangqing0314_CircelProgressTime,com.yq.circlepress,BuildConfig,1,1,0,0,3,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\yangqing0314_CircelProgressTime\时间倒计时控件\gen\com\yq\circlepress\BuildConfig.java,4
+yangqing0314_CircelProgressTime,com.yq.circlepress,R,29,29,0,0,123,0,0,0,-1.0,2,0,E:\Repositories\Cloned_Reposit\yangqing0314_CircelProgressTime\时间倒计时控件\gen\com\yq\circlepress\R.java,10
+yangqing0314_CircelProgressTime,com.yq.circlepress,R.attr,9,9,0,0,38,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\yangqing0314_CircelProgressTime\时间倒计时控件\gen\com\yq\circlepress\R.java,11
+yangqing0314_CircelProgressTime,com.yq.circlepress,R.dimen,2,2,0,0,7,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\yangqing0314_CircelProgressTime\时间倒计时控件\gen\com\yq\circlepress\R.java,97
+yangqing0314_CircelProgressTime,com.yq.circlepress,R.drawable,1,1,0,0,3,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\yangqing0314_CircelProgressTime\时间倒计时控件\gen\com\yq\circlepress\R.java,108
+yangqing0314_CircelProgressTime,com.yq.circlepress,R.id,3,3,0,0,5,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\yangqing0314_CircelProgressTime\时间倒计时控件\gen\com\yq\circlepress\R.java,111
+yangqing0314_CircelProgressTime,com.yq.circlepress,R.layout,1,1,0,0,3,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\yangqing0314_CircelProgressTime\时间倒计时控件\gen\com\yq\circlepress\R.java,116
+yangqing0314_CircelProgressTime,com.yq.circlepress,R.string,3,3,0,0,5,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\yangqing0314_CircelProgressTime\时间倒计时控件\gen\com\yq\circlepress\R.java,119
+yangqing0314_CircelProgressTime,com.yq.circlepress,R.styleable,10,10,0,0,60,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\yangqing0314_CircelProgressTime\时间倒计时控件\gen\com\yq\circlepress\R.java,124
+yangqing0314_CircelProgressTime,com.yq.circlepress,MainActivity,1,0,1,0,10,1,0,0,0.0,0,2,E:\Repositories\Cloned_Reposit\yangqing0314_CircelProgressTime\时间倒计时控件\src\com\yq\circlepress\MainActivity.java,6
+yangqing0314_CircelProgressTime,com.yq.circlepress,RoundProgressBar,20,3,23,20,248,39,0,0,0.13043478260869565,1,1,E:\Repositories\Cloned_Reposit\yangqing0314_CircelProgressTime\时间倒计时控件\src\com\yq\circlepress\RoundProgressBar.java,16

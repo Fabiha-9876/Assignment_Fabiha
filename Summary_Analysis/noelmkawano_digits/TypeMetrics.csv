@@ -1,0 +1,10 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+noelmkawano_digits,controllers,Application,0,0,3,3,40,4,0,0,-1.0,0,3,E:\Repositories\Cloned_Reposit\noelmkawano_digits\app\controllers\Application.java,14
+noelmkawano_digits,(default package),Global,0,0,1,1,12,1,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\noelmkawano_digits\app\Global.java,6
+noelmkawano_digits,models,Contact,6,0,7,7,70,7,0,0,0.0,2,0,E:\Repositories\Cloned_Reposit\noelmkawano_digits\app\models\Contact.java,3
+noelmkawano_digits,models,ContactDB,2,0,3,3,35,4,0,0,0.0,2,2,E:\Repositories\Cloned_Reposit\noelmkawano_digits\app\models\ContactDB.java,10
+noelmkawano_digits,views.formdata,ContactFormData,6,6,4,4,90,11,0,0,0.5,2,2,E:\Repositories\Cloned_Reposit\noelmkawano_digits\app\views\formdata\ContactFormData.java,9
+noelmkawano_digits,views.formdata,TelephoneTypes,1,0,3,3,37,5,0,0,0.0,2,0,E:\Repositories\Cloned_Reposit\noelmkawano_digits\app\views\formdata\TelephoneTypes.java,6
+noelmkawano_digits,tests,IntegrationTest,1,0,4,4,46,4,0,0,0.0,0,2,E:\Repositories\Cloned_Reposit\noelmkawano_digits\test\tests\IntegrationTest.java,15
+noelmkawano_digits,tests.pages,IndexPage,1,0,4,4,37,4,0,0,0.75,1,0,E:\Repositories\Cloned_Reposit\noelmkawano_digits\test\tests\pages\IndexPage.java,8
+noelmkawano_digits,tests.pages,NewContactPage,1,0,4,4,38,4,0,0,0.75,1,0,E:\Repositories\Cloned_Reposit\noelmkawano_digits\test\tests\pages\NewContactPage.java,9

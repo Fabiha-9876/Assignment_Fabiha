@@ -1,0 +1,206 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+prachiyshah_CoreNettyProject,eye,Comm,valueOf,Complex Method,Cyclomatic complexity of the method is 10,99
+prachiyshah_CoreNettyProject,eye,Comm,valueOf,Magic Number,The method contains a magic number: 2,99
+prachiyshah_CoreNettyProject,eye,Comm,valueOf,Magic Number,The method contains a magic number: 100,99
+prachiyshah_CoreNettyProject,eye,Comm,valueOf,Magic Number,The method contains a magic number: 101,99
+prachiyshah_CoreNettyProject,eye,Comm,valueOf,Magic Number,The method contains a magic number: 102,99
+prachiyshah_CoreNettyProject,eye,Comm,valueOf,Magic Number,The method contains a magic number: 103,99
+prachiyshah_CoreNettyProject,eye,Comm,valueOf,Magic Number,The method contains a magic number: 104,99
+prachiyshah_CoreNettyProject,eye,Comm,valueOf,Magic Number,The method contains a magic number: 105,99
+prachiyshah_CoreNettyProject,eye,Comm,valueOf,Magic Number,The method contains a magic number: 199,99
+prachiyshah_CoreNettyProject,eye,Comm,valueOf,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@23857b9a,99
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_NameValueSet_descriptor is 39.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_NameValueSet_fieldAccessorTable is 47.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_NameSpace_descriptor is 36.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_NameSpace_fieldAccessorTable is 44.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_JobDesc_descriptor is 34.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_JobDesc_fieldAccessorTable is 42.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Ping_descriptor is 31.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Ping_fieldAccessorTable is 39.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_NameSpaceOperation_descriptor is 45.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_NameSpaceOperation_fieldAccessorTable is 53.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_NameSpaceStatus_descriptor is 42.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_NameSpaceStatus_fieldAccessorTable is 50.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_JobOperation_descriptor is 39.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_JobOperation_fieldAccessorTable is 47.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_JobProposal_descriptor is 38.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_JobProposal_fieldAccessorTable is 46.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_JobBid_descriptor is 33.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_JobBid_fieldAccessorTable is 41.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_JobStatus_descriptor is 36.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_JobStatus_fieldAccessorTable is 44.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_RoutingPath_descriptor is 38.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_RoutingPath_fieldAccessorTable is 46.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Header_descriptor is 33.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Header_fieldAccessorTable is 41.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Payload_descriptor is 34.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Payload_fieldAccessorTable is 42.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Request_descriptor is 34.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Request_fieldAccessorTable is 42.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Heartbeat_descriptor is 36.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Heartbeat_fieldAccessorTable is 44.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Network_descriptor is 34.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Network_fieldAccessorTable is 42.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_LeaderElection_descriptor is 41.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_LeaderElection_fieldAccessorTable is 49.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Management_descriptor is 37.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Identifier,The length of the field internal_static_Management_fieldAccessorTable is 45.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_NameValueSet_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_NameValueSet_descriptor`new java.lang.String[]{"NodeType"`"Name"`"Value"`"Node"`"FileByte"});" is 217.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_NameSpace_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_NameSpace_descriptor`new java.lang.String[]{"NsId"`"Name"`"Desc"`"Created"`"LastModified"`"Owner"`"Properties"});" is 234.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_JobDesc_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_JobDesc_descriptor`new java.lang.String[]{"NameSpace"`"OwnerId"`"JobId"`"Status"`"Options"});" is 212.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_Ping_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_Ping_descriptor`new java.lang.String[]{"Number"`"Tag"});" is 172.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_NameSpaceOperation_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_NameSpaceOperation_descriptor`new java.lang.String[]{"Action"`"NsId"`"Data"`"Options"});" is 218.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_NameSpaceStatus_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_NameSpaceStatus_descriptor`new java.lang.String[]{"Status"`"Data"});" is 195.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_JobOperation_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_JobOperation_descriptor`new java.lang.String[]{"Action"`"JobId"`"Data"});" is 197.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_JobProposal_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_JobProposal_descriptor`new java.lang.String[]{"NameSpace"`"OwnerId"`"JobId"`"Weight"`"Options"});" is 220.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_JobBid_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_JobBid_descriptor`new java.lang.String[]{"NameSpace"`"OwnerId"`"JobId"`"Bid"});" is 197.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_JobStatus_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_JobStatus_descriptor`new java.lang.String[]{"JobId"`"Status"`"JobState"`"Data"});" is 202.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_RoutingPath_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_RoutingPath_descriptor`new java.lang.String[]{"Node"`"Time"});" is 185.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_Header_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_Header_descriptor`new java.lang.String[]{"RoutingId"`"Originator"`"Tag"`"Time"`"ReplyCode"`"ReplyMsg"`"Path"`"ToNode"`"Options"});" is 248.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_Payload_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_Payload_descriptor`new java.lang.String[]{"Ping"`"SpaceOp"`"JobOp"`"JobStatus"`"SpaceStatus"});" is 214.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_Request_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_Request_descriptor`new java.lang.String[]{"Header"`"Body"});" is 179.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_Heartbeat_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_Heartbeat_descriptor`new java.lang.String[]{"NodeId"`"TimeRef"});" is 186.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_Network_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_Network_descriptor`new java.lang.String[]{"NodeId"`"Action"});" is 181.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_LeaderElection_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_LeaderElection_descriptor`new java.lang.String[]{"NodeId"`"BallotId"`"Desc"`"Vote"`"Expires"});" is 221.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Long Statement,The length of the statement "internal_static_Management_fieldAccessorTable=new com.google.protobuf.GeneratedMessage.FieldAccessorTable(internal_static_Management_descriptor`new java.lang.String[]{"Graph"`"Beat"`"Election"`"JobPropose"`"JobBid"});" is 217.,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 2,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 3,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 4,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 5,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 6,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 7,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 8,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 9,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 10,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 11,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 12,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 13,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 14,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 15,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 16,20099
+prachiyshah_CoreNettyProject,eye,Comm,assignDescriptors,Magic Number,The method contains a magic number: 17,20099
+prachiyshah_CoreNettyProject,poke.broadcast,BroadcastLeader,run,Long Statement,The length of the statement "channel.writeAndFlush(new DatagramPacket(Unpooled.copiedBuffer("public port to send job requests :" + publicPort`CharsetUtil.UTF_8)`new InetSocketAddress("255.255.255.255"`broadcastPort))).sync();" is 196.,32
+prachiyshah_CoreNettyProject,poke.broadcast,BroadcastLeader,run,Magic Number,The method contains a magic number: 5000,32
+prachiyshah_CoreNettyProject,poke.client,ClientPrintListener,onMessage,Long Statement,The length of the statement "if (msg.getHeader().getRoutingId().getNumber() == Header.Routing.PING_VALUE) ClientUtil.printPing(msg.getBody().getPing());" is 123.,45
+prachiyshah_CoreNettyProject,poke.client.comm,CommConnection,init,Magic Number,The method contains a magic number: 10000,108
+prachiyshah_CoreNettyProject,poke.client.comm,CommConnection,init,Magic Number,The method contains a magic number: 5000l,108
+prachiyshah_CoreNettyProject,poke.client.comm,CommInitializer,initChannel,Magic Number,The method contains a magic number: 67108864,24
+prachiyshah_CoreNettyProject,poke.client.comm,CommInitializer,initChannel,Magic Number,The method contains a magic number: 4,24
+prachiyshah_CoreNettyProject,poke.client.comm,CommInitializer,initChannel,Magic Number,The method contains a magic number: 4,24
+prachiyshah_CoreNettyProject,poke.client.comm,CommInitializer,initChannel,Magic Number,The method contains a magic number: 4,24
+prachiyshah_CoreNettyProject,poke.client.util,ClientUtil,printHeader,Long Statement,The length of the statement "if (h.getReplyCode().getNumber() != eye.Comm.PokeStatus.SUCCESS_VALUE) System.out.println(" - Re Msg : " + h.getReplyMsg());" is 124.,42
+prachiyshah_CoreNettyProject,poke.debug,DebugFrameDecoder,DebugFrameDecoder,Long Parameter List,The method has 5 parameters. ,23
+prachiyshah_CoreNettyProject,poke.demo,Jab,run,Magic Number,The method contains a magic number: 5570,36
+prachiyshah_CoreNettyProject,poke.demo,Jab,run,Magic Number,The method contains a magic number: 3,36
+prachiyshah_CoreNettyProject,poke.demo,Jab,main,Magic Number,The method contains a magic number: 5000,47
+prachiyshah_CoreNettyProject,poke.demo,Monitor,main,Magic Number,The method contains a magic number: 5670,34
+prachiyshah_CoreNettyProject,poke.demo,Monitor,main,Magic Number,The method contains a magic number: 2,34
+prachiyshah_CoreNettyProject,poke.demo,Route,run,Magic Number,The method contains a magic number: 5570,36
+prachiyshah_CoreNettyProject,poke.demo,Route,run,Magic Number,The method contains a magic number: 3,36
+prachiyshah_CoreNettyProject,poke.demo,Route,main,Magic Number,The method contains a magic number: 5000,47
+prachiyshah_CoreNettyProject,poke.monitor,HeartMonitor,connect,Complex Conditional,The conditional expression channel != null && channel.isDone() && channel.isSuccess() is complex.,125
+prachiyshah_CoreNettyProject,poke.monitor,HeartMonitor,connect,Complex Method,Cyclomatic complexity of the method is 9,125
+prachiyshah_CoreNettyProject,poke.monitor,HeartMonitor,connect,Magic Number,The method contains a magic number: 10000,125
+prachiyshah_CoreNettyProject,poke.monitor,HeartMonitor,connect,Magic Number,The method contains a magic number: 5000l,125
+prachiyshah_CoreNettyProject,poke.monitor,HeartMonitor,startHeartbeat,Empty catch clause,The method has an empty catch block.,219
+prachiyshah_CoreNettyProject,poke.monitor,HeartMonitor,waitForever,Empty catch clause,The method has an empty catch block.,256
+prachiyshah_CoreNettyProject,poke.monitor,HeartMonitor,waitForever,Magic Number,The method contains a magic number: 2000,256
+prachiyshah_CoreNettyProject,poke.monitor,MonitorInitializer,initChannel,Magic Number,The method contains a magic number: 67108864,23
+prachiyshah_CoreNettyProject,poke.monitor,MonitorInitializer,initChannel,Magic Number,The method contains a magic number: 4,23
+prachiyshah_CoreNettyProject,poke.monitor,MonitorInitializer,initChannel,Magic Number,The method contains a magic number: 4,23
+prachiyshah_CoreNettyProject,poke.monitor,MonitorInitializer,initChannel,Magic Number,The method contains a magic number: 4,23
+prachiyshah_CoreNettyProject,poke.resources,JobResource,connectToManagement,Complex Conditional,The conditional expression channelFuture != null && channelFuture.isDone() && channelFuture.isSuccess() is complex.,95
+prachiyshah_CoreNettyProject,poke.resources,JobResource,connectToManagement,Magic Number,The method contains a magic number: 10000,95
+prachiyshah_CoreNettyProject,poke.resources,JobResource,connectToManagement,Magic Number,The method contains a magic number: 5000l,95
+prachiyshah_CoreNettyProject,poke.resources,JobResource,connectToPublic,Complex Conditional,The conditional expression channelFuture != null && channelFuture.isDone() && channelFuture.isSuccess() is complex.,125
+prachiyshah_CoreNettyProject,poke.resources,JobResource,connectToPublic,Magic Number,The method contains a magic number: 10000,125
+prachiyshah_CoreNettyProject,poke.resources,JobResource,connectToPublic,Magic Number,The method contains a magic number: 5000l,125
+prachiyshah_CoreNettyProject,poke.resources,JobResource,process,Complex Method,Cyclomatic complexity of the method is 58,155
+prachiyshah_CoreNettyProject,poke.resources,JobResource,process,Long Method,The method has 384 lines of code.,155
+prachiyshah_CoreNettyProject,poke.resources,JobResource,process,Long Statement,The length of the statement "rb.setHeader(ResourceUtil.buildHeader(request.getHeader().getRoutingId()`PokeStatus.SUCCESS`"sign up successful"`request.getHeader().getOriginator()`request.getHeader().getTag()`leaderId));" is 189.,155
+prachiyshah_CoreNettyProject,poke.resources,JobResource,process,Long Statement,The length of the statement "rb.setHeader(ResourceUtil.buildHeader(request.getHeader().getRoutingId()`PokeStatus.SUCCESS`message`request.getHeader().getOriginator()`request.getHeader().getTag()`leaderId));" is 176.,155
+prachiyshah_CoreNettyProject,poke.resources,JobResource,process,Long Statement,The length of the statement "rb.setHeader(ResourceUtil.buildHeader(request.getHeader().getRoutingId()`PokeStatus.SUCCESS`message`request.getHeader().getOriginator()`request.getHeader().getTag()`leaderId));" is 176.,155
+prachiyshah_CoreNettyProject,poke.resources,JobResource,process,Long Statement,The length of the statement "rb.setHeader(ResourceUtil.buildHeader(request.getHeader().getRoutingId()`PokeStatus.SUCCESS`"listing successful"`request.getHeader().getOriginator()`request.getHeader().getTag()`leaderId));" is 189.,155
+prachiyshah_CoreNettyProject,poke.resources,JobResource,process,Long Statement,The length of the statement "rb.setHeader(ResourceUtil.buildHeader(request.getHeader().getRoutingId()`PokeStatus.SUCCESS`"competition request processed"`request.getHeader().getOriginator()`request.getHeader().getTag()`leaderId));" is 200.,155
+prachiyshah_CoreNettyProject,poke.resources,JobResource,process,Long Statement,The length of the statement "rb.setHeader(ResourceUtil.buildHeader(request.getHeader().getRoutingId()`PokeStatus.SUCCESS`"question added"`request.getHeader().getOriginator()`request.getHeader().getTag()`leaderId));" is 185.,155
+prachiyshah_CoreNettyProject,poke.resources,JobResource,process,Long Statement,The length of the statement "rb.setHeader(ResourceUtil.buildHeader(request.getHeader().getRoutingId()`PokeStatus.SUCCESS`"Questions Retrieved"`request.getHeader().getOriginator()`request.getHeader().getTag()`leaderId));" is 190.,155
+prachiyshah_CoreNettyProject,poke.resources,JobResource,process,Long Statement,The length of the statement "rb.setHeader(ResourceUtil.buildHeader(request.getHeader().getRoutingId()`PokeStatus.SUCCESS`"Answer added"`request.getHeader().getOriginator()`request.getHeader().getTag()`leaderId));" is 183.,155
+prachiyshah_CoreNettyProject,poke.resources,JobResource,process,Long Statement,The length of the statement "rb.setHeader(ResourceUtil.buildHeader(request.getHeader().getRoutingId()`PokeStatus.SUCCESS`"Answers Retrieved"`request.getHeader().getOriginator()`request.getHeader().getTag()`leaderId));" is 188.,155
+prachiyshah_CoreNettyProject,poke.resources,JobResource,process,Magic Number,The method contains a magic number: 5,155
+prachiyshah_CoreNettyProject,poke.resources,JobResource,process,Magic Number,The method contains a magic number: 666,155
+prachiyshah_CoreNettyProject,poke.server.conf,ServerConfTest,testBasicConf,Magic Number,The method contains a magic number: 5571,29
+prachiyshah_CoreNettyProject,poke.server.conf,ServerConfTest,testBasicConf,Magic Number,The method contains a magic number: 5671,29
+prachiyshah_CoreNettyProject,poke.server.conf,ServerConfTest,testBasicConf,Magic Number,The method contains a magic number: 5572,29
+prachiyshah_CoreNettyProject,poke.server.conf,ServerConfTest,testBasicConf,Magic Number,The method contains a magic number: 5672,29
+prachiyshah_CoreNettyProject,poke.server.management,InboundMgmtWorker,run,Complex Method,Cyclomatic complexity of the method is 10,67
+prachiyshah_CoreNettyProject,poke.server.management,ManagementInitializer,initChannel,Magic Number,The method contains a magic number: 67108864,20
+prachiyshah_CoreNettyProject,poke.server.management,ManagementInitializer,initChannel,Magic Number,The method contains a magic number: 4,20
+prachiyshah_CoreNettyProject,poke.server.management,ManagementInitializer,initChannel,Magic Number,The method contains a magic number: 4,20
+prachiyshah_CoreNettyProject,poke.server.management,ManagementInitializer,initChannel,Magic Number,The method contains a magic number: 4,20
+prachiyshah_CoreNettyProject,poke.server.management,OutboundMgmtWorker,run,Complex Conditional,The conditional expression msg.channel != null && msg.channel.isOpen() && msg.channel.isWritable() is complex.,39
+prachiyshah_CoreNettyProject,poke.server.management,OutboundMgmtWorker,run,Complex Method,Cyclomatic complexity of the method is 8,39
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,connect,Complex Conditional,The conditional expression channelFuture != null && channelFuture.isDone() && channelFuture.isSuccess() is complex.,179
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,connect,Magic Number,The method contains a magic number: 10000,179
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,connect,Magic Number,The method contains a magic number: 5000l,179
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,send,Complex Method,Cyclomatic complexity of the method is 12,227
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,send,Magic Number,The method contains a magic number: 2,227
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,send,Magic Number,The method contains a magic number: 3,227
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,send,Magic Number,The method contains a magic number: 2,227
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,send,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@58ef6422,227
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,initiateElection,Magic Number,The method contains a magic number: 3,300
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,initiateElection,Magic Number,The method contains a magic number: 3,300
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,processRequest,Complex Method,Cyclomatic complexity of the method is 13,345
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,processRequest,Magic Number,The method contains a magic number: 2,345
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,processRequest,Magic Number,The method contains a magic number: 2,345
+prachiyshah_CoreNettyProject,poke.server.management.managers,ElectionManager,processRequest,Magic Number,The method contains a magic number: 2,345
+prachiyshah_CoreNettyProject,poke.server.management.managers,HeartbeatConnector,run,Empty catch clause,The method has an empty catch block.,75
+prachiyshah_CoreNettyProject,poke.server.management.managers,HeartbeatConnector,validateConnection,Complex Method,Cyclomatic complexity of the method is 15,106
+prachiyshah_CoreNettyProject,poke.server.management.managers,HeartbeatManager,addOutgoingChannel,Long Parameter List,The method has 5 parameters. ,113
+prachiyshah_CoreNettyProject,poke.server.management.managers,HeartbeatManager,addAdjacentNode,Complex Conditional,The conditional expression node == null || node.getHost() == null || node.getMgmtport() == null is complex.,135
+prachiyshah_CoreNettyProject,poke.server.management.managers,HeartbeatManager,run,Complex Method,Cyclomatic complexity of the method is 8,198
+prachiyshah_CoreNettyProject,poke.server.management.managers,JobManager,processRequest,Magic Number,The method contains a magic number: 0.5,103
+prachiyshah_CoreNettyProject,poke.server.management.managers,JobManager,connectToManagement,Complex Conditional,The conditional expression channelFuture != null && channelFuture.isDone() && channelFuture.isSuccess() is complex.,155
+prachiyshah_CoreNettyProject,poke.server.management.managers,JobManager,connectToManagement,Magic Number,The method contains a magic number: 10000,155
+prachiyshah_CoreNettyProject,poke.server.management.managers,JobManager,connectToManagement,Magic Number,The method contains a magic number: 5000l,155
+prachiyshah_CoreNettyProject,poke.server.management.managers,JobManager,processRequest,Complex Method,Cyclomatic complexity of the method is 8,185
+prachiyshah_CoreNettyProject,poke.server.management.managers,JobManager,processRequest,Long Statement,The length of the statement "rb.setHeader(ResourceUtil.buildHeader(jobOperation.getHeader().getRoutingId()`PokeStatus.SUCCESS`"competition request processed"`jobOperation.getHeader().getOriginator()`jobOperation.getHeader().getTag()`leaderId));" is 215.,185
+prachiyshah_CoreNettyProject,poke.server.management.managers,JobManager,processRequest,Magic Number,The method contains a magic number: 5573,185
+prachiyshah_CoreNettyProject,poke.server.management.managers,JobManager,connectToPublic,Complex Conditional,The conditional expression channelFuture != null && channelFuture.isDone() && channelFuture.isSuccess() is complex.,314
+prachiyshah_CoreNettyProject,poke.server.management.managers,JobManager,connectToPublic,Magic Number,The method contains a magic number: 10000,314
+prachiyshah_CoreNettyProject,poke.server.management.managers,JobManager,connectToPublic,Magic Number,The method contains a magic number: 5000l,314
+prachiyshah_CoreNettyProject,poke.server.management.managers,NetworkManager,processRequest,Complex Conditional,The conditional expression req == null || channel == null || sa == null is complex.,64
+prachiyshah_CoreNettyProject,poke.server.management.managers,NetworkManager,processRequest,Complex Method,Cyclomatic complexity of the method is 9,64
+prachiyshah_CoreNettyProject,poke.server.queue,DiscreteQueueTest,setUp,Magic Number,The method contains a magic number: 1.1f,14
+prachiyshah_CoreNettyProject,poke.server.queue,DiscreteQueueTest,setUp,Magic Number,The method contains a magic number: 3.0f,14
+prachiyshah_CoreNettyProject,poke.server.queue,DiscreteQueueTest,setUp,Magic Number,The method contains a magic number: 2.5f,14
+prachiyshah_CoreNettyProject,poke.server.queue,DiscreteQueueTest,setUp,Magic Number,The method contains a magic number: 2.1f,14
+prachiyshah_CoreNettyProject,poke.server.queue,DiscreteQueueTest,testQueueTimeConcept,Magic Number,The method contains a magic number: 2.1f,29
+prachiyshah_CoreNettyProject,poke.server.resources,ResourceUtil,buildHeader,Long Parameter List,The method has 5 parameters. ,73
+prachiyshah_CoreNettyProject,poke.server.resources,ResourceUtil,buildHeader,Long Parameter List,The method has 6 parameters. ,88
+prachiyshah_CoreNettyProject,poke.server,Server,shutdown,Magic Number,The method contains a magic number: 5,78
+prachiyshah_CoreNettyProject,poke.server,Server,init,Empty catch clause,The method has an empty catch block.,104
+prachiyshah_CoreNettyProject,poke.server,Server,main,Magic Number,The method contains a magic number: 2,339
+prachiyshah_CoreNettyProject,poke.server,ServerInitializer,initChannel,Magic Number,The method contains a magic number: 67108864,20
+prachiyshah_CoreNettyProject,poke.server,ServerInitializer,initChannel,Magic Number,The method contains a magic number: 4,20
+prachiyshah_CoreNettyProject,poke.server,ServerInitializer,initChannel,Magic Number,The method contains a magic number: 4,20
+prachiyshah_CoreNettyProject,poke.server,ServerInitializer,initChannel,Magic Number,The method contains a magic number: 4,20
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,MongoStorage,Magic Number,The method contains a magic number: 27017,21
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,main,Long Statement,The length of the statement "addCourse("CMPE275"`"275"`"Distributed component design` scalability` messaging` and integration practices."`new ArrayList<Integer>()`"22nd Jan"`"05/20/2014");" is 159.,49
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,main,Long Statement,The length of the statement "addCourse("CMPE203"`"203"`"Development of software systems from the perspective of project management."`new ArrayList<Integer>()`"22nd Jan"`"05/20/2014");" is 154.,49
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,main,Magic Number,The method contains a magic number: 2,49
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,main,Magic Number,The method contains a magic number: 2,49
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,main,Magic Number,The method contains a magic number: 2,49
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,main,Magic Number,The method contains a magic number: 2,49
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,main,Magic Number,The method contains a magic number: 2,49
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,main,Magic Number,The method contains a magic number: 2,49
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,main,Magic Number,The method contains a magic number: 2,49
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,main,Magic Number,The method contains a magic number: 2,49
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,main,Magic Number,The method contains a magic number: 2,49
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,addCourse,Long Parameter List,The method has 6 parameters. ,156
+prachiyshah_CoreNettyProject,poke.server.storage,MongoStorage,counterInc,Magic Number,The method contains a magic number: 99,322
+prachiyshah_CoreNettyProject,poke.server.storage.jdbc,DatabaseStorage,init,Magic Number,The method contains a magic number: 5,52
+prachiyshah_CoreNettyProject,poke.server.storage.jdbc,DatabaseStorage,init,Magic Number,The method contains a magic number: 10,52
+prachiyshah_CoreNettyProject,poke.server.storage.jdbc,DatabaseStorage,getNameSpaceInfo,Empty catch clause,The method has an empty catch block.,89
+prachiyshah_CoreNettyProject,poke.server.storage.jdbc,DatabaseStorage,findNameSpaces,Empty catch clause,The method has an empty catch block.,119
+prachiyshah_CoreNettyProject,poke.server.storage.jdbc,DatabaseStorage,createNameSpace,Empty catch clause,The method has an empty catch block.,148
+prachiyshah_CoreNettyProject,poke.util,PrintNode,printNVS,Complex Method,Cyclomatic complexity of the method is 9,42

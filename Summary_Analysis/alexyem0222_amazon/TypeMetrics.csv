@@ -1,0 +1,27 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+alexyem0222_amazon,Try2,App,0,0,1,1,8,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\main\java\Try2\App.java,3
+alexyem0222_amazon,Try2,EmailPresentInSystem,1,0,3,3,25,3,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\Try2\EmailPresentInSystem.java,16
+alexyem0222_amazon,Try2,Packages,1,0,3,3,13,3,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\Try2\Packages.java,16
+alexyem0222_amazon,Try2,PersonalityAssertLinks,1,0,3,3,15,4,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\Try2\PersonalityAssertLinks.java,31
+alexyem0222_amazon,Try2,PersonalityPerks1,1,0,4,4,27,7,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\Try2\PersonalityPerks1.java,18
+alexyem0222_amazon,Try2,PersonalityPerksSuite,0,0,0,0,2,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\Try2\PersonalityPerksSuite.java,13
+alexyem0222_amazon,Try2,RegisteredUserLogin,2,0,3,3,20,3,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\Try2\RegisteredUserLogin.java,19
+alexyem0222_amazon,Try2,WrongPassword,2,0,3,3,19,3,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\Try2\WrongPassword.java,19
+alexyem0222_amazon,amazon,AmazonHomePage,3,0,3,3,19,3,0,0,0.0,2,1,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\amazon\AmazonHomePage.java,10
+alexyem0222_amazon,amazon,AmazonMobileTest,1,0,3,3,23,3,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\amazon\AmazonMobileTest.java,23
+alexyem0222_amazon,amazon,AmazonParallelSuite,0,0,0,0,2,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\amazon\AmazonParallelSuite.java,10
+alexyem0222_amazon,amazon,AmazonSearchResultsPage,2,0,2,2,11,2,0,0,1.0,3,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\amazon\AmazonSearchResultsPage.java,7
+alexyem0222_amazon,amazon,AmazonSearchTestParallel,4,0,5,5,36,5,0,0,0.4,0,2,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\amazon\AmazonSearchTestParallel.java,22
+alexyem0222_amazon,amazon,AmazonSuite,0,0,0,0,2,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\amazon\AmazonSuite.java,10
+alexyem0222_amazon,amazon,BetterAmazonSearchTest,1,0,4,4,31,4,0,0,0.0,0,2,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\amazon\BetterAmazonSearchTest.java,21
+alexyem0222_amazon,amazon,PersonalityMobileTry,1,0,3,3,24,3,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\amazon\PersonalityMobileTry.java,19
+alexyem0222_amazon,amazon,PersonalitySuite,0,0,0,0,2,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\amazon\PersonalitySuite.java,6
+alexyem0222_amazon,googletry,GoogleTry,1,1,3,3,14,3,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\googletry\GoogleTry.java,11
+alexyem0222_amazon,googletry,GoogleTrySuite,0,0,0,0,2,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\googletry\GoogleTrySuite.java,6
+alexyem0222_amazon,SuperPersonality,LoginBase,6,1,4,4,30,4,0,0,0.0,0,1,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\SuperPersonality\LoginBase.java,14
+alexyem0222_amazon,SuperPersonality,PersonalityPerks,2,0,4,4,23,4,0,0,0.5,1,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\SuperPersonality\PersonalityPerks.java,12
+alexyem0222_amazon,UnitTests,MyClass,0,0,1,1,6,1,0,0,-1.0,1,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\UnitTests\MyClass.java,3
+alexyem0222_amazon,UnitTests,UnitTest,0,0,1,1,6,1,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\UnitTests\UnitTest.java,7
+alexyem0222_amazon,Various,PerksLoginBase,6,1,10,10,46,10,0,0,0.3,1,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\Various\PerksLoginBase.java,12
+alexyem0222_amazon,Various,SampleSuite,0,0,0,0,2,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\Various\SampleSuite.java,6
+alexyem0222_amazon,Various,WhenAUserLogsIntoPerks,1,0,3,3,13,3,0,0,0.0,0,1,E:\Repositories\Cloned_Reposit\alexyem0222_amazon\src\test\java\Various\WhenAUserLogsIntoPerks.java,15

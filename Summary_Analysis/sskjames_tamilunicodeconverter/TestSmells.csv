@@ -1,0 +1,9 @@
+Project Name,Package Name,Type Name,Method Name,Test Smell,Cause of the Smell
+sskjames_tamilunicodeconverter,org.tamilunicodeconverter.converter,BaminiConverterTest,testGetScriptContent,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sskjames_tamilunicodeconverter,org.tamilunicodeconverter.converter,BaminiConverterTest,testConvertBaminiToUnicode,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sskjames_tamilunicodeconverter,org.tamilunicodeconverter.extractor,ContentExtractorTest,testExtract,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sskjames_tamilunicodeconverter,org.tamilunicodeconverter,TamilUnicodeConverterTest,testConvertFile,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sskjames_tamilunicodeconverter,org.tamilunicodeconverter,TamilUnicodeConverterTest,testConvertFile_createOutputFileNameFromContent,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sskjames_tamilunicodeconverter,org.tamilunicodeconverter,TamilUnicodeConverterTest,testConvert,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sskjames_tamilunicodeconverter,org.tamilunicodeconverter.map,BaminiUnicodeMapTest,testPrintAllEntries,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sskjames_tamilunicodeconverter,org.tamilunicodeconverter.map,BaminiUnicodeMapTest,testChars,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 4

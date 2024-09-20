@@ -1,0 +1,8 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+icol2006_appCSV,com.appcsv,CSVFile,CSVFile,2,1,0,14,0,,
+icol2006_appCSV,com.appcsv,CSVFile,CSVFile,3,1,1,18,0,,
+icol2006_appCSV,com.appcsv,CSVFile,read,23,2,0,22,0,,
+icol2006_appCSV,com.appcsv,MainActivity,onCreate,6,1,1,39,0,com.appcsv.MainActivity,com.appcsv.MainActivity
+icol2006_appCSV,com.appcsv,MainActivity,mostrar,36,5,0,49,0,com.appcsv.CSVFile,com.appcsv.CSVFile
+icol2006_appCSV,com.appcsv,MainActivity,onCreateOptionsMenu,4,1,1,106,0,,
+icol2006_appCSV,com.appcsv,MainActivity,onOptionsItemSelected,0,2,1,114,0,,

@@ -1,0 +1,408 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Complex Conditional,The conditional expression instructionToAdd instanceof LI || instructionToAdd instanceof ADDI || instructionToAdd instanceof SI is complex.,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Complex Method,Cyclomatic complexity of the method is 37,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Long Method,The method has 197 lines of code.,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 5,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 32768,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 16384,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 8192,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 4096,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 15,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 12,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 15,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 12,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 11,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 3,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,returnBinaryNumber,Complex Method,Cyclomatic complexity of the method is 8,372
+mathewreny_ARM230Compiler,edu.unl.cse,InitMIF,getPrintWriter,Complex Method,Cyclomatic complexity of the method is 11,20
+mathewreny_ARM230Compiler,edu.unl.cse,InitMIF,getPrintWriter,Magic Number,The method contains a magic number: 2,20
+mathewreny_ARM230Compiler,edu.unl.cse,InitMIF,getPrintWriter,Magic Number,The method contains a magic number: 2,20
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getScanner,Complex Method,Cyclomatic complexity of the method is 9,48
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,isInstruction,Long Statement,The length of the statement "String[] validInstructions={"add"`"and"`"or"`"xor"`"addi"`"lw"`"sw"`"jr"`"cmp"`"b"`"bal"`"j"`"jal"`"li"`"blt"`"beq"`"bne"`"sub"`"si"`"sll"};" is 140.,114
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Complex Method,Cyclomatic complexity of the method is 28,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Long Method,The method has 134 lines of code.,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 11,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 6,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 10,195
+mathewreny_ARM230Compiler,edu.unl.cse,InitTrans,getTranslation,Complex Method,Cyclomatic complexity of the method is 20,207
+mathewreny_ARM230Compiler,edu.unl.cse,ADDI,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,15
+mathewreny_ARM230Compiler,edu.unl.cse,ADDI,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,15
+mathewreny_ARM230Compiler,edu.unl.cse,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,15
+mathewreny_ARM230Compiler,edu.unl.cse,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,15
+mathewreny_ARM230Compiler,edu.unl.cse,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 2,15
+mathewreny_ARM230Compiler,edu.unl.cse,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 7,15
+mathewreny_ARM230Compiler,edu.unl.cse,B,toBinaryInstruction,Magic Number,The method contains a magic number: 16,16
+mathewreny_ARM230Compiler,edu.unl.cse,BAL,toBinaryInstruction,Magic Number,The method contains a magic number: 16,16
+mathewreny_ARM230Compiler,edu.unl.cse,BEQ,toBinaryInstruction,Magic Number,The method contains a magic number: 16,16
+mathewreny_ARM230Compiler,edu.unl.cse,BLT,toBinaryInstruction,Magic Number,The method contains a magic number: 16,16
+mathewreny_ARM230Compiler,edu.unl.cse,BNE,toBinaryInstruction,Magic Number,The method contains a magic number: 16,16
+mathewreny_ARM230Compiler,edu.unl.cse,CMP,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,16
+mathewreny_ARM230Compiler,edu.unl.cse,CMP,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,16
+mathewreny_ARM230Compiler,edu.unl.cse,CMP,toBinaryInstruction,Magic Number,The method contains a magic number: 4,16
+mathewreny_ARM230Compiler,edu.unl.cse,CMP,toBinaryInstruction,Magic Number,The method contains a magic number: 4,16
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Complex Method,Cyclomatic complexity of the method is 9,27
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Long Statement,The length of the statement "writer.println(" \t" + memorySpace + "\t\t\t : \t"+ returnBinaryNumber(constantsS230.get(i).getValue()`24)+ "; --Constant with value "+ constantsS230.get(i).getValue());" is 169.,27
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Long Statement,The length of the statement "System.out.println(instructionsS230.get(i).toBinaryInstruction() + ";\t" + instructionsS230.get(i).generateMIFComment());" is 121.,27
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Long Statement,The length of the statement "writer.println(" \t" + memorySpace + "\t\t\t : \t"+ instructionsS230.get(i).toBinaryInstruction()+ ";"+ instructionsS230.get(i).generateMIFComment());" is 150.,27
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 20,27
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 2,27
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 24,27
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,returnBinaryNumber,Complex Method,Cyclomatic complexity of the method is 8,203
+mathewreny_ARM230Compiler,edu.unl.cse,Init,isInstruction,Long Statement,The length of the statement "String[] validInstructions={"add"`"and"`"or"`"xor"`"addi"`"lw"`"sw"`"jr"`"cmp"`"b"`"bal"`"j"`"jal"`"li"`"blt"`"beq"`"bne"};" is 123.,56
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,isInstruction,Long Statement,The length of the statement "String[] validInstructions={"add"`"and"`"or"`"xor"`"addi"`"lw"`"sw"`"jr"`"cmp"`"b"`"bal"`"j"`"jal"`"li"`"blt"`"beq"`"bne"`"sub"};" is 129.,54
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Complex Method,Cyclomatic complexity of the method is 20,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Long Method,The method has 102 lines of code.,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Long Statement,The length of the statement "throw new RuntimeException("getInstruction(" + line + ") was not found!\n"+ "Instruction name is:("+ comps.get(0)+ ").");" is 121.,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,135
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,isInstruction,Long Statement,The length of the statement "String[] validInstructions={"add"`"and"`"or"`"xor"`"addi"`"lw"`"sw"`"jr"`"cmp"`"b"`"bal"`"j"`"jal"`"li"`"blt"`"beq"`"bne"`"sub"};" is 129.,55
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Complex Method,Cyclomatic complexity of the method is 19,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Long Statement,The length of the statement "throw new RuntimeException("getInstruction(" + line + ") was not found!\n"+ "Instruction name is:("+ comps.get(0)+ ").");" is 121.,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 3,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 3,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 3,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 3,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 3,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,edu.unl.cse,Instruction,registerToBinary,Magic Number,The method contains a magic number: 4,80
+mathewreny_ARM230Compiler,edu.unl.cse,Instruction,linker,Complex Conditional,The conditional expression this instanceof B || this instanceof BAL || this instanceof BEQ|| this instanceof BLT|| this instanceof BNE is complex.,87
+mathewreny_ARM230Compiler,edu.unl.cse,Instruction,linker,Long Statement,The length of the statement "if (this instanceof B || this instanceof BAL || this instanceof BEQ|| this instanceof BLT|| this instanceof BNE) for ( Location loc : locs) {" is 141.,87
+mathewreny_ARM230Compiler,edu.unl.cse,Instruction,linker,Magic Number,The method contains a magic number: 2,87
+mathewreny_ARM230Compiler,edu.unl.cse,Instruction,constantLinker,Magic Number,The method contains a magic number: 2,101
+mathewreny_ARM230Compiler,edu.unl.cse,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,152
+mathewreny_ARM230Compiler,edu.unl.cse,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 2,152
+mathewreny_ARM230Compiler,edu.unl.cse,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,152
+mathewreny_ARM230Compiler,edu.unl.cse,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,152
+mathewreny_ARM230Compiler,edu.unl.cse,J,toBinaryInstruction,Magic Number,The method contains a magic number: 20,17
+mathewreny_ARM230Compiler,edu.unl.cse,JAL,toBinaryInstruction,Magic Number,The method contains a magic number: 20,17
+mathewreny_ARM230Compiler,edu.unl.cse,JR,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,17
+mathewreny_ARM230Compiler,edu.unl.cse,JR,toBinaryInstruction,Magic Number,The method contains a magic number: 4,17
+mathewreny_ARM230Compiler,edu.unl.cse,LI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,17
+mathewreny_ARM230Compiler,edu.unl.cse,LI,toBinaryInstruction,Magic Number,The method contains a magic number: 16,17
+mathewreny_ARM230Compiler,edu.unl.cse,LW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,18
+mathewreny_ARM230Compiler,edu.unl.cse,LW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,18
+mathewreny_ARM230Compiler,edu.unl.cse,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,18
+mathewreny_ARM230Compiler,edu.unl.cse,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,18
+mathewreny_ARM230Compiler,edu.unl.cse,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 2,18
+mathewreny_ARM230Compiler,edu.unl.cse,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 7,18
+mathewreny_ARM230Compiler,edu.unl.cse,SW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,17
+mathewreny_ARM230Compiler,edu.unl.cse,SW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,17
+mathewreny_ARM230Compiler,edu.unl.cse,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,17
+mathewreny_ARM230Compiler,edu.unl.cse,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,17
+mathewreny_ARM230Compiler,edu.unl.cse,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 2,17
+mathewreny_ARM230Compiler,edu.unl.cse,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 7,17
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Complex Conditional,The conditional expression instructionToAdd instanceof LI || instructionToAdd instanceof ADDI || instructionToAdd instanceof SI is complex.,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Complex Method,Cyclomatic complexity of the method is 34,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Long Method,The method has 188 lines of code.,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Long Statement,The length of the statement "System.out.println("Mif output file: MemoryInitialization" + filename.substring(0`1).toUpperCase() + filename.substring(1`filename.indexOf("."))+ ".mif");" is 154.,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 5,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 32768,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 16384,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 8192,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 4096,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 15,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 12,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 15,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 12,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 11,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 3,32
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,returnBinaryNumber,Complex Method,Cyclomatic complexity of the method is 8,358
+mathewreny_ARM230Compiler,edu.unl.cse,InitMIF,getPrintWriter,Long Statement,The length of the statement "filename="MemoryInitialization" + argList.get(i + 1).substring(0`1).toUpperCase() + argList.get(i + 1).substring(1`argList.get(i + 1).indexOf("."))+ ".mif";" is 156.,20
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,isInstruction,Long Statement,The length of the statement "String[] validInstructions={"add"`"and"`"or"`"xor"`"addi"`"lw"`"sw"`"jr"`"cmp"`"b"`"bal"`"j"`"jal"`"li"`"blt"`"beq"`"bne"`"sub"`"si"`"sll"};" is 140.,98
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Complex Method,Cyclomatic complexity of the method is 28,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Long Method,The method has 134 lines of code.,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 11,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 6,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 10,179
+mathewreny_ARM230Compiler,edu.unl.cse,InitTrans,getTranslation,Complex Method,Cyclomatic complexity of the method is 36,205
+mathewreny_ARM230Compiler,edu.unl.cse,InitTrans,getTranslation,Long Method,The method has 149 lines of code.,205
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Complex Method,Cyclomatic complexity of the method is 11,29
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Long Statement,The length of the statement "writer.println(" \t" + memorySpace + "\t\t\t : \t"+ returnBinaryNumber(constantsS230.get(i).getValue()`24)+ "; --Constant with value "+ constantsS230.get(i).getValue());" is 169.,29
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Long Statement,The length of the statement "System.out.println(instructionsS230.get(i).toBinaryInstruction() + ";\t" + instructionsS230.get(i).generateMIFComment());" is 121.,29
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Long Statement,The length of the statement "writer.println(" \t" + memorySpace + "\t\t\t : \t"+ instructionsS230.get(i).toBinaryInstruction()+ ";"+ instructionsS230.get(i).generateMIFComment());" is 150.,29
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 32768,29
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 16384,29
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 8192,29
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 4096,29
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 20,29
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 2,29
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,main,Magic Number,The method contains a magic number: 24,29
+mathewreny_ARM230Compiler,edu.unl.cse,Compiler,returnBinaryNumber,Complex Method,Cyclomatic complexity of the method is 8,208
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,isInstruction,Long Statement,The length of the statement "String[] validInstructions={"add"`"and"`"or"`"xor"`"addi"`"lw"`"sw"`"jr"`"cmp"`"b"`"bal"`"j"`"jal"`"li"`"blt"`"beq"`"bne"`"sub"};" is 129.,97
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Complex Method,Cyclomatic complexity of the method is 20,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Long Method,The method has 102 lines of code.,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Long Statement,The length of the statement "throw new RuntimeException("getInstruction(" + line + ") was not found!\n"+ "Instruction name is:("+ comps.get(0)+ ").");" is 121.,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,178
+mathewreny_ARM230Compiler,edu.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,178
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 2,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 7,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,B,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,BAL,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,BEQ,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,BLT,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,BNE,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,CMP,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,CMP,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,CMP,toBinaryInstruction,Magic Number,The method contains a magic number: 4,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,CMP,toBinaryInstruction,Magic Number,The method contains a magic number: 4,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,registerToBinary,Magic Number,The method contains a magic number: 4,92
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,linker,Complex Conditional,The conditional expression this instanceof B || this instanceof BAL || this instanceof BEQ|| this instanceof BLT|| this instanceof BNE is complex.,99
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,linker,Long Statement,The length of the statement "if (this instanceof B || this instanceof BAL || this instanceof BEQ|| this instanceof BLT|| this instanceof BNE) for ( Location loc : locs) {" is 141.,99
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,linker,Magic Number,The method contains a magic number: 2,99
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Complex Method,Cyclomatic complexity of the method is 8,177
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,177
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 2,177
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,177
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,177
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,J,toBinaryInstruction,Magic Number,The method contains a magic number: 20,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,JAL,toBinaryInstruction,Magic Number,The method contains a magic number: 20,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,JR,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,JR,toBinaryInstruction,Magic Number,The method contains a magic number: 4,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LI,toBinaryInstruction,Magic Number,The method contains a magic number: 16,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 2,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 7,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SI,toBinaryInstruction,Magic Number,The method contains a magic number: 7,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 2,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 7,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 2,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 7,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,B,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,BAL,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,BEQ,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,BLT,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,BNE,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,CMP,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,CMP,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,CMP,toBinaryInstruction,Magic Number,The method contains a magic number: 4,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,CMP,toBinaryInstruction,Magic Number,The method contains a magic number: 4,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,registerToBinary,Magic Number,The method contains a magic number: 4,92
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,linker,Complex Conditional,The conditional expression this instanceof B || this instanceof BAL || this instanceof BEQ|| this instanceof BLT|| this instanceof BNE is complex.,99
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,linker,Long Statement,The length of the statement "if (this instanceof B || this instanceof BAL || this instanceof BEQ|| this instanceof BLT|| this instanceof BNE) for ( Location loc : locs) {" is 141.,99
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,linker,Magic Number,The method contains a magic number: 2,99
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Complex Method,Cyclomatic complexity of the method is 8,177
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,177
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 2,177
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,177
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,177
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,J,toBinaryInstruction,Magic Number,The method contains a magic number: 20,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,JAL,toBinaryInstruction,Magic Number,The method contains a magic number: 20,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,JR,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,JR,toBinaryInstruction,Magic Number,The method contains a magic number: 4,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LI,toBinaryInstruction,Magic Number,The method contains a magic number: 16,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 2,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 7,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SI,toBinaryInstruction,Magic Number,The method contains a magic number: 7,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 2,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 7,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 2,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,ADDI,toBinaryInstruction,Magic Number,The method contains a magic number: 7,17
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,B,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,BAL,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,BEQ,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,BLT,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,BNE,toBinaryInstruction,Magic Number,The method contains a magic number: 16,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,CMP,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,CMP,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,CMP,toBinaryInstruction,Magic Number,The method contains a magic number: 4,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,CMP,toBinaryInstruction,Magic Number,The method contains a magic number: 4,18
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,registerToBinary,Magic Number,The method contains a magic number: 4,84
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,linker,Complex Conditional,The conditional expression this instanceof B || this instanceof BAL || this instanceof BEQ|| this instanceof BLT|| this instanceof BNE is complex.,91
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,linker,Long Statement,The length of the statement "if (this instanceof B || this instanceof BAL || this instanceof BEQ|| this instanceof BLT|| this instanceof BNE) for ( Location loc : locs) {" is 141.,91
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,linker,Magic Number,The method contains a magic number: 2,91
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,constantLinker,Magic Number,The method contains a magic number: 2,105
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,156
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 2,156
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,156
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,156
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,J,toBinaryInstruction,Magic Number,The method contains a magic number: 20,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,JAL,toBinaryInstruction,Magic Number,The method contains a magic number: 20,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,JR,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,JR,toBinaryInstruction,Magic Number,The method contains a magic number: 4,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LI,toBinaryInstruction,Magic Number,The method contains a magic number: 16,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 2,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,LW,toBinaryInstruction,Magic Number,The method contains a magic number: 7,20
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 4,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 2,19
+mathewreny_ARM230Compiler,edu.unl.cse.instructions,SW,toBinaryInstruction,Magic Number,The method contains a magic number: 7,19
+mathewreny_ARM230Compiler,com.unl.cse,BEQ,toBinaryInstruction,Magic Number,The method contains a magic number: 16,16
+mathewreny_ARM230Compiler,com.unl.cse,BLT,toBinaryInstruction,Magic Number,The method contains a magic number: 16,16
+mathewreny_ARM230Compiler,com.unl.cse,BNE,toBinaryInstruction,Magic Number,The method contains a magic number: 16,16
+mathewreny_ARM230Compiler,com.unl.cse,CMP,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(0).substring(1))`4));" is 130.,16
+mathewreny_ARM230Compiler,com.unl.cse,CMP,toBinaryInstruction,Long Statement,The length of the statement "instructionString=instructionString.concat(Compiler.returnBinaryNumber(Integer.parseInt(super.components.get(1).substring(1))`4));" is 130.,16
+mathewreny_ARM230Compiler,com.unl.cse,CMP,toBinaryInstruction,Magic Number,The method contains a magic number: 4,16
+mathewreny_ARM230Compiler,com.unl.cse,CMP,toBinaryInstruction,Magic Number,The method contains a magic number: 4,16
+mathewreny_ARM230Compiler,com.unl.cse,Compiler,returnBinaryNumber,Complex Method,Cyclomatic complexity of the method is 8,161
+mathewreny_ARM230Compiler,com.unl.cse,Init,isInstruction,Long Statement,The length of the statement "String[] validInstructions={"add"`"and"`"or"`"xor"`"addi"`"lw"`"sw"`"jr"`"cmp"`"b"`"bal"`"j"`"jal"`"li"`"blt"`"beq"`"bne"};" is 123.,56
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,isInstruction,Long Statement,The length of the statement "String[] validInstructions={"add"`"and"`"or"`"xor"`"addi"`"lw"`"sw"`"jr"`"cmp"`"b"`"bal"`"j"`"jal"`"li"`"blt"`"beq"`"bne"`"sub"};" is 129.,54
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Complex Method,Cyclomatic complexity of the method is 20,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Long Method,The method has 102 lines of code.,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Long Statement,The length of the statement "throw new RuntimeException("getInstruction(" + line + ") was not found!\n"+ "Instruction name is:("+ comps.get(0)+ ").");" is 121.,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 2,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230,getInstruction,Magic Number,The method contains a magic number: 3,111
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,isInstruction,Long Statement,The length of the statement "String[] validInstructions={"add"`"and"`"or"`"xor"`"addi"`"lw"`"sw"`"jr"`"cmp"`"b"`"bal"`"j"`"jal"`"li"`"blt"`"beq"`"bne"`"sub"};" is 129.,55
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Complex Method,Cyclomatic complexity of the method is 19,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Long Statement,The length of the statement "throw new RuntimeException("getInstruction(" + line + ") was not found!\n"+ "Instruction name is:("+ comps.get(0)+ ").");" is 121.,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 3,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 3,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 3,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 3,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 3,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,com.unl.cse,InitS230WIN,getInstruction,Magic Number,The method contains a magic number: 2,112
+mathewreny_ARM230Compiler,com.unl.cse,Instruction,registerToBinary,Magic Number,The method contains a magic number: 4,55
+mathewreny_ARM230Compiler,com.unl.cse,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,84
+mathewreny_ARM230Compiler,com.unl.cse,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 2,84
+mathewreny_ARM230Compiler,com.unl.cse,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,84
+mathewreny_ARM230Compiler,com.unl.cse,Instruction,toBinaryALUInstructionRType,Magic Number,The method contains a magic number: 4,84
+mathewreny_ARM230Compiler,com.unl.cse,JAL,toBinaryInstruction,Magic Number,The method contains a magic number: 20,17
+mathewreny_ARM230Compiler,com.unl.cse,LI,toBinaryInstruction,Magic Number,The method contains a magic number: 4,17
+mathewreny_ARM230Compiler,com.unl.cse,LI,toBinaryInstruction,Magic Number,The method contains a magic number: 16,17

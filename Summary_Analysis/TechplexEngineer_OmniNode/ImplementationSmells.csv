@@ -1,0 +1,87 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+TechplexEngineer_OmniNode,omninode28,Driver,main,Magic Number,The method contains a magic number: 800,18
+TechplexEngineer_OmniNode,omninode28,Driver,main,Magic Number,The method contains a magic number: 600,18
+TechplexEngineer_OmniNode,omninode28,EditPanel,save,Magic Number,The method contains a magic number: 4,43
+TechplexEngineer_OmniNode,omninode28,EndUserPanel,EndUserPanel,Magic Number,The method contains a magic number: 20,29
+TechplexEngineer_OmniNode,omninode28,IO,write,Magic Number,The method contains a magic number: 4,24
+TechplexEngineer_OmniNode,omninode28,IO,load,Magic Number,The method contains a magic number: 4,82
+TechplexEngineer_OmniNode,omninode28,Node,Node,Magic Number,The method contains a magic number: 7,35
+TechplexEngineer_OmniNode,omninode28,Node,Node,Magic Number,The method contains a magic number: 10,35
+TechplexEngineer_OmniNode,omninode28,Node,Node,Magic Number,The method contains a magic number: 2,35
+TechplexEngineer_OmniNode,omninode28,Node,Node,Magic Number,The method contains a magic number: 7,35
+TechplexEngineer_OmniNode,omninode28,Node,Node,Magic Number,The method contains a magic number: 7,52
+TechplexEngineer_OmniNode,omninode28,Node,Node,Magic Number,The method contains a magic number: 10,52
+TechplexEngineer_OmniNode,omninode28,Node,Node,Magic Number,The method contains a magic number: 2,52
+TechplexEngineer_OmniNode,omninode28,Node,Node,Magic Number,The method contains a magic number: 7,52
+TechplexEngineer_OmniNode,omninode28,Node,getW,Magic Number,The method contains a magic number: 7,98
+TechplexEngineer_OmniNode,omninode28,Node,getW,Magic Number,The method contains a magic number: 16,98
+TechplexEngineer_OmniNode,omninode28,Node,setW,Magic Number,The method contains a magic number: 16,107
+TechplexEngineer_OmniNode,omninode28,Node,setW,Magic Number,The method contains a magic number: 7,107
+TechplexEngineer_OmniNode,omninode28,Node,moveTo,Magic Number,The method contains a magic number: 2,153
+TechplexEngineer_OmniNode,omninode28,Node,moveTo,Magic Number,The method contains a magic number: 7,153
+TechplexEngineer_OmniNode,omninode28,Node,isPointInNode,Complex Conditional,The conditional expression p != null && p.getX() >= loc.getX() - 10 && p.getX() <= loc.getX() - 10 + getBoxSize() && p.getY() >= loc.getY() - 10 && p.getY() <= loc.getY() + 25 - 10 is complex.,172
+TechplexEngineer_OmniNode,omninode28,Node,isPointInNode,Long Statement,The length of the statement "if (p != null && p.getX() >= loc.getX() - 10 && p.getX() <= loc.getX() - 10 + getBoxSize() && p.getY() >= loc.getY() - 10 && p.getY() <= loc.getY() + 25 - 10) return true;" is 171.,172
+TechplexEngineer_OmniNode,omninode28,Node,isPointInNode,Magic Number,The method contains a magic number: 10,172
+TechplexEngineer_OmniNode,omninode28,Node,isPointInNode,Magic Number,The method contains a magic number: 10,172
+TechplexEngineer_OmniNode,omninode28,Node,isPointInNode,Magic Number,The method contains a magic number: 10,172
+TechplexEngineer_OmniNode,omninode28,Node,isPointInNode,Magic Number,The method contains a magic number: 25,172
+TechplexEngineer_OmniNode,omninode28,Node,isPointInNode,Magic Number,The method contains a magic number: 10,172
+TechplexEngineer_OmniNode,omninode28,Node,setStateopmit,Complex Conditional,The conditional expression str.equalsIgnoreCase("hidden") || str.equalsIgnoreCase("visible") || str.equalsIgnoreCase("guessed") is complex.,277
+TechplexEngineer_OmniNode,omninode28,Node,equals,Complex Conditional,The conditional expression check.getCenter() == getCenter() && check.getName().equalsIgnoreCase(this.getName()) && check.getState().equals(this.getState()) is complex.,341
+TechplexEngineer_OmniNode,omninode28,Node,equals,Long Statement,The length of the statement "if (check.getCenter() == getCenter() && check.getName().equalsIgnoreCase(this.getName()) && check.getState().equals(this.getState())) return true;" is 146.,341
+TechplexEngineer_OmniNode,omninode28,Node,equals,Complex Conditional,The conditional expression n1.getCenter() == n2.getCenter() && n1.getName().equalsIgnoreCase(n2.getName()) && n1.getState().equals(n2.getState()) is complex.,354
+TechplexEngineer_OmniNode,omninode28,Node,equals,Long Statement,The length of the statement "if (n1.getCenter() == n2.getCenter() && n1.getName().equalsIgnoreCase(n2.getName()) && n1.getState().equals(n2.getState())) return true;" is 136.,354
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,NodeEditFrame,Magic Number,The method contains a magic number: 515,57
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,NodeEditFrame,Magic Number,The method contains a magic number: 245,57
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,hinput,Magic Number,The method contains a magic number: 2,93
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,hinput,Magic Number,The method contains a magic number: 4,93
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,hinput,Magic Number,The method contains a magic number: 5,93
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,hinput,Magic Number,The method contains a magic number: 4,93
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,hinput,Magic Number,The method contains a magic number: 3,93
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,hinput,Magic Number,The method contains a magic number: 3,93
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,hinput,Magic Number,The method contains a magic number: 2,93
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,hinput,Magic Number,The method contains a magic number: 2,93
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,hinput,Magic Number,The method contains a magic number: 2,93
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,hinput,Magic Number,The method contains a magic number: 2,93
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,actionPerformed,Long Statement,The length of the statement "IO.errMsg(err.substring(19`err.length() - 1) + "Is invalid as it contains a non numerical or decimal value. \n Please enter an integer in the place of " + err.substring(19`err.length() - 1)+ ".");" is 196.,304
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,actionPerformed,Magic Number,The method contains a magic number: 19,304
+TechplexEngineer_OmniNode,omninode28,NodeEditFrame,actionPerformed,Magic Number,The method contains a magic number: 19,304
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Complex Method,Cyclomatic complexity of the method is 12,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Long Statement,The length of the statement "page.drawLine((int)(connectlist.get(i).getP1().getX())`(int)(connectlist.get(i).getP1().getY())`(int)(connectlist.get(i).getP2().getX())`(int)(connectlist.get(i).getP2().getY()));" is 179.,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Long Statement,The length of the statement "page.drawLine((int)(connectlist.get(i).getP1().getX())`(int)(connectlist.get(i).getP1().getY())`(int)(connectlist.get(i).getP2().getX())`(int)(connectlist.get(i).getP2().getY()));" is 179.,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 13,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 13,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 7,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 16,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 6,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 10,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 10,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 7,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 10,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 3,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 7,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 10,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 10,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 7,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 10,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 25,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 3,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 7,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 3,66
+TechplexEngineer_OmniNode,omninode28,NodePanel,paintComponent,Magic Number,The method contains a magic number: 7,66
+TechplexEngineer_OmniNode,omninode28,OmniPanel,load,Magic Number,The method contains a magic number: 4,52
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,SettingsFrame,Magic Number,The method contains a magic number: 515,42
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,SettingsFrame,Magic Number,The method contains a magic number: 245,42
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,input,Magic Number,The method contains a magic number: 2,77
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,input,Magic Number,The method contains a magic number: 4,77
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,input,Magic Number,The method contains a magic number: 5,77
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,input,Magic Number,The method contains a magic number: 4,77
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,input,Magic Number,The method contains a magic number: 3,77
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,input,Magic Number,The method contains a magic number: 3,77
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,input,Magic Number,The method contains a magic number: 2,77
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,input,Magic Number,The method contains a magic number: 2,77
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,input,Magic Number,The method contains a magic number: 2,77
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,input,Magic Number,The method contains a magic number: 2,77
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,actionPerformed,Long Statement,The length of the statement "IO.errMsg(err.substring(19`err.length() - 1) + "Is invalid as it contains a non numerical or decimal value. \n Please enter an integer in the place of " + err.substring(19`err.length() - 1)+ ".");" is 196.,254
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,actionPerformed,Magic Number,The method contains a magic number: 19,254
+TechplexEngineer_OmniNode,omninode28,SettingsFrame,actionPerformed,Magic Number,The method contains a magic number: 19,254

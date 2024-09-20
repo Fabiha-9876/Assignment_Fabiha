@@ -1,0 +1,5 @@
+Project Name,Package Name,Architecture Smell,Cause of the Smell
+NCIP_c3pr-docs,edu.duke.cabig.c3pr.webservice.iso21090,God Component,The tool detected the smell in this component because the component contains high number of classes. Number of classes in the component are: 600
+NCIP_c3pr-docs,edu.duke.cabig.c3pr.webservice.subjectregistry,God Component,The tool detected the smell in this component because the component contains high number of classes. Number of classes in the component are: 67
+NCIP_c3pr-docs,edu.duke.cabig.c3pr.domain,God Component,The tool detected the smell in this component because the component contains high number of classes. Number of classes in the component are: 72
+NCIP_c3pr-docs,edu.duke.cabig.c3pr.domain.validator,Feature Concentration,The tool detected the smell in this component because the component realizes more than one architectural concern/feature. Independent sets of related classes within this component are: [ArmValidator; EpochValidator; StudyValidator; IdentifierValidator; StudySiteValidator]; [HealthcareSiteInvestigatorValidator]; [ParticipantValidator]. LCC (Lack of Component Cohesion) = 0.43

@@ -1,0 +1,8 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+MavenDevoxxFR2015_demos,animalsniffer,Main,0,0,2,1,12,2,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\MavenDevoxxFR2015_demos\animalsniffer\src\main\java\animalsniffer\Main.java,5
+MavenDevoxxFR2015_demos,bytecode,Display,0,0,4,4,28,5,1,0,-1.0,2,0,E:\Repositories\Cloned_Reposit\MavenDevoxxFR2015_demos\animalsniffer\src\main\java\bytecode\Display.java,25
+MavenDevoxxFR2015_demos,bytecode,Display,0,0,4,3,28,5,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\MavenDevoxxFR2015_demos\bytecode\src\main\java\bytecode\Display.java,25
+MavenDevoxxFR2015_demos,bytecode,Display2,0,0,3,2,15,3,0,1,-1.0,0,0,E:\Repositories\Cloned_Reposit\MavenDevoxxFR2015_demos\bytecode\src\main\java\bytecode\Display2.java,24
+MavenDevoxxFR2015_demos,bytecode,Display,0,0,4,4,28,5,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\MavenDevoxxFR2015_demos\toolchains\src\main\java\bytecode\Display.java,25
+MavenDevoxxFR2015_demos,toolchains,Main,1,0,2,2,10,2,0,0,0.0,1,0,E:\Repositories\Cloned_Reposit\MavenDevoxxFR2015_demos\toolchains\src\main\java\toolchains\Main.java,7
+MavenDevoxxFR2015_demos,toolchains,MainTest,0,0,1,1,5,1,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\MavenDevoxxFR2015_demos\toolchains\src\test\java\toolchains\MainTest.java,5

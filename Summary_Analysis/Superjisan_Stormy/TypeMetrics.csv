@@ -1,0 +1,5 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+Superjisan_Stormy,superjisan.com.stormy,ApplicationTest,0,0,1,1,8,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Superjisan_Stormy\app\src\androidTest\java\superjisan\com\stormy\ApplicationTest.java,6
+Superjisan_Stormy,superjisan.com.stormy,AlertDialogFragment,0,0,1,1,11,1,0,0,-1.0,1,0,E:\Repositories\Cloned_Reposit\Superjisan_Stormy\app\src\main\java\superjisan\com\stormy\AlertDialogFragment.java,9
+Superjisan_Stormy,superjisan.com.stormy,CurrentWeather,7,0,16,16,96,26,0,0,0.375,1,0,E:\Repositories\Cloned_Reposit\Superjisan_Stormy\app\src\main\java\superjisan\com\stormy\CurrentWeather.java,7
+Superjisan_Stormy,superjisan.com.stormy,MainActivity,10,1,13,6,129,18,0,0,0.0,0,2,E:\Repositories\Cloned_Reposit\Superjisan_Stormy\app\src\main\java\superjisan\com\stormy\MainActivity.java,31

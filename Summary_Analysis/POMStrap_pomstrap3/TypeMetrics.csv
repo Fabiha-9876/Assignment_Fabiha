@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+POMStrap_pomstrap3,org.tigris.aethershader,SimpleDependencyBuilder,0,0,5,3,39,6,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\POMStrap_pomstrap3\aether-shader\src\main\java\org\tigris\aethershader\SimpleDependencyBuilder.java,18
+POMStrap_pomstrap3,org.tigris.pomstrap,Bootstrap,0,0,3,3,29,5,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\POMStrap_pomstrap3\pomstrap\src\main\java\org\tigris\pomstrap\Bootstrap.java,9
+POMStrap_pomstrap3,org.tigris.pomstrap,SimpleDependency,5,5,1,1,10,1,0,0,0.0,2,0,E:\Repositories\Cloned_Reposit\POMStrap_pomstrap3\pomstrap-commons\src\main\java\org\tigris\pomstrap\SimpleDependency.java,7

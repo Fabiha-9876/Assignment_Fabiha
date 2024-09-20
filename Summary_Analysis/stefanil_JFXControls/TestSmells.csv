@@ -1,0 +1,3 @@
+Project Name,Package Name,Type Name,Method Name,Test Smell,Cause of the Smell
+stefanil_JFXControls,org.devel.jfxcontrols.scene.control,ImageCropperTest,imageCroppingCheck,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+stefanil_JFXControls,org.devel.jfxcontrols.scene.control,RotatableCheckBoxTest,rotationAnimationTest,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.

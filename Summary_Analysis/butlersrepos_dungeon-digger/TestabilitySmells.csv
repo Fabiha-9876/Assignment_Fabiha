@@ -1,0 +1,43 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: EMPTY_ABILITY (26)
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: myCharacter (35); SERVER (36); CLIENT (37); CHOSEN_GAME_STATE (38); ACCOUNT_NAME (43); IP_CONNECT (44); MAX_MESSAGE_LENGTH (45); STATE (46); IMAGES (47); TEXTS (48); CHATS (49); CHARACTERBANK (50); ACTIVESESSIONNAMES (51); KEY_BINDINGS (52)
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MultiplayerDungeon,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: CLIENT_VIEW (22)
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.ServerListener,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.ClientListener,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.ChatPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.GameJoinPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.GameStartPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.LoginRequest,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.LoginResponse,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.SignOff,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.TextPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.PlayerInfoPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.PlayerListPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.PlayerMovementUpdate,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.PlayerMovementRequest,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.PlayerMovementResponse,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.TilesResponse,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.TileResponse,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.TilesRequest,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.WholeMapPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.ServerListener,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.ClientListener,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.ChatPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.GameJoinPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.GameStartPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.LoginRequest,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.LoginResponse,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.SignOff,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.TextPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.PlayerInfoPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.PlayerListPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.PlayerMovementUpdate,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.PlayerMovementRequest,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.PlayerMovementResponse,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.TilesResponse,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.TileResponse,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.TilesRequest,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.network,Network.WholeMapPacket,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+butlersrepos_dungeon-digger,dungeonDigger.entities.templates,ZombieTemplate,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: ZOMBIE_INT (9); ZOMBIE_WIS (10); ZOMBIE_CHA (11)
+butlersrepos_dungeon-digger,dungeonDigger.Tools,Constants,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: MAX_MESSAGE_LENGTH (4); N_PER_LEAF (5)
+butlersrepos_dungeon-digger,dungeonDigger.Tools,References,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: myCharacter (33); SERVER (34); CLIENT (35); CHOSEN_GAME_STATE (36); ACCOUNT_NAME (37); IP_CONNECT (38); STATE (39); PLAYER_LIST (40); IMAGES (41); TEXTS (42); CHATS (43); CHARACTERBANK (44); ACTIVESESSIONNAMES (45); KEY_BINDINGS (46); SLOT_BINDINGS (47); ABILITY_TEMPLATES (48); MOB_TEMPLATES (49); ACTIVE_ABILITIES (50); ABILITY_FACTORY (51); MOB_FACTORY (52); QUAD_COLLISION_MANIFOLD (53); log (54); CLIENT_VIEW (55); PAUSED (56); DEBUG_MODE (56)

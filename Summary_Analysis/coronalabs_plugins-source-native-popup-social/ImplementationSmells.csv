@@ -1,0 +1,12 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,canShowPopup,doesPackageExist,Long Statement,The length of the statement "if (resolveInfo.activityInfo.packageName.contains(packageNameSearch.toLowerCase()) || "share".equals(packageNameSearch.toLowerCase())) {" is 136.,47
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,canShowPopup,invoke,Magic Number,The method contains a magic number: 2,80
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,invoke,Complex Method,Cyclomatic complexity of the method is 22,196
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,invoke,Long Method,The method has 138 lines of code.,196
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,invoke,Long Statement,The length of the statement "final int requestCode=CoronaEnvironment.getCoronaActivity().registerActivityResultHandler(new CoronaActivity.OnActivityResultHandler(){" is 135.,196
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,invoke,Long Statement,The length of the statement "Intent intent=customChooserIntent(CoronaEnvironment.getCoronaActivity()`sharingIntent`Arrays.asList(hiddenPackages)`"Share via:");" is 130.,196
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,invoke,Magic Number,The method contains a magic number: 2,196
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,invoke,Magic Number,The method contains a magic number: 4,196
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,invoke,Magic Number,The method contains a magic number: 2,196
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,run,Long Statement,The length of the statement "final int requestCode=CoronaEnvironment.getCoronaActivity().registerActivityResultHandler(new CoronaActivity.OnActivityResultHandler(){" is 135.,426
+coronalabs_plugins-source-native-popup-social,CoronaProvider._native.popup.social,showPopup,run,Long Statement,The length of the statement "Intent intent=customChooserIntent(CoronaEnvironment.getCoronaActivity()`sharingIntent`Arrays.asList(hiddenPackages)`"Share via:");" is 130.,426

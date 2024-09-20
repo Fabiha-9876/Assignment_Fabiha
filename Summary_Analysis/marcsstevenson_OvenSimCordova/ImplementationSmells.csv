@@ -1,0 +1,745 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Address,Address,Long Parameter List,The method has 7 parameters. ,46
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Address,equals,Long Statement,The length of the statement "return equal(this.proxy`that.proxy) && this.uriHost.equals(that.uriHost) && this.uriPort == that.uriPort && equal(this.sslSocketFactory`that.sslSocketFactory) && equal(this.hostnameVerifier`that.hostnameVerifier) && equal(this.authenticator`that.authenticator) && equal(this.transports`that.transports);" is 303.,115
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Address,hashCode,Magic Number,The method contains a magic number: 17,129
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Address,hashCode,Magic Number,The method contains a magic number: 31,129
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Address,hashCode,Magic Number,The method contains a magic number: 31,129
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Address,hashCode,Magic Number,The method contains a magic number: 31,129
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Address,hashCode,Magic Number,The method contains a magic number: 31,129
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Address,hashCode,Magic Number,The method contains a magic number: 31,129
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Address,hashCode,Magic Number,The method contains a magic number: 31,129
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Address,hashCode,Magic Number,The method contains a magic number: 31,129
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Connection,upgradeToTls,Complex Method,Cyclomatic complexity of the method is 8,112
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Connection,makeTunnel,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@2e19d196,299
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Connection,streamWrapper,Magic Number,The method contains a magic number: 4096,331
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Connection,streamWrapper,Magic Number,The method contains a magic number: 256,331
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,ConnectionPool,call,Complex Method,Cyclomatic complexity of the method is 8,87
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,ConnectionPool,call,Long Statement,The length of the statement "for (ListIterator<Connection> i=connections.listIterator(connections.size()); i.hasPrevious() && idleConnectionCount > maxIdleConnections; ) {" is 142.,87
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,ConnectionPool,ConnectionPool,Magic Number,The method contains a magic number: 1000,120
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,ConnectionPool,ConnectionPool,Magic Number,The method contains a magic number: 1000,120
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,ConnectionPool,get,Complex Conditional,The conditional expression !connection.getRoute().getAddress().equals(address) || !connection.isAlive() || System.nanoTime() - connection.getIdleStartTimeNs() >= keepAliveDurationNs is complex.,178
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,ConnectionPool,get,Long Statement,The length of the statement "if (!connection.getRoute().getAddress().equals(address) || !connection.isAlive() || System.nanoTime() - connection.getIdleStartTimeNs() >= keepAliveDurationNs) {" is 161.,178
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Dispatcher,enqueue,Magic Number,The method contains a magic number: 2,35
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,HttpResponseCache,maybeRemove,Complex Conditional,The conditional expression requestMethod.equals("POST") || requestMethod.equals("PUT") || requestMethod.equals("DELETE") is complex.,247
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,HttpResponseCache,maybeRemove,Empty catch clause,The method has an empty catch block.,247
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,HttpResponseCache,update,Long Statement,The length of the statement "DiskLruCache.Snapshot snapshot=(conditionalCacheHit instanceof EntryCacheResponse) ? ((EntryCacheResponse)conditionalCacheHit).snapshot : ((EntrySecureCacheResponse)conditionalCacheHit).snapshot;" is 195.,264
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,HttpResponseCache,abortQuietly,Empty catch clause,The method has an empty catch block.,287
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Job,execute,Long Statement,The length of the statement "Dispatcher.RealResponseBody responseBody=new Dispatcher.RealResponseBody(engine.getResponseHeaders()`engine.getResponseBody());" is 127.,107
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Job,execute,Long Statement,The length of the statement "Response response=new Response.Builder(request`responseCode).rawHeaders(engine.getResponseHeaders().getHeaders()).body(responseBody).redirectedBy(redirectedBy).build();" is 168.,107
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Job,processResponse,Complex Conditional,The conditional expression responseCode == HTTP_TEMP_REDIRECT && !method.equals("GET") && !method.equals("HEAD") is complex.,170
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Job,processResponse,Complex Method,Cyclomatic complexity of the method is 12,170
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Job,processResponse,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@6c4b3ef6,170
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Job,sameConnection,Long Statement,The length of the statement "return a.url().getHost().equals(b.url().getHost()) && getEffectivePort(a.url()) == getEffectivePort(b.url()) && a.url().getProtocol().equals(b.url().getProtocol());" is 164.,227
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,MediaType,parse,Magic Number,The method contains a magic number: 2,46
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,MediaType,parse,Magic Number,The method contains a magic number: 2,46
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,MediaType,parse,Magic Number,The method contains a magic number: 2,46
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,MediaType,parse,Magic Number,The method contains a magic number: 3,46
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,OkHttpClient,createURLStreamHandler,Magic Number,The method contains a magic number: 80,379
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,OkHttpClient,createURLStreamHandler,Magic Number,The method contains a magic number: 443,379
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,OkHttpClient,getDefaultPort,Magic Number,The method contains a magic number: 80,401
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,OkHttpClient,getDefaultPort,Magic Number,The method contains a magic number: 443,401
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Route,equals,Long Statement,The length of the statement "return (address.equals(other.address) && proxy.equals(other.proxy) && inetSocketAddress.equals(other.inetSocketAddress)&& modernTls == other.modernTls);" is 152.,72
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Route,hashCode,Magic Number,The method contains a magic number: 17,83
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Route,hashCode,Magic Number,The method contains a magic number: 31,83
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Route,hashCode,Magic Number,The method contains a magic number: 31,83
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Route,hashCode,Magic Number,The method contains a magic number: 31,83
+marcsstevenson_OvenSimCordova,com.squareup.okhttp,Route,hashCode,Magic Number,The method contains a magic number: 31,83
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Complex Conditional,The conditional expression (chr == '\n') || (chr == '\r') || (chr == ' ')|| (chr == '\t') is complex.,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Complex Conditional,The conditional expression (chr == '\n') || (chr == '\r') || (chr == ' ')|| (chr == '\t') is complex.,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Complex Method,Cyclomatic complexity of the method is 15,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 4,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 3,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 65,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 71,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 4,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 62,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 63,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 6,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 4,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 3,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 16,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 8,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 6,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 16,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,decode,Magic Number,The method contains a magic number: 8,40
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 2,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 4,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 3,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 3,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 3,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 0xff,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 2,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 0x03,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 4,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 0xff,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 4,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 0x0f,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 2,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 2,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 0xff,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 6,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 2,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 0x3f,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 3,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 0xff,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 2,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 0x03,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 4,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 2,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 0xff,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 2,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 0x03,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 4,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 0xff,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 4,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 0x0f,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Base64,encode,Magic Number,The method contains a magic number: 2,134
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,DiskLruCache,open,Long Statement,The length of the statement "cache.journalWriter=new BufferedWriter(new OutputStreamWriter(new FileOutputStream(cache.journalFile`true)`Util.US_ASCII));" is 123.,190
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,DiskLruCache,readJournal,Complex Conditional,The conditional expression !MAGIC.equals(magic) || !VERSION_1.equals(version) || !Integer.toString(appVersion).equals(appVersionString)|| !Integer.toString(valueCount).equals(valueCountString)|| !"".equals(blank) is complex.,243
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,DiskLruCache,readJournal,Long Statement,The length of the statement "if (!MAGIC.equals(magic) || !VERSION_1.equals(version) || !Integer.toString(appVersion).equals(appVersionString)|| !Integer.toString(valueCount).equals(valueCountString)|| !"".equals(blank)) {" is 192.,243
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,DiskLruCache,readJournalLine,Complex Conditional,The conditional expression secondSpace != -1 && firstSpace == CLEAN.length() && line.startsWith(CLEAN) is complex.,275
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,DiskLruCache,readJournalLine,Complex Conditional,The conditional expression secondSpace == -1 && firstSpace == DIRTY.length() && line.startsWith(DIRTY) is complex.,275
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,DiskLruCache,readJournalLine,Complex Conditional,The conditional expression secondSpace == -1 && firstSpace == READ.length() && line.startsWith(READ) is complex.,275
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,DiskLruCache,readJournalLine,Complex Method,Cyclomatic complexity of the method is 8,275
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,DiskLruCache,edit,Complex Conditional,The conditional expression expectedSequenceNumber != ANY_SEQUENCE_NUMBER && (entry == null || entry.sequenceNumber != expectedSequenceNumber) is complex.,449
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,DiskLruCache,edit,Long Statement,The length of the statement "if (expectedSequenceNumber != ANY_SEQUENCE_NUMBER && (entry == null || entry.sequenceNumber != expectedSequenceNumber)) {" is 121.,449
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,DiskLruCache,completeEdit,Complex Method,Cyclomatic complexity of the method is 12,504
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,DiskLruCache,journalRebuildRequired,Magic Number,The method contains a magic number: 2000,559
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Platform,newDeflaterOutputStream,Long Statement,The length of the statement "constructor=deflaterConstructor=DeflaterOutputStream.class.getConstructor(OutputStream.class`Deflater.class`boolean.class);" is 123.,111
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Platform,findPlatform,Empty catch clause,The method has an empty catch block.,137
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Platform,findPlatform,Empty catch clause,The method has an empty catch block.,137
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Platform,findPlatform,Empty catch clause,The method has an empty catch block.,137
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Platform,findPlatform,Empty catch clause,The method has an empty catch block.,137
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,StrictLineReader,StrictLineReader,Magic Number,The method contains a magic number: 8192,62
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,StrictLineReader,readLine,Complex Method,Cyclomatic complexity of the method is 9,117
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,StrictLineReader,readLine,Magic Number,The method contains a magic number: 80,117
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,getDefaultPort,Magic Number,The method contains a magic number: 80,75
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,getDefaultPort,Magic Number,The method contains a magic number: 443,75
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,checkOffsetAndCount,Complex Conditional,The conditional expression (offset | count) < 0 || offset > arrayLength || arrayLength - offset < count is complex.,85
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 24,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 0xff,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 16,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 0xff,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 8,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 0xff,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 0xff,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 0xff,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 8,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 0xff,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 16,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 0xff,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 24,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,pokeInt,Magic Number,The method contains a magic number: 0xff,91
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,closeQuietly,Empty catch clause,The method has an empty catch block.,110
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,closeQuietly,Empty catch clause,The method has an empty catch block.,125
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,closeQuietly,Empty catch clause,The method has an empty catch block.,140
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,readSingleByte,Magic Number,The method contains a magic number: 0xff,197
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,writeSingleByte,Magic Number,The method contains a magic number: 0xff,208
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,readFully,Magic Number,The method contains a magic number: 1024,254
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,skipByReading,Magic Number,The method contains a magic number: 4096,275
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,copy,Magic Number,The method contains a magic number: 8192,314
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,readAsciiLine,Magic Number,The method contains a magic number: 80,329
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,bytesToHexString,Magic Number,The method contains a magic number: 2,369
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,bytesToHexString,Magic Number,The method contains a magic number: 4,369
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,bytesToHexString,Magic Number,The method contains a magic number: 0xf,369
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal,Util,bytesToHexString,Magic Number,The method contains a magic number: 0xf,369
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HeaderParser,parseCacheControl,Complex Conditional,The conditional expression pos == value.length() || value.charAt(pos) == '`' || value.charAt(pos) == ';' is complex.,25
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpAuthenticator,authenticate,Long Statement,The length of the statement "PasswordAuthentication auth=Authenticator.requestPasswordAuthentication(url.getHost()`getConnectToInetAddress(proxy`url)`url.getPort()`url.getProtocol()`challenge.getRealm()`challenge.getScheme()`url`Authenticator.RequestorType.SERVER);" is 236.,39
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpAuthenticator,authenticateProxy,Long Statement,The length of the statement "PasswordAuthentication auth=Authenticator.requestPasswordAuthentication(proxyAddress.getHostName()`getConnectToInetAddress(proxy`url)`proxyAddress.getPort()`url.getProtocol()`challenge.getRealm()`challenge.getScheme()`url`Authenticator.RequestorType.PROXY);" is 257.,56
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpAuthenticator,getConnectToInetAddress,Long Statement,The length of the statement "return (proxy != null && proxy.type() != Proxy.Type.DIRECT) ? ((InetSocketAddress)proxy.address()).getAddress() : InetAddress.getByName(url.getHost());" is 151.,75
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpAuthenticator,processAuthHeader,Long Parameter List,The method has 6 parameters. ,85
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpAuthenticator,processAuthHeader,Long Statement,The length of the statement "Credential credential=responseHeaders.getResponseCode() == HTTP_PROXY_AUTH ? authenticator.authenticateProxy(proxy`url`challenges) : authenticator.authenticate(proxy`url`challenges);" is 182.,85
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpDate,parse,Empty catch clause,The method has an empty catch block.,59
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpDate,parse,Empty catch clause,The method has an empty catch block.,59
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpDate,parse,Long Identifier,The length of the field BROWSER_COMPATIBLE_DATE_FORMAT_STRINGS is 38.,59
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpDate,parse,Long Identifier,The length of the field BROWSER_COMPATIBLE_DATE_FORMATS is 31.,59
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,HttpEngine,Long Parameter List,The method has 6 parameters. ,145
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,initResponseSource,Complex Conditional,The conditional expression !acceptCacheResponseType(candidate) || responseHeadersMap == null || cachedResponseBody == null is complex.,213
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,initResponseSource,Complex Method,Cyclomatic complexity of the method is 8,213
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,connect,Complex Method,Cyclomatic complexity of the method is 8,271
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,connect,Long Statement,The length of the statement "Address address=new Address(uriHost`getEffectivePort(uri)`sslSocketFactory`hostnameVerifier`client.getAuthenticator()`client.getProxy()`client.getTransports());" is 160.,271
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,connect,Long Statement,The length of the statement "routeSelector=new RouteSelector(address`uri`client.getProxySelector()`client.getConnectionPool()`Dns.DEFAULT`client.getRoutesDatabase());" is 137.,271
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,automaticallyReleaseConnectionToPool,Long Identifier,The length of the field automaticallyReleaseConnectionToPool is 36.,417
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,release,Long Identifier,The length of the field automaticallyReleaseConnectionToPool is 36.,431
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,hasResponseBody,Complex Conditional,The conditional expression (responseCode < HTTP_CONTINUE || responseCode >= 200) && responseCode != HttpURLConnectionImpl.HTTP_NO_CONTENT && responseCode != HttpURLConnectionImpl.HTTP_NOT_MODIFIED is complex.,474
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,hasResponseBody,Long Statement,The length of the statement "if ((responseCode < HTTP_CONTINUE || responseCode >= 200) && responseCode != HttpURLConnectionImpl.HTTP_NO_CONTENT && responseCode != HttpURLConnectionImpl.HTTP_NOT_MODIFIED) {" is 176.,474
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,hasResponseBody,Magic Number,The method contains a magic number: 200,474
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,prepareRawRequestHeaders,Complex Conditional,The conditional expression (connection == null || connection.getHttpMinorVersion() != 0) && requestHeaders.getConnection() == null is complex.,502
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,prepareRawRequestHeaders,Complex Method,Cyclomatic complexity of the method is 8,502
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpEngine,readResponse,Complex Method,Cyclomatic complexity of the method is 11,609
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpsEngine,HttpsEngine,Long Parameter List,The method has 6 parameters. ,38
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpTransport,createRequestBody,Complex Conditional,The conditional expression !chunked && httpEngine.policy.getChunkLength() > 0 && httpEngine.connection.getHttpMinorVersion() != 0 is complex.,61
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpTransport,createRequestBody,Long Statement,The length of the statement "throw new IllegalArgumentException("Use setFixedLengthStreamingMode() or " + "setChunkedStreamingMode() for requests larger than 2 GiB.");" is 138.,61
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpURLConnectionImpl,initHttpEngine,Complex Conditional,The conditional expression !method.equals("POST") && !method.equals("PUT") && !method.equals("PATCH") is complex.,244
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpURLConnectionImpl,getResponse,Complex Conditional,The conditional expression responseCode == HTTP_MULT_CHOICE || responseCode == HTTP_MOVED_PERM || responseCode == HTTP_MOVED_TEMP || responseCode == HTTP_SEE_OTHER is complex.,284
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpURLConnectionImpl,getResponse,Complex Method,Cyclomatic complexity of the method is 9,284
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpURLConnectionImpl,getResponse,Long Statement,The length of the statement "if (responseCode == HTTP_MULT_CHOICE || responseCode == HTTP_MOVED_PERM || responseCode == HTTP_MOVED_TEMP || responseCode == HTTP_SEE_OTHER) {" is 143.,284
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpURLConnectionImpl,handleFailure,Complex Conditional,The conditional expression routeSelector == null && httpEngine.connection == null || routeSelector != null && !routeSelector.hasNext() || !isRecoverable(e) || !canRetryRequestBody is complex.,365
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpURLConnectionImpl,handleFailure,Long Statement,The length of the statement "if (routeSelector == null && httpEngine.connection == null || routeSelector != null && !routeSelector.hasNext() || !isRecoverable(e) || !canRetryRequestBody) {" is 159.,365
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpURLConnectionImpl,processResponseHeaders,Complex Conditional,The conditional expression responseCode == HTTP_TEMP_REDIRECT && !method.equals("GET") && !method.equals("HEAD") is complex.,413
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpURLConnectionImpl,processResponseHeaders,Complex Conditional,The conditional expression sameHost && samePort && sameProtocol is complex.,413
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpURLConnectionImpl,processResponseHeaders,Complex Method,Cyclomatic complexity of the method is 16,413
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,HttpURLConnectionImpl,processResponseHeaders,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@67da6726,413
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,setStatusLine,Complex Conditional,The conditional expression !statusLine.startsWith("HTTP/1.") || statusLine.length() < 12 || statusLine.charAt(8) != ' ' || (hasMessage && statusLine.charAt(12) != ' ') is complex.,94
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,setStatusLine,Long Statement,The length of the statement "if (!statusLine.startsWith("HTTP/1.") || statusLine.length() < 12 || statusLine.charAt(8) != ' ' || (hasMessage && statusLine.charAt(12) != ' ')) {" is 147.,94
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,setStatusLine,Magic Number,The method contains a magic number: 13,94
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,setStatusLine,Magic Number,The method contains a magic number: 12,94
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,setStatusLine,Magic Number,The method contains a magic number: 8,94
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,setStatusLine,Magic Number,The method contains a magic number: 12,94
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,setStatusLine,Magic Number,The method contains a magic number: 7,94
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,setStatusLine,Magic Number,The method contains a magic number: 9,94
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,setStatusLine,Magic Number,The method contains a magic number: 9,94
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,setStatusLine,Magic Number,The method contains a magic number: 12,94
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,setStatusLine,Magic Number,The method contains a magic number: 13,94
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,addSpdyRequestHeaders,Long Parameter List,The method has 5 parameters. ,126
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,add,Complex Conditional,The conditional expression fieldName.length() == 0 || fieldName.indexOf('\0') != -1 || value.indexOf('\0') != -1 is complex.,181
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,removeAll,Magic Number,The method contains a magic number: 2,200
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,length,Magic Number,The method contains a magic number: 2,224
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,getFieldName,Magic Number,The method contains a magic number: 2,229
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,getValue,Magic Number,The method contains a magic number: 2,247
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,get,Magic Number,The method contains a magic number: 2,256
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,get,Magic Number,The method contains a magic number: 2,256
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,values,Magic Number,The method contains a magic number: 2,266
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,getAll,Magic Number,The method contains a magic number: 2,280
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,toBytes,Magic Number,The method contains a magic number: 256,292
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,toBytes,Magic Number,The method contains a magic number: 2,292
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,toMultimap,Magic Number,The method contains a magic number: 2,326
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,toNameValueBlock,Complex Conditional,The conditional expression name.equals("connection") || name.equals("host") || name.equals("keep-alive")|| name.equals("proxy-connection")|| name.equals("transfer-encoding") is complex.,375
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,toNameValueBlock,Long Statement,The length of the statement "if (name.equals("connection") || name.equals("host") || name.equals("keep-alive")|| name.equals("proxy-connection")|| name.equals("transfer-encoding")) {" is 153.,375
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,toNameValueBlock,Magic Number,The method contains a magic number: 2,375
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,toNameValueBlock,Magic Number,The method contains a magic number: 2,375
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,fromNameValueBlock,Complex Method,Cyclomatic complexity of the method is 9,414
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,fromNameValueBlock,Magic Number,The method contains a magic number: 2,414
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RawHeaders,fromNameValueBlock,Magic Number,The method contains a magic number: 2,414
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RequestHeaders,RequestHeaders,Complex Method,Cyclomatic complexity of the method is 21,62
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RequestHeaders,RequestHeaders,Empty catch clause,The method has an empty catch block.,62
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RequestHeaders,addCookies,Complex Conditional,The conditional expression ("Cookie".equalsIgnoreCase(key) || "Cookie2".equalsIgnoreCase(key)) && !entry.getValue().isEmpty() is complex.,294
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,ResponseHeaders,Complex Method,Cyclomatic complexity of the method is 26,121
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,ResponseHeaders,Empty catch clause,The method has an empty catch block.,121
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,computeAge,Long Statement,The length of the statement "long receivedAge=ageSeconds != -1 ? Math.max(apparentReceivedAge`TimeUnit.SECONDS.toMillis(ageSeconds)) : apparentReceivedAge;" is 126.,296
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,computeFreshnessLifetime,Magic Number,The method contains a magic number: 10,311
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,isCacheable,Complex Conditional,The conditional expression responseCode != HttpURLConnection.HTTP_OK && responseCode != HttpURLConnection.HTTP_NOT_AUTHORITATIVE && responseCode != HttpURLConnection.HTTP_MULT_CHOICE && responseCode != HttpURLConnection.HTTP_MOVED_PERM && responseCode != HttpURLConnection.HTTP_GONE is complex.,343
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,isCacheable,Complex Conditional,The conditional expression request.hasAuthorization() && !isPublic && !mustRevalidate&& sMaxAgeSeconds == -1 is complex.,343
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,isCacheable,Long Statement,The length of the statement "if (responseCode != HttpURLConnection.HTTP_OK && responseCode != HttpURLConnection.HTTP_NOT_AUTHORITATIVE && responseCode != HttpURLConnection.HTTP_MULT_CHOICE && responseCode != HttpURLConnection.HTTP_MOVED_PERM && responseCode != HttpURLConnection.HTTP_GONE) {" is 262.,343
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,chooseResponseSource,Complex Method,Cyclomatic complexity of the method is 12,394
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,chooseResponseSource,Magic Number,The method contains a magic number: 24,394
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,chooseResponseSource,Magic Number,The method contains a magic number: 60,394
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,chooseResponseSource,Magic Number,The method contains a magic number: 60,394
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,chooseResponseSource,Magic Number,The method contains a magic number: 1000L,394
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,validate,Complex Conditional,The conditional expression lastModified != null && networkResponse.lastModified != null && networkResponse.lastModified.getTime() < lastModified.getTime() is complex.,448
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,validate,Long Statement,The length of the statement "if (lastModified != null && networkResponse.lastModified != null && networkResponse.lastModified.getTime() < lastModified.getTime()) {" is 134.,448
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,ResponseHeaders,isEndToEnd,Long Statement,The length of the statement "return !"Connection".equalsIgnoreCase(fieldName) && !"Keep-Alive".equalsIgnoreCase(fieldName) && !"Proxy-Authenticate".equalsIgnoreCase(fieldName)&& !"Proxy-Authorization".equalsIgnoreCase(fieldName)&& !"TE".equalsIgnoreCase(fieldName)&& !"Trailers".equalsIgnoreCase(fieldName)&& !"Transfer-Encoding".equalsIgnoreCase(fieldName)&& !"Upgrade".equalsIgnoreCase(fieldName);" is 370.,498
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RouteSelector,RouteSelector,Long Parameter List,The method has 6 parameters. ,79
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,RouteSelector,next,Complex Method,Cyclomatic complexity of the method is 8,100
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.http,SpdyTransport,writeRequestHeaders,Long Statement,The length of the statement "requestHeaders.addSpdyRequestHeaders(httpEngine.method`HttpEngine.requestPath(url)`version`HttpEngine.getOriginAddress(url)`httpEngine.uri.getScheme());" is 152.,49
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,FrameWriter,synStream,Long Parameter List,The method has 7 parameters. ,30
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,FrameWriter,data,Long Parameter List,The method has 5 parameters. ,36
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,NameValueBlockReader,readNameValueBlock,Magic Number,The method contains a magic number: 1024,90
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,NameValueBlockReader,readNameValueBlock,Magic Number,The method contains a magic number: 2,90
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,Ping,roundTripTime,Magic Number,The method contains a magic number: 2,59
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,Settings,getClientCertificateVectorSize,Long Identifier,The length of the field CLIENT_CERTIFICATE_VECTOR_SIZE is 30.,150
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyConnection,SpdyConnection,Magic Number,The method contains a magic number: 2,90
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyConnection,SpdyConnection,Magic Number,The method contains a magic number: 2,90
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyConnection,newStream,Magic Number,The method contains a magic number: 2,141
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyConnection,writeData,Long Parameter List,The method has 5 parameters. ,186
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyConnection,writeSynResetLater,Empty catch clause,The method has an empty catch block.,191
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyConnection,execute,Empty catch clause,The method has an empty catch block.,193
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyConnection,writeWindowUpdateLater,Empty catch clause,The method has an empty catch block.,206
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyConnection,execute,Empty catch clause,The method has an empty catch block.,208
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyConnection,ping,Magic Number,The method contains a magic number: 2,221
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyConnection,ping,Magic Number,The method contains a magic number: 0x4f4b6f6b,221
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyConnection,writePingLater,Empty catch clause,The method has an empty catch block.,241
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyConnection,execute,Empty catch clause,The method has an empty catch block.,245
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyConnection,close,Complex Method,Cyclomatic complexity of the method is 10,304
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyStream,SpdyStream,Long Parameter List,The method has 7 parameters. ,66
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyStream,isOpen,Complex Conditional,The conditional expression (in.finished || in.closed) && (out.finished || out.closed) && responseHeaders != null is complex.,80
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyStream,isLocallyInitiated,Magic Number,The method contains a magic number: 2,100
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyStream,getResponseHeaders,Magic Number,The method contains a magic number: 1000000,114
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyStream,getResponseHeaders,Magic Number,The method contains a magic number: 1000000,114
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.spdy,SpdyStream,setSettings,Long Statement,The length of the statement "this.writeWindowSize=settings != null ? settings.getInitialWindowSize(Settings.DEFAULT_INITIAL_WINDOW_SIZE) : Settings.DEFAULT_INITIAL_WINDOW_SIZE;" is 147.,311
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,nextAT,Complex Conditional,The conditional expression (end - beg > 4) && (chars[beg + 3] == '.') && (chars[beg] == 'O' || chars[beg] == 'o')&& (chars[beg + 1] == 'I' || chars[beg + 1] == 'i')&& (chars[beg + 2] == 'D' || chars[beg + 2] == 'd') is complex.,48
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,nextAT,Complex Method,Cyclomatic complexity of the method is 10,48
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,nextAT,Long Statement,The length of the statement "if ((end - beg > 4) && (chars[beg + 3] == '.') && (chars[beg] == 'O' || chars[beg] == 'o')&& (chars[beg + 1] == 'I' || chars[beg + 1] == 'i')&& (chars[beg + 2] == 'D' || chars[beg + 2] == 'd')) {" is 195.,48
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,nextAT,Magic Number,The method contains a magic number: 4,48
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,nextAT,Magic Number,The method contains a magic number: 3,48
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,nextAT,Magic Number,The method contains a magic number: 2,48
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,nextAT,Magic Number,The method contains a magic number: 2,48
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,nextAT,Magic Number,The method contains a magic number: 4,48
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,hexAV,Complex Conditional,The conditional expression pos == length || chars[pos] == '+' || chars[pos] == '`' || chars[pos] == ';' is complex.,137
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,hexAV,Complex Method,Cyclomatic complexity of the method is 9,137
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,hexAV,Magic Number,The method contains a magic number: 4,137
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,hexAV,Magic Number,The method contains a magic number: 32,137
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,hexAV,Magic Number,The method contains a magic number: 5,137
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,hexAV,Magic Number,The method contains a magic number: 2,137
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,hexAV,Magic Number,The method contains a magic number: 2,137
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,escapedAV,Complex Conditional,The conditional expression pos == length || chars[pos] == '`' || chars[pos] == '+' || chars[pos] == ';' is complex.,187
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,escapedAV,Complex Method,Cyclomatic complexity of the method is 10,187
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,escapedAV,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@57446851,187
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getEscaped,Complex Method,Cyclomatic complexity of the method is 15,232
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getEscaped,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@52d0c4c3,232
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Complex Method,Cyclomatic complexity of the method is 8,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 128,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 192,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 247,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 223,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 0x1F,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 239,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 2,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 0x0F,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 3,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 0x07,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 0x3F,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 0xC0,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 0x80,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 0x3F,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 6,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 0x3F,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getUTF8,Magic Number,The method contains a magic number: 0x3F,263
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getByte,Complex Method,Cyclomatic complexity of the method is 8,311
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getByte,Magic Number,The method contains a magic number: 87,311
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getByte,Magic Number,The method contains a magic number: 55,311
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getByte,Magic Number,The method contains a magic number: 87,311
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getByte,Magic Number,The method contains a magic number: 55,311
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,getByte,Magic Number,The method contains a magic number: 4,311
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,findMostSpecific,Complex Method,Cyclomatic complexity of the method is 14,343
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,DistinguishedNameParser,findMostSpecific,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@de82a51,343
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,OkHostnameVerifier,getSubjectAltNames,Magic Number,The method contains a magic number: 2,117
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,OkHostnameVerifier,verifyHostName,Complex Conditional,The conditional expression hostName == null || hostName.length() == 0 || cn == null || cn.length() == 0 is complex.,146
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,OkHostnameVerifier,verifyHostName,Complex Method,Cyclomatic complexity of the method is 9,146
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,OkHostnameVerifier,verifyHostName,Magic Number,The method contains a magic number: 2,146
+marcsstevenson_OvenSimCordova,com.squareup.okhttp.internal.tls,OkHostnameVerifier,verifyHostName,Magic Number,The method contains a magic number: 2,146
+marcsstevenson_OvenSimCordova,org.apache.cordova,App,execute,Complex Method,Cyclomatic complexity of the method is 10,56
+marcsstevenson_OvenSimCordova,org.apache.cordova,App,loadUrl,Complex Method,Cyclomatic complexity of the method is 11,126
+marcsstevenson_OvenSimCordova,org.apache.cordova,CallbackContext,sendPluginResult,Long Statement,The length of the statement "Log.w(LOG_TAG`"Attempted to send a second callback for ID: " + callbackId + "\nResult was: "+ pluginResult.getMessage());" is 121.,54
+marcsstevenson_OvenSimCordova,org.apache.cordova,ConfigXmlParser,parse,Complex Method,Cyclomatic complexity of the method is 19,78
+marcsstevenson_OvenSimCordova,org.apache.cordova,ConfigXmlParser,parse,Long Statement,The length of the statement "else if (paramType.equals("package") || paramType.equals("android-package")) pluginClass=xml.getAttributeValue(null`"value");" is 125.,78
+marcsstevenson_OvenSimCordova,org.apache.cordova,ConfigXmlParser,parse,Magic Number,The method contains a magic number: 2,78
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,onCreate,Long Statement,The length of the statement "Log.d(TAG`"The SetFullscreen configuration is deprecated in favor of Fullscreen` and will be removed in a future version.");" is 124.,198
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,onCreate,Long Statement,The length of the statement "getWindow().setFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN`WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);" is 128.,198
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,createViews,Long Statement,The length of the statement "root.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT`0.0F));" is 130.,248
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,createViews,Long Statement,The length of the statement "appView.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT`1.0F));" is 133.,248
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,createViews,Magic Number,The method contains a magic number: 100,248
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,init,Long Statement,The length of the statement "appView.init(this`webViewClient != null ? webViewClient : makeWebViewClient(appView)`webChromeClient != null ? webChromeClient : makeChromeClient(appView)`pluginEntries`internalWhitelist`externalWhitelist`preferences);" is 218.,331
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,setBooleanProperty,Long Statement,The length of the statement "Log.d(TAG`"Setting boolean properties in CordovaActivity will be deprecated in 3.0 on July 2013` please use config.xml");" is 121.,507
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,setIntegerProperty,Long Statement,The length of the statement "Log.d(TAG`"Setting integer properties in CordovaActivity will be deprecated in 3.0 on July 2013` please use config.xml");" is 121.,522
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,spinnerStart,Long Statement,The length of the statement "this.spinnerDialog=ProgressDialog.show(CordovaActivity.this`title`message`true`true`new DialogInterface.OnCancelListener(){" is 123.,691
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,onReceivedError,Complex Conditional,The conditional expression (errorUrl != null) && (errorUrl.startsWith("file://") || internalWhitelist.isUrlWhiteListed(errorUrl)) && (!failingUrl.equals(errorUrl)) is complex.,792
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,onReceivedError,Long Statement,The length of the statement "if ((errorUrl != null) && (errorUrl.startsWith("file://") || internalWhitelist.isUrlWhiteListed(errorUrl)) && (!failingUrl.equals(errorUrl))) {" is 143.,792
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,showSplashScreen,Long Statement,The length of the statement "root.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT`0.0F));" is 130.,927
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,showSplashScreen,Long Statement,The length of the statement "if ((getWindow().getAttributes().flags & WindowManager.LayoutParams.FLAG_FULLSCREEN) == WindowManager.LayoutParams.FLAG_FULLSCREEN) {" is 133.,927
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,showSplashScreen,Long Statement,The length of the statement "splashDialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN`WindowManager.LayoutParams.FLAG_FULLSCREEN);" is 121.,927
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,run,Long Statement,The length of the statement "root.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT`ViewGroup.LayoutParams.MATCH_PARENT`0.0F));" is 130.,935
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,run,Long Statement,The length of the statement "if ((getWindow().getAttributes().flags & WindowManager.LayoutParams.FLAG_FULLSCREEN) == WindowManager.LayoutParams.FLAG_FULLSCREEN) {" is 133.,935
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,run,Long Statement,The length of the statement "splashDialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN`WindowManager.LayoutParams.FLAG_FULLSCREEN);" is 121.,935
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,onKeyUp,Complex Conditional,The conditional expression appView != null && (appView.isCustomViewShowing() || appView.getFocusedChild() != null) && (keyCode == KeyEvent.KEYCODE_BACK || keyCode == KeyEvent.KEYCODE_MENU) is complex.,973
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,onKeyUp,Long Statement,The length of the statement "if (appView != null && (appView.isCustomViewShowing() || appView.getFocusedChild() != null) && (keyCode == KeyEvent.KEYCODE_BACK || keyCode == KeyEvent.KEYCODE_MENU)) {" is 168.,973
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,onKeyDown,Complex Conditional,The conditional expression appView != null && appView.getFocusedChild() != null && (keyCode == KeyEvent.KEYCODE_BACK || keyCode == KeyEvent.KEYCODE_MENU) is complex.,991
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,onKeyDown,Long Statement,The length of the statement "if (appView != null && appView.getFocusedChild() != null && (keyCode == KeyEvent.KEYCODE_BACK || keyCode == KeyEvent.KEYCODE_MENU)) {" is 133.,991
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaActivity,onMessage,Complex Method,Cyclomatic complexity of the method is 10,1003
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaBridge,jsExec,Long Parameter List,The method has 5 parameters. ,44
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaBridge,promptOnJsPrompt,Complex Conditional,The conditional expression defaultValue != null && defaultValue.length() > 3 && defaultValue.startsWith("gap:") is complex.,120
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaBridge,promptOnJsPrompt,Complex Conditional,The conditional expression origin.startsWith("file:") || (origin.startsWith("http") && loadedUrl.startsWith(origin)) is complex.,120
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaBridge,promptOnJsPrompt,Magic Number,The method contains a magic number: 3,120
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaBridge,promptOnJsPrompt,Magic Number,The method contains a magic number: 4,120
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaBridge,promptOnJsPrompt,Magic Number,The method contains a magic number: 2,120
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaBridge,promptOnJsPrompt,Magic Number,The method contains a magic number: 3,120
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaBridge,promptOnJsPrompt,Magic Number,The method contains a magic number: 16,120
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaBridge,promptOnJsPrompt,Magic Number,The method contains a magic number: 9,120
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaBridge,promptOnJsPrompt,Magic Number,The method contains a magic number: 9,120
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaChromeClient,onJsPrompt,Long Parameter List,The method has 5 parameters. ,179
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaChromeClient,onExceededDatabaseQuota,Long Parameter List,The method has 6 parameters. ,224
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaChromeClient,onExceededDatabaseQuota,Long Statement,The length of the statement "LOG.d(TAG`"onExceededDatabaseQuota estimatedSize: %d currentQuota: %d totalUsedQuota: %d"`estimatedSize`currentQuota`totalUsedQuota);" is 133.,224
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaChromeClient,onConsoleMessage,Long Statement,The length of the statement "if (consoleMessage.message() != null) LOG.d(TAG`"%s: Line %d : %s"`consoleMessage.sourceId()`consoleMessage.lineNumber()`consoleMessage.message());" is 147.,249
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaChromeClient,onConsoleMessage,Magic Number,The method contains a magic number: 8,249
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaChromeClient,getVideoLoadingProgressView,Long Statement,The length of the statement "RelativeLayout.LayoutParams layoutParams=new RelativeLayout.LayoutParams(LayoutParams.WRAP_CONTENT`LayoutParams.WRAP_CONTENT);" is 126.,281
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaChromeClient,getVideoLoadingProgressView,Long Statement,The length of the statement "LinearLayout.LayoutParams barLayoutParams=new LinearLayout.LayoutParams(LayoutParams.WRAP_CONTENT`LayoutParams.WRAP_CONTENT);" is 125.,281
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaPreferences,copyIntoIntentExtras,Complex Method,Cyclomatic complexity of the method is 12,125
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaResourceApi,getUriType,Complex Method,Cyclomatic complexity of the method is 8,110
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaResourceApi,getMimeType,Complex Method,Cyclomatic complexity of the method is 8,177
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaResourceApi,getMimeType,Empty catch clause,The method has an empty catch block.,177
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaResourceApi,openForRead,Complex Method,Cyclomatic complexity of the method is 10,234
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaResourceApi,openForRead,Magic Number,The method contains a magic number: 15,234
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaResourceApi,copyResource,Magic Number,The method contains a magic number: 8192,335
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaResourceApi,assertBackgroundThread,Long Statement,The length of the statement "throw new IllegalStateException("Do not perform IO operations on the UI thread. Use CordovaInterface.getThreadPool() instead.");" is 128.,378
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaResourceApi,assertBackgroundThread,Long Statement,The length of the statement "throw new IllegalStateException("Tried to perform an IO operation on the WebCore thread. Use CordovaInterface.getThreadPool() instead.");" is 137.,378
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,CordovaWebView,Magic Number,The method contains a magic number: 11,132
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,init,Long Parameter List,The method has 7 parameters. ,139
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,initIfNecessary,Long Statement,The length of the statement "init(cdv`makeWebViewClient(cdv)`makeWebChromeClient(cdv)`Config.getPluginEntries()`Config.getWhitelist()`Config.getExternalWhitelist()`Config.getPreferences());" is 160.,163
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,initWebViewSettings,Long Statement,The length of the statement "if (android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.HONEYCOMB && android.os.Build.MANUFACTURER.contains("HTC")) {" is 131.,176
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,initWebViewSettings,Long Statement,The length of the statement "if (android.os.Build.VERSION.SDK_INT > android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH_MR1) Level16Apis.enableUniversalAccess(settings);" is 138.,176
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,initWebViewSettings,Long Statement,The length of the statement "if ((appInfo.flags & ApplicationInfo.FLAG_DEBUGGABLE) != 0 && android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {" is 138.,176
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,initWebViewSettings,Magic Number,The method contains a magic number: 5,176
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,initWebViewSettings,Magic Number,The method contains a magic number: 1048576,176
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,loadUrlIntoView,Magic Number,The method contains a magic number: 6,371
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,run,Magic Number,The method contains a magic number: 6,393
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,loadUrlNow,Complex Conditional,The conditional expression url.startsWith("file://") || url.startsWith("javascript:") || internalWhitelist.isUrlWhiteListed(url) is complex.,429
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,showWebPage,Long Statement,The length of the statement "LOG.w(TAG`"showWebPage: Cannot load URL into webview since it is not in white list. Loading into browser instead. (URL=" + url + ")");" is 134.,549
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,onKeyUp,Complex Method,Cyclomatic complexity of the method is 8,657
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,setButtonPlumbedToJs,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@39bf9f9d,700
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,handlePause,Long Statement,The length of the statement "this.loadUrl("javascript:try{cordova.fireDocumentEvent('pause');}catch(e){console.log('exception firing pause event from native');};");" is 135.,749
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,handleResume,Long Statement,The length of the statement "this.loadUrl("javascript:try{cordova.fireDocumentEvent('resume');}catch(e){console.log('exception firing resume event from native');};");" is 137.,769
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebView,handleDestroy,Long Statement,The length of the statement "this.loadUrl("javascript:try{cordova.require('cordova/channel').onDestroy.fire();}catch(e){console.log('exception firing destroy event from native');};");" is 154.,784
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebViewClient,onPageFinished,Empty catch clause,The method has an empty catch block.,155
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebViewClient,onPageFinished,Magic Number,The method contains a magic number: 2000,155
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebViewClient,run,Empty catch clause,The method has an empty catch block.,193
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebViewClient,run,Magic Number,The method contains a magic number: 2000,193
+marcsstevenson_OvenSimCordova,org.apache.cordova,CordovaWebViewClient,onReceivedSslError,Magic Number,The method contains a magic number: 8,258
+marcsstevenson_OvenSimCordova,org.apache.cordova,DirectoryManager,freeSpaceCalculation,Magic Number,The method contains a magic number: 1024,84
+marcsstevenson_OvenSimCordova,org.apache.cordova,DirectoryManager,getTempDirectoryPath,Long Statement,The length of the statement "cache=new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Android/data/" + ctx.getPackageName()+ "/cache/");" is 129.,136
+marcsstevenson_OvenSimCordova,org.apache.cordova,ExifHelper,writeExifData,Complex Method,Cyclomatic complexity of the method is 21,95
+marcsstevenson_OvenSimCordova,org.apache.cordova,ExifHelper,getOrientation,Magic Number,The method contains a magic number: 90,167
+marcsstevenson_OvenSimCordova,org.apache.cordova,ExifHelper,getOrientation,Magic Number,The method contains a magic number: 180,167
+marcsstevenson_OvenSimCordova,org.apache.cordova,ExifHelper,getOrientation,Magic Number,The method contains a magic number: 270,167
+marcsstevenson_OvenSimCordova,org.apache.cordova,ExposedJsApi,exec,Long Parameter List,The method has 5 parameters. ,38
+marcsstevenson_OvenSimCordova,org.apache.cordova,FileHelper,getRealPath,Magic Number,The method contains a magic number: 7,42
+marcsstevenson_OvenSimCordova,org.apache.cordova,FileHelper,getInputStreamFromUriString,Magic Number,The method contains a magic number: 15,88
+marcsstevenson_OvenSimCordova,org.apache.cordova,FileHelper,stripFileProtocol,Magic Number,The method contains a magic number: 7,117
+marcsstevenson_OvenSimCordova,org.apache.cordova,IceCreamCordovaWebViewClient,shouldInterceptRequest,Complex Conditional,The conditional expression !origUri.equals(remappedUri) || needsSpecialsInAssetUrlFix(origUri) || needsKitKatContentUrlFix(origUri) is complex.,48
+marcsstevenson_OvenSimCordova,org.apache.cordova,IceCreamCordovaWebViewClient,isUrlHarmful,Long Statement,The length of the statement "return ((url.startsWith("http:") || url.startsWith("https:")) && !appView.getWhitelist().isUrlWhiteListed(url)) || url.contains("app_webview");" is 143.,79
+marcsstevenson_OvenSimCordova,org.apache.cordova,NativeToJsMessageQueue,NativeToJsMessageQueue,Magic Number,The method contains a magic number: 4,77
+marcsstevenson_OvenSimCordova,org.apache.cordova,NativeToJsMessageQueue,NativeToJsMessageQueue,Magic Number,The method contains a magic number: 2,77
+marcsstevenson_OvenSimCordova,org.apache.cordova,NativeToJsMessageQueue,NativeToJsMessageQueue,Magic Number,The method contains a magic number: 3,77
+marcsstevenson_OvenSimCordova,org.apache.cordova,NativeToJsMessageQueue,popAndEncode,Complex Conditional,The conditional expression numMessagesToSend > 0 && totalPayloadLen + messageSize > MAX_PAYLOAD_SIZE && MAX_PAYLOAD_SIZE > 0 is complex.,138
+marcsstevenson_OvenSimCordova,org.apache.cordova,NativeToJsMessageQueue,popAndEncodeAsJs,Complex Conditional,The conditional expression numMessagesToSend > 0 && totalPayloadLen + messageSize > MAX_PAYLOAD_SIZE && MAX_PAYLOAD_SIZE > 0 is complex.,178
+marcsstevenson_OvenSimCordova,org.apache.cordova,NativeToJsMessageQueue,popAndEncodeAsJs,Complex Method,Cyclomatic complexity of the method is 8,178
+marcsstevenson_OvenSimCordova,org.apache.cordova,NativeToJsMessageQueue,popAndEncodeAsJs,Magic Number,The method contains a magic number: 50,178
+marcsstevenson_OvenSimCordova,org.apache.cordova,NativeToJsMessageQueue,popAndEncodeAsJs,Magic Number,The method contains a magic number: 100,178
+marcsstevenson_OvenSimCordova,org.apache.cordova,NativeToJsMessageQueue,addPluginResult,Magic Number,The method contains a magic number: 50,229
+marcsstevenson_OvenSimCordova,org.apache.cordova,PluginEntry,PluginEntry,Long Parameter List,The method has 5 parameters. ,78
+marcsstevenson_OvenSimCordova,org.apache.cordova,PluginManager,PluginManager,Abstract Function Call From Constructor,The constructor PluginManager calls a virtual method getActivity.,63
+marcsstevenson_OvenSimCordova,org.apache.cordova,PluginManager,exec,Long Statement,The length of the statement "Log.w(TAG`"THREAD WARNING: exec() call to " + service + "."+ action+ " blocked the main thread for "+ duration+ "ms. Plugin should use CordovaInterface.getThreadPool().");" is 171.,119
+marcsstevenson_OvenSimCordova,org.apache.cordova,PluginManager,exec,Long Parameter List,The method has 5 parameters. ,166
+marcsstevenson_OvenSimCordova,org.apache.cordova,ScrollEvent,ScrollEvent,Long Parameter List,The method has 5 parameters. ,46
+marcsstevenson_OvenSimCordova,org.apache.cordova,Whitelist,addWhiteListEntry,Complex Conditional,The conditional expression ("file".equals(scheme) || "content".equals(scheme)) && host == null is complex.,114
+marcsstevenson_OvenSimCordova,org.apache.cordova,Whitelist,addWhiteListEntry,Magic Number,The method contains a magic number: 2,114
+marcsstevenson_OvenSimCordova,org.apache.cordova,Whitelist,addWhiteListEntry,Magic Number,The method contains a magic number: 4,114
+marcsstevenson_OvenSimCordova,org.apache.cordova,Whitelist,addWhiteListEntry,Magic Number,The method contains a magic number: 8,114
+marcsstevenson_OvenSimCordova,org.apache.cordova,Whitelist,addWhiteListEntry,Magic Number,The method contains a magic number: 9,114
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Complex Method,Cyclomatic complexity of the method is 11,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Magic Number,The method contains a magic number: 2,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Magic Number,The method contains a magic number: 2,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Magic Number,The method contains a magic number: 2,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Magic Number,The method contains a magic number: 3,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,beep,Empty catch clause,The method has an empty catch block.,118
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,beep,Magic Number,The method contains a magic number: 5000,118
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,beep,Magic Number,The method contains a magic number: 100,118
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,beep,Magic Number,The method contains a magic number: 100,118
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,125
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 5000,125
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 100,125
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 100,125
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Empty catch clause,The method has an empty catch block.,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Empty catch clause,The method has an empty catch block.,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Empty catch clause,The method has an empty catch block.,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Magic Number,The method contains a magic number: 2,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Magic Number,The method contains a magic number: 2,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Magic Number,The method contains a magic number: 2,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Magic Number,The method contains a magic number: 3,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 3,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,onClick,Magic Number,The method contains a magic number: 2,226
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,onClick,Magic Number,The method contains a magic number: 3,239
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Empty catch clause,The method has an empty catch block.,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Empty catch clause,The method has an empty catch block.,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Empty catch clause,The method has an empty catch block.,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Long Parameter List,The method has 5 parameters. ,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Magic Number,The method contains a magic number: 2,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Magic Number,The method contains a magic number: 2,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Magic Number,The method contains a magic number: 2,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Magic Number,The method contains a magic number: 3,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 3,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,onClick,Magic Number,The method contains a magic number: 2,314
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,onClick,Magic Number,The method contains a magic number: 3,331
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,activityStart,Long Statement,The length of the statement "Notification.this.spinnerDialog=ProgressDialog.show(cordova.getActivity()`title`message`true`true`new DialogInterface.OnCancelListener(){" is 137.,362
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Long Statement,The length of the statement "Notification.this.spinnerDialog=ProgressDialog.show(cordova.getActivity()`title`message`true`true`new DialogInterface.OnCancelListener(){" is 137.,375
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,progressStart,Magic Number,The method contains a magic number: 100,397
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 100,411
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Complex Method,Cyclomatic complexity of the method is 11,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Magic Number,The method contains a magic number: 2,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Magic Number,The method contains a magic number: 2,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Magic Number,The method contains a magic number: 2,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Magic Number,The method contains a magic number: 3,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,beep,Empty catch clause,The method has an empty catch block.,118
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,beep,Magic Number,The method contains a magic number: 5000,118
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,beep,Magic Number,The method contains a magic number: 100,118
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,beep,Magic Number,The method contains a magic number: 100,118
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,125
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 5000,125
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 100,125
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 100,125
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Empty catch clause,The method has an empty catch block.,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Empty catch clause,The method has an empty catch block.,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Empty catch clause,The method has an empty catch block.,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Magic Number,The method contains a magic number: 2,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Magic Number,The method contains a magic number: 2,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Magic Number,The method contains a magic number: 2,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Magic Number,The method contains a magic number: 3,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 3,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,onClick,Magic Number,The method contains a magic number: 2,226
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,onClick,Magic Number,The method contains a magic number: 3,239
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Empty catch clause,The method has an empty catch block.,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Empty catch clause,The method has an empty catch block.,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Empty catch clause,The method has an empty catch block.,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Long Parameter List,The method has 5 parameters. ,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Magic Number,The method contains a magic number: 2,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Magic Number,The method contains a magic number: 2,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Magic Number,The method contains a magic number: 2,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Magic Number,The method contains a magic number: 3,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 3,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,onClick,Magic Number,The method contains a magic number: 2,314
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,onClick,Magic Number,The method contains a magic number: 3,331
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,activityStart,Long Statement,The length of the statement "Notification.this.spinnerDialog=ProgressDialog.show(cordova.getActivity()`title`message`true`true`new DialogInterface.OnCancelListener(){" is 137.,362
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Long Statement,The length of the statement "Notification.this.spinnerDialog=ProgressDialog.show(cordova.getActivity()`title`message`true`true`new DialogInterface.OnCancelListener(){" is 137.,375
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,progressStart,Magic Number,The method contains a magic number: 100,397
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 100,411
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Complex Method,Cyclomatic complexity of the method is 11,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Magic Number,The method contains a magic number: 2,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Magic Number,The method contains a magic number: 2,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Magic Number,The method contains a magic number: 2,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,execute,Magic Number,The method contains a magic number: 3,58
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,beep,Empty catch clause,The method has an empty catch block.,118
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,beep,Magic Number,The method contains a magic number: 5000,118
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,beep,Magic Number,The method contains a magic number: 100,118
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,beep,Magic Number,The method contains a magic number: 100,118
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,125
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 5000,125
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 100,125
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 100,125
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Empty catch clause,The method has an empty catch block.,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Empty catch clause,The method has an empty catch block.,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Empty catch clause,The method has an empty catch block.,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Magic Number,The method contains a magic number: 2,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Magic Number,The method contains a magic number: 2,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Magic Number,The method contains a magic number: 2,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,confirm,Magic Number,The method contains a magic number: 3,188
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 3,202
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,onClick,Magic Number,The method contains a magic number: 2,226
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,onClick,Magic Number,The method contains a magic number: 3,239
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Empty catch clause,The method has an empty catch block.,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Empty catch clause,The method has an empty catch block.,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Empty catch clause,The method has an empty catch block.,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Long Parameter List,The method has 5 parameters. ,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Magic Number,The method contains a magic number: 2,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Magic Number,The method contains a magic number: 2,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Magic Number,The method contains a magic number: 2,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,prompt,Magic Number,The method contains a magic number: 3,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Empty catch clause,The method has an empty catch block.,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 2,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 3,280
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,onClick,Magic Number,The method contains a magic number: 2,314
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,onClick,Magic Number,The method contains a magic number: 3,331
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,activityStart,Long Statement,The length of the statement "Notification.this.spinnerDialog=ProgressDialog.show(cordova.getActivity()`title`message`true`true`new DialogInterface.OnCancelListener(){" is 137.,362
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Long Statement,The length of the statement "Notification.this.spinnerDialog=ProgressDialog.show(cordova.getActivity()`title`message`true`true`new DialogInterface.OnCancelListener(){" is 137.,375
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,progressStart,Magic Number,The method contains a magic number: 100,397
+marcsstevenson_OvenSimCordova,org.apache.cordova.dialogs,Notification,run,Magic Number,The method contains a magic number: 100,411
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,ContentFilesystem,Empty catch clause,The method has an empty catch block.,49
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,ContentFilesystem,Empty catch clause,The method has an empty catch block.,49
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,ContentFilesystem,Empty catch clause,The method has an empty catch block.,49
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,ContentFilesystem,Empty catch clause,The method has an empty catch block.,49
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,ContentFilesystem,Empty catch clause,The method has an empty catch block.,49
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,removeFileAtLocalURL,Empty catch clause,The method has an empty catch block.,126
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,removeFileAtLocalURL,Long Statement,The length of the statement "this.cordova.getActivity().getContentResolver().delete(MediaStore.Images.Media.EXTERNAL_CONTENT_URI`MediaStore.Images.Media.DATA + " = ?"`new String[]{filePath});" is 162.,126
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,copyFileToURL,Long Parameter List,The method has 5 parameters. ,187
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,resourceSizeForCursor,Magic Number,The method contains a magic number: 10,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,lastModifiedDateForCursor,Magic Number,The method contains a magic number: 10,274
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,DirectoryManager,freeSpaceCalculation,Magic Number,The method contains a magic number: 1024,82
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileHelper,getRealPath,Magic Number,The method contains a magic number: 7,37
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileHelper,getInputStreamFromUriString,Magic Number,The method contains a magic number: 15,83
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileHelper,stripFileProtocol,Magic Number,The method contains a magic number: 7,112
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,Filesystem,copyFileToURL,Long Parameter List,The method has 5 parameters. ,134
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,Filesystem,copyFileToURL,Magic Number,The method contains a magic number: 8192,134
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,Filesystem,handleData,Magic Number,The method contains a magic number: 8192,144
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,filesystemForName,Complex Conditional,The conditional expression fs != null && fs.name != null && fs.name.equals(name) is complex.,88
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,initialize,Long Statement,The length of the statement "Log.e(LOG_TAG`"File plugin configuration error: Please set AndroidPersistentFileLocation in config.xml to one of \"internal\" (for new applications) or \"compatibility\" (for compatibility with previous versions)");" is 215.,149
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Complex Method,Cyclomatic complexity of the method is 29,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Long Method,The method has 280 lines of code.,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Long Statement,The length of the statement "callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.ERROR`"File plugin is not configured. Please see the README.md file for details on how to update config.xml"));" is 181.,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Long Statement,The length of the statement "public void run() throws JSONException` NoModificationAllowedException` IOException` InvalidModificationException` EncodingException` FileExistsException {" is 155.,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Long Statement,The length of the statement "public void run() throws JSONException` NoModificationAllowedException` IOException` InvalidModificationException` EncodingException` FileExistsException {" is 155.,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 3,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 3,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 1024,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,run,Magic Number,The method contains a magic number: 1024,375
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,run,Magic Number,The method contains a magic number: 2,416
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,run,Magic Number,The method contains a magic number: 2,426
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,threadhelper,Complex Method,Cyclomatic complexity of the method is 10,551
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,run,Complex Method,Cyclomatic complexity of the method is 10,553
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,resolveLocalFileSystemURI,Magic Number,The method contains a magic number: 6,584
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,resolveLocalFileSystemURI,Magic Number,The method contains a magic number: 7,584
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,requestFileSystem,Empty catch clause,The method has an empty catch block.,833
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,readFileAs,Long Parameter List,The method has 6 parameters. ,938
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,readFileAs,Magic Number,The method contains a magic number: 8192,938
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,readFileAs,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@4dcd6e1b,938
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,handleData,Magic Number,The method contains a magic number: 8192,960
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,handleData,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@4dcd6e1b,960
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,LocalFilesystem,getFileForLocalURL,Complex Method,Cyclomatic complexity of the method is 13,150
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,LocalFilesystem,readEntriesAtLocalURL,Long Statement,The length of the statement "entries.put(makeEntryForPath(fullPathForFilesystemPath(files[i].getAbsolutePath())`inputURL.filesystemName`files[i].isDirectory()`Uri.fromFile(files[i]).toString()));" is 166.,244
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,LocalFilesystem,copyFileToURL,Complex Method,Cyclomatic complexity of the method is 8,465
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,LocalFilesystem,copyFileToURL,Long Parameter List,The method has 5 parameters. ,465
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,ContentFilesystem,Empty catch clause,The method has an empty catch block.,49
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,ContentFilesystem,Empty catch clause,The method has an empty catch block.,49
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,ContentFilesystem,Empty catch clause,The method has an empty catch block.,49
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,ContentFilesystem,Empty catch clause,The method has an empty catch block.,49
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,ContentFilesystem,Empty catch clause,The method has an empty catch block.,49
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,removeFileAtLocalURL,Empty catch clause,The method has an empty catch block.,126
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,removeFileAtLocalURL,Long Statement,The length of the statement "this.cordova.getActivity().getContentResolver().delete(MediaStore.Images.Media.EXTERNAL_CONTENT_URI`MediaStore.Images.Media.DATA + " = ?"`new String[]{filePath});" is 162.,126
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,copyFileToURL,Long Parameter List,The method has 5 parameters. ,187
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,resourceSizeForCursor,Magic Number,The method contains a magic number: 10,263
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,ContentFilesystem,lastModifiedDateForCursor,Magic Number,The method contains a magic number: 10,274
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,DirectoryManager,freeSpaceCalculation,Magic Number,The method contains a magic number: 1024,82
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileHelper,getRealPath,Magic Number,The method contains a magic number: 7,37
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileHelper,getInputStreamFromUriString,Magic Number,The method contains a magic number: 15,83
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileHelper,stripFileProtocol,Magic Number,The method contains a magic number: 7,112
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,Filesystem,copyFileToURL,Long Parameter List,The method has 5 parameters. ,134
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,Filesystem,copyFileToURL,Magic Number,The method contains a magic number: 8192,134
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,Filesystem,handleData,Magic Number,The method contains a magic number: 8192,144
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,filesystemForName,Complex Conditional,The conditional expression fs != null && fs.name != null && fs.name.equals(name) is complex.,88
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,initialize,Long Statement,The length of the statement "Log.e(LOG_TAG`"File plugin configuration error: Please set AndroidPersistentFileLocation in config.xml to one of \"internal\" (for new applications) or \"compatibility\" (for compatibility with previous versions)");" is 215.,149
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Complex Method,Cyclomatic complexity of the method is 29,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Long Method,The method has 280 lines of code.,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Long Statement,The length of the statement "callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.ERROR`"File plugin is not configured. Please see the README.md file for details on how to update config.xml"));" is 181.,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Long Statement,The length of the statement "public void run() throws JSONException` NoModificationAllowedException` IOException` InvalidModificationException` EncodingException` FileExistsException {" is 155.,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Long Statement,The length of the statement "public void run() throws JSONException` NoModificationAllowedException` IOException` InvalidModificationException` EncodingException` FileExistsException {" is 155.,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 3,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 3,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 1024,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,execute,Magic Number,The method contains a magic number: 2,242
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,run,Magic Number,The method contains a magic number: 1024,375
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,run,Magic Number,The method contains a magic number: 2,416
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,run,Magic Number,The method contains a magic number: 2,426
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,threadhelper,Complex Method,Cyclomatic complexity of the method is 10,551
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,run,Complex Method,Cyclomatic complexity of the method is 10,553
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,resolveLocalFileSystemURI,Magic Number,The method contains a magic number: 6,584
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,resolveLocalFileSystemURI,Magic Number,The method contains a magic number: 7,584
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,requestFileSystem,Empty catch clause,The method has an empty catch block.,833
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,readFileAs,Long Parameter List,The method has 6 parameters. ,938
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,readFileAs,Magic Number,The method contains a magic number: 8192,938
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,readFileAs,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@196f5dbd,938
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,handleData,Magic Number,The method contains a magic number: 8192,960
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,FileUtils,handleData,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@196f5dbd,960
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,LocalFilesystem,getFileForLocalURL,Complex Method,Cyclomatic complexity of the method is 13,150
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,LocalFilesystem,readEntriesAtLocalURL,Long Statement,The length of the statement "entries.put(makeEntryForPath(fullPathForFilesystemPath(files[i].getAbsolutePath())`inputURL.filesystemName`files[i].isDirectory()`Uri.fromFile(files[i]).toString()));" is 166.,244
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,LocalFilesystem,copyFileToURL,Complex Method,Cyclomatic complexity of the method is 8,465
+marcsstevenson_OvenSimCordova,org.apache.cordova.file,LocalFilesystem,copyFileToURL,Long Parameter List,The method has 5 parameters. ,465
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,execute,Complex Method,Cyclomatic complexity of the method is 12,61
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,execute,Empty catch clause,The method has an empty catch block.,61
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,getCurrentPositionAudio,Magic Number,The method contains a magic number: 1000.0f,289
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,setAudioOutputDevice,Magic Number,The method contains a magic number: 2,324
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,getAudioOutputDevice,Magic Number,The method contains a magic number: 2,343
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,AudioPlayer,Abstract Function Call From Constructor,The constructor AudioPlayer calls a virtual method getActivity.,87
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,startRecording,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_ABORTED+ "});");" is 174.,127
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,startRecording,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_ABORTED+ "});");" is 174.,127
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,startRecording,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_ABORTED+ "});");" is 174.,127
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,seekToPlaying,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_POSITION+ "` "+ milliseconds / 1000.0f + ");");" is 171.,223
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,seekToPlaying,Magic Number,The method contains a magic number: 1000.0f,223
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,pausePlaying,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_NONE_ACTIVE+ "});");" is 178.,237
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,stopPlaying,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_NONE_ACTIVE+ "});");" is 178.,253
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,getCurrentPosition,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_POSITION+ "` "+ curPos / 1000.0f + ");");" is 165.,279
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,getCurrentPosition,Magic Number,The method contains a magic number: 1000.0f,279
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,getDuration,Magic Number,The method contains a magic number: 2,311
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,onPrepared,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_DURATION+ "`"+ this.duration+ ");");" is 160.,342
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,getDurationInSeconds,Magic Number,The method contains a magic number: 1000.0f,369
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,onError,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` { \"code\":"+ arg1+ "});");" is 142.,378
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,setState,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_STATE+ "` "+ state.ordinal()+ ");");" is 160.,398
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,playMode,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_ABORTED+ "});");" is 174.,441
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,readyPlayer,Complex Method,Cyclomatic complexity of the method is 10,460
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,readyPlayer,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@55995663,460
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,loadAudioFile,Magic Number,The method contains a magic number: 15,513
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,execute,Complex Method,Cyclomatic complexity of the method is 12,61
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,execute,Empty catch clause,The method has an empty catch block.,61
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,getCurrentPositionAudio,Magic Number,The method contains a magic number: 1000.0f,289
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,setAudioOutputDevice,Magic Number,The method contains a magic number: 2,324
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,getAudioOutputDevice,Magic Number,The method contains a magic number: 2,343
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,AudioPlayer,Abstract Function Call From Constructor,The constructor AudioPlayer calls a virtual method getActivity.,87
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,startRecording,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_ABORTED+ "});");" is 174.,127
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,startRecording,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_ABORTED+ "});");" is 174.,127
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,startRecording,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_ABORTED+ "});");" is 174.,127
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,seekToPlaying,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_POSITION+ "` "+ milliseconds / 1000.0f + ");");" is 171.,223
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,seekToPlaying,Magic Number,The method contains a magic number: 1000.0f,223
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,pausePlaying,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_NONE_ACTIVE+ "});");" is 178.,237
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,stopPlaying,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_NONE_ACTIVE+ "});");" is 178.,253
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,getCurrentPosition,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_POSITION+ "` "+ curPos / 1000.0f + ");");" is 165.,279
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,getCurrentPosition,Magic Number,The method contains a magic number: 1000.0f,279
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,getDuration,Magic Number,The method contains a magic number: 2,311
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,onPrepared,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_DURATION+ "`"+ this.duration+ ");");" is 160.,342
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,getDurationInSeconds,Magic Number,The method contains a magic number: 1000.0f,369
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,onError,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` { \"code\":"+ arg1+ "});");" is 142.,378
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,setState,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_STATE+ "` "+ state.ordinal()+ ");");" is 160.,398
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,playMode,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_ABORTED+ "});");" is 174.,441
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,readyPlayer,Complex Method,Cyclomatic complexity of the method is 10,460
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,readyPlayer,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@109f783a,460
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,loadAudioFile,Magic Number,The method contains a magic number: 15,513
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,execute,Complex Method,Cyclomatic complexity of the method is 12,61
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,execute,Empty catch clause,The method has an empty catch block.,61
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,getCurrentPositionAudio,Magic Number,The method contains a magic number: 1000.0f,289
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,setAudioOutputDevice,Magic Number,The method contains a magic number: 2,324
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioHandler,getAudioOutputDevice,Magic Number,The method contains a magic number: 2,343
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,AudioPlayer,Abstract Function Call From Constructor,The constructor AudioPlayer calls a virtual method getActivity.,87
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,startRecording,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_ABORTED+ "});");" is 174.,127
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,startRecording,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_ABORTED+ "});");" is 174.,127
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,startRecording,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_ABORTED+ "});");" is 174.,127
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,seekToPlaying,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_POSITION+ "` "+ milliseconds / 1000.0f + ");");" is 171.,223
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,seekToPlaying,Magic Number,The method contains a magic number: 1000.0f,223
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,pausePlaying,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_NONE_ACTIVE+ "});");" is 178.,237
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,stopPlaying,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_NONE_ACTIVE+ "});");" is 178.,253
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,getCurrentPosition,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_POSITION+ "` "+ curPos / 1000.0f + ");");" is 165.,279
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,getCurrentPosition,Magic Number,The method contains a magic number: 1000.0f,279
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,getDuration,Magic Number,The method contains a magic number: 2,311
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,onPrepared,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_DURATION+ "`"+ this.duration+ ");");" is 160.,342
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,getDurationInSeconds,Magic Number,The method contains a magic number: 1000.0f,369
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,onError,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` { \"code\":"+ arg1+ "});");" is 142.,378
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,setState,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_STATE+ "` "+ state.ordinal()+ ");");" is 160.,398
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,playMode,Long Statement,The length of the statement "this.handler.webView.sendJavascript("cordova.require('org.apache.cordova.media.Media').onStatus('" + this.id + "'` "+ MEDIA_ERROR+ "` { \"code\":"+ MEDIA_ERR_ABORTED+ "});");" is 174.,441
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,readyPlayer,Complex Method,Cyclomatic complexity of the method is 10,460
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,readyPlayer,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@36846184,460
+marcsstevenson_OvenSimCordova,org.apache.cordova.media,AudioPlayer,loadAudioFile,Magic Number,The method contains a magic number: 15,513

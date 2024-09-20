@@ -1,0 +1,8 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+c-mars_future.sample,c.mars,Main,main,Long Statement,The length of the statement "final CallableFuture<String`Integer> callableFuture=new CallableFuture<String`Integer>(new CallableFuture.CallableWithArg<String`Integer>(){" is 140.,7
+c-mars_future.sample,c.mars,Main,main,Magic Number,The method contains a magic number: 5,7
+c-mars_future.sample,c.mars,Main,main,Magic Number,The method contains a magic number: 100,7
+c-mars_future.sample,c.mars,Main,main,Magic Number,The method contains a magic number: 66,7
+c-mars_future.sample,c.mars,Main,run,Magic Number,The method contains a magic number: 5,22
+c-mars_future.sample,c.mars,Main,run,Magic Number,The method contains a magic number: 100,22
+c-mars_future.sample,c.mars,Main,run,Magic Number,The method contains a magic number: 66,22

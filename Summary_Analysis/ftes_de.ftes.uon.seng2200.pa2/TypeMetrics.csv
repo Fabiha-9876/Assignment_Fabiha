@@ -1,0 +1,24 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ArrayList,0,0,4,0,24,4,1,1,-1.0,3,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\ArrayList.java,4
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ArrayListImpl,9,0,15,14,250,22,1,2,0.2,2,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\ArrayListImpl.java,8
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ArrayListImpl.Node,0,0,0,0,45,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\ArrayListImpl.java,15
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ArrayListImpl.DataNodeImpl,3,0,0,0,60,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\ArrayListImpl.java,78
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ArrayListImpl.AbstractSentinelNode,0,0,0,0,15,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\ArrayListImpl.java,157
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ArrayListImpl.StartNodeImpl,0,0,0,0,15,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\ArrayListImpl.java,180
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ArrayListImpl.EndNodeImpl,0,0,0,0,18,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\ArrayListImpl.java,202
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,DistanceAttempt,3,0,8,8,48,10,0,0,0.0,2,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\DistanceAttempt.java,4
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,DistanceEvent,4,0,7,6,66,13,0,0,0.0,0,3,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\DistanceEvent.java,5
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,Event,6,1,5,5,75,11,0,0,0.6,1,4,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\Event.java,11
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,List,0,0,4,0,19,4,2,0,-1.0,2,1,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\List.java,5
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ListEmptyException,1,0,2,2,12,2,0,1,1.0,1,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\ListEmptyException.java,4
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ListException,1,0,2,2,12,2,1,0,1.0,0,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\ListException.java,4
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,ListTest,1,1,3,3,42,6,0,0,1.0,0,2,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\ListTest.java,11
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,SortedList,0,0,1,0,7,1,1,1,-1.0,3,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\SortedList.java,4
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2,SortedListImpl,0,0,3,3,23,6,0,3,-1.0,1,1,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\SortedListImpl.java,5
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2.test,CheckExpectedOrderTest,0,0,8,4,49,14,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\test\CheckExpectedOrderTest.java,11
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2.test,CompareComputedToExpectedOutputTest,0,0,3,1,24,3,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\test\CompareComputedToExpectedOutputTest.java,13
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2.test,DistanceAttemptTest,0,0,1,1,11,1,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\test\DistanceAttemptTest.java,8
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2.test,PrintOutputForGivenExample,0,0,1,1,6,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\test\PrintOutputForGivenExample.java,10
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2.test,SortedListTest,0,0,1,1,17,1,0,0,-1.0,0,2,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\test\SortedListTest.java,10
+ftes_de.ftes.uon.seng2200.pa2,de.ftes.uon.seng2200.pa2.test,StreamUtils,0,0,1,1,22,3,0,0,-1.0,1,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\de\ftes\uon\seng2200\pa2\test\StreamUtils.java,8
+ftes_de.ftes.uon.seng2200.pa2,(default package),PA2,0,0,1,1,12,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\ftes_de.ftes.uon.seng2200.pa2\PA2.java,7

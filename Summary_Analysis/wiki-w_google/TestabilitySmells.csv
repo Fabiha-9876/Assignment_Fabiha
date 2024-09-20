@@ -1,0 +1,36 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+wiki-w_google,com.google.android.apps.iosched.io,SessionsHandler,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+wiki-w_google,com.google.android.apps.iosched.provider,ScheduleContract.Blocks,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.provider,ScheduleContract.Tracks,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.provider,ScheduleContract.Rooms,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.provider,ScheduleContract.Feedback,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.provider,ScheduleContract.Sessions,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.provider,ScheduleContract.Speakers,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.provider,ScheduleContract.Sandbox,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.provider,ScheduleContract.Announcements,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.provider,ScheduleContract.MapTiles,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.provider,ScheduleContract.MapMarkers,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.provider,ScheduleContract.SearchSuggest,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.provider,ScheduleContract.SearchIndex,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.ui,AccountActivity.SignInMainFragment,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.ui,AccountActivity.SignInSetupFragment,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.ui,AccountActivity.ChooseAccountFragment,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.ui,AccountActivity.AuthProgressFragment,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.ui,HomeActivity,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+wiki-w_google,com.google.android.apps.iosched.ui,MapFragment.MarkerModel,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.ui,MapFragment.TrackModel,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.ui,MultiSelectionUtil.Controller,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.ui,MultiSelectionUtil.MultiChoiceModeListener,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.ui,SearchActivity,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+wiki-w_google,com.google.android.apps.iosched.ui,SessionLivestreamActivity.SessionSummaryFragment,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.ui,SessionLivestreamActivity.SessionLiveCaptionsFragment,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.ui,SimpleSectionedListAdapter.Section,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.ui.widget,ObservableScrollView.Callbacks,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.util,AccountUtils.AuthenticateCallback,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.util,BitmapCache.RetainFragment,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.util,HelpUtils.AboutDialog,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.util,HelpUtils.OpenSourceLicensesDialog,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.util,HelpUtils.EulaDialog,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.util,UIUtils.TrackIconViewAsyncTask,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.util,UIUtils.TrackIconAsyncTask,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+wiki-w_google,com.google.android.apps.iosched.util,WiFiUtils.WiFiDialog,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.

@@ -1,0 +1,7 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+NCIP_c3pr-docs,edu.duke.cabig.c3pr.webservice.iso21090,ObjectFactory,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 520
+NCIP_c3pr-docs,edu.duke.cabig.c3pr.webservice.subjectregistry,ObjectFactory,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 50
+NCIP_c3pr-docs,edu.duke.cabig.c3pr.webservice.subjectregistry,SubjectRegistry,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 20
+NCIP_c3pr-docs,edu.duke.cabig.c3pr.domain,Study,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 16
+NCIP_c3pr-docs,edu.duke.cabig.c3pr.domain,StudySubject,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 14
+NCIP_c3pr-docs,edu.duke.cabig.c3pr.domain,TreatmentEpoch,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8

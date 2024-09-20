@@ -1,0 +1,48 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+TymchenkoIvan_study,com.company.db.dao,MySqlOrderDAO,add,Magic Number,The method contains a magic number: 2,29
+TymchenkoIvan_study,com.company.db.dao,MySqlOrderDAO,add,Magic Number,The method contains a magic number: 3,29
+TymchenkoIvan_study,com.company.db.dao,MySqlOrderDAO,add,Magic Number,The method contains a magic number: 4,29
+TymchenkoIvan_study,com.company.db.dao,MySqlOrderItemDAO,add,Magic Number,The method contains a magic number: 2,22
+TymchenkoIvan_study,com.company.db.dao,MySqlOrderItemDAO,add,Magic Number,The method contains a magic number: 3,22
+TymchenkoIvan_study,com.company.db.dao,MySqlOrderItemDAO,add,Magic Number,The method contains a magic number: 4,22
+TymchenkoIvan_study,com.company.db.dao,MySqlUserDAO,add,Magic Number,The method contains a magic number: 2,33
+TymchenkoIvan_study,com.company.db.dao,MySqlUserDAO,add,Magic Number,The method contains a magic number: 3,33
+TymchenkoIvan_study,com.company.db.dao,MySqlUserDAO,add,Magic Number,The method contains a magic number: 4,33
+TymchenkoIvan_study,com.company.db.dao,MySqlUserDAO,add,Magic Number,The method contains a magic number: 5,33
+TymchenkoIvan_study,com.company.db.dao,MySqlUserDAO,add,Magic Number,The method contains a magic number: 6,33
+TymchenkoIvan_study,com.company.db.dao,MySqlUserDAO,addUsersNotifications,Magic Number,The method contains a magic number: 2,51
+TymchenkoIvan_study,com.company.entity,Product,hashCode,Magic Number,The method contains a magic number: 31,14
+TymchenkoIvan_study,com.company.entity,Product,hashCode,Magic Number,The method contains a magic number: 32,14
+TymchenkoIvan_study,com.company.service.bean,ProductBean,hashCode,Magic Number,The method contains a magic number: 31,16
+TymchenkoIvan_study,com.company.service.bean,ProductBean,hashCode,Magic Number,The method contains a magic number: 32,16
+TymchenkoIvan_study,com.company.util,FileUtil,copyStream,Magic Number,The method contains a magic number: 1024,14
+TymchenkoIvan_study,com.company.util,FileUtil,copyStream,Magic Number,The method contains a magic number: 4,14
+TymchenkoIvan_study,com.company.util,ImageGenerator,createImage,Magic Number,The method contains a magic number: 200,17
+TymchenkoIvan_study,com.company.util,ImageGenerator,createImage,Magic Number,The method contains a magic number: 40,17
+TymchenkoIvan_study,com.company.util,ImageGenerator,createImage,Magic Number,The method contains a magic number: 200,17
+TymchenkoIvan_study,com.company.util,ImageGenerator,createImage,Magic Number,The method contains a magic number: 40,17
+TymchenkoIvan_study,com.company.util,ImageGenerator,createImage,Magic Number,The method contains a magic number: 10,17
+TymchenkoIvan_study,com.company.util,ImageGenerator,createImage,Magic Number,The method contains a magic number: 5,17
+TymchenkoIvan_study,com.company.util,ImageGenerator,createImage,Magic Number,The method contains a magic number: 20,17
+TymchenkoIvan_study,com.company.util,ImageGenerator,createImage,Magic Number,The method contains a magic number: 10,17
+TymchenkoIvan_study,com.company.util,ImageGenerator,createImage,Magic Number,The method contains a magic number: 30,17
+TymchenkoIvan_study,com.company.util,ImageGenerator,createImage,Magic Number,The method contains a magic number: 5,17
+TymchenkoIvan_study,com.company.util,ImageGenerator,createImage,Magic Number,The method contains a magic number: 30,17
+TymchenkoIvan_study,com.company.util,Validator,validate,Complex Method,Cyclomatic complexity of the method is 8,76
+TymchenkoIvan_study,com.company.util,Validator,validatePositiveNumberOrEmpty,Complex Conditional,The conditional expression number == null || number.isEmpty() || "".equals(number) is complex.,131
+TymchenkoIvan_study,com.company.util,Validator,validatePrice,Complex Conditional,The conditional expression price == null || price.isEmpty() || "".equals(price) is complex.,162
+TymchenkoIvan_study,com.company.util,Validator,validateOnPage,Complex Conditional,The conditional expression page == null || page.isEmpty() || "".equals(page) is complex.,179
+TymchenkoIvan_study,com.company.util,Validator,validateDelivery,Complex Conditional,The conditional expression line == null || line.isEmpty() || "".equals(line) is complex.,196
+TymchenkoIvan_study,com.company.util,Validator,validatePayment,Complex Conditional,The conditional expression line == null || line.isEmpty() || "".equals(line) is complex.,206
+TymchenkoIvan_study,com.company.util,BeanUtilTest,isCreateJsonBasketBeanCorrect,Magic Number,The method contains a magic number: 10,24
+TymchenkoIvan_study,com.company.util,BeanUtilTest,isCreateJsonBasketBeanCorrectUsingSpy,Magic Number,The method contains a magic number: 10,39
+TymchenkoIvan_study,com.company.web.controller,BasketAddServlet,init,Long Statement,The length of the statement "productService=(ProductService)servletConfig.getServletContext().getAttribute(AppScopeConstants.CONTEXT_PRODUCT_SERVICE);" is 121.,32
+TymchenkoIvan_study,com.company.web.controller,JsonServlet,init,Long Statement,The length of the statement "productService=(ProductService)servletConfig.getServletContext().getAttribute(AppScopeConstants.CONTEXT_PRODUCT_SERVICE);" is 121.,32
+TymchenkoIvan_study,com.company.web.controller,ProductServlet,init,Long Statement,The length of the statement "productService=(MySqlProductService)servletConfig.getServletContext().getAttribute(AppScopeConstants.CONTEXT_PRODUCT_SERVICE);" is 126.,30
+TymchenkoIvan_study,com.company.web.controller,ProductsServlet,init,Long Statement,The length of the statement "productService=(ProductService)servletConfig.getServletContext().getAttribute(AppScopeConstants.CONTEXT_PRODUCT_SERVICE);" is 121.,36
+TymchenkoIvan_study,com.company.web.filter,AccessFilter,init,Long Statement,The length of the statement "securityDispatcher=(SecurityDispatcher)filterConfig.getServletContext().getAttribute(AppScopeConstants.CONTEXT_SECURITY_DISPATCHER);" is 132.,32
+TymchenkoIvan_study,com.company.web.filter.gzip,GZipResponseWrapper,finishResponse,Empty catch clause,The method has an empty catch block.,40
+TymchenkoIvan_study,com.company.web.listener,ContextListener,contextInitialized,Long Statement,The length of the statement "resourcesFolder=context.getRealPath("") + File.separator + context.getInitParameter(DeployConstants.WEB_XML_RESOURCE_FOLDER);" is 125.,42
+TymchenkoIvan_study,com.company.web.listener,ContextListener,initCaptchaSaver,Long Statement,The length of the statement "SaverType type=SaverType.valueOf(sce.getServletContext().getInitParameter(DeployConstants.WEB_XML_CAPTCHA_SAVER).toUpperCase());" is 128.,103
+TymchenkoIvan_study,com.company.web.listener,ContextListener,initLocaleHandler,Long Statement,The length of the statement "LocaleHandlerType type=LocaleHandlerType.valueOf(sce.getServletContext().getInitParameter(DeployConstants.WEB_XML_LOCALE_SAVER).toUpperCase());" is 143.,111
+TymchenkoIvan_study,com.company.web.listener,ContextListener,initSecurityDispatcher,Long Statement,The length of the statement "String securityFilePath=resourcesFolder + sce.getServletContext().getInitParameter(DeployConstants.WEB_XML_SECURITY_FILE_PATH);" is 127.,119

@@ -1,0 +1,27 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+jclayton23_Java,(default package),CondoSales,main,Magic Number,The method contains a magic number: 150000,4
+jclayton23_Java,(default package),CondoSales,main,Magic Number,The method contains a magic number: 170000,4
+jclayton23_Java,(default package),CondoSales,main,Magic Number,The method contains a magic number: 210000,4
+jclayton23_Java,(default package),CondoSales,main,Magic Number,The method contains a magic number: 2,4
+jclayton23_Java,(default package),CondoSales,main,Magic Number,The method contains a magic number: 3,4
+jclayton23_Java,(default package),CondoSales,main,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@39655d3e,4
+jclayton23_Java,(default package),TwelveDays,main,Complex Conditional,The conditional expression christmas != 1 && christmas != 2 && christmas != 3 && christmas <= 12 is complex.,4
+jclayton23_Java,(default package),TwelveDays,main,Complex Method,Cyclomatic complexity of the method is 18,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 2,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 3,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 2,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 3,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 12,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 12,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 12,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 11,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 10,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 9,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 8,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 7,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 6,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 5,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 4,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 3,4
+jclayton23_Java,(default package),TwelveDays,main,Magic Number,The method contains a magic number: 2,4
+jclayton23_Java,(default package),TwelveDays,main,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@16ce702d,4

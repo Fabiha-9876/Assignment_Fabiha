@@ -1,0 +1,66 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+AlexAbraham1_YUClubs,main.java.core,Server,main,Long Method,The method has 185 lines of code.,28
+AlexAbraham1_YUClubs,main.java.core,Server,main,Long Statement,The length of the statement "Object result=UserService.createClub(user`clubName`clubDescription`clubImage`presidentName`presidentEmail`presidentPhone`presidentImage);" is 137.,28
+AlexAbraham1_YUClubs,main.java.core,Server,main,Magic Number,The method contains a magic number: 8080,28
+AlexAbraham1_YUClubs,main.java.core,Server,main,Magic Number,The method contains a magic number: 400,28
+AlexAbraham1_YUClubs,main.java.core,Server,main,Magic Number,The method contains a magic number: 401,28
+AlexAbraham1_YUClubs,main.java.core,Server,main,Magic Number,The method contains a magic number: 400,28
+AlexAbraham1_YUClubs,main.java.core,Server,main,Magic Number,The method contains a magic number: 200,28
+AlexAbraham1_YUClubs,main.java.core,Server,main,Magic Number,The method contains a magic number: 400,28
+AlexAbraham1_YUClubs,main.java.core,Server,main,Magic Number,The method contains a magic number: 400,28
+AlexAbraham1_YUClubs,main.java.core,Server,main,Magic Number,The method contains a magic number: 34,28
+AlexAbraham1_YUClubs,main.java.core,Server,setupProtectedFilters,Magic Number,The method contains a magic number: 401,306
+AlexAbraham1_YUClubs,main.java.models,DBC,getAllEvents,Long Statement,The length of the statement "eventList=eventList.stream().filter(e -> new Timestamp(cal.getTime().getTime()).compareTo(e.getTime()) >= 0).collect(Collectors.toList());" is 138.,188
+AlexAbraham1_YUClubs,main.java.models,DBC,getAllEvents,Magic Number,The method contains a magic number: 12,188
+AlexAbraham1_YUClubs,main.java.models,PasswordHash,pbkdf2,Magic Number,The method contains a magic number: 8,139
+AlexAbraham1_YUClubs,main.java.models,PasswordHash,fromHex,Magic Number,The method contains a magic number: 2,156
+AlexAbraham1_YUClubs,main.java.models,PasswordHash,fromHex,Magic Number,The method contains a magic number: 2,156
+AlexAbraham1_YUClubs,main.java.models,PasswordHash,fromHex,Magic Number,The method contains a magic number: 2,156
+AlexAbraham1_YUClubs,main.java.models,PasswordHash,fromHex,Magic Number,The method contains a magic number: 2,156
+AlexAbraham1_YUClubs,main.java.models,PasswordHash,fromHex,Magic Number,The method contains a magic number: 16,156
+AlexAbraham1_YUClubs,main.java.models,PasswordHash,toHex,Magic Number,The method contains a magic number: 16,172
+AlexAbraham1_YUClubs,main.java.models,PasswordHash,toHex,Magic Number,The method contains a magic number: 2,172
+AlexAbraham1_YUClubs,main.java.models,RSS,getFeed,Complex Conditional,The conditional expression !(name.contains("Shacharis") || name.contains("Mincha") || name.contains("Minyan")) is complex.,27
+AlexAbraham1_YUClubs,main.java.models,RSS,getFeed,Long Statement,The length of the statement "URLConnection connection=new URL("http://25livepub.collegenet.com/calendars/25live-student-events.rss").openConnection();" is 121.,27
+AlexAbraham1_YUClubs,main.java.models,SecureString,get,Magic Number,The method contains a magic number: 5,9
+AlexAbraham1_YUClubs,main.java.models,SecureString,get,Magic Number,The method contains a magic number: 32,9
+AlexAbraham1_YUClubs,main.java.routes.get,HomeGetRoute,handle,Magic Number,The method contains a magic number: 201,10
+AlexAbraham1_YUClubs,main.java.routes.get,LogoutGetRoute,handle,Magic Number,The method contains a magic number: 200,12
+AlexAbraham1_YUClubs,main.java.routes.post,CreateClubPostRoute,handle,Complex Conditional,The conditional expression user.getPresident() == null && (presidentEmail.equals("") || presidentName.equals("")) is complex.,26
+AlexAbraham1_YUClubs,main.java.routes.post,CreateClubPostRoute,handle,Long Statement,The length of the statement "Map<String`Object> attributes=getBadAttributes("You forgot to enter the club name!"`user`clubName`clubDescription`clubImage`presidentEmail`presidentImage`presidentName`presidentPhone);" is 184.,26
+AlexAbraham1_YUClubs,main.java.routes.post,CreateClubPostRoute,handle,Long Statement,The length of the statement "Map<String`Object> attributes=getBadAttributes("You forgot to enter the club description!"`user`clubName`clubDescription`clubImage`presidentEmail`presidentImage`presidentName`presidentPhone);" is 191.,26
+AlexAbraham1_YUClubs,main.java.routes.post,CreateClubPostRoute,handle,Long Statement,The length of the statement "Map<String`Object> attributes=getBadAttributes("You forgot to enter the club image!"`user`clubName`clubDescription`clubImage`presidentEmail`presidentImage`presidentName`presidentPhone);" is 185.,26
+AlexAbraham1_YUClubs,main.java.routes.post,CreateClubPostRoute,handle,Long Statement,The length of the statement "Map<String`Object> attributes=getBadAttributes("You forgot to enter president information!"`user`clubName`clubDescription`clubImage`presidentEmail`presidentImage`presidentName`presidentPhone);" is 192.,26
+AlexAbraham1_YUClubs,main.java.routes.post,CreateClubPostRoute,handle,Long Statement,The length of the statement "Map<String`Object> attributes=getBadAttributes("The president email address is not valid!!"`user`clubName`clubDescription`clubImage`presidentEmail`presidentImage`presidentName`presidentPhone);" is 192.,26
+AlexAbraham1_YUClubs,main.java.routes.post,CreateClubPostRoute,handle,Magic Number,The method contains a magic number: 400,26
+AlexAbraham1_YUClubs,main.java.routes.post,CreateClubPostRoute,handle,Magic Number,The method contains a magic number: 400,26
+AlexAbraham1_YUClubs,main.java.routes.post,CreateClubPostRoute,handle,Magic Number,The method contains a magic number: 400,26
+AlexAbraham1_YUClubs,main.java.routes.post,CreateClubPostRoute,handle,Magic Number,The method contains a magic number: 400,26
+AlexAbraham1_YUClubs,main.java.routes.post,CreateClubPostRoute,handle,Magic Number,The method contains a magic number: 400,26
+AlexAbraham1_YUClubs,main.java.routes.post,CreateClubPostRoute,handle,Magic Number,The method contains a magic number: 201,26
+AlexAbraham1_YUClubs,main.java.routes.post,CreateClubPostRoute,getBadAttributes,Long Parameter List,The method has 9 parameters. ,99
+AlexAbraham1_YUClubs,main.java.routes.post,LinkUserClubPostRoute,handle,Magic Number,The method contains a magic number: 201,26
+AlexAbraham1_YUClubs,main.java.routes.post,LoginPostRoute,handle,Magic Number,The method contains a magic number: 401,21
+AlexAbraham1_YUClubs,main.java.routes.post,PasswordChangePostRoute,handle,Long Statement,The length of the statement "Map<String`Object> attributes=getBadAttributes("You forgot the old password!"`user`oldPassword`newPassword`newPassword2);" is 121.,21
+AlexAbraham1_YUClubs,main.java.routes.post,PasswordChangePostRoute,handle,Long Statement,The length of the statement "Map<String`Object> attributes=getBadAttributes("You forgot the new passwords!"`user`oldPassword`newPassword`newPassword2);" is 122.,21
+AlexAbraham1_YUClubs,main.java.routes.post,PasswordChangePostRoute,handle,Magic Number,The method contains a magic number: 400,21
+AlexAbraham1_YUClubs,main.java.routes.post,PasswordChangePostRoute,handle,Magic Number,The method contains a magic number: 400,21
+AlexAbraham1_YUClubs,main.java.routes.post,PasswordChangePostRoute,handle,Magic Number,The method contains a magic number: 400,21
+AlexAbraham1_YUClubs,main.java.routes.post,PasswordChangePostRoute,handle,Magic Number,The method contains a magic number: 400,21
+AlexAbraham1_YUClubs,main.java.routes.post,PasswordChangePostRoute,handle,Magic Number,The method contains a magic number: 200,21
+AlexAbraham1_YUClubs,main.java.routes.post,PasswordChangePostRoute,getBadAttributes,Long Parameter List,The method has 5 parameters. ,89
+AlexAbraham1_YUClubs,main.java.routes.post,SignupPostRoute,handle,Magic Number,The method contains a magic number: 400,22
+AlexAbraham1_YUClubs,main.java.routes.post,SignupPostRoute,handle,Magic Number,The method contains a magic number: 400,22
+AlexAbraham1_YUClubs,main.java.routes.post,SignupPostRoute,handle,Magic Number,The method contains a magic number: 400,22
+AlexAbraham1_YUClubs,main.java.routes.post,SignupPostRoute,handle,Magic Number,The method contains a magic number: 400,22
+AlexAbraham1_YUClubs,main.java.routes.post,SignupPostRoute,handle,Magic Number,The method contains a magic number: 400,22
+AlexAbraham1_YUClubs,main.java.routes.post,SignupPostRoute,handle,Magic Number,The method contains a magic number: 422,22
+AlexAbraham1_YUClubs,main.java.routes.post,SignupPostRoute,handle,Magic Number,The method contains a magic number: 201,22
+AlexAbraham1_YUClubs,main.java.services,EventService,createEvent,Long Parameter List,The method has 6 parameters. ,18
+AlexAbraham1_YUClubs,main.java.services,EventService,getEventsOnDay,Magic Number,The method contains a magic number: 10,74
+AlexAbraham1_YUClubs,main.java.services,EventService,getEventsOnDay,Magic Number,The method contains a magic number: 10,74
+AlexAbraham1_YUClubs,main.java.services,UserService,createUser,Complex Conditional,The conditional expression password == null || password2 == null || password.equals("") || password2.equals("") is complex.,26
+AlexAbraham1_YUClubs,main.java.services,UserService,login,Complex Conditional,The conditional expression email == null || password == null || email.equals("") || password.equals("") is complex.,71
+AlexAbraham1_YUClubs,main.java.services,UserService,login,Long Statement,The length of the statement "if (email == null || password == null || email.equals("") || password.equals("")) return getErrorMap("You didn't enter an email and password!");" is 144.,71
+AlexAbraham1_YUClubs,main.java.services,UserService,createClub,Complex Conditional,The conditional expression presidentEmail == null || presidentName == null || presidentEmail.equals("") || presidentName.equals("") is complex.,107
+AlexAbraham1_YUClubs,main.java.services,UserService,createClub,Long Parameter List,The method has 8 parameters. ,107

@@ -1,0 +1,16 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+JCDias_CadastroUsuarios,cadastroUsuario.apresentacao,CadastroUsuariosForm,48,0,30,21,538,45,0,0,0.16666666666666666,1,2,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\apresentacao\CadastroUsuariosForm.java,30
+JCDias_CadastroUsuarios,cadastroUsuario.apresentacao,TelaPrincipalForm,2,0,8,5,98,10,0,0,0.375,0,2,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\apresentacao\TelaPrincipalForm.java,16
+JCDias_CadastroUsuarios,cadastroUsuario.dados,BancoDadosUtil,4,0,1,1,20,1,0,0,0.0,1,0,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\dados\BancoDadosUtil.java,11
+JCDias_CadastroUsuarios,cadastroUsuario.dados,UsuarioDAO,3,0,3,3,135,17,0,0,1.0,1,2,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\dados\UsuarioDAO.java,15
+JCDias_CadastroUsuarios,cadastroUsuario.entidades,Usuario,21,0,42,42,152,42,0,0,0.5,3,0,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\entidades\Usuario.java,10
+JCDias_CadastroUsuarios,cadastroUsuario.Excecoes,AQuantoTempoException,0,0,1,1,8,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\Excecoes\AQuantoTempoException.java,8
+JCDias_CadastroUsuarios,cadastroUsuario.Excecoes,CamposVaziosException,0,0,1,1,8,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\Excecoes\CamposVaziosException.java,8
+JCDias_CadastroUsuarios,cadastroUsuario.Excecoes,CpfInvalidoException,0,0,1,1,8,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\Excecoes\CpfInvalidoException.java,8
+JCDias_CadastroUsuarios,cadastroUsuario.Excecoes,CpfJaCadastradoException,0,0,1,1,8,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\Excecoes\CpfJaCadastradoException.java,8
+JCDias_CadastroUsuarios,cadastroUsuario.Excecoes,DataInvalidaException,0,0,1,1,8,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\Excecoes\DataInvalidaException.java,8
+JCDias_CadastroUsuarios,cadastroUsuario.Excecoes,EmailInvalidoException,0,0,1,1,8,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\Excecoes\EmailInvalidoException.java,8
+JCDias_CadastroUsuarios,cadastroUsuario.Excecoes,NomeInvalidoException,0,0,1,1,8,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\Excecoes\NomeInvalidoException.java,8
+JCDias_CadastroUsuarios,cadastroUsuario.Excecoes,SelecioneException,0,0,1,1,8,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\Excecoes\SelecioneException.java,8
+JCDias_CadastroUsuarios,cadastroUsuario.negocio,UsuarioBO,0,0,7,7,119,22,0,0,-1.0,2,3,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\negocio\UsuarioBO.java,26
+JCDias_CadastroUsuarios,cadastroUsuario.utilitarios,Utils,0,0,1,1,20,2,0,0,-1.0,1,0,E:\Repositories\Cloned_Reposit\JCDias_CadastroUsuarios\src\cadastroUsuario\utilitarios\Utils.java,20

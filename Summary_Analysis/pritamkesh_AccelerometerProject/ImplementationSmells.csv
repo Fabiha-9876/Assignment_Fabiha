@@ -1,0 +1,5 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,MainActivity,onCreate,Magic Number,The method contains a magic number: 2,34
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,MainActivity,onSensorChanged,Magic Number,The method contains a magic number: 2,83
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,MainActivity,onSensorChanged,Magic Number,The method contains a magic number: 2,83
+pritamkesh_AccelerometerProject,com.example.accelerometerproject,MainActivity,onSensorChanged,Magic Number,The method contains a magic number: 2,83

@@ -1,0 +1,54 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+mk12_mycraft,org.lwjgl.opencl,CL10,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 18
+mk12_mycraft,org.lwjgl.opencl,CL11,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+mk12_mycraft,org.lwjgl.opencl,APIUtil,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+mk12_mycraft,org.lwjgl.opencl,CLContext,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+mk12_mycraft,org.lwjgl.opencl,InfoUtilFactory,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11
+mk12_mycraft,org.lwjgl.opencl,CL10,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 15
+mk12_mycraft,org.lwjgl.opengl,AWTGLCanvas,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11
+mk12_mycraft,org.lwjgl.opengl,ContextGL,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12
+mk12_mycraft,org.lwjgl.opengl,Display,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 14
+mk12_mycraft,org.lwjgl.opengl,DrawableGL,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+mk12_mycraft,org.lwjgl.opengl,DrawableGLES,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 14
+mk12_mycraft,org.lwjgl.opengl,LinuxDisplay,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 21
+mk12_mycraft,org.lwjgl.opengl,MacOSXDisplay,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 15
+mk12_mycraft,org.lwjgl.opengl,Pbuffer,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+mk12_mycraft,org.lwjgl.opengl,WindowsDisplay,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 22
+mk12_mycraft,org.lwjgl.opengl,XRandR.Screen,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+mk12_mycraft,org.lwjgl.opengles,ContextCapabilities,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 34
+mk12_mycraft,org.lwjgl.opengles,EGL,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+mk12_mycraft,org.lwjgl.opengles,PixelFormat.Attrib,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+mk12_mycraft,org.lwjgl.examples.spaceinvaders,Game,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: gameRunning (145)
+mk12_mycraft,org.lwjgl.examples.spaceinvaders,Game,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13
+mk12_mycraft,org.lwjgl.test.input,TestControllers,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: total (52)
+mk12_mycraft,org.lwjgl.test.mapped,MappedObjectTests3.Xyz,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+mk12_mycraft,org.lwjgl.test.mapped,MappedObjectTests4.MappedPointer,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+mk12_mycraft,org.lwjgl.test.mapped,MappedObjectTests4.MappedCacheLinePadded,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+mk12_mycraft,org.lwjgl.test.mapped,MappedObjectTests4.MappedFieldCacheLinePadded,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+mk12_mycraft,org.lwjgl.test.mapped,MappedObjectTests4.POJOFieldCacheLinePadded,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+mk12_mycraft,org.lwjgl.test.mapped,TestMappedObject,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+mk12_mycraft,org.lwjgl.test.openal,EFX10Test,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+mk12_mycraft,org.lwjgl.test.openal,MovingSoundTest,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: MOVEMENT (54)
+mk12_mycraft,org.lwjgl.test.openal,OpenALInfo,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+mk12_mycraft,org.lwjgl.test.opencl.gl,DemoFractal,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 23
+mk12_mycraft,org.lwjgl.test.opencl,HelloOpenCL,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12
+mk12_mycraft,org.lwjgl.test.opengl.multithread,BackgroundLoadTest,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+mk12_mycraft,org.lwjgl.test.opengl.pbuffers,PbufferTest,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+mk12_mycraft,org.lwjgl.test.opengl.shaders,ShadersTest,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 14
+mk12_mycraft,org.lwjgl.test.opengl.sprites,SpriteShootout,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+mk12_mycraft,org.lwjgl.test.opengl.sprites,SpriteShootout2P,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+mk12_mycraft,org.lwjgl.test.opengl.sprites,SpriteShootoutCL,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 20
+mk12_mycraft,org.lwjgl.test.opengl.sprites,SpriteShootoutMapped,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11
+mk12_mycraft,org.lwjgl.test.opengl.sprites,SpriteShootoutMapped.Pixel4b,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+mk12_mycraft,org.lwjgl.test.opengl.sprites,SpriteShootoutMapped.Pixel3b,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+mk12_mycraft,org.lwjgl.test.opengl.sprites,SpriteShootoutMapped.Sprite,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+mk12_mycraft,org.lwjgl.test.opengl.sprites,SpriteShootoutMapped.SpriteRender,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+mk12_mycraft,org.lwjgl.test.opengles,Gears,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12
+mk12_mycraft,org.lwjgl.util.generator,GeneratorVisitor,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+mk12_mycraft,org.lwjgl.util.generator,JavaMethodsGenerator,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+mk12_mycraft,org.lwjgl.util.glu.tessellation,GLUtessellatorImpl,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 14
+mk12_mycraft,org.lwjgl.util.glu.tessellation,PriorityQ.PQnode,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+mk12_mycraft,org.lwjgl.util.glu.tessellation,PriorityQ.PQhandleElem,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+mk12_mycraft,org.lwjgl.util.glu.tessellation,Sweep,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+mk12_mycraft,org.lwjgl.util.mapped,MappedObject,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: SIZEOF (70)
+mk12_mycraft,com.mitchellkember.mycraft,GameRenderer,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9

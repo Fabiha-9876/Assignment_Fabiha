@@ -1,0 +1,13 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+Welon5656_media-app-for-android,com.jy.multi_media,R.attr,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Welon5656_media-app-for-android,com.jy.multi_media,R.dimen,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Welon5656_media-app-for-android,com.jy.multi_media,R.drawable,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Welon5656_media-app-for-android,com.jy.multi_media,R.id,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Welon5656_media-app-for-android,com.jy.multi_media,R.layout,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Welon5656_media-app-for-android,com.jy.multi_media,R.menu,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Welon5656_media-app-for-android,com.jy.multi_media,R.string,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Welon5656_media-app-for-android,com.jy.multi_media,R.style,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Welon5656_media-app-for-android,com.jy.image,ImageActivity,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: ImageList (27)
+Welon5656_media-app-for-android,com.jy.multimedia,MainActivity,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: db_path (22)
+Welon5656_media-app-for-android,com.jy.music,MusicActivity,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: MusicList (23)
+Welon5656_media-app-for-android,com.jy.video,VideoActivity,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: VideoList (23)

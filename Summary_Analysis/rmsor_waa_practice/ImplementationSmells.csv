@@ -1,0 +1,443 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+rmsor_waa_practice,net.mumde.cs545,TableServlet,doGet,Magic Number,The method contains a magic number: 23,13
+rmsor_waa_practice,net.mumde.cs545,TableServlet,doGet,Magic Number,The method contains a magic number: 33,13
+rmsor_waa_practice,net.mumde.cs545,TableServlet,doGet,Magic Number,The method contains a magic number: 18,13
+rmsor_waa_practice,com.example.model,Tea,Tea,Long Parameter List,The method has 7 parameters. ,21
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Long Statement,The length of the statement "teaList.put("Green Tea"`new Tea("Green Tea"`"Over the last few decades green tea has been subjected to many scientific and medical studies to determine the extent of its long-purported health benefits` with some evidence suggesting that regular green tea drinkers have lower chances of heart disease and developing certain types of cancer."`"30 mg/cup"`"Green tea can reduce the risk of cardiovascular disease` dental cavities` kidney stones` and cancer` while improving bone density and cognitive function. However` the human studies are inconsistent. Green tea consumption is associated with reduced heart disease in epidemiological studies."`"75-80 °C (167-176 °F)"`"1–2 minutes"`"Aracha` Bancha` Bi Luo Chun` Chun Mee` Da Fang` Genmaicha` Guapian` Gunpowder` Gyokuro` Hojicha` Hou Kui` Huang Shan Mao Feng` Kabusecha` mairicha` Konacha` Kukicha` Longjing` Matcha` Mao Jian` Mecha` Meng Ding Gan Lu` Sencha` Shincha` Tamaryokucha"));" is 936.,16
+rmsor_waa_practice,com.example.model,Tea,Tea,Long Parameter List,The method has 5 parameters. ,24
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Long Statement,The length of the statement "teaList.add(new Tea("Silve Needle White Tea"`"Rarity and fame cloak our legendary Silver Needle white tea downy buds` which hold the highest of honors as one of the top teas in China. Reserved for the Chinese Imperial family for centuries` this tea is reverently hand-harvested only two days of the entire year. The leaves are uniquely beautiful and silver tipped exuding royalty and an exceptional soft` smooth` sweet-silky luxuriousness. "`15.00`whiteTea`"silverneedlewhitetea.jpg"));" is 486.,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Long Statement,The length of the statement "teaList.add(new Tea("Flowering Pineapple Blooming White Tea"`"A truly artisanal white tea that unfurls into an ethereal display of exquisite flavor and beauty. Each hand-tied tea ball blooms with a crown of marigold flowers gently scented with luscious pineapple and can be infused three to five times. "`10.00`whiteTea`"FloweringPineappleBloomingWhiteTea.jpg"));" is 363.,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Long Statement,The length of the statement "teaList.add(new Tea("Youthberry White Tea"`"Delicate white tea gets its youthful blush from red currants` açai berry` hibiscus and rose petals. Candied pineapple and mango pieces mingle with Fuji and golden delicious apples in this sweetly timeless elixir. "`20.00`whiteTea`"youthberrywhitetea.jpg"));" is 301.,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 15.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 10.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 20.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 130.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 140.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 150.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 150.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 150.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 150.00,15
+rmsor_waa_practice,com.example.model,Tea,Tea,Long Parameter List,The method has 5 parameters. ,24
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Long Statement,The length of the statement "teaList.add(new Tea("Silve Needle White Tea"`"Rarity and fame cloak our legendary Silver Needle white tea downy buds` which hold the highest of honors as one of the top teas in China. Reserved for the Chinese Imperial family for centuries` this tea is reverently hand-harvested only two days of the entire year. The leaves are uniquely beautiful and silver tipped exuding royalty and an exceptional soft` smooth` sweet-silky luxuriousness. "`15.00`whiteTea`"silverneedlewhitetea.jpg"));" is 486.,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Long Statement,The length of the statement "teaList.add(new Tea("Flowering Pineapple Blooming White Tea"`"A truly artisanal white tea that unfurls into an ethereal display of exquisite flavor and beauty. Each hand-tied tea ball blooms with a crown of marigold flowers gently scented with luscious pineapple and can be infused three to five times. "`10.00`whiteTea`"FloweringPineappleBloomingWhiteTea.jpg"));" is 363.,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Long Statement,The length of the statement "teaList.add(new Tea("Youthberry White Tea"`"Delicate white tea gets its youthful blush from red currants` açai berry` hibiscus and rose petals. Candied pineapple and mango pieces mingle with Fuji and golden delicious apples in this sweetly timeless elixir. "`20.00`whiteTea`"youthberrywhitetea.jpg"));" is 301.,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 15.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 10.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 20.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 130.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 140.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 150.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 150.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 150.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 150.00,15
+rmsor_waa_practice,com.example.model,Tea,Tea,Long Parameter List,The method has 8 parameters. ,27
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Long Statement,The length of the statement "teaList.add(new Tea("Green Tea"`"Over the last few decades green tea has been subjected to many scientific and medical studies to determine the extent of its long-purported health benefits` with some evidence suggesting that regular green tea drinkers have lower chances of heart disease and developing certain types of cancer."`"30 mg/cup"`"Green tea can reduce the risk of cardiovascular disease` dental cavities` kidney stones` and cancer` while improving bone density and cognitive function. However` the human studies are inconsistent. Green tea consumption is associated with reduced heart disease in epidemiological studies."`"75-80 °C (167-176 °F)"`"1–2 minutes"`"Aracha` Bancha` Bi Luo Chun` Chun Mee` Da Fang` Genmaicha` Guapian` Gunpowder` Gyokuro` Hojicha` Hou Kui` Huang Shan Mao Feng` Kabusecha` mairicha` Konacha` Kukicha` Longjing` Matcha` Mao Jian` Mecha` Meng Ding Gan Lu` Sencha` Shincha` Tamaryokucha"`100.00));" is 931.,14
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 100.00,14
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 110.00,14
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 120.00,14
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 130.00,14
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 140.00,14
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 150.00,14
+rmsor_waa_practice,com.example.model,Tea,Tea,Long Parameter List,The method has 5 parameters. ,24
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Long Statement,The length of the statement "teaList.add(new Tea("Silve Needle White Tea"`"Rarity and fame cloak our legendary Silver Needle white tea downy buds` which hold the highest of honors as one of the top teas in China. Reserved for the Chinese Imperial family for centuries` this tea is reverently hand-harvested only two days of the entire year. The leaves are uniquely beautiful and silver tipped exuding royalty and an exceptional soft` smooth` sweet-silky luxuriousness. "`15.00`whiteTea`"silverneedlewhitetea.jpg"));" is 486.,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Long Statement,The length of the statement "teaList.add(new Tea("Flowering Pineapple Blooming White Tea"`"A truly artisanal white tea that unfurls into an ethereal display of exquisite flavor and beauty. Each hand-tied tea ball blooms with a crown of marigold flowers gently scented with luscious pineapple and can be infused three to five times. "`10.00`whiteTea`"FloweringPineappleBloomingWhiteTea.jpg"));" is 363.,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Long Statement,The length of the statement "teaList.add(new Tea("Youthberry White Tea"`"Delicate white tea gets its youthful blush from red currants` açai berry` hibiscus and rose petals. Candied pineapple and mango pieces mingle with Fuji and golden delicious apples in this sweetly timeless elixir. "`20.00`whiteTea`"youthberrywhitetea.jpg"));" is 301.,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 15.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 10.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 20.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 130.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 140.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 150.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 150.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 150.00,15
+rmsor_waa_practice,com.example.model,TeaExpert,TeaExpert,Magic Number,The method contains a magic number: 150.00,15
+rmsor_waa_practice,com.corejsf,QuizBean,QuizBean,Magic Number,The method contains a magic number: 9,18
+rmsor_waa_practice,com.corejsf,QuizBean,QuizBean,Magic Number,The method contains a magic number: 8,18
+rmsor_waa_practice,com.corejsf,QuizBean,QuizBean,Magic Number,The method contains a magic number: 36,18
+rmsor_waa_practice,com.corejsf,QuizBean,QuizBean,Magic Number,The method contains a magic number: 13,18
+rmsor_waa_practice,com.corejsf,QuizBean,QuizBean,Magic Number,The method contains a magic number: 32,18
+rmsor_waa_practice,com.corejsf,QuizBean,setAnswer,Empty catch clause,The method has an empty catch block.,42
+rmsor_waa_practice,com.corejsf,LuhnCheckValidator,luhnCheck,Magic Number,The method contains a magic number: 2,13
+rmsor_waa_practice,com.corejsf,LuhnCheckValidator,luhnCheck,Magic Number,The method contains a magic number: 2,13
+rmsor_waa_practice,com.corejsf,LuhnCheckValidator,luhnCheck,Magic Number,The method contains a magic number: 9,13
+rmsor_waa_practice,com.corejsf,LuhnCheckValidator,luhnCheck,Magic Number,The method contains a magic number: 9,13
+rmsor_waa_practice,com.corejsf,LuhnCheckValidator,luhnCheck,Magic Number,The method contains a magic number: 10,13
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsObject,Long Statement,The length of the statement "FacesMessage message=com.corejsf.util.Messages.getMessage("com.corejsf.messages"`"badCreditCardCharacter"`new Object[]{new Character(invalidCharacter)});" is 153.,12
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 13,41
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 14,41
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 15,41
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 16,41
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 22,41
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Complex Method,Cyclomatic complexity of the method is 9,33
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 13,33
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 14,33
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 15,33
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 16,33
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 22,33
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 2,52
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 2,52
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 9,52
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 9,52
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 10,52
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsObject,Long Statement,The length of the statement "FacesMessage message=com.corejsf.util.Messages.getMessage("com.corejsf.messages"`"badCreditCardCharacter"`new Object[]{new Character(invalidCharacter)});" is 153.,12
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 13,45
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 14,45
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 15,45
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 16,45
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 22,45
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 2,29
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 2,29
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 9,29
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 9,29
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 10,29
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Complex Conditional,The conditional expression d < 1 || m < 1 || m > 12 is complex.,50
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Complex Conditional,The conditional expression m == 4 || m == 6 || m == 9 || m == 11 is complex.,50
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 12,50
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 2,50
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 29,50
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 28,50
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 4,50
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 6,50
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 9,50
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 11,50
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 30,50
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 31,50
+rmsor_waa_practice,com.corejsf,BackingBean,isLeapYear,Magic Number,The method contains a magic number: 4,62
+rmsor_waa_practice,com.corejsf,BackingBean,isLeapYear,Magic Number,The method contains a magic number: 400,62
+rmsor_waa_practice,com.corejsf,BackingBean,isLeapYear,Magic Number,The method contains a magic number: 100,62
+rmsor_waa_practice,com.corejsf,FormBean,phaseChange,Long Statement,The length of the statement "if (listener instanceof com.corejsf.PhaseTracker) ((com.corejsf.PhaseTracker)listener).setPhase((String)e.getNewValue());" is 121.,30
+rmsor_waa_practice,com.corejsf,PhaseTracker,getPhaseId,Complex Method,Cyclomatic complexity of the method is 10,16
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Complex Conditional,The conditional expression d < 1 || m < 1 || m > 12 is complex.,51
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Complex Conditional,The conditional expression m == 4 || m == 6 || m == 9 || m == 11 is complex.,51
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 12,51
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 2,51
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 29,51
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 28,51
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 4,51
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 6,51
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 9,51
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 11,51
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 30,51
+rmsor_waa_practice,com.corejsf,BackingBean,isValidDate,Magic Number,The method contains a magic number: 31,51
+rmsor_waa_practice,com.corejsf,BackingBean,isLeapYear,Magic Number,The method contains a magic number: 4,63
+rmsor_waa_practice,com.corejsf,BackingBean,isLeapYear,Magic Number,The method contains a magic number: 400,63
+rmsor_waa_practice,com.corejsf,BackingBean,isLeapYear,Magic Number,The method contains a magic number: 100,63
+rmsor_waa_practice,com.corejsf,RegisterForm,countryChanged,Long Statement,The length of the statement "for ( Locale loc : countries) if (loc.getCountry().equals(event.getNewValue())) FacesContext.getCurrentInstance().getViewRoot().setLocale(loc);" is 143.,36
+rmsor_waa_practice,com.corejsf,Dates,Dates,Magic Number,The method contains a magic number: 31,24
+rmsor_waa_practice,com.corejsf,Dates,Dates,Magic Number,The method contains a magic number: 1900,24
+rmsor_waa_practice,com.corejsf,Dates,Dates,Magic Number,The method contains a magic number: 2100,24
+rmsor_waa_practice,com.corejsf,Dates,Dates,Magic Number,The method contains a magic number: 12,24
+rmsor_waa_practice,com.corejsf,AutoComplete,getLocations,Long Statement,The length of the statement "return new String[]{"Arvada"`"Colorado Springs"`"Baltimore"`"Brittany"`"Bahamas"`"Belgrade"`"Boulder"`"Bayou"`"Brighton"`"Buffalo"`"Denver"`"Dixie"`"Evergreen"`"Ft. Collins"`"Los Angeles"`"Los Lobos"`"Las Vegas"`"Loveland"`"Vail"};" is 231.,13
+rmsor_waa_practice,com.corejsf,AutocompleteListener,setListboxStyle,Long Statement,The length of the statement "attrs.put("style"`"display: inline; position: absolute; left: " + reqParams.get("x") + "px;"+ " top: "+ reqParams.get("y")+ "px");" is 130.,51
+rmsor_waa_practice,com.corejsf,UserBean,validateName,Magic Number,The method contains a magic number: 200,25
+rmsor_waa_practice,com.corejsf,UISpinner,getIncrementedValue,Complex Conditional,The conditional expression (minimum == null || newValue >= minimum.intValue()) && (maximum == null || newValue <= maximum.intValue()) is complex.,88
+rmsor_waa_practice,com.corejsf,UISpinner,getIncrementedValue,Long Statement,The length of the statement "if ((minimum == null || newValue >= minimum.intValue()) && (maximum == null || newValue <= maximum.intValue())) return newValue;" is 128.,88
+rmsor_waa_practice,com.corejsf,FontSpinnerRenderer,encodeBegin,Long Statement,The length of the statement "String ajaxScript=MessageFormat.format("if (document.forms[''{0}''][''{1}''].value != '''') {2};"`formId`clientId`getChangeScript(context`spinner));" is 148.,32
+rmsor_waa_practice,com.corejsf,FontSpinnerRenderer,encodeBegin,Long Statement,The length of the statement "String spinScript=MessageFormat.format("com.corejsf.spinner.spin(document.forms[''{0}''][''{1}'']` -1);"`formId`clientId);" is 122.,32
+rmsor_waa_practice,com.corejsf,FontSpinnerRenderer,getChangeScript,Long Statement,The length of the statement "return "jsf.ajax.request('" + component.getClientId() + "'` null` { 'render': '"+ component.getParent().getClientId()+ "' })";" is 126.,110
+rmsor_waa_practice,com.corejsf,JSSpinnerRenderer,encodeBegin,Long Statement,The length of the statement "String ajaxScript=MessageFormat.format("if (document.forms[''{0}''][''{1}''].value != '''') {2};"`formId`clientId`getChangeScript(context`spinner));" is 148.,36
+rmsor_waa_practice,com.corejsf,JSSpinnerRenderer,encodeBegin,Long Statement,The length of the statement "String spinScript=MessageFormat.format("com.corejsf.spinner.spin(document.forms[''{0}''][''{1}'']` -1);"`formId`clientId);" is 122.,36
+rmsor_waa_practice,com.corejsf,JSSpinnerRenderer,getChangeScript,Long Statement,The length of the statement "ClientBehaviorContext behaviorContext=ClientBehaviorContext.createClientBehaviorContext(context`component`"click"`component.getClientId(context)`null);" is 151.,106
+rmsor_waa_practice,com.corejsf,JSSpinnerRenderer,decodeBehaviors,Long Statement,The length of the statement "if (null != behaviorSource && behaviorSource.equals(clientId)) for ( ClientBehavior behavior : behaviorsForEvent) behavior.decode(context`component);" is 149.,120
+rmsor_waa_practice,com.corejsf,JSSpinnerRenderer,encodeBegin,Long Statement,The length of the statement "writer.writeAttribute("onclick"`MessageFormat.format("com.corejsf.spinner.spin(document.forms[''{0}''][''{1}'']` -1);"`formId`clientId)`null);" is 142.,27
+rmsor_waa_practice,com.corejsf,JSSpinnerRenderer,encodeBegin,Long Statement,The length of the statement "writer.writeAttribute("onclick"`MessageFormat.format("com.corejsf.spinner.spin(document.forms[''{0}''][''{1}'']` 1);"`formId`clientId)`null);" is 141.,27
+rmsor_waa_practice,com.corejsf,CreditCardExpiration,decrementYear,Magic Number,The method contains a magic number: 12,34
+rmsor_waa_practice,com.corejsf,SpinnerHandler,createMetaRuleset,Long Statement,The length of the statement "return super.createMetaRuleset(type).addRule(new MethodRule("atMax"`Void.class`new Class<?>[]{ActionEvent.class})).addRule(new MethodRule("atMin"`Void.class`new Class<?>[]{ActionEvent.class}));" is 193.,13
+rmsor_waa_practice,com.corejsf,SpinnerRenderer,getIncrementedValue,Complex Conditional,The conditional expression minimum != null && newValue < minimum && minMethod != null is complex.,106
+rmsor_waa_practice,com.corejsf,SpinnerRenderer,getIncrementedValue,Complex Conditional,The conditional expression maximum != null && newValue > maximum && maxMethod != null is complex.,106
+rmsor_waa_practice,com.corejsf,SpinnerRenderer,getIncrementedValue,Complex Conditional,The conditional expression (minimum == null || newValue >= minimum.intValue()) && (maximum == null || newValue <= maximum.intValue()) is complex.,106
+rmsor_waa_practice,com.corejsf,SpinnerRenderer,getIncrementedValue,Long Statement,The length of the statement "if ((minimum == null || newValue >= minimum.intValue()) && (maximum == null || newValue <= maximum.intValue())) return newValue;" is 128.,106
+rmsor_waa_practice,com.corejsf,TabbedPaneRenderer,encodeTab,Long Statement,The length of the statement "writer.writeAttribute("onclick"`"document.forms['" + formId + "']['"+ clientId+ "'].value='"+ content+ "'; "+ "document.forms['"+ formId+ "'].submit(); "`null);" is 160.,174
+rmsor_waa_practice,com.corejsf,UserBean,doLogin,Long Statement,The length of the statement "PreparedStatement updateCounterStat=conn.prepareStatement("UPDATE Credentials SET logincount = logincount + 1" + " WHERE USERNAME = ?");" is 136.,70
+rmsor_waa_practice,com.corejsf,NewAccount,createAccount,Magic Number,The method contains a magic number: 36,50
+rmsor_waa_practice,com.corejsf,NewAccount,createAccount,Magic Number,The method contains a magic number: 8,50
+rmsor_waa_practice,com.corejsf,WeatherBean,search,Long Statement,The length of the statement "for ( Forecast f : response) if (f.getDesciption() == null || f.getDesciption().length() == 0) f.setDesciption("Not Available");" is 128.,34
+rmsor_waa_practice,com.corejsf,ChartData,drawChart,Complex Conditional,The conditional expression names == null || values == null || names.length != values.length is complex.,66
+rmsor_waa_practice,com.corejsf,ChartData,drawChart,Complex Method,Cyclomatic complexity of the method is 9,66
+rmsor_waa_practice,com.corejsf,ChartData,drawChart,Long Parameter List,The method has 6 parameters. ,66
+rmsor_waa_practice,com.corejsf,ChartData,drawChart,Magic Number,The method contains a magic number: 20,66
+rmsor_waa_practice,com.corejsf,ChartData,drawChart,Magic Number,The method contains a magic number: 10,66
+rmsor_waa_practice,com.corejsf,ChartData,drawChart,Magic Number,The method contains a magic number: 2,66
+rmsor_waa_practice,com.corejsf,ChartData,drawChart,Magic Number,The method contains a magic number: 2,66
+rmsor_waa_practice,com.corejsf,ChartData,drawChart,Magic Number,The method contains a magic number: 2,66
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Complex Method,Cyclomatic complexity of the method is 9,32
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 13,32
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 14,32
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 15,32
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 16,32
+rmsor_waa_practice,com.corejsf,CreditCardConverter,getAsString,Magic Number,The method contains a magic number: 22,32
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 2,50
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 2,50
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 9,50
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 9,50
+rmsor_waa_practice,com.corejsf,CreditCardValidator,luhnCheck,Magic Number,The method contains a magic number: 10,50
+rmsor_waa_practice,com.corejsf,UploadFilter,doFilter,Complex Method,Cyclomatic complexity of the method is 8,46
+rmsor_waa_practice,com.corejsf,PagerRenderer,encodeBegin,Complex Method,Cyclomatic complexity of the method is 11,16
+rmsor_waa_practice,com.corejsf,PagerRenderer,writeLink,Long Parameter List,The method has 6 parameters. ,72
+rmsor_waa_practice,com.corejsf,PagerRenderer,onclickCode,Long Statement,The length of the statement "return new StringBuilder().append("document.forms['").append(formId).append("']['").append(id).append("'].value='").append(value).append("'; document.forms['").append(formId).append("'].submit(); return false;").toString();" is 223.,85
+rmsor_waa_practice,com.corejsf,PagerRenderer,decode,Complex Method,Cyclomatic complexity of the method is 9,100
+rmsor_waa_practice,com.corejsf,UISpinner,getIncrementedValue,Complex Conditional,The conditional expression (minimum == null || newValue >= minimum.intValue()) && (maximum == null || newValue <= maximum.intValue()) is complex.,100
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Long Parameter List,The method has 6 parameters. ,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Long Parameter List,The method has 6 parameters. ,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Long Parameter List,The method has 6 parameters. ,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Long Parameter List,The method has 6 parameters. ,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Long Parameter List,The method has 6 parameters. ,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Long Parameter List,The method has 6 parameters. ,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Long Parameter List,The method has 6 parameters. ,38
+rmsor_waa_practice,com.corejsf.util,Renderers,getSelectItems,Complex Method,Cyclomatic complexity of the method is 11,63
+rmsor_waa_practice,com.corejsf.util,Renderers,getSelectItems,Long Statement,The length of the statement "for ( Map.Entry<?`?> entry : ((Map<?`?>)value).entrySet()) list.add(new SelectItem(entry.getKey()`"" + entry.getValue()));" is 122.,63
+rmsor_waa_practice,com.corejsf.util,Renderers,getSelectItems,Complex Method,Cyclomatic complexity of the method is 11,63
+rmsor_waa_practice,com.corejsf.util,Renderers,getSelectItems,Long Statement,The length of the statement "for ( Map.Entry<?`?> entry : ((Map<?`?>)value).entrySet()) list.add(new SelectItem(entry.getKey()`"" + entry.getValue()));" is 122.,63
+rmsor_waa_practice,com.corejsf.util,Renderers,getSelectItems,Complex Method,Cyclomatic complexity of the method is 11,63
+rmsor_waa_practice,com.corejsf.util,Renderers,getSelectItems,Long Statement,The length of the statement "for ( Map.Entry<?`?> entry : ((Map<?`?>)value).entrySet()) list.add(new SelectItem(entry.getKey()`"" + entry.getValue()));" is 122.,63
+rmsor_waa_practice,com.corejsf.util,Renderers,getSelectItems,Complex Method,Cyclomatic complexity of the method is 11,63
+rmsor_waa_practice,com.corejsf.util,Renderers,getSelectItems,Long Statement,The length of the statement "for ( Map.Entry<?`?> entry : ((Map<?`?>)value).entrySet()) list.add(new SelectItem(entry.getKey()`"" + entry.getValue()));" is 122.,63
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Long Parameter List,The method has 6 parameters. ,38
+rmsor_waa_practice,com.corejsf.util,Renderers,getSelectItems,Complex Method,Cyclomatic complexity of the method is 11,63
+rmsor_waa_practice,com.corejsf.util,Renderers,getSelectItems,Long Statement,The length of the statement "for ( Map.Entry<?`?> entry : ((Map<?`?>)value).entrySet()) list.add(new SelectItem(entry.getKey()`"" + entry.getValue()));" is 122.,63
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Empty catch clause,The method has an empty catch block.,38
+rmsor_waa_practice,com.corejsf.util,Messages,getString,Long Parameter List,The method has 6 parameters. ,38
+rmsor_waa_practice,util,date,isValidDate,Complex Conditional,The conditional expression d < 1 || m < 1 || m > 12 is complex.,57
+rmsor_waa_practice,util,date,isValidDate,Complex Conditional,The conditional expression m == 4 || m == 6 || m == 9 || m == 11 is complex.,57
+rmsor_waa_practice,util,date,isValidDate,Magic Number,The method contains a magic number: 12,57
+rmsor_waa_practice,util,date,isValidDate,Magic Number,The method contains a magic number: 2,57
+rmsor_waa_practice,util,date,isValidDate,Magic Number,The method contains a magic number: 29,57
+rmsor_waa_practice,util,date,isValidDate,Magic Number,The method contains a magic number: 28,57
+rmsor_waa_practice,util,date,isValidDate,Magic Number,The method contains a magic number: 4,57
+rmsor_waa_practice,util,date,isValidDate,Magic Number,The method contains a magic number: 6,57
+rmsor_waa_practice,util,date,isValidDate,Magic Number,The method contains a magic number: 9,57
+rmsor_waa_practice,util,date,isValidDate,Magic Number,The method contains a magic number: 11,57
+rmsor_waa_practice,util,date,isValidDate,Magic Number,The method contains a magic number: 30,57
+rmsor_waa_practice,util,date,isValidDate,Magic Number,The method contains a magic number: 31,57
+rmsor_waa_practice,util,date,isLeapYear,Magic Number,The method contains a magic number: 4,74
+rmsor_waa_practice,util,date,isLeapYear,Magic Number,The method contains a magic number: 400,74
+rmsor_waa_practice,util,date,isLeapYear,Magic Number,The method contains a magic number: 100,74
+rmsor_waa_practice,application,BrowseSelectController,getProductParameters,Magic Number,The method contains a magic number: 4,136
+rmsor_waa_practice,application,BrowseSelectController,getProductParameters,Magic Number,The method contains a magic number: 2,136
+rmsor_waa_practice,application,BrowseSelectController,getProductParameters,Magic Number,The method contains a magic number: 3,136
+rmsor_waa_practice,application,BrowseSelectController,getCartDisplayList,Magic Number,The method contains a magic number: 4,157
+rmsor_waa_practice,application,BrowseSelectController,getCartDisplayList,Magic Number,The method contains a magic number: 2,157
+rmsor_waa_practice,application,BrowseSelectController,getCartDisplayList,Magic Number,The method contains a magic number: 3,157
+rmsor_waa_practice,application,BrowseSelectController,getCartDisplayList,Magic Number,The method contains a magic number: 2,157
+rmsor_waa_practice,application,BrowseSelectController,getCartDisplayList,Magic Number,The method contains a magic number: 3,157
+rmsor_waa_practice,application.gui,AddEditCatalog,initializeWindow,Magic Number,The method contains a magic number: .7f,130
+rmsor_waa_practice,application.gui,AddEditCatalog,initializeWindow,Magic Number,The method contains a magic number: .5f,130
+rmsor_waa_practice,application.gui,AddEditCatalog,defineMiddlePanel,Magic Number,The method contains a magic number: 10,168
+rmsor_waa_practice,application.gui,AddEditProduct,initializeWindow,Magic Number,The method contains a magic number: .7f,148
+rmsor_waa_practice,application.gui,AddEditProduct,initializeWindow,Magic Number,The method contains a magic number: .7f,148
+rmsor_waa_practice,application.gui,AddEditProduct,defineMiddlePanel,Magic Number,The method contains a magic number: 5,186
+rmsor_waa_practice,application.gui,AddEditProduct,defineMiddlePanel,Magic Number,The method contains a magic number: 2,186
+rmsor_waa_practice,application.gui,AddEditProduct,defineMiddlePanel,Magic Number,The method contains a magic number: 8,186
+rmsor_waa_practice,application.gui,AddEditProduct,defineMiddlePanel,Magic Number,The method contains a magic number: 8,186
+rmsor_waa_practice,application.gui,AddEditProduct,defineMiddlePanel,Magic Number,The method contains a magic number: 10,186
+rmsor_waa_practice,application.gui,AddEditProduct,defineMiddlePanel,Magic Number,The method contains a magic number: 10,186
+rmsor_waa_practice,application.gui,AddEditProduct,defineMiddlePanel,Magic Number,The method contains a magic number: 10,186
+rmsor_waa_practice,application.gui,AddEditProduct,defineMiddlePanel,Magic Number,The method contains a magic number: 10,186
+rmsor_waa_practice,application.gui,CartItemsWindow,updateModel,Magic Number,The method contains a magic number: 4,251
+rmsor_waa_practice,application.gui,CartItemsWindow,updateModel,Magic Number,The method contains a magic number: 2,251
+rmsor_waa_practice,application.gui,CartItemsWindow,updateModel,Magic Number,The method contains a magic number: 3,251
+rmsor_waa_practice,application.gui,CartItemsWindow,updateModel,Magic Number,The method contains a magic number: 4,251
+rmsor_waa_practice,application.gui,CartItemsWindow,updateModel,Magic Number,The method contains a magic number: 2,251
+rmsor_waa_practice,application.gui,CartItemsWindow,updateModel,Magic Number,The method contains a magic number: 3,251
+rmsor_waa_practice,application.gui,EbazaarMainFrame,setLookAndFeel,Empty catch clause,The method has an empty catch block.,161
+rmsor_waa_practice,application.gui,GuiControl,centerFrameOnDesktop,Magic Number,The method contains a magic number: 2,101
+rmsor_waa_practice,application.gui,GuiControl,centerFrameOnDesktop,Magic Number,The method contains a magic number: 3,101
+rmsor_waa_practice,application.gui,GuiControl,makeSmallFont,Magic Number,The method contains a magic number: 2,111
+rmsor_waa_practice,application.gui,GuiControl,makeLargeFont,Magic Number,The method contains a magic number: 2,115
+rmsor_waa_practice,application.gui,GuiControl,makeVeryLargeFont,Magic Number,The method contains a magic number: 4,118
+rmsor_waa_practice,application.gui,GuiControl,formatDouble,Magic Number,The method contains a magic number: 2,213
+rmsor_waa_practice,application.gui,LoginWindow,initializeWindow,Magic Number,The method contains a magic number: .7f,114
+rmsor_waa_practice,application.gui,LoginWindow,initializeWindow,Magic Number,The method contains a magic number: .4f,114
+rmsor_waa_practice,application.gui,LoginWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 2,148
+rmsor_waa_practice,application.gui,LoginWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 2,148
+rmsor_waa_practice,application.gui,LoginWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 8,148
+rmsor_waa_practice,application.gui,LoginWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 8,148
+rmsor_waa_practice,application.gui,LoginWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 10,148
+rmsor_waa_practice,application.gui,LoginWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 10,148
+rmsor_waa_practice,application.gui,PaymentWindow,initializeWindow,Magic Number,The method contains a magic number: .7f,156
+rmsor_waa_practice,application.gui,PaymentWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 4,190
+rmsor_waa_practice,application.gui,PaymentWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 2,190
+rmsor_waa_practice,application.gui,PaymentWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 8,190
+rmsor_waa_practice,application.gui,PaymentWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 8,190
+rmsor_waa_practice,application.gui,PaymentWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 10,190
+rmsor_waa_practice,application.gui,PaymentWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 10,190
+rmsor_waa_practice,application.gui,PaymentWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 10,190
+rmsor_waa_practice,application.gui,ProductDetailsWindow,ProductDetailsWindow,Magic Number,The method contains a magic number: 4,124
+rmsor_waa_practice,application.gui,ProductDetailsWindow,ProductDetailsWindow,Magic Number,The method contains a magic number: 2,124
+rmsor_waa_practice,application.gui,ProductDetailsWindow,ProductDetailsWindow,Magic Number,The method contains a magic number: 3,124
+rmsor_waa_practice,application.gui,ProductDetailsWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 4,180
+rmsor_waa_practice,application.gui,ProductDetailsWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 2,180
+rmsor_waa_practice,application.gui,ProductDetailsWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 3,180
+rmsor_waa_practice,application.gui,ProductDetailsWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 20,180
+rmsor_waa_practice,application.gui,ProductDetailsWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 3,180
+rmsor_waa_practice,application.gui,ProductDetailsWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 20,180
+rmsor_waa_practice,application.gui,ProductDetailsWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 3,180
+rmsor_waa_practice,application.gui,ProductDetailsWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 20,180
+rmsor_waa_practice,application.gui,ProductDetailsWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 3,180
+rmsor_waa_practice,application.gui,ProductDetailsWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 20,180
+rmsor_waa_practice,application.gui,QuantityWindow,initializeWindow,Magic Number,The method contains a magic number: .5f,82
+rmsor_waa_practice,application.gui,QuantityWindow,initializeWindow,Magic Number,The method contains a magic number: .4f,82
+rmsor_waa_practice,application.gui,QuantityWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 4,116
+rmsor_waa_practice,application.gui,ShippingBillingWindow,setShippingAddress,Long Parameter List,The method has 5 parameters. ,305
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleLeftFieldsPanel,Magic Number,The method contains a magic number: 5,424
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleLeftFieldsPanel,Magic Number,The method contains a magic number: 2,424
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleLeftFieldsPanel,Magic Number,The method contains a magic number: 10,424
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleLeftFieldsPanel,Magic Number,The method contains a magic number: 10,424
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleLeftFieldsPanel,Magic Number,The method contains a magic number: 10,424
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleLeftFieldsPanel,Magic Number,The method contains a magic number: 10,424
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleLeftFieldsPanel,Magic Number,The method contains a magic number: 10,424
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleLeftFieldsPanel,Magic Number,The method contains a magic number: 10,424
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleRightFieldsPanel,Magic Number,The method contains a magic number: 5,496
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleRightFieldsPanel,Magic Number,The method contains a magic number: 2,496
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleRightFieldsPanel,Magic Number,The method contains a magic number: 10,496
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleRightFieldsPanel,Magic Number,The method contains a magic number: 10,496
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleRightFieldsPanel,Magic Number,The method contains a magic number: 10,496
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleRightFieldsPanel,Magic Number,The method contains a magic number: 10,496
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleRightFieldsPanel,Magic Number,The method contains a magic number: 10,496
+rmsor_waa_practice,application.gui,ShippingBillingWindow,defineUpperMiddleRightFieldsPanel,Magic Number,The method contains a magic number: 10,496
+rmsor_waa_practice,application.gui,TermsWindow,initializeWindow,Magic Number,The method contains a magic number: .6f,110
+rmsor_waa_practice,application.gui,TermsWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 8,144
+rmsor_waa_practice,application.gui,TermsWindow,defineMiddlePanel,Magic Number,The method contains a magic number: 30,144
+rmsor_waa_practice,application.gui,WindowBorder,paintBorder,Long Parameter List,The method has 6 parameters. ,39
+rmsor_waa_practice,application.gui,WindowBorder,paintBorder,Magic Number,The method contains a magic number: 3,39
+rmsor_waa_practice,application.gui,WindowBorder,paintBorder,Magic Number,The method contains a magic number: 3,39
+rmsor_waa_practice,application.gui,WindowBorder,paintBorder,Magic Number,The method contains a magic number: 3,39
+rmsor_waa_practice,application.gui,WindowBorder,paintBorder,Magic Number,The method contains a magic number: 3,39
+rmsor_waa_practice,application.gui,WindowBorder,getBorderInsets,Magic Number,The method contains a magic number: 3,48
+rmsor_waa_practice,application.gui,WindowBorder,getBorderInsets,Magic Number,The method contains a magic number: 3,48
+rmsor_waa_practice,application.gui,WindowBorder,getBorderInsets,Magic Number,The method contains a magic number: 3,48
+rmsor_waa_practice,application.gui,WindowBorder,getBorderInsets,Magic Number,The method contains a magic number: 3,48
+rmsor_waa_practice,application.jsf.validators,QuantityValidator,validate,Magic Number,The method contains a magic number: 4,29
+rmsor_waa_practice,business.customerSubsystem,AddressImpl,AddressImpl,Long Parameter List,The method has 5 parameters. ,12
+rmsor_waa_practice,business.customerSubsystem,CustomerSubsystemFacade,createAddress,Long Parameter List,The method has 5 parameters. ,57
+rmsor_waa_practice,business.orderSubsystem,OrderImpl,OrderImpl,Abstract Function Call From Constructor,The constructor OrderImpl calls a virtual method getShippingAddress.,29
+rmsor_waa_practice,business.productSubsystem,BSstubProductSubsystemFacade,BSstubProductSubsystemFacade,Magic Number,The method contains a magic number: 10,16
+rmsor_waa_practice,business.productSubsystem,BSstubProductSubsystemFacade,BSstubProductSubsystemFacade,Magic Number,The method contains a magic number: 100,16
+rmsor_waa_practice,business.productSubsystem,BSstubProductSubsystemFacade,BSstubProductSubsystemFacade,Magic Number,The method contains a magic number: 100,16
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Long Statement,The length of the statement "Product prod1=createProduct("GONE_WITH_THE_WIND"`12.00`20`"A moving classic that tells a tale of love and a tale of courage."`cat1);" is 132.,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Long Statement,The length of the statement "Product prod2=createProduct("MESSIAH_OF_DUNE"`43.00`100`"You saw how good Dune was. This is Part 2 of this unforgettable trilogy."`cat1);" is 137.,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Long Statement,The length of the statement "Product prod4=createProduct("PANTS"`12.00`20`"I've seen the Grand Canyon. I've camped at Yellowstone. But nothing on earth compares to the glory of wearing these pants."`cat2);" is 176.,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Magic Number,The method contains a magic number: 12.00,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Magic Number,The method contains a magic number: 20,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Magic Number,The method contains a magic number: 43.00,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Magic Number,The method contains a magic number: 100,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Magic Number,The method contains a magic number: 52.00,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Magic Number,The method contains a magic number: 30,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Magic Number,The method contains a magic number: 12.00,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Magic Number,The method contains a magic number: 20,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Magic Number,The method contains a magic number: 43.00,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Magic Number,The method contains a magic number: 100,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Magic Number,The method contains a magic number: 52.00,18
+rmsor_waa_practice,business.productSubsystem,MPTestProductSubsystemFacade,MPTestProductSubsystemFacade,Magic Number,The method contains a magic number: 30,18
+rmsor_waa_practice,business.productSubsystem,ProductImpl,ProductImpl,Long Parameter List,The method has 5 parameters. ,33
+rmsor_waa_practice,business.productSubsystem,ProductSubsystemFacade,createProduct,Long Parameter List,The method has 5 parameters. ,58
+rmsor_waa_practice,business.subsystemExternalInterfaces,CustomerSubsystem,createAddress,Long Parameter List,The method has 5 parameters. ,13
+rmsor_waa_practice,business.subsystemExternalInterfaces,ProductSubsystem,createProduct,Long Parameter List,The method has 5 parameters. ,13
+rmsor_waa_practice,middleware.dataaccess,DataAccessUtil,getNextId,Empty catch clause,The method has an empty catch block.,68
+rmsor_waa_practice,middleware.dataaccess,DataAccessUtil,main,Empty catch clause,The method has an empty catch block.,124
+rmsor_waa_practice,middleware.dataaccess,SimpleConnectionPool,returnToPool,Complex Conditional,The conditional expression (con != null) && (!con.isClosed()) && (numFreeConnections(URI) < this.maxconn) is complex.,230
+rmsor_waa_practice,middleware.dataaccess,SimpleConnectionPool,testConnection,Complex Conditional,The conditional expression url == null || url.length() == 0 || query == null || query.length() == 0 || maxconn <= 0 is complex.,269
+rmsor_waa_practice,middleware.dataaccess,SimpleConnectionPool,main,Magic Number,The method contains a magic number: 8,312
+rmsor_waa_practice,middleware,StringParse,replaceFirst,Complex Conditional,The conditional expression s == null || newValue == null || oldValue == null || oldValue.equals("") is complex.,107
+rmsor_waa_practice,middleware,StringParse,replace,Complex Conditional,The conditional expression s == null || newValue == null || oldValue == null || oldValue.equals("") is complex.,129
+rmsor_waa_practice,middleware,StringParse,replace,Complex Conditional,The conditional expression s == null || index < 0 || index >= s.length() is complex.,163
+rmsor_waa_practice,unittests,TestBrowseSelectController,setUp,Magic Number,The method contains a magic number: 10,39
+rmsor_waa_practice,unittests,TestBrowseSelectController,setUp,Magic Number,The method contains a magic number: 5,39
+rmsor_waa_practice,unittests,TestBrowseSelectController,setUp,Magic Number,The method contains a magic number: 20,39
+rmsor_waa_practice,unittests,TestBrowseSelectController,setUp,Magic Number,The method contains a magic number: 15,39
+rmsor_waa_practice,unittests,TestBrowseSelectController,setUp,Magic Number,The method contains a magic number: 11,39
+rmsor_waa_practice,unittests,TestBrowseSelectController,setUp,Magic Number,The method contains a magic number: 12,39
+rmsor_waa_practice,unittests,TestBrowseSelectController,setUp,Magic Number,The method contains a magic number: 20,39
+rmsor_waa_practice,unittests,TestBrowseSelectController,setUp,Magic Number,The method contains a magic number: 15,39
+rmsor_waa_practice,unittests,TestBrowseSelectController,buildShoppingCart,Magic Number,The method contains a magic number: 2,71
+rmsor_waa_practice,unittests,TestBrowseSelectController,testGetProducts,Magic Number,The method contains a magic number: 2,87
+rmsor_waa_practice,unittests,TestBrowseSelectController,testAdd2Cart,Magic Number,The method contains a magic number: 2,119
+rmsor_waa_practice,unittests,TestBrowseSelectController,testAdd2Cart,Magic Number,The method contains a magic number: 100,119
+rmsor_waa_practice,unittests,TestBrowseSelectController,testAdd2Cart,Magic Number,The method contains a magic number: 3,119
+rmsor_waa_practice,unittests,TestCustomerSubsystemFacade,testGetAllAddresses,Magic Number,The method contains a magic number: 2,54
+rmsor_waa_practice,unittests,TestManageProductsController,testGetCatalogNames,Magic Number,The method contains a magic number: 2,36
+rmsor_waa_practice,unittests,TestOrderSubsystem,setUp,Magic Number,The method contains a magic number: 10,32
+rmsor_waa_practice,unittests,TestOrderSubsystem,setUp,Magic Number,The method contains a magic number: 100,32
+rmsor_waa_practice,unittests,TestOrderSubsystem,setUp,Magic Number,The method contains a magic number: 10,32
+rmsor_waa_practice,unittests,TestOrderSubsystem,setUp,Magic Number,The method contains a magic number: 50,32
+rmsor_waa_practice,unittests,TestOrderSubsystem,setUp,Magic Number,The method contains a magic number: 10,32
+rmsor_waa_practice,unittests,TestOrderSubsystem,testSubmit,Long Statement,The length of the statement "Assert.assertEquals("submit did not result in expected number of orders"`numOfOrders + 1`orderSubsystem.getCustomerOrderList().size());" is 135.,44
+rmsor_waa_practice,unittests,TestProductSubsystemFacade,testGetCatalogNames,Long Statement,The length of the statement "for (int i=0; i < testCatalogNames.length; i++) assertTrue("GetCatalogNames failed"`catalogNames.contains(testCatalogNames[i]));" is 128.,26
+rmsor_waa_practice,unittests,TestProductSubsystemFacade,testRetrieveCatalog,Long Statement,The length of the statement "else assertTrue("RetrieveCatalog returned wrong catalog"`testCatalogNames[0].equalsIgnoreCase(retrievedCatalog.getCatalogName()));" is 130.,43
+rmsor_waa_practice,unittests,TestProductSubsystemFacade,testCreateProduct,Magic Number,The method contains a magic number: 10,61
+rmsor_waa_practice,unittests,TestProductSubsystemFacade,testCreateProduct,Magic Number,The method contains a magic number: 100,61
+rmsor_waa_practice,unittests,TestProductSubsystemFacade,testCreateProduct,Magic Number,The method contains a magic number: 100,61
+rmsor_waa_practice,unittests,TestShoppingCartfacade,setUp,Magic Number,The method contains a magic number: 10,33
+rmsor_waa_practice,unittests,TestShoppingCartfacade,setUp,Magic Number,The method contains a magic number: 100,33
+rmsor_waa_practice,unittests,TestShoppingCartfacade,setUp,Magic Number,The method contains a magic number: 50,33
+rmsor_waa_practice,unittests,TestShoppingCartfacade,setUp,Magic Number,The method contains a magic number: 10,33
+rmsor_waa_practice,unittests,TestShoppingCartfacade,setUp,Magic Number,The method contains a magic number: 30,33
+rmsor_waa_practice,unittests,TestShoppingCartfacade,setUp,Magic Number,The method contains a magic number: 100,33
+rmsor_waa_practice,unittests,TestShoppingCartfacade,setUp,Magic Number,The method contains a magic number: 100,33
+rmsor_waa_practice,unittests,TestShoppingCartfacade,setUp,Magic Number,The method contains a magic number: 10,33
+rmsor_waa_practice,unittests,TestShoppingCartfacade,testAddLineItem,Magic Number,The method contains a magic number: 2,48
+rmsor_waa_practice,unittests,TestShoppingCartfacade,testAddLineItem,Magic Number,The method contains a magic number: 3,48
+rmsor_waa_practice,controller,LoginController,register,Empty catch clause,The method has an empty catch block.,45
+rmsor_waa_practice,controller,LoginController,forgotPassword,Empty catch clause,The method has an empty catch block.,70
+rmsor_waa_practice,controller,SignupController,updateUserRegInfo,Long Statement,The length of the statement "fileName=File.separator + "faces" + File.separator+ "resources"+ File.separator+ "profile_pic"+ File.separator+ id+ "."+ extension;" is 131.,227
+rmsor_waa_practice,controller,SignupController,updateUserRegInfo,Long Statement,The length of the statement "userFacade.updateProfile(id`email`firstName`lastName`emailSessionBean.encryptToSha256(password)`phoneNumber`addressLine1`addressLine2`gender`age`fileName);" is 155.,227
+rmsor_waa_practice,controller,SignupController,upload,Long Statement,The length of the statement "File newfile=new File(path + File.separator + "resources"+ File.separator+ "profile_pic"+ File.separator+ id+ "."+ extension);" is 126.,278
+rmsor_waa_practice,ejb,UserFacade,updateProfile,Long Parameter List,The method has 11 parameters. ,57
+rmsor_waa_practice,ejb,UserFacade,updateProfile,Long Statement,The length of the statement "jpql="UPDATE User SET firstName= :firstName` " + "lastName= :lastName ` email= :email" + " `password = :pwd` "+ "phoneNumber=:phoneNumber` addressLine1=:addressLine1` "+ "addressLine2=:addressLine2` gender=:gender` age=:age`"+ "profilePic=:profilePic WHERE id = :user_id";" is 272.,57
+rmsor_waa_practice,ejb,UserFacade,updateProfile,Long Statement,The length of the statement "jpql="UPDATE User SET firstName= :firstName` " + "lastName= :lastName ` email= :email" + " `password = :pwd` "+ "phoneNumber=:phoneNumber` addressLine1=:addressLine1` "+ "addressLine2=:addressLine2` gender=:gender` age=:age "+ " WHERE id = :user_id";" is 250.,57
+rmsor_waa_practice,model,Creditinfo,Creditinfo,Long Parameter List,The method has 5 parameters. ,79
+rmsor_waa_practice,model,Creditinfo,equals,Complex Conditional,The conditional expression (this.userid == null && other.userid != null) || (this.userid != null && !this.userid.equals(other.userid)) is complex.,150
+rmsor_waa_practice,model,Genre,equals,Complex Conditional,The conditional expression (this.genreid == null && other.genreid != null) || (this.genreid != null && !this.genreid.equals(other.genreid)) is complex.,96
+rmsor_waa_practice,model,Movie,equals,Complex Conditional,The conditional expression (this.movieid == null && other.movieid != null) || (this.movieid != null && !this.movieid.equals(other.movieid)) is complex.,172
+rmsor_waa_practice,model,Reservation,equals,Complex Conditional,The conditional expression (this.reservationid == null && other.reservationid != null) || (this.reservationid != null && !this.reservationid.equals(other.reservationid)) is complex.,152
+rmsor_waa_practice,model,Reservation,equals,Long Statement,The length of the statement "if ((this.reservationid == null && other.reservationid != null) || (this.reservationid != null && !this.reservationid.equals(other.reservationid))) {" is 149.,152
+rmsor_waa_practice,model,Show,equals,Complex Conditional,The conditional expression (this.showid == null && other.showid != null) || (this.showid != null && !this.showid.equals(other.showid)) is complex.,195
+rmsor_waa_practice,model,Theater,equals,Complex Conditional,The conditional expression (this.tid == null && other.tid != null) || (this.tid != null && !this.tid.equals(other.tid)) is complex.,107
+rmsor_waa_practice,model,UserInfo,equals,Complex Conditional,The conditional expression (this.id == null && other.id != null) || (this.id != null && !this.id.equals(other.id)) is complex.,247
+rmsor_waa_practice,validator,PasswordValidator,validate,Complex Conditional,The conditional expression password == null || password.isEmpty() || confirmPassword == null || confirmPassword.isEmpty() is complex.,19
+rmsor_waa_practice,entities,Person,Person,Long Parameter List,The method has 6 parameters. ,20
+rmsor_waa_practice,com.cs545.ajax,RegistrationBean,RegistrationBean,Magic Number,The method contains a magic number: 51538,34
+rmsor_waa_practice,com.cs545.ajax,RegistrationBean,RegistrationBean,Magic Number,The method contains a magic number: 52593,34
+rmsor_waa_practice,com.cs545.ajax,RegistrationBean,RegistrationBean,Magic Number,The method contains a magic number: 42231,34
+rmsor_waa_practice,com.cs545.ajax,RegistrationBean,RegistrationBean,Magic Number,The method contains a magic number: 67231,34
+rmsor_waa_practice,com.cs545.ajax,RegistrationBean,RegistrationBean,Magic Number,The method contains a magic number: 97423,34
+rmsor_waa_practice,com.cs545.ajax,RegistrationBean,RegistrationBean,Magic Number,The method contains a magic number: 23715,34
+rmsor_waa_practice,com.cs545.ajax,RegistrationBean,RegistrationBean,Magic Number,The method contains a magic number: 19534,34
+rmsor_waa_practice,com.cs545.ajax,RegistrationBean,RegistrationBean,Magic Number,The method contains a magic number: 38654,34
+rmsor_waa_practice,com.cs545.ajax,RegistrationBean,RegistrationBean,Magic Number,The method contains a magic number: 79821,34
+rmsor_waa_practice,com.cs545.ajax,RegistrationBean,setListboxStyle,Long Statement,The length of the statement "attrs.put("style"`"display: inline; position: absolute; left: " + reqParams.get("x") + "px;"+ " top: "+ reqParams.get("y")+ "px");" is 130.,96
+rmsor_waa_practice,com.cs545.ajax,User,User,Long Parameter List,The method has 6 parameters. ,23
+rmsor_waa_practice,web,QuizJSF,checkAnswer,Magic Number,The method contains a magic number: 3,52
+rmsor_waa_practice,web,QuizJSF,checkAnswer,Magic Number,The method contains a magic number: 3,52
+rmsor_waa_practice,web,QuizJSF,isValidInteger,Magic Number,The method contains a magic number: 100,81
+rmsor_waa_practice,web,QuizJSF,isValidInteger,Magic Number,The method contains a magic number: 4,81
+rmsor_waa_practice,web,QuizServlet,genQuizPage,Long Parameter List,The method has 5 parameters. ,23
+rmsor_waa_practice,web,QuizServlet,isValidInteger,Magic Number,The method contains a magic number: 100,73
+rmsor_waa_practice,web,QuizServlet,isValidInteger,Magic Number,The method contains a magic number: 4,73
+rmsor_waa_practice,(default package),StateServlet,doGet,Magic Number,The method contains a magic number: 3600,21
+rmsor_waa_practice,webserver,WebServer,main,Magic Number,The method contains a magic number: 8090,17
+rmsor_waa_practice,webserver,WebServer,handleHTTPRequest,Magic Number,The method contains a magic number: 2000,39
+rmsor_waa_practice,webserver,WebServer,handleHTTPRequest,Magic Number,The method contains a magic number: 2,39
+rmsor_waa_practice,appTest,TestQuiz,testGetNumberQuestions,Magic Number,The method contains a magic number: 5,54
+rmsor_waa_practice,appTest,TestQuiz,testGetNumberQuestions,Magic Number,The method contains a magic number: 5,54
+rmsor_waa_practice,mum.model,TeaEntity,equals,Complex Conditional,The conditional expression (this.id == null && other.id != null) || (this.id != null && !this.id.equals(other.id)) is complex.,76
+rmsor_waa_practice,mum.app,TeaBean,init,Magic Number,The method contains a magic number: 5.95,41
+rmsor_waa_practice,mum.app,TeaBean,init,Magic Number,The method contains a magic number: 4.50,41
+rmsor_waa_practice,mum.app,TeaBean,init,Magic Number,The method contains a magic number: 15.95,41

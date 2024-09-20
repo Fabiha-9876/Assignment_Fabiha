@@ -1,0 +1,10 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+neureal_noo4j-daemon,org.noo4j.daemon,BtcAlertListener,0,0,2,2,11,3,0,1,-1.0,1,0,E:\Repositories\Cloned_Reposit\neureal_noo4j-daemon\src\main\java\org\noo4j\daemon\BtcAlertListener.java,27
+neureal_noo4j-daemon,org.noo4j.daemon,BtcBlockListener,2,0,2,2,23,3,0,1,0.0,1,1,E:\Repositories\Cloned_Reposit\neureal_noo4j-daemon\src\main\java\org\noo4j\daemon\BtcBlockListener.java,31
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemon,72,0,130,129,796,196,0,1,0.5615384615384615,4,3,E:\Repositories\Cloned_Reposit\neureal_noo4j-daemon\src\main\java\org\noo4j\daemon\BtcDaemon.java,67
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonNotifier,5,0,2,2,35,2,0,0,0.0,1,0,E:\Repositories\Cloned_Reposit\neureal_noo4j-daemon\src\main\java\org\noo4j\daemon\BtcDaemonNotifier.java,31
+neureal_noo4j-daemon,org.noo4j.daemon,BtcJsonRpcHttpClient,154,0,43,43,745,104,1,0,0.0,0,0,E:\Repositories\Cloned_Reposit\neureal_noo4j-daemon\src\main\java\org\noo4j\daemon\BtcJsonRpcHttpClient.java,90
+neureal_noo4j-daemon,org.noo4j.daemon,BtcNotificationSource,2,0,2,2,30,4,3,0,0.0,0,0,E:\Repositories\Cloned_Reposit\neureal_noo4j-daemon\src\main\java\org\noo4j\daemon\BtcNotificationSource.java,34
+neureal_noo4j-daemon,org.noo4j.daemon,BtcWalletListener,2,0,2,2,23,3,0,1,0.0,1,1,E:\Repositories\Cloned_Reposit\neureal_noo4j-daemon\src\main\java\org\noo4j\daemon\BtcWalletListener.java,31
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonMain,0,0,1,1,12,1,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\neureal_noo4j-daemon\src\test\java\org\noo4j\daemon\BtcDaemonMain.java,29
+neureal_noo4j-daemon,org.noo4j.daemon,BtcDaemonTest,39,0,64,64,600,84,0,0,0.0,0,2,E:\Repositories\Cloned_Reposit\neureal_noo4j-daemon\src\test\java\org\noo4j\daemon\BtcDaemonTest.java,68

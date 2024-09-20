@@ -1,0 +1,7 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+huntdog1541_theoryhomework1,(default package),Main,Main,Magic Number,The method contains a magic number: 2,13
+huntdog1541_theoryhomework1,(default package),Main,Main,Magic Number,The method contains a magic number: 3,13
+huntdog1541_theoryhomework1,(default package),Main,Main,Magic Number,The method contains a magic number: 4,13
+huntdog1541_theoryhomework1,(default package),Main,Main,Magic Number,The method contains a magic number: 5,13
+huntdog1541_theoryhomework1,(default package),Main,Main,Magic Number,The method contains a magic number: 6,13
+huntdog1541_theoryhomework1,(default package),Main,Main,Magic Number,The method contains a magic number: 7,13

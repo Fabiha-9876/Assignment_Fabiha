@@ -1,0 +1,10 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+kennethlim206_wordFrequencyCalculator,(default package),Dictionary,0,0,9,9,49,9,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\kennethlim206_wordFrequencyCalculator\Dictionary.java,1
+kennethlim206_wordFrequencyCalculator,(default package),DictPair,0,0,2,2,7,2,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\kennethlim206_wordFrequencyCalculator\DictPair.java,1
+kennethlim206_wordFrequencyCalculator,(default package),HashDictionaryImplementation,12,3,15,12,434,55,0,0,0.2,0,0,E:\Repositories\Cloned_Reposit\kennethlim206_wordFrequencyCalculator\HashDictionaryImplementation.java,5
+kennethlim206_wordFrequencyCalculator,(default package),HashDictionaryImplementation.Node,3,3,0,0,44,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\kennethlim206_wordFrequencyCalculator\HashDictionaryImplementation.java,37
+kennethlim206_wordFrequencyCalculator,(default package),HashDictionaryImplementation.JavaSetWrapper,1,0,0,0,39,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\kennethlim206_wordFrequencyCalculator\HashDictionaryImplementation.java,86
+kennethlim206_wordFrequencyCalculator,(default package),HashDictionaryImplementation.KVPair,2,0,0,0,21,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\kennethlim206_wordFrequencyCalculator\HashDictionaryImplementation.java,128
+kennethlim206_wordFrequencyCalculator,(default package),Set,0,0,10,10,54,10,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\kennethlim206_wordFrequencyCalculator\Set.java,3
+kennethlim206_wordFrequencyCalculator,(default package),WordFreqs,2,0,4,2,164,25,0,0,1.0,0,0,E:\Repositories\Cloned_Reposit\kennethlim206_wordFrequencyCalculator\WordFreqs.java,10
+kennethlim206_wordFrequencyCalculator,(default package),WordFreqs.KVPair,2,0,0,0,21,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\kennethlim206_wordFrequencyCalculator\WordFreqs.java,21

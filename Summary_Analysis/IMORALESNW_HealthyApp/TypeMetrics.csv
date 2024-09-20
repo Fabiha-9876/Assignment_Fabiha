@@ -1,0 +1,19 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+IMORALESNW_HealthyApp,com.nubware.healthyapp,ApplicationTest,0,0,1,1,8,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\androidTest\java\com\nubware\healthyapp\ApplicationTest.java,6
+IMORALESNW_HealthyApp,com.nubware.healthyapp,ApplicationActivity,0,0,3,2,17,4,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\ApplicationActivity.java,9
+IMORALESNW_HealthyApp,com.nubware.healthyapp,ApplicationFragment,0,0,2,2,14,2,0,0,-1.0,0,4,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\ApplicationFragment.java,15
+IMORALESNW_HealthyApp,com.nubware.healthyapp,ApplicationStep1,25,0,5,3,89,8,0,0,0.4,1,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\ApplicationStep1.java,19
+IMORALESNW_HealthyApp,com.nubware.healthyapp,ApplicationStep2,1,0,3,3,27,7,0,0,1.0,1,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\ApplicationStep2.java,12
+IMORALESNW_HealthyApp,com.nubware.healthyapp,ApplicationStep3,0,0,3,3,19,5,0,0,-1.0,1,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\ApplicationStep3.java,10
+IMORALESNW_HealthyApp,com.nubware.healthyapp,ApplicationSummary,12,0,4,4,49,4,0,0,0.5,1,3,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\ApplicationSummary.java,16
+IMORALESNW_HealthyApp,com.nubware.healthyapp,CustomWizard,0,0,1,1,7,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\CustomWizard.java,13
+IMORALESNW_HealthyApp,com.nubware.healthyapp,Helps,2,2,0,0,7,0,0,0,-1.0,1,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\Helps.java,3
+IMORALESNW_HealthyApp,com.nubware.healthyapp,MainActivity,0,0,4,3,21,5,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\MainActivity.java,11
+IMORALESNW_HealthyApp,com.nubware.healthyapp,SQLiteHelper,2,0,5,5,22,5,0,0,0.8,1,2,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\SQLiteHelper.java,7
+IMORALESNW_HealthyApp,com.nubware.healthyapp,TBDemonstrator,6,6,2,2,25,2,0,0,1.0,0,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\TBDemonstrator.java,6
+IMORALESNW_HealthyApp,com.nubware.healthyapp,TBEvents,0,0,0,0,5,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\TBEvents.java,3
+IMORALESNW_HealthyApp,com.nubware.healthyapp,TBFeedBack,11,11,2,2,34,2,0,0,1.0,0,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\TBFeedBack.java,6
+IMORALESNW_HealthyApp,com.nubware.healthyapp,TBInterestedConcepts,5,4,4,4,46,8,0,0,0.5,2,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\TBInterestedConcepts.java,8
+IMORALESNW_HealthyApp,com.nubware.healthyapp,TBInterestedConcepts.Concepts,0,0,0,0,1,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\TBInterestedConcepts.java,21
+IMORALESNW_HealthyApp,com.nubware.healthyapp,TBProspect,45,43,6,2,114,7,0,0,0.3333333333333333,2,1,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\TBProspect.java,6
+IMORALESNW_HealthyApp,com.nubware.healthyapp,TBSubEvents,0,0,0,0,5,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\IMORALESNW_HealthyApp\app\src\main\java\com\nubware\healthyapp\TBSubEvents.java,3

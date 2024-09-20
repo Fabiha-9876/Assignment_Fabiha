@@ -1,0 +1,19 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+alexyem0222_amazon,Try2,Packages,clickonpackages,Long Statement,The length of the statement "WebElement packages=driver.findElement(By.cssSelector("html body#home.tmpl-generic div.container div#container-content div#col-1 div.tab-menu ul li a#t-packages"));" is 164.,24
+alexyem0222_amazon,Try2,RegisteredUserLogin,login,Long Statement,The length of the statement "WebElement logoutlink=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/div[2]/div/div/ul/li[5]/a")));" is 132.,29
+alexyem0222_amazon,Try2,WrongPassword,login,Long Statement,The length of the statement "Assert.assertTrue(driver.getPageSource().contains("We're sorry` but we were unable to log you in to your Personality Perks account!"));" is 135.,29
+alexyem0222_amazon,amazon,AmazonHomePage,searchFor,Magic Number,The method contains a magic number: 30,24
+alexyem0222_amazon,amazon,AmazonHomePage,searchFor,Magic Number,The method contains a magic number: 50,24
+alexyem0222_amazon,amazon,AmazonMobileTest,setUp,Long Statement,The length of the statement "this.driver=new RemoteWebDriver(new URL("http://alex_yem22:e8760d07-6354-4530-b74f-c91e9556f7f6@ondemand.saucelabs.com:80/wd/hub")`capabillities);" is 146.,32
+alexyem0222_amazon,amazon,AmazonMobileTest,printSessionId,Long Statement,The length of the statement "String message=String.format("SauceOnDemandSessionID=%1$s job-name=%2$s"`(((RemoteWebDriver)driver).getSessionId()).toString()`"AmazonMobileTest");" is 147.,50
+alexyem0222_amazon,amazon,AmazonSearchResultsPage,getTopResultTitle,Magic Number,The method contains a magic number: 5000,19
+alexyem0222_amazon,amazon,AmazonSearchTestParallel,setUp,Long Statement,The length of the statement "this.driver=new RemoteWebDriver(new URL("http://alex_yem22:e8760d07-6354-4530-b74f-c91e9556f7f6@ondemand.saucelabs.com:80/wd/hub")`capabilities);" is 145.,47
+alexyem0222_amazon,amazon,AmazonSearchTestParallel,printSessionId,Long Statement,The length of the statement "String message=String.format("SauceOnDemandSessionID=%1$s job-name=%2$s"`(((RemoteWebDriver)driver).getSessionId()).toString()`"AmazonSearchTestParallel");" is 155.,76
+alexyem0222_amazon,amazon,BetterAmazonSearchTest,setupSelenium,Long Statement,The length of the statement "driver=new RemoteWebDriver(new URL("http://alex_yem22:e8760d07-6354-4530-b74f-c91e9556f7f6@ondemand.saucelabs.com:80/wd/hub")`caps);" is 132.,26
+alexyem0222_amazon,amazon,BetterAmazonSearchTest,printSessionId,Long Statement,The length of the statement "String message=String.format("SauceOnDemandSessionID=%1$s job-name=%2$s"`(((RemoteWebDriver)driver).getSessionId()).toString()`"BetterAmazonSearchTest");" is 153.,56
+alexyem0222_amazon,amazon,PersonalityMobileTry,setUp,Long Statement,The length of the statement "driver=new RemoteWebDriver(new URL("http://alex_yem22:e8760d07-6354-4530-b74f-c91e9556f7f6@ondemand.saucelabs.com:80/wd/hub")`capabilities);" is 140.,24
+alexyem0222_amazon,amazon,PersonalityMobileTry,runTest,Magic Number,The method contains a magic number: 60,37
+alexyem0222_amazon,amazon,PersonalityMobileTry,printSessionId,Long Statement,The length of the statement "String message=String.format("SauceOnDemandSessionID=%1$s job-name=%2$s"`(((RemoteWebDriver)driver).getSessionId()).toString()`"PersonalityMobileTest");" is 152.,46
+alexyem0222_amazon,SuperPersonality,PersonalityPerks,getTopResultTitle,Magic Number,The method contains a magic number: 2000,24
+alexyem0222_amazon,UnitTests,UnitTest,checkAddMethod,Magic Number,The method contains a magic number: 3,9
+alexyem0222_amazon,UnitTests,UnitTest,checkAddMethod,Magic Number,The method contains a magic number: 2,9

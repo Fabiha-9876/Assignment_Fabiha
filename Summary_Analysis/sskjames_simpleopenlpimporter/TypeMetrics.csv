@@ -1,0 +1,9 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+sskjames_simpleopenlpimporter,org.simpleopenlpimporter.dao,ISongImportDao,0,0,1,0,3,1,1,0,-1.0,1,0,E:\Repositories\Cloned_Reposit\sskjames_simpleopenlpimporter\src\main\java\org\simpleopenlpimporter\dao\ISongImportDao.java,7
+sskjames_simpleopenlpimporter,org.simpleopenlpimporter.dao,SqliteSongImportDao,1,0,4,1,72,8,0,1,0.0,1,0,E:\Repositories\Cloned_Reposit\sskjames_simpleopenlpimporter\src\main\java\org\simpleopenlpimporter\dao\SqliteSongImportDao.java,15
+sskjames_simpleopenlpimporter,org.simpleopenlpimporter.dao,SqliteSongImportDaoTest,2,0,4,3,49,7,0,0,0.5,0,1,E:\Repositories\Cloned_Reposit\sskjames_simpleopenlpimporter\src\test\java\org\simpleopenlpimporter\dao\SqliteSongImportDaoTest.java,16
+sskjames_simpleopenlpimporter,org.simpleopenlpimporter.domain,Song,6,0,17,17,65,18,0,0,0.35294117647058826,1,0,E:\Repositories\Cloned_Reposit\sskjames_simpleopenlpimporter\src\main\java\org\simpleopenlpimporter\domain\Song.java,8
+sskjames_simpleopenlpimporter,org.simpleopenlpimporter,ISongsImporter,0,0,1,0,3,1,1,0,-1.0,1,0,E:\Repositories\Cloned_Reposit\sskjames_simpleopenlpimporter\src\main\java\org\simpleopenlpimporter\ISongsImporter.java,5
+sskjames_simpleopenlpimporter,org.simpleopenlpimporter,Main,0,0,2,1,30,5,0,0,-1.0,0,2,E:\Repositories\Cloned_Reposit\sskjames_simpleopenlpimporter\src\main\java\org\simpleopenlpimporter\Main.java,8
+sskjames_simpleopenlpimporter,org.simpleopenlpimporter,SongsImporter,1,0,13,2,78,16,0,1,0.0,2,0,E:\Repositories\Cloned_Reposit\sskjames_simpleopenlpimporter\src\main\java\org\simpleopenlpimporter\SongsImporter.java,16
+sskjames_simpleopenlpimporter,org.simpleopenlpimporter,SongsImporterTest,2,0,14,13,83,14,0,0,0.21428571428571427,0,3,E:\Repositories\Cloned_Reposit\sskjames_simpleopenlpimporter\src\test\java\org\simpleopenlpimporter\SongsImporterTest.java,15

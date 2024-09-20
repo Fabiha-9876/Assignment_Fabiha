@@ -1,0 +1,5 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+jipson7_sortingComparison-ScalaVsJava,bubblesort,Sort,1,1,4,4,34,8,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\jipson7_sortingComparison-ScalaVsJava\java\bubblesort\Sort.java,5
+jipson7_sortingComparison-ScalaVsJava,(default package),Main,0,0,11,11,155,21,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\jipson7_sortingComparison-ScalaVsJava\java\Main.java,6
+jipson7_sortingComparison-ScalaVsJava,mergesort,Sort,2,1,6,4,55,12,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\jipson7_sortingComparison-ScalaVsJava\java\mergesort\Sort.java,5
+jipson7_sortingComparison-ScalaVsJava,quicksort,Sort,1,1,6,4,53,14,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\jipson7_sortingComparison-ScalaVsJava\java\quicksort\Sort.java,5

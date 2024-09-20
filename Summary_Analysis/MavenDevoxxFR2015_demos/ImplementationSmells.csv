@@ -1,0 +1,13 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+MavenDevoxxFR2015_demos,bytecode,Display,display,Magic Number,The method contains a magic number: 4,35
+MavenDevoxxFR2015_demos,bytecode,Display,display,Magic Number,The method contains a magic number: 44,35
+MavenDevoxxFR2015_demos,bytecode,Display,display,Magic Number,The method contains a magic number: 44,35
+MavenDevoxxFR2015_demos,bytecode,Display,run,Long Statement,The length of the statement "System.out.println(esc("1") + "Bytecode Java " + version+ " exécuté sur une JVM "+ p.getSpecificationVersion()+ esc("0"));" is 122.,54
+MavenDevoxxFR2015_demos,bytecode,Display,display,Magic Number,The method contains a magic number: 4,35
+MavenDevoxxFR2015_demos,bytecode,Display,display,Magic Number,The method contains a magic number: 44,35
+MavenDevoxxFR2015_demos,bytecode,Display,display,Magic Number,The method contains a magic number: 44,35
+MavenDevoxxFR2015_demos,bytecode,Display,run,Long Statement,The length of the statement "System.out.println(esc("1") + "Bytecode Java " + version+ " exécuté sur une JVM "+ p.getSpecificationVersion()+ esc("0"));" is 122.,54
+MavenDevoxxFR2015_demos,bytecode,Display,display,Magic Number,The method contains a magic number: 4,35
+MavenDevoxxFR2015_demos,bytecode,Display,display,Magic Number,The method contains a magic number: 44,35
+MavenDevoxxFR2015_demos,bytecode,Display,display,Magic Number,The method contains a magic number: 44,35
+MavenDevoxxFR2015_demos,bytecode,Display,run,Long Statement,The length of the statement "System.out.println(esc("1") + "Bytecode Java " + version+ " exécuté sur une JVM "+ p.getSpecificationVersion()+ esc("0"));" is 122.,54

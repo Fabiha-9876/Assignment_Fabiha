@@ -1,0 +1,396 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,DungeonGenerator,Magic Number,The method contains a magic number: 3,39
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,DungeonGenerator,Magic Number,The method contains a magic number: 3,39
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,DungeonGenerator,Magic Number,The method contains a magic number: 2,39
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,DungeonGenerator,Magic Number,The method contains a magic number: 5,39
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,DungeonGenerator,Magic Number,The method contains a magic number: 5,39
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Complex Method,Cyclomatic complexity of the method is 15,70
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Long Statement,The length of the statement "Rectangle viewPort=new Rectangle(guy.getPlayerXCoord() - container.getWidth() / 2`guy.getPlayerYCoord() - container.getHeight() / 2 - 60`container.getWidth() + guy.getIcon().getWidth()`container.getHeight() + guy.getIcon().getHeight());" is 236.,70
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Long Statement,The length of the statement "corners.add(new Point((player.getPlayerXCoord() + player.getIcon().getWidth())`(player.getPlayerYCoord() + player.getIcon().getHeight())));" is 139.,70
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Long Statement,The length of the statement "g.drawImage(player.getIcon().getFlippedCopy(player.isFlippedLeft()`false)`player.getPlayerXCoord()`player.getPlayerYCoord());" is 125.,70
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Magic Number,The method contains a magic number: 2,70
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Magic Number,The method contains a magic number: 2,70
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Magic Number,The method contains a magic number: 60,70
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Magic Number,The method contains a magic number: 4,70
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateDungeon1,Magic Number,The method contains a magic number: 2,166
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateDungeon1,Magic Number,The method contains a magic number: 50,166
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateDungeon2,Long Parameter List,The method has 6 parameters. ,200
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Complex Conditional,The conditional expression currentRow + x < 0 || currentRow + x >= this.dungeonHeight || currentColumn + y < 0 || currentColumn + y >= this.dungeonWidth is complex.,236
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Complex Conditional,The conditional expression inspectee.getTileLetter() == 'O' && inspectee.getBelongsTo() != startRoom && inspectee.getBelongsTo() != currentHallway is complex.,236
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Complex Method,Cyclomatic complexity of the method is 14,236
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Long Statement,The length of the statement "if (currentRow + x < 0 || currentRow + x >= this.dungeonHeight || currentColumn + y < 0 || currentColumn + y >= this.dungeonWidth) {" is 132.,236
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Long Statement,The length of the statement "if (inspectee.getTileLetter() == 'O' && inspectee.getBelongsTo() != startRoom && inspectee.getBelongsTo() != currentHallway) {" is 126.,236
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Magic Number,The method contains a magic number: 2,236
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Magic Number,The method contains a magic number: 2,236
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Magic Number,The method contains a magic number: 2,236
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,friendlyNeighbors,Empty catch clause,The method has an empty catch block.,333
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,friendlyNeighbors,Magic Number,The method contains a magic number: 2,333
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,friendlyNeighbors,Magic Number,The method contains a magic number: 2,333
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,wallNeighbors,Magic Number,The method contains a magic number: 2,357
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,wallNeighbors,Magic Number,The method contains a magic number: 2,357
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,placeRoom,Complex Method,Cyclomatic complexity of the method is 10,378
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,checkCell,Complex Conditional,The conditional expression X < 0 || X >= this.dungeonHeight || Y < 0 || Y >= this.dungeonWidth is complex.,417
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,checkBordersOwners,Complex Conditional,The conditional expression method == BorderCheck.ORTHOGONAL && x != 0 && y != 0 is complex.,445
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,checkBordersOwners,Complex Conditional,The conditional expression method == BorderCheck.DIAGONAL && x == 0 && y == 0 is complex.,445
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,checkBordersOwners,Magic Number,The method contains a magic number: 2,445
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,checkBordersOwners,Magic Number,The method contains a magic number: 2,445
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,canMove,Complex Conditional,The conditional expression point.y < 0 || point.y > this.dungeonHeight * ratioY || point.x < 0 || point.x > this.dungeonWidth * ratioX is complex.,480
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,designateExitSquare,Magic Number,The method contains a magic number: 0.75,533
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,designateExitSquare,Magic Number,The method contains a magic number: 0.75,533
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,designateExitSquare,Magic Number,The method contains a magic number: 2,533
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,designateExitSquare,Magic Number,The method contains a magic number: 2,533
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,getEntranceCoords,Magic Number,The method contains a magic number: 2,585
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,Hallway,Hallway,Magic Number,The method contains a magic number: 100,5
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,DungeonGenerator,Long Statement,The length of the statement "room2.setLayout(new boolean[][]{{true`true`true`true`true}`{true`true`true`true`true}`{true`true`true`true`true}`{true`true`true`true`true}`{true`true`true`true`true}});" is 169.,36
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,DungeonGenerator,Magic Number,The method contains a magic number: 3,36
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,DungeonGenerator,Magic Number,The method contains a magic number: 3,36
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,DungeonGenerator,Magic Number,The method contains a magic number: 2,36
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,DungeonGenerator,Magic Number,The method contains a magic number: 5,36
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,DungeonGenerator,Magic Number,The method contains a magic number: 5,36
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Complex Conditional,The conditional expression row < 0 || row >= dungeonHeight || col < 0 || col >= dungeonWidth is complex.,69
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Complex Method,Cyclomatic complexity of the method is 9,69
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Long Statement,The length of the statement "g.drawImage(player.getIcon().getFlippedCopy(player.isFlippedLeft()`false)`player.getPosition().x`player.getPosition().y);" is 121.,69
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Magic Number,The method contains a magic number: 5,69
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Magic Number,The method contains a magic number: 5,69
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Magic Number,The method contains a magic number: 5,69
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,renderDungeon,Magic Number,The method contains a magic number: 5,69
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateDungeon1,Magic Number,The method contains a magic number: 2,121
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateDungeon1,Magic Number,The method contains a magic number: 50,121
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateDungeon2,Long Parameter List,The method has 6 parameters. ,155
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Complex Conditional,The conditional expression currentRow + x < 0 || currentRow + x >= this.dungeonHeight || currentColumn + y < 0 || currentColumn + y >= this.dungeonWidth is complex.,191
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Complex Conditional,The conditional expression inspectee.getTileLetter() == 'O' && inspectee.getBelongsTo() != startRoom && inspectee.getBelongsTo() != currentHallway is complex.,191
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Complex Method,Cyclomatic complexity of the method is 14,191
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Long Statement,The length of the statement "if (currentRow + x < 0 || currentRow + x >= this.dungeonHeight || currentColumn + y < 0 || currentColumn + y >= this.dungeonWidth) {" is 132.,191
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Long Statement,The length of the statement "if (inspectee.getTileLetter() == 'O' && inspectee.getBelongsTo() != startRoom && inspectee.getBelongsTo() != currentHallway) {" is 126.,191
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Magic Number,The method contains a magic number: 2,191
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Magic Number,The method contains a magic number: 2,191
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,generateRandomRoomWalk,Magic Number,The method contains a magic number: 2,191
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,friendlyNeighbors,Empty catch clause,The method has an empty catch block.,287
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,friendlyNeighbors,Magic Number,The method contains a magic number: 2,287
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,friendlyNeighbors,Magic Number,The method contains a magic number: 2,287
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,wallNeighbors,Magic Number,The method contains a magic number: 2,310
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,wallNeighbors,Magic Number,The method contains a magic number: 2,310
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,placeRoom,Complex Method,Cyclomatic complexity of the method is 10,331
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,checkCell,Complex Conditional,The conditional expression row < 0 || row >= this.dungeonHeight || col < 0 || col >= this.dungeonWidth is complex.,370
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,checkBordersOwners,Complex Conditional,The conditional expression method == BorderCheck.ORTHOGONAL && x != 0 && y != 0 is complex.,396
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,checkBordersOwners,Complex Conditional,The conditional expression method == BorderCheck.DIAGONAL && x == 0 && y == 0 is complex.,396
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,checkBordersOwners,Magic Number,The method contains a magic number: 2,396
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,checkBordersOwners,Magic Number,The method contains a magic number: 2,396
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,canMove,Complex Conditional,The conditional expression point.y < 0 || point.y > this.dungeonHeight * ratioRow || point.x < 0 || point.x > this.dungeonWidth * ratioCol is complex.,431
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,designateExitSquare,Magic Number,The method contains a magic number: 0.75,485
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,designateExitSquare,Magic Number,The method contains a magic number: 0.75,485
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,designateExitSquare,Magic Number,The method contains a magic number: 2,485
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,designateExitSquare,Magic Number,The method contains a magic number: 2,485
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,populateWithZombies,Long Statement,The length of the statement "References.MOB_FACTORY.spawn("zombie"`new Vector2f((r.getColumn() + randX) * this.ratioCol`(r.getRow() + randY) * this.ratioRow));" is 130.,497
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,populateWithZombies,Magic Number,The method contains a magic number: 40,497
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,populateWithZombies,Magic Number,The method contains a magic number: 16,497
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,populateWithZombies,Magic Number,The method contains a magic number: 4,497
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,populateWithZombies,Magic Number,The method contains a magic number: 2,497
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,DungeonGenerator,getEntranceCoords,Magic Number,The method contains a magic number: 2,561
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,GameSquare,GameSquare,Long Statement,The length of the statement "this.setCollisionBox(col * DungeonGenerator.ratioCol`row * DungeonGenerator.ratioRow`DungeonGenerator.ratioCol`DungeonGenerator.ratioRow);" is 138.,19
+butlersrepos_dungeon-digger,dungeonDigger.contentGeneration,Hallway,Hallway,Magic Number,The method contains a magic number: 100,5
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,handleMovement,Complex Method,Cyclomatic complexity of the method is 9,58
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,handleMovement,Long Statement,The length of the statement "if (inputs.isKeyDown(DungeonDigger.KEY_BINDINGS.get("moveUp")) && (movement=MultiplayerDungeon.CLIENT_VIEW.canMove(Direction.NORTH`this.getTerrainCollisionBox()`speed)) > 0) {" is 175.,58
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,handleMovement,Long Statement,The length of the statement "if (inputs.isKeyDown(DungeonDigger.KEY_BINDINGS.get("moveDown")) && (movement=MultiplayerDungeon.CLIENT_VIEW.canMove(Direction.SOUTH`this.getTerrainCollisionBox()`speed)) > 0) {" is 177.,58
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,handleMovement,Long Statement,The length of the statement "if (inputs.isKeyDown(DungeonDigger.KEY_BINDINGS.get("moveLeft")) && (movement=MultiplayerDungeon.CLIENT_VIEW.canMove(Direction.WEST`this.getTerrainCollisionBox()`speed)) > 0) {" is 176.,58
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,handleMovement,Long Statement,The length of the statement "if (inputs.isKeyDown(DungeonDigger.KEY_BINDINGS.get("moveRight")) && (movement=MultiplayerDungeon.CLIENT_VIEW.canMove(Direction.EAST`this.getTerrainCollisionBox()`speed)) > 0) {" is 177.,58
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,getEntityCollisionBox,Long Statement,The length of the statement "return new Rectangle(this.playerXCoord`this.playerYCoord + this.icon.getHeight() / 2`this.icon.getWidth()`this.icon.getHeight() / 2);" is 133.,205
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,getEntityCollisionBox,Magic Number,The method contains a magic number: 2,205
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,getEntityCollisionBox,Magic Number,The method contains a magic number: 2,205
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,init,Complex Conditional,The conditional expression adm == AbilityDeliveryMethod.CLICK_PROJECTILE || adm == AbilityDeliveryMethod.MOUSE_CONE || adm == AbilityDeliveryMethod.BLAST is complex.,46
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,init,Long Statement,The length of the statement "if (adm == AbilityDeliveryMethod.CLICK_PROJECTILE || adm == AbilityDeliveryMethod.MOUSE_CONE || adm == AbilityDeliveryMethod.BLAST) {" is 133.,46
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,init,Long Statement,The length of the statement "this.setCollisionBox(this.getPosition().x`this.getPosition().y`this.getAnimation().getCurrentFrame().getWidth()`this.getAnimation().getCurrentFrame().getHeight());" is 163.,46
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,update,Complex Conditional,The conditional expression this.animation.isStopped() && (secondaryAnimation == null || secondaryAnimation.isStopped()) is complex.,68
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,update,Long Statement,The length of the statement "this.setCollisionBox(this.getPosition().x`this.getPosition().y`this.getAnimation().getCurrentFrame().getWidth()`this.getAnimation().getCurrentFrame().getHeight());" is 163.,68
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,render,Long Statement,The length of the statement "References.IMAGES.get("magicReticle").draw(References.myCharacter.getPosition().x - container.getWidth() / 2 + inputs.getMouseX() - References.IMAGES.get("magicReticle").getWidth() / 2`References.myCharacter.getPosition().y - container.getHeight() / 2 + inputs.getMouseY() - References.IMAGES.get("magicReticle").getHeight() / 2);" is 330.,96
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,render,Long Statement,The length of the statement "lineOfTravel=(float)Math.toDegrees(Math.atan2(this.getEndPoint().getY() - this.getPosition().getY()`this.getEndPoint().getX() - this.getPosition().getX()));" is 156.,96
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,render,Long Statement,The length of the statement "secondaryAnimation.draw(this.getPosition().x - secondaryAnimation.getWidth() / 2`this.getPosition().y - secondaryAnimation.getHeight() / 2);" is 140.,96
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,render,Magic Number,The method contains a magic number: 5,96
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,render,Magic Number,The method contains a magic number: 2,96
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,render,Magic Number,The method contains a magic number: 2,96
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,render,Magic Number,The method contains a magic number: 2,96
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,render,Magic Number,The method contains a magic number: 2,96
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,render,Magic Number,The method contains a magic number: 2,96
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,render,Magic Number,The method contains a magic number: 2,96
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,render,Magic Number,The method contains a magic number: 2,96
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,render,Magic Number,The method contains a magic number: 2,96
+butlersrepos_dungeon-digger,dungeonDigger.entities,Ability,handleCollisions,Complex Method,Cyclomatic complexity of the method is 8,182
+butlersrepos_dungeon-digger,dungeonDigger.entities,AbilityFactory,render,Long Statement,The length of the statement "if ((int)(a.getCurrentPoint().x / DungeonGenerator.ratioCol) == col && (int)(a.getCurrentPoint().y / DungeonGenerator.ratioRow) == row) {" is 137.,39
+butlersrepos_dungeon-digger,dungeonDigger.entities,Agent,Agent,Magic Number,The method contains a magic number: 10,20
+butlersrepos_dungeon-digger,dungeonDigger.entities,Agent,Agent,Magic Number,The method contains a magic number: 10,20
+butlersrepos_dungeon-digger,dungeonDigger.entities,Agent,Agent,Magic Number,The method contains a magic number: 10,20
+butlersrepos_dungeon-digger,dungeonDigger.entities,Agent,Agent,Magic Number,The method contains a magic number: 10,20
+butlersrepos_dungeon-digger,dungeonDigger.entities,Agent,Agent,Magic Number,The method contains a magic number: 10,20
+butlersrepos_dungeon-digger,dungeonDigger.entities,Agent,Agent,Magic Number,The method contains a magic number: 10,20
+butlersrepos_dungeon-digger,dungeonDigger.entities,Agent,Agent,Magic Number,The method contains a magic number: 6,20
+butlersrepos_dungeon-digger,dungeonDigger.entities,GameObject,hasLOS,Long Statement,The length of the statement "if (line.intersects(References.CLIENT_VIEW.dungeon[row][col].getCollisionBox()) && References.CLIENT_VIEW.dungeon[row][col].isTileLetter('W')) {" is 144.,27
+butlersrepos_dungeon-digger,dungeonDigger.entities,Mob,init,Long Statement,The length of the statement "this.setCollisionBox(this.getPosition().x`this.getPosition().y`this.getAnimation().getCurrentFrame().getWidth()`this.getAnimation().getCurrentFrame().getHeight());" is 163.,34
+butlersrepos_dungeon-digger,dungeonDigger.entities,Mob,init,Magic Number,The method contains a magic number: 0.3f,34
+butlersrepos_dungeon-digger,dungeonDigger.entities,Mob,update,Long Statement,The length of the statement "this.setCollisionBox(this.getPosition().x`this.getPosition().y`this.getAnimation().getCurrentFrame().getWidth()`this.getAnimation().getCurrentFrame().getHeight());" is 163.,47
+butlersrepos_dungeon-digger,dungeonDigger.entities,Mob,getCollisionBox,Long Statement,The length of the statement "return new Rectangle(this.getPosition().x`this.getPosition().y`this.animation.getCurrentFrame().getWidth()`this.animation.getCurrentFrame().getHeight());" is 153.,70
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,updateMovement,Magic Number,The method contains a magic number: 2,10
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,updateMovement,Magic Number,The method contains a magic number: 3,10
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,updateMovement,Magic Number,The method contains a magic number: 4,10
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,updateMovement,Magic Number,The method contains a magic number: 5,10
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,updateMovement,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@4e1c256f,10
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,zombieMovement,Complex Conditional,The conditional expression References.myCharacter.getPosition().x > left && References.myCharacter.getPosition().x < right && References.myCharacter.getPosition().y > top && References.myCharacter.getPosition().y < bottom && thinker.hasLOS(References.myCharacter) is complex.,28
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,zombieMovement,Long Statement,The length of the statement "if (References.myCharacter.getPosition().x > left && References.myCharacter.getPosition().x < right && References.myCharacter.getPosition().y > top && References.myCharacter.getPosition().y < bottom && thinker.hasLOS(References.myCharacter)) {" is 243.,28
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,zombieMovement,Long Statement,The length of the statement "float yMove=Math.signum((References.myCharacter.getPosition().y - (Math.max(0`thinker.getAnimation().getCurrentFrame().getHeight() - References.myCharacter.getHeight()))) - thinker.getPosition().y);" is 198.,28
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,zombieMovement,Long Statement,The length of the statement "int canX=References.CLIENT_VIEW.canMove(Toolbox.getCardinalDirection(xMove`0)`thinker.getCollisionBox()`Math.abs(xMove));" is 121.,28
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,zombieMovement,Long Statement,The length of the statement "Rectangle nextStepBox=new Rectangle(thinker.getCollisionBox().getX() + result.x`thinker.getCollisionBox().getY()`thinker.getCollisionBox().getWidth()`thinker.getCollisionBox().getHeight());" is 189.,28
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,zombieMovement,Magic Number,The method contains a magic number: 2,28
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,zombieMovement,Magic Number,The method contains a magic number: 2,28
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,zombieMovement,Magic Number,The method contains a magic number: 2,28
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,zombieMovement,Magic Number,The method contains a magic number: 2,28
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,stepTowards,Long Statement,The length of the statement "int canX=References.CLIENT_VIEW.canMove(Toolbox.getCardinalDirection(xMove`0)`thinker.getCollisionBox()`Math.abs(xMove));" is 121.,70
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobAI,stepTowards,Long Statement,The length of the statement "Rectangle nextStepBox=new Rectangle(thinker.getCollisionBox().getX() + result.x`thinker.getCollisionBox().getY()`thinker.getCollisionBox().getWidth()`thinker.getCollisionBox().getHeight());" is 189.,70
+butlersrepos_dungeon-digger,dungeonDigger.entities,MobFactory,render,Long Statement,The length of the statement "if ((int)(m.getPosition().x / DungeonGenerator.ratioCol) == col && (int)(m.getPosition().y / DungeonGenerator.ratioRow) == row) {" is 129.,41
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,NetworkPlayer,Magic Number,The method contains a magic number: 60,46
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,NetworkPlayer,Magic Number,The method contains a magic number: 60,46
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,NetworkPlayer,Magic Number,The method contains a magic number: 60,46
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,NetworkPlayer,Magic Number,The method contains a magic number: 60,46
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,handleMovement,Complex Method,Cyclomatic complexity of the method is 9,68
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,getEntityCollisionBox,Long Statement,The length of the statement "return new Rectangle(this.getPosition().x`this.getPosition().y + this.getIcon().getHeight() / 2`this.getIcon().getWidth()`this.getIcon().getHeight() / 2);" is 154.,197
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,getEntityCollisionBox,Magic Number,The method contains a magic number: 2,197
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,getEntityCollisionBox,Magic Number,The method contains a magic number: 2,197
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,keyReleased,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5c4d30a5,222
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,keyPressed,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@689b792e,244
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,mouseClicked,Long Statement,The length of the statement "this.getQueuedAbility().setEndPoint(References.myCharacter.getPosition().x - 320 + x`References.myCharacter.getPosition().y - 320 + y);" is 135.,277
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,mouseClicked,Magic Number,The method contains a magic number: 320,277
+butlersrepos_dungeon-digger,dungeonDigger.entities,NetworkPlayer,mouseClicked,Magic Number,The method contains a magic number: 320,277
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,main,Long Statement,The length of the statement "System.setProperty("org.lwjgl.librarypath"`new File(new File(System.getProperty("user.dir")`"native")`LWJGLUtil.getPlatformName()).getAbsolutePath());" is 150.,59
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,main,Magic Number,The method contains a magic number: 640,59
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,main,Magic Number,The method contains a magic number: 640,59
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,main,Magic Number,The method contains a magic number: 40,59
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Long Statement,The length of the statement "DungeonDigger.IMAGES.put("roomWallImage"`new Image(ResourceLoader.getResourceAsStream("dirt floor 100x120.png")`"dirt floor 100x120.png"`false));" is 145.,105
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Long Statement,The length of the statement "DungeonDigger.IMAGES.put("dirtFloorImage"`new Image(ResourceLoader.getResourceAsStream("Dirt Block.png")`"Dirt Block.png"`false));" is 130.,105
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Long Statement,The length of the statement "DungeonDigger.IMAGES.put("roomFloorImage"`new Image(ResourceLoader.getResourceAsStream("dirt floor 100x120.png")`"dirt floor 100x120.png"`false));" is 146.,105
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Long Statement,The length of the statement "DungeonDigger.IMAGES.put("dirtWallImage"`new Image(ResourceLoader.getResourceAsStream("Wall Block Tall.png")`"Wall Block Tall.png"`false));" is 139.,105
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Long Statement,The length of the statement "DungeonDigger.IMAGES.put("entranceImage"`new Image(ResourceLoader.getResourceAsStream("Stone Block.png")`"Stone Block.png"`false));" is 131.,105
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Magic Number,The method contains a magic number: 255,105
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Magic Number,The method contains a magic number: 255,105
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadCharacterFiles,Complex Method,Cyclomatic complexity of the method is 14,119
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Long Statement,The length of the statement "g.translate(-DungeonDigger.myCharacter.getPlayerXCoord() + container.getWidth() / 2`-DungeonDigger.myCharacter.getPlayerYCoord() + container.getHeight() / 2);" is 158.,34
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Long Statement,The length of the statement "g.translate(DungeonDigger.myCharacter.getPlayerXCoord() - container.getWidth() / 2`DungeonDigger.myCharacter.getPlayerYCoord() - container.getHeight() / 2);" is 156.,34
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 75,34
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 75,34
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 75,34
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 75,34
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 2,34
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 2,34
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 2,34
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 2,34
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,getID,Magic Number,The method contains a magic number: 3,40
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Complex Method,Cyclomatic complexity of the method is 8,46
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 20,46
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 3,46
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 24,46
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 75,46
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 350,46
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 300,46
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 25,46
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 375,46
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 400,46
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 125,46
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 35,46
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 10,46
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,componentActivated,Magic Number,The method contains a magic number: 10,90
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,render,Magic Number,The method contains a magic number: 75,118
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,render,Magic Number,The method contains a magic number: 75,118
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,render,Magic Number,The method contains a magic number: 75,118
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,render,Magic Number,The method contains a magic number: 75,118
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,render,Magic Number,The method contains a magic number: 75,118
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,render,Magic Number,The method contains a magic number: 75,118
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,renderChats,Magic Number,The method contains a magic number: 85,180
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,renderChats,Magic Number,The method contains a magic number: 95,180
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,renderChats,Magic Number,The method contains a magic number: 20,180
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,startAsServer,Magic Number,The method contains a magic number: 4444,188
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,startAsClient,Magic Number,The method contains a magic number: 5000,198
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,startAsClient,Magic Number,The method contains a magic number: 4444,198
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,mouseClicked,Complex Conditional,The conditional expression x >= 375 && x <= 500 && y >= 400 && y <= 435 && isServer is complex.,213
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,mouseClicked,Magic Number,The method contains a magic number: 375,213
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,mouseClicked,Magic Number,The method contains a magic number: 500,213
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,mouseClicked,Magic Number,The method contains a magic number: 400,213
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,mouseClicked,Magic Number,The method contains a magic number: 435,213
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 24,30
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 315,30
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 75,30
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 150,30
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 25,30
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 315,30
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 125,30
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 150,30
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 25,30
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 280,83
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 180,83
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 280,83
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 225,83
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 280,83
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 270,83
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 75,83
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 125,83
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 75,83
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 75,83
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,update,Complex Method,Cyclomatic complexity of the method is 9,106
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MultiplayerDungeon,getID,Magic Number,The method contains a magic number: 2,25
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MultiplayerDungeon,enter,Magic Number,The method contains a magic number: 100,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MultiplayerDungeon,enter,Magic Number,The method contains a magic number: 100,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MultiplayerDungeon,enter,Magic Number,The method contains a magic number: 0.25,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MultiplayerDungeon,enter,Magic Number,The method contains a magic number: 100,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MultiplayerDungeon,enter,Magic Number,The method contains a magic number: 100,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 99,33
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 99,33
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 0.25,33
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 99,33
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 99,33
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 50000,33
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 4,33
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 0.45,33
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,main,Magic Number,The method contains a magic number: 640,42
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,main,Magic Number,The method contains a magic number: 640,42
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,main,Magic Number,The method contains a magic number: 40,42
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Long Statement,The length of the statement "References.IMAGES.put("roomWallImage"`new Image(ResourceLoader.getResourceAsStream("dirt floor 100x120.png")`"dirt floor 100x120.png"`false));" is 142.,90
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Long Statement,The length of the statement "References.IMAGES.put("dirtFloorImage"`new Image(ResourceLoader.getResourceAsStream("Dirt Block.png")`"Dirt Block.png"`false));" is 127.,90
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Long Statement,The length of the statement "References.IMAGES.put("roomFloorImage"`new Image(ResourceLoader.getResourceAsStream("dirt floor 100x120.png")`"dirt floor 100x120.png"`false));" is 143.,90
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Long Statement,The length of the statement "References.IMAGES.put("dirtWallImage"`new Image(ResourceLoader.getResourceAsStream("Wall Block Tall.png")`"Wall Block Tall.png"`false));" is 136.,90
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Long Statement,The length of the statement "References.IMAGES.put("entranceImage"`new Image(ResourceLoader.getResourceAsStream("Stone Block.png")`"Stone Block.png"`false));" is 128.,90
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Magic Number,The method contains a magic number: 255,90
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Magic Number,The method contains a magic number: 255,90
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Magic Number,The method contains a magic number: 255,90
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Magic Number,The method contains a magic number: 255,90
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Magic Number,The method contains a magic number: 255,90
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadImages,Magic Number,The method contains a magic number: 255,90
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadCharacterFiles,Complex Method,Cyclomatic complexity of the method is 14,106
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadAbilities,Complex Method,Cyclomatic complexity of the method is 30,220
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadAbilities,Long Method,The method has 146 lines of code.,220
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadAbilities,Magic Number,The method contains a magic number: 100,220
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadAbilities,Magic Number,The method contains a magic number: 100,220
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadMobs,Complex Method,Cyclomatic complexity of the method is 18,340
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadMobs,Long Method,The method has 111 lines of code.,340
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDigger,loadMobs,Magic Number,The method contains a magic number: 100,340
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Long Statement,The length of the statement "g.translate(-References.myCharacter.getPosition().x + container.getWidth() / 2`-References.myCharacter.getPosition().y + container.getHeight() / 2);" is 148.,37
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Long Statement,The length of the statement "g.translate(References.myCharacter.getPosition().x - container.getWidth() / 2`References.myCharacter.getPosition().y - container.getHeight() / 2);" is 146.,37
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 75,37
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 75,37
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 75,37
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 75,37
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 2,37
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 2,37
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 2,37
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,render,Magic Number,The method contains a magic number: 2,37
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,drawDebugInfo,Magic Number,The method contains a magic number: 50,67
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,drawDebugInfo,Magic Number,The method contains a magic number: 400,67
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,drawDebugInfo,Magic Number,The method contains a magic number: 50,67
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,drawDebugInfo,Magic Number,The method contains a magic number: 415,67
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,drawDebugInfo,Magic Number,The method contains a magic number: 50,67
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,drawDebugInfo,Magic Number,The method contains a magic number: 430,67
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,drawDebugInfo,Magic Number,The method contains a magic number: 50,67
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,drawDebugInfo,Magic Number,The method contains a magic number: 445,67
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,drawDebugInfo,Magic Number,The method contains a magic number: 50,67
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,DungeonDiggerState,drawDebugInfo,Magic Number,The method contains a magic number: 460,67
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,getID,Magic Number,The method contains a magic number: 3,38
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Complex Method,Cyclomatic complexity of the method is 8,43
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 20,43
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 3,43
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 24,43
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 75,43
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 350,43
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 300,43
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 25,43
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 375,43
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 400,43
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 125,43
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 35,43
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,enter,Magic Number,The method contains a magic number: 10,43
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,componentActivated,Magic Number,The method contains a magic number: 10,85
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,render,Magic Number,The method contains a magic number: 75,112
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,render,Magic Number,The method contains a magic number: 75,112
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,render,Magic Number,The method contains a magic number: 75,112
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,render,Magic Number,The method contains a magic number: 75,112
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,render,Magic Number,The method contains a magic number: 75,112
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,render,Magic Number,The method contains a magic number: 75,112
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,renderChats,Magic Number,The method contains a magic number: 85,172
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,renderChats,Magic Number,The method contains a magic number: 95,172
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,renderChats,Magic Number,The method contains a magic number: 20,172
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,startAsServer,Magic Number,The method contains a magic number: 4444,180
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,startAsClient,Magic Number,The method contains a magic number: 5000,190
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,startAsClient,Magic Number,The method contains a magic number: 4444,190
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,mouseClicked,Complex Conditional,The conditional expression x >= 375 && x <= 500 && y >= 400 && y <= 435 && isServer is complex.,205
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,mouseClicked,Magic Number,The method contains a magic number: 375,205
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,mouseClicked,Magic Number,The method contains a magic number: 500,205
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,mouseClicked,Magic Number,The method contains a magic number: 400,205
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,Lobby,mouseClicked,Magic Number,The method contains a magic number: 435,205
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 24,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 315,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 75,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 150,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 25,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 315,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 125,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 150,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,init,Magic Number,The method contains a magic number: 25,31
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 280,81
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 180,81
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 280,81
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 225,81
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 280,81
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 270,81
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 75,81
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 125,81
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 75,81
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,render,Magic Number,The method contains a magic number: 75,81
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MainMenu,update,Complex Method,Cyclomatic complexity of the method is 9,103
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MultiplayerDungeon,getID,Magic Number,The method contains a magic number: 2,22
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MultiplayerDungeon,enter,Magic Number,The method contains a magic number: 100,27
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MultiplayerDungeon,enter,Magic Number,The method contains a magic number: 100,27
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MultiplayerDungeon,enter,Magic Number,The method contains a magic number: 0.25,27
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MultiplayerDungeon,enter,Magic Number,The method contains a magic number: 100,27
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,MultiplayerDungeon,enter,Magic Number,The method contains a magic number: 100,27
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,enter,Long Statement,The length of the statement "myPlayer.setPosition((int)References.CLIENT_VIEW.getEntranceCoords().x`(int)References.CLIENT_VIEW.getEntranceCoords().y);" is 122.,35
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,enter,Magic Number,The method contains a magic number: 99,35
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,enter,Magic Number,The method contains a magic number: 99,35
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,enter,Magic Number,The method contains a magic number: 0.25,35
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Complex Method,Cyclomatic complexity of the method is 11,50
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Long Statement,The length of the statement "myPlayer.setPosition((int)References.CLIENT_VIEW.getEntranceCoords().x`(int)References.CLIENT_VIEW.getEntranceCoords().y);" is 122.,50
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 99,50
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 99,50
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 0.25,50
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 99,50
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 99,50
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 50000,50
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 4,50
+butlersrepos_dungeon-digger,dungeonDigger.gameFlow,SinglePlayerDungeon,update,Magic Number,The method contains a magic number: 0.45,50
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,relocate,Long Statement,The length of the statement "References.log.severe("QUADCOLLISIONENGINE::RELOCATE - GameObject(" + obj.toString() + ") was not found within NODE_ZERO's area. Cannot relocate."+ "\nObject was located at "+ obj.getPosition().toString());" is 206.,46
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,collisionChecker,Complex Method,Cyclomatic complexity of the method is 8,68
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,removeObjectFromGame,Magic Number,The method contains a magic number: 100,105
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,removeObjectFromGame,Magic Number,The method contains a magic number: 100,105
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,findResponsibleParent,Magic Number,The method contains a magic number: 10000,115
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,QuadCollisionEngine,Long Parameter List,The method has 5 parameters. ,130
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,quadSplit,Long Statement,The length of the statement "int leftWidth=(int)Math.floor(this.responsibleWidth / 2)` topHeight=(int)Math.floor(this.responsibleHeight / 2)` rightWidth=(int)Math.ceil(this.responsibleWidth / 2)` bottomHeight=(int)Math.ceil(this.responsibleHeight / 2);" is 223.,155
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,quadSplit,Long Statement,The length of the statement "QuadCollisionEngine upperLeftChild=new QuadCollisionEngine(this.responsibleX`this.responsibleY`leftWidth`topHeight`this.tier + 1);" is 130.,155
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,quadSplit,Long Statement,The length of the statement "QuadCollisionEngine upperRightChild=new QuadCollisionEngine(this.responsibleX + leftWidth`this.responsibleY`rightWidth`topHeight`this.tier + 1);" is 144.,155
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,quadSplit,Long Statement,The length of the statement "QuadCollisionEngine lowerLeftChild=new QuadCollisionEngine(this.responsibleX`this.responsibleY + topHeight`leftWidth`bottomHeight`this.tier + 1);" is 145.,155
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,quadSplit,Long Statement,The length of the statement "QuadCollisionEngine lowerRightChild=new QuadCollisionEngine(this.responsibleX + leftWidth`this.responsibleY + topHeight`rightWidth`bottomHeight`this.tier + 1);" is 159.,155
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,quadSplit,Magic Number,The method contains a magic number: 2,155
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,quadSplit,Magic Number,The method contains a magic number: 2,155
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,quadSplit,Magic Number,The method contains a magic number: 2,155
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,quadSplit,Magic Number,The method contains a magic number: 2,155
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,populateMe,Complex Conditional,The conditional expression obj.getParentNode() == null || obj.getParentNode() == this || obj.getParentNode().getTier() < this.tier is complex.,183
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,populateMe,Complex Method,Cyclomatic complexity of the method is 8,183
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,populateMe,Long Statement,The length of the statement "References.log.finer("\tObj is " + obj.getCollisionBox().getWidth() + " wide and "+ obj.getCollisionBox().getHeight()+ " tall.");" is 129.,183
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,outputTreeToFile,Long Statement,The length of the statement "out.write("Quad Tree Map - " + now.get(Calendar.HOUR) + ":"+ now.get(Calendar.MINUTE)+ now.get(Calendar.AM_PM)+ " "+ now.get(Calendar.MONTH)+ "-"+ now.get(Calendar.DAY_OF_MONTH)+ "-"+ now.get(Calendar.YEAR));" is 208.,223
+butlersrepos_dungeon-digger,dungeonDigger.collisions,QuadCollisionEngine,outputBranchToFile,Long Statement,The length of the statement "out.write(tabs + this.getTier() + ": Node reporting in - I control "+ this.responsibleX+ "` "+ this.responsibleY+ " to "+ (this.responsibleX + this.responsibleWidth)+ "` "+ (this.responsibleY + this.responsibleHeight)+ " and I have "+ this.getList().size()+ " objects.");" is 271.,246
+butlersrepos_dungeon-digger,dungeonDigger.entities.templates,ZombieTemplate,update,Magic Number,The method contains a magic number: 1000,21
+butlersrepos_dungeon-digger,dungeonDigger.entities.templates,ZombieTemplate,update,Magic Number,The method contains a magic number: 1000,21
+butlersrepos_dungeon-digger,dungeonDigger.entities.templates,ZombieTemplate,newStr,Magic Number,The method contains a magic number: 4,48
+butlersrepos_dungeon-digger,dungeonDigger.entities.templates,ZombieTemplate,newDex,Magic Number,The method contains a magic number: 4,51
+butlersrepos_dungeon-digger,dungeonDigger.entities.templates,ZombieTemplate,newDex,Magic Number,The method contains a magic number: 3,51
+butlersrepos_dungeon-digger,dungeonDigger.entities.templates,ZombieTemplate,newCon,Magic Number,The method contains a magic number: 4,54
+butlersrepos_dungeon-digger,dungeonDigger.entities.templates,ZombieTemplate,newMovement,Magic Number,The method contains a magic number: 2,66
+butlersrepos_dungeon-digger,dungeonDigger.Tools,Toolbox,getCardinalDirection,Long Parameter List,The method has 5 parameters. ,69
+butlersrepos_dungeon-digger,dungeonDigger.Tools,Toolbox,lineIntersectsLine,Complex Conditional,The conditional expression ua >= 0.0f && ua <= 1.0f && ub >= 0.0f && ub <= 1.0f is complex.,92
+butlersrepos_dungeon-digger,dungeonDigger.Tools,Toolbox,lineIntersectsLine,Long Parameter List,The method has 8 parameters. ,92
+butlersrepos_dungeon-digger,dungeonDigger.Tools,Toolbox,lineIntersectsRectangle,Long Statement,The length of the statement "Vector2f leftP=lineIntersectsLine(line.getStart().x`line.getStart().y`line.getEnd().x`line.getEnd().y`rLeft.getStart().x`rLeft.getStart().y`rLeft.getEnd().x`rLeft.getEnd().y);" is 175.,108
+butlersrepos_dungeon-digger,dungeonDigger.Tools,Toolbox,lineIntersectsRectangle,Long Statement,The length of the statement "Vector2f rightP=lineIntersectsLine(line.getStart().x`line.getStart().y`line.getEnd().x`line.getEnd().y`rRight.getStart().x`rRight.getStart().y`rRight.getEnd().x`rRight.getEnd().y);" is 180.,108
+butlersrepos_dungeon-digger,dungeonDigger.Tools,Toolbox,lineIntersectsRectangle,Long Statement,The length of the statement "Vector2f topP=lineIntersectsLine(line.getStart().x`line.getStart().y`line.getEnd().x`line.getEnd().y`rTop.getStart().x`rTop.getStart().y`rTop.getEnd().x`rTop.getEnd().y);" is 170.,108
+butlersrepos_dungeon-digger,dungeonDigger.Tools,Toolbox,lineIntersectsRectangle,Long Statement,The length of the statement "Vector2f bottomP=lineIntersectsLine(line.getStart().x`line.getStart().y`line.getEnd().x`line.getEnd().y`rBottom.getStart().x`rBottom.getStart().y`rBottom.getEnd().x`rBottom.getEnd().y);" is 185.,108

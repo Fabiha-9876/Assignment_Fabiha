@@ -1,0 +1,10 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+MagIciaNGTAO_leetcode,org.mingtaoz.a9.tree,BinaryTree.TreeNode,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+MagIciaNGTAO_leetcode,org.mingtaoz.leetcode.geometry,MaxPointsOnALine.Point,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+MagIciaNGTAO_leetcode,org.mingtaoz.leetcode.list,CopyRandomList.RandomListNode,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+MagIciaNGTAO_leetcode,org.mingtaoz.leetcode.list,DoublyLinkedList.Node,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+MagIciaNGTAO_leetcode,org.mingtaoz.leetcode.list,SinglyLinkedList.ListNode,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+MagIciaNGTAO_leetcode,org.mingtaoz.leetcode.puzzle,SurroundedRegions.Point,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+MagIciaNGTAO_leetcode,org.mingtaoz.leetcode.sorting,SortList.ListNode,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+MagIciaNGTAO_leetcode,org.mingtaoz.test.core,ParserUtil.Expect,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+MagIciaNGTAO_leetcode,org.mingtaoz.test.core,ParserUtil.Command,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.

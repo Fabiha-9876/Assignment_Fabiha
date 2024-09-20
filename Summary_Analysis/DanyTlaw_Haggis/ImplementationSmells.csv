@@ -1,0 +1,424 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+DanyTlaw_Haggis,(default package),Card,Card,Long Parameter List,The method has 5 parameters. ,34
+DanyTlaw_Haggis,(default package),Card,Card,Long Parameter List,The method has 6 parameters. ,42
+DanyTlaw_Haggis,(default package),Card,Card,Long Parameter List,The method has 8 parameters. ,52
+DanyTlaw_Haggis,(default package),Client,main,Magic Number,The method contains a magic number: 50000,28
+DanyTlaw_Haggis,(default package),Client,erhalteObjekt,Complex Method,Cyclomatic complexity of the method is 19,52
+DanyTlaw_Haggis,(default package),Client,erhalteObjekt,Long Method,The method has 119 lines of code.,52
+DanyTlaw_Haggis,(default package),Client,erhalteObjekt,Long Statement,The length of the statement "JOptionPane.showMessageDialog(login.getTisch()`"Sie haben " + resultat + " mit "+ endPunkte+ " Punkten!"`titel`JOptionPane.INFORMATION_MESSAGE);" is 144.,52
+DanyTlaw_Haggis,(default package),Client,erhalteObjekt,Long Statement,The length of the statement "login.getTisch().lblInfo.setText("<html><div style=\"text-align: center;\">" + lblText + "<br>Runde: "+ game.getRunde()+ "<br/>"+ "</html>");" is 141.,52
+DanyTlaw_Haggis,(default package),Client,erhalteObjekt,Long Statement,The length of the statement "login.getTisch().lblInfo.setText("<html><div style=\"text-align: center;\">" + "<br>Runde: " + game.getRunde() + "<br/>"+ "</html>");" is 133.,52
+DanyTlaw_Haggis,(default package),Client,erhalteObjekt,Magic Number,The method contains a magic number: 100,52
+DanyTlaw_Haggis,(default package),Client,erhalteObjekt,Magic Number,The method contains a magic number: 2,52
+DanyTlaw_Haggis,(default package),Client,ladetGegnerInfo,Long Statement,The length of the statement "login.getTisch().setGegnerInfos(game.getSpieler(1).hatBube()`game.getSpieler(1).hatDame()`game.getSpieler(1).hatKoenig());" is 122.,239
+DanyTlaw_Haggis,(default package),Client,ladetGegnerInfo,Long Statement,The length of the statement "login.getTisch().setGegnerInfos(game.getSpieler(0).hatBube()`game.getSpieler(0).hatDame()`game.getSpieler(0).hatKoenig());" is 122.,239
+DanyTlaw_Haggis,(default package),Client,ladetGegnerInfo,Magic Number,The method contains a magic number: 3,239
+DanyTlaw_Haggis,(default package),Client,ladetGegnerInfo,Magic Number,The method contains a magic number: 3,239
+DanyTlaw_Haggis,(default package),Client,ladetGegnerInfo,Magic Number,The method contains a magic number: 3,239
+DanyTlaw_Haggis,(default package),Client,ladetGegnerInfo,Magic Number,The method contains a magic number: 3,239
+DanyTlaw_Haggis,(default package),Deck,Deck,Long Method,The method has 214 lines of code.,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 1000,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 1300,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 100,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 150,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 2,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 3,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 4,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 5,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 6,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 7,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 8,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 9,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 10,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 2,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 3,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 4,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 5,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 6,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 7,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 8,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 9,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 10,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 2,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 3,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 4,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 5,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 6,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 7,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 8,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 9,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 10,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 2,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 3,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 4,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 5,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 6,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 7,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 8,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 9,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 10,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 2,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 3,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 4,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 5,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 6,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 7,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 8,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 9,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 10,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 11,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 2,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 12,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 3,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 13,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 5,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 11,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 2,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 12,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 3,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 13,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 5,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 11,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 2,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 12,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 3,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 13,97
+DanyTlaw_Haggis,(default package),Deck,Deck,Magic Number,The method contains a magic number: 5,97
+DanyTlaw_Haggis,(default package),Deck,aufteilen,Complex Method,Cyclomatic complexity of the method is 33,396
+DanyTlaw_Haggis,(default package),Deck,aufteilen,Long Method,The method has 126 lines of code.,396
+DanyTlaw_Haggis,(default package),Deck,aufteilen,Magic Number,The method contains a magic number: 2,396
+DanyTlaw_Haggis,(default package),Deck,aufteilen,Magic Number,The method contains a magic number: 28,396
+DanyTlaw_Haggis,(default package),Deck,aufteilen,Magic Number,The method contains a magic number: 3,396
+DanyTlaw_Haggis,(default package),Deck,aufteilen,Magic Number,The method contains a magic number: 3,396
+DanyTlaw_Haggis,(default package),Deck,aufteilen,Magic Number,The method contains a magic number: 3,396
+DanyTlaw_Haggis,(default package),EigenPanel,EigenPanel,Magic Number,The method contains a magic number: 2,25
+DanyTlaw_Haggis,(default package),EigenPanel,EigenPanel,Magic Number,The method contains a magic number: 3,25
+DanyTlaw_Haggis,(default package),EigenPanel,EigenPanel,Magic Number,The method contains a magic number: 4,25
+DanyTlaw_Haggis,(default package),GameLoop,run,Complex Method,Cyclomatic complexity of the method is 27,32
+DanyTlaw_Haggis,(default package),GameLoop,run,Long Method,The method has 166 lines of code.,32
+DanyTlaw_Haggis,(default package),GameLoop,run,Long Statement,The length of the statement "if (game.getSpieler(0).getPunkte() >= game.getSpieler(0).getSiegesPunkte() && game.getSpieler(0).getPunkte() > game.getSpieler(1).getPunkte()) {" is 144.,32
+DanyTlaw_Haggis,(default package),GameLoop,run,Long Statement,The length of the statement "else if (game.getSpieler(1).getPunkte() >= game.getSpieler(1).getSiegesPunkte() && game.getSpieler(1).getPunkte() > game.getSpieler(0).getPunkte()) {" is 149.,32
+DanyTlaw_Haggis,(default package),GameLoop,run,Magic Number,The method contains a magic number: 2,32
+DanyTlaw_Haggis,(default package),GameLoop,run,Magic Number,The method contains a magic number: 1000,32
+DanyTlaw_Haggis,(default package),GameLoop,run,Magic Number,The method contains a magic number: 5,32
+DanyTlaw_Haggis,(default package),GameLoop,run,Magic Number,The method contains a magic number: 5,32
+DanyTlaw_Haggis,(default package),GameLoop,run,Magic Number,The method contains a magic number: 100,32
+DanyTlaw_Haggis,(default package),GameLoop,run,Magic Number,The method contains a magic number: 2,32
+DanyTlaw_Haggis,(default package),GameLoop,run,Magic Number,The method contains a magic number: 1000,32
+DanyTlaw_Haggis,(default package),LoginGUI,LoginGUI,Magic Number,The method contains a magic number: 500,55
+DanyTlaw_Haggis,(default package),LoginGUI,LoginGUI,Magic Number,The method contains a magic number: 400,55
+DanyTlaw_Haggis,(default package),LoginGUI,LoginGUI,Magic Number,The method contains a magic number: 3,55
+DanyTlaw_Haggis,(default package),LoginGUI,LoginGUI,Magic Number,The method contains a magic number: 3,55
+DanyTlaw_Haggis,(default package),LoginGUI,LoginGUI,Magic Number,The method contains a magic number: 500,55
+DanyTlaw_Haggis,(default package),LoginGUI,LoginGUI,Magic Number,The method contains a magic number: 400,55
+DanyTlaw_Haggis,(default package),LoginGUI,LoginGUI,Magic Number,The method contains a magic number: 500,55
+DanyTlaw_Haggis,(default package),LoginGUI,LoginGUI,Magic Number,The method contains a magic number: 400,55
+DanyTlaw_Haggis,(default package),LoginGUI,LoginGUI,Magic Number,The method contains a magic number: 30,55
+DanyTlaw_Haggis,(default package),LoginGUI,LoginGUI,Magic Number,The method contains a magic number: 5,55
+DanyTlaw_Haggis,(default package),LoginGUI,LoginGUI,Magic Number,The method contains a magic number: 10,55
+DanyTlaw_Haggis,(default package),LoginGUI,LoginGUI,Magic Number,The method contains a magic number: 5,55
+DanyTlaw_Haggis,(default package),Server,main,Magic Number,The method contains a magic number: 50000,9
+DanyTlaw_Haggis,(default package),Server,main,Magic Number,The method contains a magic number: 2,9
+DanyTlaw_Haggis,(default package),Server,main,Magic Number,The method contains a magic number: 5000,9
+DanyTlaw_Haggis,(default package),Spieler,hatBube,Magic Number,The method contains a magic number: 11,108
+DanyTlaw_Haggis,(default package),Spieler,hatDame,Magic Number,The method contains a magic number: 12,119
+DanyTlaw_Haggis,(default package),Spieler,hatKoenig,Magic Number,The method contains a magic number: 13,131
+DanyTlaw_Haggis,(default package),Spieler,leereHand,Magic Number,The method contains a magic number: 17,151
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Complex Method,Cyclomatic complexity of the method is 9,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Long Method,The method has 334 lines of code.,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Long Statement,The length of the statement "TitledBorder Chatborder=new TitledBorder(border`"Chat"`TitledBorder.LEFT`TitledBorder.DEFAULT_POSITION`new Font("Arial"`Font.BOLD`12)`Color.BLACK);" is 147.,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Long Statement,The length of the statement "TitledBorder Handkartenborder=new TitledBorder(borderinvis`"Handkarten"`TitledBorder.LEFT`TitledBorder.DEFAULT_POSITION`new Font("Arial"`Font.BOLD`12)`Color.BLACK);" is 164.,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Long Statement,The length of the statement "TitledBorder Jokerkartenborder=new TitledBorder(borderinvis`"Jokerkarten"`TitledBorder.LEFT`TitledBorder.DEFAULT_POSITION`new Font("Arial"`Font.BOLD`12)`Color.BLACK);" is 166.,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 1000,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 1300,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 100,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 150,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 825,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 170,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 150,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 150,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 310,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 200,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 800,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 360,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 800,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 170,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 150,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 200,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 3,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 12,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 12,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 12,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 15,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 15,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 2,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 3,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 15,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 20,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 55,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 100,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 10,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 10,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 2,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 2,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 30,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 7,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 5,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 5,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 5,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 5,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 2,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 30,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 7,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 14,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 5,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 5,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 5,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 5,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 10,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 7,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 5,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 60,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 100,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 7,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 14,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 5,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 60,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 100,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 3,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 5,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 60,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 100,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 50,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 4,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 20,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 20,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 2,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 10,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 3,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 400,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 100,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 400,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 100,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 400,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 100,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 15,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 2,186
+DanyTlaw_Haggis,(default package),Spieltisch,Spieltisch,Magic Number,The method contains a magic number: 2,186
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istEinzel(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istPaar(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istDrilling(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istVierling(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istFuenfling(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istSechsling(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istSiebling(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istAchtling(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istStrasseDrei(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istStrasseVier(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istStrasseFuenf(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istStrasseSechs(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istStrasseSieben(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istStrasseAcht(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istStrasseNeun(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istStrasseZehn(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istStrasseElf(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istStrasseZwoelf(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istPaarStrasse(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istDrillingStrasse(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istVierlingStrasse(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Conditional,The conditional expression istFuenflingStrasse(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size() is complex.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Complex Method,Cyclomatic complexity of the method is 54,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Method,The method has 320 lines of code.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "gespielteKarten.add(new Card(hand.get(i).getWert()`hand.get(i).getName()`hand.get(i).getBild()`hand.get(i).getPunkte()`hand.get(i).getFarbe()`hand.get(i).getJoker()`jokerWert`jokerFarbe));" is 188.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "gespielteKarten.add(new Card(hand.get(i).getWert()`hand.get(i).getName()`hand.get(i).getBild()`hand.get(i).getPunkte()`hand.get(i).getFarbe()));" is 144.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "if (istEinzel(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 180.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istPaar(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 183.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istDrilling(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 187.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istVierling(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 187.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istFuenfling(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 188.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istSechsling(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 188.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istSiebling(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 187.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istAchtling(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 187.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istStrasseDrei(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 190.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istStrasseVier(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 190.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istStrasseFuenf(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 191.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istStrasseSechs(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 191.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istStrasseSieben(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 192.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istStrasseAcht(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 190.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istStrasseNeun(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 190.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istStrasseZehn(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 190.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istStrasseElf(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 189.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istStrasseZwoelf(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 192.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istPaarStrasse(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 190.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istDrillingStrasse(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 194.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istVierlingStrasse(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 194.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Long Statement,The length of the statement "else if (istFuenflingStrasse(gespielteKarten) && gespielteKarten.get(0).getWert() > Client.game.getFeldkarten().get(0).getWert() && gespielteKarten.size() == Client.game.getFeldkarten().size()) {" is 195.,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Magic Number,The method contains a magic number: 3,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Magic Number,The method contains a magic number: 3,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Magic Number,The method contains a magic number: 17,742
+DanyTlaw_Haggis,(default package),Spieltisch,karteAuspielen,Magic Number,The method contains a magic number: 3,742
+DanyTlaw_Haggis,(default package),Spieltisch,keinBorder,Magic Number,The method contains a magic number: 3,1244
+DanyTlaw_Haggis,(default package),Spieltisch,keinBorder,Magic Number,The method contains a magic number: 3,1244
+DanyTlaw_Haggis,(default package),Spieltisch,keinBorder,Magic Number,The method contains a magic number: 17,1244
+DanyTlaw_Haggis,(default package),Spieltisch,keinBorder,Magic Number,The method contains a magic number: 3,1244
+DanyTlaw_Haggis,(default package),Spieltisch,keinBorder,Magic Number,The method contains a magic number: 3,1244
+DanyTlaw_Haggis,(default package),Spieltisch,keinBorder,Magic Number,The method contains a magic number: 3,1244
+DanyTlaw_Haggis,(default package),Spieltisch,keinBorder,Magic Number,The method contains a magic number: 3,1244
+DanyTlaw_Haggis,(default package),Spieltisch,keinBorder,Magic Number,The method contains a magic number: 3,1244
+DanyTlaw_Haggis,(default package),Spieltisch,karteLoeschen,Magic Number,The method contains a magic number: 3,1265
+DanyTlaw_Haggis,(default package),Spieltisch,karteLoeschen,Magic Number,The method contains a magic number: 3,1265
+DanyTlaw_Haggis,(default package),Spieltisch,karteLoeschen,Magic Number,The method contains a magic number: 17,1265
+DanyTlaw_Haggis,(default package),Spieltisch,karteLoeschen,Magic Number,The method contains a magic number: 3,1265
+DanyTlaw_Haggis,(default package),Spieltisch,karteLoeschen,Magic Number,The method contains a magic number: 3,1265
+DanyTlaw_Haggis,(default package),Spieltisch,kartenFeldKopieren,Long Statement,The length of the statement "Client.game.getFeldkarten().add(new Card(karten.get(k).getWert()`karten.get(k).getName()`karten.get(k).getBild()`karten.get(k).getPunkte()`karten.get(k).getFarbe()`karten.get(k).getJoker()`karten.get(k).getJokerWert()`karten.get(k).getJokerFarbe()));" is 250.,1301
+DanyTlaw_Haggis,(default package),Spieltisch,wetten,Long Statement,The length of the statement "JOptionPane.showMessageDialog(null`"<html>Bitte ueberpruefen Sie die Eingabe nochmals <br>" + " Moegliche Eingaben : 0 (nicht Wetten) 15 (kleine Wette) 30 (grosse Wette)"`"Ungueltige Eigabe"`1);" is 194.,1333
+DanyTlaw_Haggis,(default package),Spieltisch,wetten,Magic Number,The method contains a magic number: 15,1333
+DanyTlaw_Haggis,(default package),Spieltisch,wetten,Magic Number,The method contains a magic number: 15,1333
+DanyTlaw_Haggis,(default package),Spieltisch,wetten,Magic Number,The method contains a magic number: 30,1333
+DanyTlaw_Haggis,(default package),Spieltisch,wetten,Magic Number,The method contains a magic number: 30,1333
+DanyTlaw_Haggis,(default package),Spieltisch,jokerWert,Complex Method,Cyclomatic complexity of the method is 9,1373
+DanyTlaw_Haggis,(default package),Spieltisch,jokerWert,Magic Number,The method contains a magic number: 15,1373
+DanyTlaw_Haggis,(default package),Spieltisch,jokerWert,Magic Number,The method contains a magic number: 11,1373
+DanyTlaw_Haggis,(default package),Spieltisch,jokerWert,Magic Number,The method contains a magic number: 2,1373
+DanyTlaw_Haggis,(default package),Spieltisch,jokerWert,Magic Number,The method contains a magic number: 12,1373
+DanyTlaw_Haggis,(default package),Spieltisch,jokerWert,Magic Number,The method contains a magic number: 2,1373
+DanyTlaw_Haggis,(default package),Spieltisch,jokerWert,Magic Number,The method contains a magic number: 2,1373
+DanyTlaw_Haggis,(default package),Spieltisch,jokerWert,Magic Number,The method contains a magic number: 13,1373
+DanyTlaw_Haggis,(default package),Spieltisch,jokerWert,Magic Number,The method contains a magic number: 2,1373
+DanyTlaw_Haggis,(default package),Spieltisch,jokerFarbe,Complex Conditional,The conditional expression farbe.equals("rot") || farbe.equals("gruen") || farbe.equals("gelb")|| farbe.equals("grau")|| farbe.equals("orange") is complex.,1415
+DanyTlaw_Haggis,(default package),Spieltisch,jokerFarbe,Long Statement,The length of the statement "if (farbe.equals("rot") || farbe.equals("gruen") || farbe.equals("gelb")|| farbe.equals("grau")|| farbe.equals("orange")) {" is 123.,1415
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Complex Method,Cyclomatic complexity of the method is 18,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 2,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 17,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 2,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 4,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 5,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 6,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 7,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 8,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 9,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 10,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 11,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 12,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 13,1454
+DanyTlaw_Haggis,(default package),Spieltisch,ladetBilder,Magic Number,The method contains a magic number: 3,1454
+DanyTlaw_Haggis,(default package),Spieltisch,karteFarbeSortieren,Complex Method,Cyclomatic complexity of the method is 8,1560
+DanyTlaw_Haggis,(default package),Spieltisch,istSet,Complex Method,Cyclomatic complexity of the method is 9,1609
+DanyTlaw_Haggis,(default package),Spieltisch,istStrasse,Complex Method,Cyclomatic complexity of the method is 9,1660
+DanyTlaw_Haggis,(default package),Spieltisch,istPaar,Magic Number,The method contains a magic number: 2,1753
+DanyTlaw_Haggis,(default package),Spieltisch,istDrilling,Magic Number,The method contains a magic number: 3,1778
+DanyTlaw_Haggis,(default package),Spieltisch,istVierling,Magic Number,The method contains a magic number: 4,1800
+DanyTlaw_Haggis,(default package),Spieltisch,istFuenfling,Magic Number,The method contains a magic number: 5,1824
+DanyTlaw_Haggis,(default package),Spieltisch,istSechsling,Magic Number,The method contains a magic number: 6,1848
+DanyTlaw_Haggis,(default package),Spieltisch,istSiebling,Magic Number,The method contains a magic number: 7,1872
+DanyTlaw_Haggis,(default package),Spieltisch,istAchtling,Magic Number,The method contains a magic number: 8,1897
+DanyTlaw_Haggis,(default package),Spieltisch,istStrasseDrei,Magic Number,The method contains a magic number: 3,1919
+DanyTlaw_Haggis,(default package),Spieltisch,istStrasseVier,Magic Number,The method contains a magic number: 4,1942
+DanyTlaw_Haggis,(default package),Spieltisch,istStrasseFuenf,Magic Number,The method contains a magic number: 5,1965
+DanyTlaw_Haggis,(default package),Spieltisch,istStrasseSechs,Magic Number,The method contains a magic number: 6,1986
+DanyTlaw_Haggis,(default package),Spieltisch,istStrasseSieben,Magic Number,The method contains a magic number: 7,2007
+DanyTlaw_Haggis,(default package),Spieltisch,istStrasseAcht,Magic Number,The method contains a magic number: 8,2028
+DanyTlaw_Haggis,(default package),Spieltisch,istStrasseNeun,Magic Number,The method contains a magic number: 9,2049
+DanyTlaw_Haggis,(default package),Spieltisch,istStrasseZehn,Magic Number,The method contains a magic number: 10,2070
+DanyTlaw_Haggis,(default package),Spieltisch,istStrasseElf,Magic Number,The method contains a magic number: 11,2091
+DanyTlaw_Haggis,(default package),Spieltisch,istStrasseZwoelf,Magic Number,The method contains a magic number: 12,2112
+DanyTlaw_Haggis,(default package),Spieltisch,istPaarStrasse,Complex Method,Cyclomatic complexity of the method is 9,2133
+DanyTlaw_Haggis,(default package),Spieltisch,istPaarStrasse,Magic Number,The method contains a magic number: 3,2133
+DanyTlaw_Haggis,(default package),Spieltisch,istPaarStrasse,Magic Number,The method contains a magic number: 2,2133
+DanyTlaw_Haggis,(default package),Spieltisch,istPaarStrasse,Magic Number,The method contains a magic number: 2,2133
+DanyTlaw_Haggis,(default package),Spieltisch,istPaarStrasse,Magic Number,The method contains a magic number: 2,2133
+DanyTlaw_Haggis,(default package),Spieltisch,istPaarStrasse,Magic Number,The method contains a magic number: 2,2133
+DanyTlaw_Haggis,(default package),Spieltisch,istPaarStrasse,Magic Number,The method contains a magic number: 2,2133
+DanyTlaw_Haggis,(default package),Spieltisch,istPaarStrasse,Magic Number,The method contains a magic number: 2,2133
+DanyTlaw_Haggis,(default package),Spieltisch,istPaarStrasse,Magic Number,The method contains a magic number: 2,2133
+DanyTlaw_Haggis,(default package),Spieltisch,istDrillingStrasse,Complex Method,Cyclomatic complexity of the method is 9,2186
+DanyTlaw_Haggis,(default package),Spieltisch,istDrillingStrasse,Magic Number,The method contains a magic number: 5,2186
+DanyTlaw_Haggis,(default package),Spieltisch,istDrillingStrasse,Magic Number,The method contains a magic number: 3,2186
+DanyTlaw_Haggis,(default package),Spieltisch,istDrillingStrasse,Magic Number,The method contains a magic number: 3,2186
+DanyTlaw_Haggis,(default package),Spieltisch,istDrillingStrasse,Magic Number,The method contains a magic number: 3,2186
+DanyTlaw_Haggis,(default package),Spieltisch,istDrillingStrasse,Magic Number,The method contains a magic number: 3,2186
+DanyTlaw_Haggis,(default package),Spieltisch,istDrillingStrasse,Magic Number,The method contains a magic number: 3,2186
+DanyTlaw_Haggis,(default package),Spieltisch,istDrillingStrasse,Magic Number,The method contains a magic number: 3,2186
+DanyTlaw_Haggis,(default package),Spieltisch,istDrillingStrasse,Magic Number,The method contains a magic number: 3,2186
+DanyTlaw_Haggis,(default package),Spieltisch,istVierlingStrasse,Complex Method,Cyclomatic complexity of the method is 9,2240
+DanyTlaw_Haggis,(default package),Spieltisch,istVierlingStrasse,Magic Number,The method contains a magic number: 7,2240
+DanyTlaw_Haggis,(default package),Spieltisch,istVierlingStrasse,Magic Number,The method contains a magic number: 4,2240
+DanyTlaw_Haggis,(default package),Spieltisch,istVierlingStrasse,Magic Number,The method contains a magic number: 4,2240
+DanyTlaw_Haggis,(default package),Spieltisch,istVierlingStrasse,Magic Number,The method contains a magic number: 4,2240
+DanyTlaw_Haggis,(default package),Spieltisch,istVierlingStrasse,Magic Number,The method contains a magic number: 4,2240
+DanyTlaw_Haggis,(default package),Spieltisch,istVierlingStrasse,Magic Number,The method contains a magic number: 4,2240
+DanyTlaw_Haggis,(default package),Spieltisch,istVierlingStrasse,Magic Number,The method contains a magic number: 4,2240
+DanyTlaw_Haggis,(default package),Spieltisch,istVierlingStrasse,Magic Number,The method contains a magic number: 4,2240
+DanyTlaw_Haggis,(default package),Spieltisch,istFuenflingStrasse,Complex Method,Cyclomatic complexity of the method is 9,2293
+DanyTlaw_Haggis,(default package),Spieltisch,istFuenflingStrasse,Magic Number,The method contains a magic number: 9,2293
+DanyTlaw_Haggis,(default package),Spieltisch,istFuenflingStrasse,Magic Number,The method contains a magic number: 5,2293
+DanyTlaw_Haggis,(default package),Spieltisch,istFuenflingStrasse,Magic Number,The method contains a magic number: 5,2293
+DanyTlaw_Haggis,(default package),Spieltisch,istFuenflingStrasse,Magic Number,The method contains a magic number: 5,2293
+DanyTlaw_Haggis,(default package),Spieltisch,istFuenflingStrasse,Magic Number,The method contains a magic number: 5,2293
+DanyTlaw_Haggis,(default package),Spieltisch,istFuenflingStrasse,Magic Number,The method contains a magic number: 5,2293
+DanyTlaw_Haggis,(default package),Spieltisch,istFuenflingStrasse,Magic Number,The method contains a magic number: 5,2293
+DanyTlaw_Haggis,(default package),Spieltisch,istFuenflingStrasse,Magic Number,The method contains a magic number: 5,2293
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Complex Conditional,The conditional expression karten.get(i).getWert() == 11 || karten.get(i).getWert() == 12 || karten.get(i).getWert() == 13 is complex.,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Complex Conditional,The conditional expression karten.get(i).getWert() == zahl && karten.get(i).getJoker() == false && karten.get(i).getFarbe() == farbe is complex.,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Complex Method,Cyclomatic complexity of the method is 27,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 4,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 3,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 2,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 2,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 11,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 12,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 2,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 11,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 13,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 2,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 12,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 13,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 3,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 11,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 12,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 13,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 4,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 3,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 2,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 4,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 3,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 2,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 2,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 3,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 2,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 4,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 2,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 5,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 4,2347
+DanyTlaw_Haggis,(default package),Spieltisch,istBombe,Magic Number,The method contains a magic number: 6,2347

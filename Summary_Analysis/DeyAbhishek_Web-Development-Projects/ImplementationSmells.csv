@@ -1,0 +1,70 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+DeyAbhishek_Web-Development-Projects,com.suitehotel,CustomerFeedback,processRequest,Magic Number,The method contains a magic number: 200,20
+DeyAbhishek_Web-Development-Projects,com.suitehotel,CustomerFeedback,processRequest,Magic Number,The method contains a magic number: 2,20
+DeyAbhishek_Web-Development-Projects,com.suitehotel,CustomerFeedback,processRequest,Magic Number,The method contains a magic number: 3,20
+DeyAbhishek_Web-Development-Projects,com.suitehotel,CustomerFeedback,processRequest,Magic Number,The method contains a magic number: 4,20
+DeyAbhishek_Web-Development-Projects,com.suitehotel,CustomerFeedback,processRequest,Magic Number,The method contains a magic number: 5,20
+DeyAbhishek_Web-Development-Projects,com.suitehotel,CustomerFeedback,processRequest,Magic Number,The method contains a magic number: 6,20
+DeyAbhishek_Web-Development-Projects,com.suitehotel,CustomerFeedback,processRequest,Magic Number,The method contains a magic number: 7,20
+DeyAbhishek_Web-Development-Projects,com.suitehotel,Login,processRequest,Magic Number,The method contains a magic number: 2,21
+DeyAbhishek_Web-Development-Projects,com.suitehotel,Reserve,processRequest,Magic Number,The method contains a magic number: 200,23
+DeyAbhishek_Web-Development-Projects,com.suitehotel,Reserve,processRequest,Magic Number,The method contains a magic number: 2,23
+DeyAbhishek_Web-Development-Projects,com.suitehotel,Reserve,processRequest,Magic Number,The method contains a magic number: 3,23
+DeyAbhishek_Web-Development-Projects,com.suitehotel,Reserve,processRequest,Magic Number,The method contains a magic number: 4,23
+DeyAbhishek_Web-Development-Projects,com.suitehotel,Reserve,processRequest,Magic Number,The method contains a magic number: 5,23
+DeyAbhishek_Web-Development-Projects,com.suitehotel,Reserve,processRequest,Magic Number,The method contains a magic number: 6,23
+DeyAbhishek_Web-Development-Projects,com.suitehotel,Reserve,processRequest,Magic Number,The method contains a magic number: 7,23
+DeyAbhishek_Web-Development-Projects,com.suitehotel,SignUp,processRequest,Magic Number,The method contains a magic number: 2,20
+DeyAbhishek_Web-Development-Projects,com.suitehotel,SignUp,processRequest,Magic Number,The method contains a magic number: 3,20
+DeyAbhishek_Web-Development-Projects,com.suitehotel,SignUp,processRequest,Magic Number,The method contains a magic number: 4,20
+DeyAbhishek_Web-Development-Projects,com.suitehotel,SignUp,processRequest,Magic Number,The method contains a magic number: 5,20
+DeyAbhishek_Web-Development-Projects,com.suitehotel,SignUp,processRequest,Magic Number,The method contains a magic number: 6,20
+DeyAbhishek_Web-Development-Projects,dao,StandardsDAO,addStandards,Long Statement,The length of the statement "PreparedStatement ps=connection.prepareStatement("insert into wqcs_standards(status` chemical_id` location) " + "values(?` ?` ?)");" is 131.,23
+DeyAbhishek_Web-Development-Projects,dao,StandardsDAO,addStandards,Magic Number,The method contains a magic number: 2,23
+DeyAbhishek_Web-Development-Projects,dao,StandardsDAO,addStandards,Magic Number,The method contains a magic number: 3,23
+DeyAbhishek_Web-Development-Projects,dao,StandardsDAO,updateStandards,Long Statement,The length of the statement "PreparedStatement preparedStatement=connection.prepareStatement("update wqcs_standards set status=?` location=? where chemical_id=?");" is 134.,53
+DeyAbhishek_Web-Development-Projects,dao,StandardsDAO,updateStandards,Magic Number,The method contains a magic number: 2,53
+DeyAbhishek_Web-Development-Projects,dao,StandardsDAO,updateStandards,Magic Number,The method contains a magic number: 3,53
+DeyAbhishek_Web-Development-Projects,in.infocom,Admin2Serv,doPost,Long Statement,The length of the statement "PreparedStatement ps=cn.prepareStatement("insert into agreement(allowance` basic` hra` daily` empname` id) values(?`?`?`?`?`?)");" is 129.,19
+DeyAbhishek_Web-Development-Projects,in.infocom,Admin2Serv,doPost,Magic Number,The method contains a magic number: 30,19
+DeyAbhishek_Web-Development-Projects,in.infocom,Admin2Serv,doPost,Magic Number,The method contains a magic number: 2,19
+DeyAbhishek_Web-Development-Projects,in.infocom,Admin2Serv,doPost,Magic Number,The method contains a magic number: 3,19
+DeyAbhishek_Web-Development-Projects,in.infocom,Admin2Serv,doPost,Magic Number,The method contains a magic number: 4,19
+DeyAbhishek_Web-Development-Projects,in.infocom,Admin2Serv,doPost,Magic Number,The method contains a magic number: 5,19
+DeyAbhishek_Web-Development-Projects,in.infocom,Admin2Serv,doPost,Magic Number,The method contains a magic number: 6,19
+DeyAbhishek_Web-Development-Projects,in.infocom,AdminServ,doPost,Magic Number,The method contains a magic number: 2,20
+DeyAbhishek_Web-Development-Projects,in.infocom,LeaveServ,doPost,Magic Number,The method contains a magic number: 2,19
+DeyAbhishek_Web-Development-Projects,in.infocom,LeaveServ,doPost,Magic Number,The method contains a magic number: 3,19
+DeyAbhishek_Web-Development-Projects,in.infocom,LogServ,doPost,Magic Number,The method contains a magic number: 2,20
+DeyAbhishek_Web-Development-Projects,in.infocom,LogServ,doPost,Magic Number,The method contains a magic number: 2,20
+DeyAbhishek_Web-Development-Projects,in.infocom,NewServ,doPost,Magic Number,The method contains a magic number: 2,20
+DeyAbhishek_Web-Development-Projects,in.infocom,NewServ,doPost,Magic Number,The method contains a magic number: 3,20
+DeyAbhishek_Web-Development-Projects,in.infocom,NewServ,doPost,Magic Number,The method contains a magic number: 10,20
+DeyAbhishek_Web-Development-Projects,in.infocom,NewServ,doPost,Magic Number,The method contains a magic number: 11,20
+DeyAbhishek_Web-Development-Projects,in.infocom,NewServ,doPost,Magic Number,The method contains a magic number: 4,20
+DeyAbhishek_Web-Development-Projects,in.infocom,NewServ,doPost,Magic Number,The method contains a magic number: 5,20
+DeyAbhishek_Web-Development-Projects,in.infocom,NewServ,doPost,Magic Number,The method contains a magic number: 6,20
+DeyAbhishek_Web-Development-Projects,in.infocom,NewServ,doPost,Magic Number,The method contains a magic number: 7,20
+DeyAbhishek_Web-Development-Projects,in.infocom,NewServ,doPost,Magic Number,The method contains a magic number: 8,20
+DeyAbhishek_Web-Development-Projects,in.infocom,NewServ,doPost,Magic Number,The method contains a magic number: 9,20
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Complex Method,Cyclomatic complexity of the method is 16,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Long Method,The method has 120 lines of code.,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 2,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 3,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 4,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 5,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 6,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 7,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 8,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 9,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 10,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 11,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 12,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 2,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 3,19
+DeyAbhishek_Web-Development-Projects,in.infocom,PayServ,doPost,Magic Number,The method contains a magic number: 5,19
+DeyAbhishek_Web-Development-Projects,com.socialnet.beans,ForgotPasswordBean,ansMatch,Long Statement,The length of the statement "Query q=em.createQuery("Select count(r) from Registration r where r.emailid=:emailid and r.securityQuestion=:secqsn and r.securityAnswer=:secans");" is 147.,80
+DeyAbhishek_Web-Development-Projects,com.socialnet.beans,FriendsBean,getRequestedfriend,Long Statement,The length of the statement "Query q=em.createNativeQuery("Select * from Friends f` Registration r where f.emailid=r.emailid and f.status=0 and f.emailid='" + logid + "'"`Registration.class);" is 162.,131
+DeyAbhishek_Web-Development-Projects,com.socialnet.beans,FriendsBean,isFriendRequestSend,Long Statement,The length of the statement "Query q=em.createQuery("Select f from Friend f where ((f.id.emailid=:emailId and f.id.friendid=:friendId and f.status=0) or (f.id.emailid=:friendId and f.id.friendid=:emailId and f.status=0))");" is 194.,200
+DeyAbhishek_Web-Development-Projects,com.socialnet.entity,FriendPK,hashCode,Magic Number,The method contains a magic number: 31,48
+DeyAbhishek_Web-Development-Projects,com.socialnet.entity,FriendPK,hashCode,Magic Number,The method contains a magic number: 17,48

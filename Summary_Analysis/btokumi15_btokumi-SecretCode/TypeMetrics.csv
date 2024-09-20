@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+btokumi15_btokumi-SecretCode,(default package),PhraseDecoder,0,0,1,1,10,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\btokumi15_btokumi-SecretCode\PhraseDecoder.java,3
+btokumi15_btokumi-SecretCode,(default package),PhraseScrambler,0,0,1,1,11,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\btokumi15_btokumi-SecretCode\PhraseScrambler.java,3
+btokumi15_btokumi-SecretCode,(default package),SecretCode,3,0,4,3,63,16,0,0,0.5,0,0,E:\Repositories\Cloned_Reposit\btokumi15_btokumi-SecretCode\SecretCode.java,6

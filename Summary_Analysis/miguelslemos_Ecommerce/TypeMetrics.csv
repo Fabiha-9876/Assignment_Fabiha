@@ -1,0 +1,22 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+miguelslemos_Ecommerce,Controller,ControladorCliente,1,0,2,2,13,3,0,0,1.0,0,2,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Controller\ControladorCliente.java,12
+miguelslemos_Ecommerce,Entidades,TblCliente,16,0,35,35,149,35,0,0,0.08571428571428572,4,0,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Entidades\TblCliente.java,8
+miguelslemos_Ecommerce,Entidades,TblEnvios,6,0,15,15,62,15,0,0,0.2,0,2,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Entidades\TblEnvios.java,8
+miguelslemos_Ecommerce,Entidades,TblFatura,7,0,17,17,68,17,0,0,0.17647058823529413,2,2,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Entidades\TblFatura.java,8
+miguelslemos_Ecommerce,Entidades,TblItensPedido,7,0,17,17,69,17,0,0,0.17647058823529413,0,3,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Entidades\TblItensPedido.java,8
+miguelslemos_Ecommerce,Entidades,TblMetodosPagamentoCliente,5,0,13,13,52,13,0,0,0.23076923076923078,1,2,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Entidades\TblMetodosPagamentoCliente.java,6
+miguelslemos_Ecommerce,Entidades,TblPagamentos,4,0,11,11,44,11,0,0,0.2727272727272727,0,1,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Entidades\TblPagamentos.java,6
+miguelslemos_Ecommerce,Entidades,TblPedidoItemStatus,3,0,9,9,35,9,0,0,0.3333333333333333,1,0,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Entidades\TblPedidoItemStatus.java,8
+miguelslemos_Ecommerce,Entidades,TblPedidos,8,0,19,19,76,19,0,0,0.15789473684210525,3,2,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Entidades\TblPedidos.java,8
+miguelslemos_Ecommerce,Entidades,TblProduto,8,0,19,19,78,19,0,0,0.15789473684210525,2,1,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Entidades\TblProduto.java,9
+miguelslemos_Ecommerce,Entidades,TblRefFaturaStatus,3,0,9,9,35,9,0,0,0.3333333333333333,1,0,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Entidades\TblRefFaturaStatus.java,8
+miguelslemos_Ecommerce,Entidades,TblRefMetodosPagamento,3,0,9,9,35,9,0,0,0.3333333333333333,1,0,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Entidades\TblRefMetodosPagamento.java,8
+miguelslemos_Ecommerce,Entidades,TblRefPedidoStatus,3,0,9,9,35,9,0,0,0.3333333333333333,1,0,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Entidades\TblRefPedidoStatus.java,8
+miguelslemos_Ecommerce,Entidades,TblRefTipoProduto,6,0,15,15,61,15,0,0,0.2,1,0,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Entidades\TblRefTipoProduto.java,8
+miguelslemos_Ecommerce,Enum,EnumStatusFatura,0,0,0,0,4,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Enum\EnumStatusFatura.java,8
+miguelslemos_Ecommerce,Exception,CamposVaziosException,1,0,1,1,9,1,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Exception\CamposVaziosException.java,8
+miguelslemos_Ecommerce,Exception,ProdutoNaoEcontradoException,1,0,1,1,9,1,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Exception\ProdutoNaoEncontradoException.java,8
+miguelslemos_Ecommerce,Repositorio,RepositorioTblCliente,1,0,6,6,59,8,0,0,0.0,1,1,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Repositorio\RepositorioTblCliente.java,17
+miguelslemos_Ecommerce,Repositorio,RepositorioTblMetodosPagamentoCliente,1,0,3,3,30,3,0,0,0.0,0,1,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Repositorio\RepositorioTblMetodosPagamentoCliente.java,18
+miguelslemos_Ecommerce,Repositorio,RepositorioTblProduto,1,0,6,6,58,8,0,0,0.0,0,1,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Repositorio\RepositorioTblProduto.java,17
+miguelslemos_Ecommerce,Util,HibernateUtil,1,0,1,1,19,1,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\miguelslemos_Ecommerce\src\java\Util\HibernateUtil.java,11

@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+brotherBear_aor-java-neo,aor,Main,2,0,10,1,204,23,0,0,0.0,0,1,E:\Repositories\Cloned_Reposit\brotherBear_aor-java-neo\src\main\java\aor\Main.java,18
+brotherBear_aor-java-neo,aor,Parser,0,0,6,5,99,19,0,0,-1.0,2,0,E:\Repositories\Cloned_Reposit\brotherBear_aor-java-neo\src\main\java\aor\Parser.java,5
+brotherBear_aor-java-neo,aor,ProvincesTest,0,0,11,11,46,11,0,0,-1.0,0,1,E:\Repositories\Cloned_Reposit\brotherBear_aor-java-neo\src\test\java\aor\ProvincesTest.java,7

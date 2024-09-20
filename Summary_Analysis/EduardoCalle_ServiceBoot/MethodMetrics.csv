@@ -1,0 +1,7 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+EduardoCalle_ServiceBoot,com.software.bid_ucb.serviceboot,ApplicationTest,ApplicationTest,3,1,0,10,0,,
+EduardoCalle_ServiceBoot,com.software.bid_ucb.serviceboot,MainActivity,onCreate,4,1,1,11,0,,
+EduardoCalle_ServiceBoot,com.software.bid_ucb.serviceboot,ReceiverBoot,onReceive,8,1,2,11,0,,
+EduardoCalle_ServiceBoot,com.software.bid_ucb.serviceboot,ServiceBoot,onBind,3,1,1,13,0,,
+EduardoCalle_ServiceBoot,com.software.bid_ucb.serviceboot,ServiceBoot,onCreate,5,1,0,18,0,,
+EduardoCalle_ServiceBoot,com.software.bid_ucb.serviceboot,ServiceBoot,onDestroy,5,1,0,28,0,,

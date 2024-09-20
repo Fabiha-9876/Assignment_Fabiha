@@ -1,0 +1,13 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+Trololoshe4ki_Forest,(default package),Proba1,3,0,4,1,45,8,0,0,0.75,0,0,E:\Repositories\Cloned_Reposit\Trololoshe4ki_Forest\proba1.java,3
+Trololoshe4ki_Forest,(default package),Proba3,3,0,8,1,158,34,0,0,0.25,0,0,E:\Repositories\Cloned_Reposit\Trololoshe4ki_Forest\Proba3.java,3
+Trololoshe4ki_Forest,(default package),Command,0,0,1,0,3,1,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Trololoshe4ki_Forest\TestCommand.java,10
+Trololoshe4ki_Forest,(default package),Command.CommandDell,0,0,0,0,3,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Trololoshe4ki_Forest\TestCommand.java,13
+Trololoshe4ki_Forest,(default package),Command.Invoker,5,0,0,0,29,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Trololoshe4ki_Forest\TestCommand.java,17
+Trololoshe4ki_Forest,(default package),Command.Receiver,0,0,0,0,116,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Trololoshe4ki_Forest\TestCommand.java,51
+Trololoshe4ki_Forest,(default package),Command.ARCommand,1,0,0,0,9,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Trololoshe4ki_Forest\TestCommand.java,166
+Trololoshe4ki_Forest,(default package),Command.PrintVertexCommand,1,0,0,0,9,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Trololoshe4ki_Forest\TestCommand.java,177
+Trololoshe4ki_Forest,(default package),Command.PrintTreeCommand,1,0,0,0,9,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Trololoshe4ki_Forest\TestCommand.java,188
+Trololoshe4ki_Forest,(default package),Command.AddVertexCommand,1,0,0,0,9,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Trololoshe4ki_Forest\TestCommand.java,199
+Trololoshe4ki_Forest,(default package),Command.DeleteVertexCommand,1,0,0,0,9,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Trololoshe4ki_Forest\TestCommand.java,210
+Trololoshe4ki_Forest,(default package),Command.TestCommand,10,10,0,0,41,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Trololoshe4ki_Forest\TestCommand.java,223

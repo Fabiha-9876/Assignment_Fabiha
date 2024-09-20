@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,Design Smell,Cause of the Smell
+POMStrap_pomstrap3,org.tigris.aethershader,SimpleDependencyBuilder,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)
+POMStrap_pomstrap3,org.tigris.pomstrap,Bootstrap,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)
+POMStrap_pomstrap3,org.tigris.pomstrap,SimpleDependency,Deficient Encapsulation,The tool detected the smell in this class because the class exposes fields belonging to it with public accessibility. Following fields are declared with public accessiblity: childs; groupId; artifactId; version; file

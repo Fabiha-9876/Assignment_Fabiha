@@ -1,0 +1,5 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+catoenm_E-MERGE,(default package),GUI,26,0,12,7,268,36,0,0,0.6666666666666666,0,0,E:\Repositories\Cloned_Reposit\catoenm_E-MERGE\src\SpecXml.java,29
+catoenm_E-MERGE,(default package),GUI,26,0,12,7,268,36,0,0,0.6666666666666666,0,0,E:\Repositories\Cloned_Reposit\catoenm_E-MERGE\src\XmlXml.java,29
+catoenm_E-MERGE,(default package),ChangeXML,18,0,10,6,172,20,0,0,0.4,0,0,E:\Repositories\Cloned_Reposit\catoenm_E-MERGE\test\HelpScreen.java,32
+catoenm_E-MERGE,(default package),MachineDataCompare,1,0,1,1,129,21,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\catoenm_E-MERGE\test\MachineDataCompare.java,23

@@ -1,0 +1,6 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+mit09_my-mapreduce,neu.mapreduce.core.sort,ExternalSort,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: OUTPUT_FILE_NAME (20)
+mit09_my-mapreduce,neu.mapreduce.io.sockets,MasterScheduler,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: keyMappingFileCounter (30)
+mit09_my-mapreduce,neu.mapreduce.io.sockets,SlaveListener,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: REDUCER_FOLDER_PATH (22); REDUCER_CLIENT_JAR_PATH (24); MAPPER_FOLDER_PATH (25); shuffleDirCounter (26); status (27); INPUT_CHUNK (31); MAPPER_CLIENT_JAR_PATH (32); MAP_OUTPUT_FILE_PATH (33); SHUFFLE_OUTPUT_FOLDER (34)
+mit09_my-mapreduce,neu.mapreduce.io.sockets,SlaveListener,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+mit09_my-mapreduce,neu.mapreduce.io.sockets,SlaveToSlaveFileTransferThread,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: fileCounter (26)

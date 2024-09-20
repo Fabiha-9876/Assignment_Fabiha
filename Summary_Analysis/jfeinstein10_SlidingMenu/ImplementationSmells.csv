@@ -1,0 +1,100 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.anim,CustomZoomAnimation,CustomZoomAnimation,Magic Number,The method contains a magic number: 0.25,11
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.anim,CustomZoomAnimation,CustomZoomAnimation,Magic Number,The method contains a magic number: 0.75,11
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.anim,CustomZoomAnimation,CustomZoomAnimation,Magic Number,The method contains a magic number: 2,11
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.anim,CustomZoomAnimation,CustomZoomAnimation,Magic Number,The method contains a magic number: 2,11
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.anim,CustomZoomAnimation,transformCanvas,Magic Number,The method contains a magic number: 0.25,15
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.anim,CustomZoomAnimation,transformCanvas,Magic Number,The method contains a magic number: 0.75,15
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.anim,CustomZoomAnimation,transformCanvas,Magic Number,The method contains a magic number: 2,15
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.anim,CustomZoomAnimation,transformCanvas,Magic Number,The method contains a magic number: 2,15
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,AttachExample,onCreate,Magic Number,The method contains a magic number: 0.35f,12
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,BaseActivity,onCreate,Magic Number,The method contains a magic number: 0.35f,28
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,ExampleListActivity,onPreferenceTreeClick,Complex Method,Cyclomatic complexity of the method is 12,42
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,ExampleListActivity,onOptionsItemSelected,Long Statement,The length of the statement "new AlertDialog.Builder(this).setTitle(R.string.licenses).setMessage(Html.fromHtml(getString(R.string.apache_license))).show();" is 127.,74
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,PropertiesActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 8,22
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,PropertiesActivity,onCreate,Long Method,The method has 121 lines of code.,22
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,PropertiesActivity,onCreate,Long Statement,The length of the statement "if (isChecked) getSlidingMenu().setShadowDrawable(getSlidingMenu().getMode() == SlidingMenu.LEFT ? R.drawable.shadow : R.drawable.shadowright);" is 143.,22
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,PropertiesActivity,onCreate,Magic Number,The method contains a magic number: 1000,22
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,PropertiesActivity,onCreate,Magic Number,The method contains a magic number: 333,22
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,PropertiesActivity,onCreate,Magic Number,The method contains a magic number: 1000,22
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,PropertiesActivity,onCreate,Magic Number,The method contains a magic number: 750,22
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,PropertiesActivity,onCreate,Magic Number,The method contains a magic number: 1000,22
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,PropertiesActivity,onCreate,Magic Number,The method contains a magic number: 75,22
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,PropertiesActivity,onCreate,Magic Number,The method contains a magic number: 1000,22
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,PropertiesActivity,onCreate,Magic Number,The method contains a magic number: 666,22
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,PropertiesActivity,onCheckedChanged,Long Statement,The length of the statement "if (isChecked) getSlidingMenu().setShadowDrawable(getSlidingMenu().getMode() == SlidingMenu.LEFT ? R.drawable.shadow : R.drawable.shadowright);" is 143.,118
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,SampleListFragment,onActivityCreated,Magic Number,The method contains a magic number: 20,19
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,ViewPagerActivity,onCreate,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5c960f64,21
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example,ViewPagerActivity,onPageSelected,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5c960f64,37
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.fragments,BirdActivity,onCreate,Magic Number,The method contains a magic number: 128,30
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.fragments,BirdActivity,hideActionBarDelayed,Magic Number,The method contains a magic number: 2000,80
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.fragments,BirdMenuFragment,onActivityCreated,Long Statement,The length of the statement "ArrayAdapter<String> colorAdapter=new ArrayAdapter<String>(getActivity()`android.R.layout.simple_list_item_1`android.R.id.text1`birds);" is 135.,21
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.fragments,ColorMenuFragment,onActivityCreated,Long Statement,The length of the statement "ArrayAdapter<String> colorAdapter=new ArrayAdapter<String>(getActivity()`android.R.layout.simple_list_item_1`android.R.id.text1`colors);" is 136.,21
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.fragments,ColorMenuFragment,onListItemClick,Magic Number,The method contains a magic number: 2,30
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.fragments,ColorMenuFragment,onListItemClick,Magic Number,The method contains a magic number: 3,30
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.fragments,ColorMenuFragment,onListItemClick,Magic Number,The method contains a magic number: 4,30
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.fragments,ResponsiveUIActivity,onCreate,Long Statement,The length of the statement "if (savedInstanceState == null) new AlertDialog.Builder(this).setTitle(R.string.what_is_this).setMessage(R.string.responsive_explanation).show();" is 145.,30
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.fragments,ResponsiveUIActivity,onCreate,Magic Number,The method contains a magic number: 0.25f,30
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.fragments,ResponsiveUIActivity,onCreate,Magic Number,The method contains a magic number: 0.25f,30
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.example.fragments,ResponsiveUIActivity,switchContent,Magic Number,The method contains a magic number: 50,99
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib.app,SlidingActivityHelper,onPostCreate,Long Statement,The length of the statement "throw new IllegalStateException("Both setBehindContentView must be called " + "in onCreate in addition to setContentView.");" is 124.,48
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CanvasTransformerBuilder,zoom,Long Parameter List,The method has 6 parameters. ,25
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CanvasTransformerBuilder,zoom,Long Parameter List,The method has 7 parameters. ,31
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CanvasTransformerBuilder,rotate,Long Parameter List,The method has 5 parameters. ,51
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CanvasTransformerBuilder,translate,Long Parameter List,The method has 5 parameters. ,70
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,initCustomViewAbove,Magic Number,The method contains a magic number: 2,160
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,onPageSelected,Magic Number,The method contains a magic number: 2,171
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,distanceInfluenceForSnapDuration,Magic Number,The method contains a magic number: 0.5f,300
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,distanceInfluenceForSnapDuration,Magic Number,The method contains a magic number: 0.3f,300
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,distanceInfluenceForSnapDuration,Magic Number,The method contains a magic number: 2.0f,300
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,getDestScrollX,Magic Number,The method contains a magic number: 2,306
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,isMenuOpen,Magic Number,The method contains a magic number: 2,329
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,getChildWidth,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@3f119b55,350
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,smoothScrollTo,Magic Number,The method contains a magic number: 2,379
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,smoothScrollTo,Magic Number,The method contains a magic number: 4,379
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,smoothScrollTo,Magic Number,The method contains a magic number: 1000,379
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,smoothScrollTo,Magic Number,The method contains a magic number: 100,379
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,onLayout,Long Parameter List,The method has 5 parameters. ,472
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,onInterceptTouchEvent,Complex Conditional,The conditional expression action == MotionEvent.ACTION_CANCEL || action == MotionEvent.ACTION_UP || (action != MotionEvent.ACTION_DOWN && mIsUnableToDrag) is complex.,613
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,onInterceptTouchEvent,Complex Method,Cyclomatic complexity of the method is 13,613
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,onInterceptTouchEvent,Long Statement,The length of the statement "if (action == MotionEvent.ACTION_CANCEL || action == MotionEvent.ACTION_UP || (action != MotionEvent.ACTION_DOWN && mIsUnableToDrag)) {" is 135.,613
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,onTouchEvent,Complex Method,Cyclomatic complexity of the method is 21,667
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,onTouchEvent,Magic Number,The method contains a magic number: 1000,667
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,determineDrag,Complex Conditional,The conditional expression xDiff > (isMenuOpen() ? mTouchSlop / 2 : mTouchSlop) && xDiff > yDiff && thisSlideAllowed(dx) is complex.,777
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,determineDrag,Magic Number,The method contains a magic number: 2,777
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,canScroll,Complex Conditional,The conditional expression x + scrollX >= child.getLeft() && x + scrollX < child.getRight() && y + scrollY >= child.getTop() && y + scrollY < child.getBottom() && canScroll(child`true`dx`x + scrollX - child.getLeft()`y + scrollY - child.getTop()) is complex.,885
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,canScroll,Long Parameter List,The method has 5 parameters. ,885
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,canScroll,Long Statement,The length of the statement "if (x + scrollX >= child.getLeft() && x + scrollX < child.getRight() && y + scrollY >= child.getTop() && y + scrollY < child.getBottom() && canScroll(child`true`dx`x + scrollX - child.getLeft()`y + scrollY - child.getTop())) {" is 226.,885
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,executeKeyEvent,Complex Method,Cyclomatic complexity of the method is 8,924
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,executeKeyEvent,Magic Number,The method contains a magic number: 11,924
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewAbove,arrowScroll,Complex Method,Cyclomatic complexity of the method is 9,958
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,CustomViewBehind,Long Statement,The length of the statement "mMarginThreshold=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP`MARGIN_THRESHOLD`getResources().getDisplayMetrics());" is 129.,38
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,onLayout,Long Parameter List,The method has 5 parameters. ,127
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,setFadeDegree,Long Statement,The length of the statement "if (degree > 1.0f || degree < 0.0f) throw new IllegalStateException("The BehindFadeDegree must be between 0.0f and 1.0f");" is 122.,198
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,getMenuPage,Magic Number,The method contains a magic number: 2,204
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,getMenuPage,Magic Number,The method contains a magic number: 2,204
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,scrollBehindTo,Complex Method,Cyclomatic complexity of the method is 8,215
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,getMenuLeft,Complex Method,Cyclomatic complexity of the method is 10,240
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,getMenuLeft,Magic Number,The method contains a magic number: 2,240
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,getMenuLeft,Magic Number,The method contains a magic number: 2,240
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,getMenuLeft,Magic Number,The method contains a magic number: 2,240
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,menuTouchInQuickReturn,Complex Conditional,The conditional expression mMode == SlidingMenu.LEFT || (mMode == SlidingMenu.LEFT_RIGHT && currPage == 0) is complex.,312
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,menuTouchInQuickReturn,Complex Conditional,The conditional expression mMode == SlidingMenu.RIGHT || (mMode == SlidingMenu.LEFT_RIGHT && currPage == 2) is complex.,312
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,menuTouchInQuickReturn,Magic Number,The method contains a magic number: 2,312
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,drawFade,Magic Number,The method contains a magic number: 255,362
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,CustomViewBehind,getSelectorTop,Magic Number,The method contains a magic number: 2,428
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,SlidingMenu,Complex Method,Cyclomatic complexity of the method is 11,195
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,SlidingMenu,Long Statement,The length of the statement "if (offsetBehind != -1 && widthBehind != -1) throw new IllegalStateException("Cannot set both behindOffset and behindWidth for a SlidingMenu");" is 143.,195
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,SlidingMenu,Magic Number,The method contains a magic number: 2,195
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,SlidingMenu,Magic Number,The method contains a magic number: 0.33f,195
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,SlidingMenu,Magic Number,The method contains a magic number: 0.33f,195
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,attachToActivity,Long Statement,The length of the statement "if (slideStyle != SLIDING_WINDOW && slideStyle != SLIDING_CONTENT) throw new IllegalArgumentException("slideStyle must be either SLIDING_WINDOW or SLIDING_CONTENT");" is 165.,295
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,setMode,Complex Conditional,The conditional expression mode != LEFT && mode != RIGHT && mode != LEFT_RIGHT is complex.,442
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,showSecondaryMenu,Magic Number,The method contains a magic number: 2,504
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,isMenuShowing,Magic Number,The method contains a magic number: 2,550
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,isSecondaryMenuShowing,Magic Number,The method contains a magic number: 2,559
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,setTouchModeAbove,Complex Conditional,The conditional expression i != TOUCHMODE_FULLSCREEN && i != TOUCHMODE_MARGIN && i != TOUCHMODE_NONE is complex.,710
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,setTouchModeAbove,Long Statement,The length of the statement "throw new IllegalStateException("TouchMode must be set to either" + "TOUCHMODE_FULLSCREEN or TOUCHMODE_MARGIN or TOUCHMODE_NONE.");" is 131.,710
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,setTouchModeBehind,Complex Conditional,The conditional expression i != TOUCHMODE_FULLSCREEN && i != TOUCHMODE_MARGIN && i != TOUCHMODE_NONE is complex.,726
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,setTouchModeBehind,Long Statement,The length of the statement "throw new IllegalStateException("TouchMode must be set to either" + "TOUCHMODE_FULLSCREEN or TOUCHMODE_MARGIN or TOUCHMODE_NONE.");" is 131.,726
+jfeinstein10_SlidingMenu,com.jeremyfeinstein.slidingmenu.lib,SlidingMenu,manageLayers,Magic Number,The method contains a magic number: 11,1001

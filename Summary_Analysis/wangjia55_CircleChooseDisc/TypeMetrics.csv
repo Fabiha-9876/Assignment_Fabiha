@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView,11,0,16,6,242,39,0,0,0.3125,1,0,E:\Repositories\Cloned_Reposit\wangjia55_CircleChooseDisc\app\src\main\java\com\jacob\circle\disc\CircleIndexView.java,14
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,CircleIndexView.OnIndexChangeListener,0,0,0,0,6,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\wangjia55_CircleChooseDisc\app\src\main\java\com\jacob\circle\disc\CircleIndexView.java,315
+wangjia55_CircleChooseDisc,com.jacob.circle.disc,MainActivity,1,0,2,1,17,2,0,0,0.0,0,1,E:\Repositories\Cloned_Reposit\wangjia55_CircleChooseDisc\app\src\main\java\com\jacob\circle\disc\MainActivity.java,8

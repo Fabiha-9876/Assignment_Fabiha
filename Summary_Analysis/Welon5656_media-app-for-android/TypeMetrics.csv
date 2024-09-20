@@ -1,0 +1,20 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+Welon5656_media-app-for-android,com.jy.multi_media,BuildConfig,1,1,0,0,3,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\gen\com\jy\multi_media\BuildConfig.java,4
+Welon5656_media-app-for-android,com.jy.multi_media,R,68,68,0,0,95,0,0,0,-1.0,8,0,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\gen\com\jy\multi_media\R.java,10
+Welon5656_media-app-for-android,com.jy.multi_media,R.attr,0,0,0,0,2,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\gen\com\jy\multi_media\R.java,11
+Welon5656_media-app-for-android,com.jy.multi_media,R.dimen,2,2,0,0,7,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\gen\com\jy\multi_media\R.java,13
+Welon5656_media-app-for-android,com.jy.multi_media,R.drawable,7,7,0,0,9,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\gen\com\jy\multi_media\R.java,24
+Welon5656_media-app-for-android,com.jy.multi_media,R.id,22,22,0,0,24,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\gen\com\jy\multi_media\R.java,33
+Welon5656_media-app-for-android,com.jy.multi_media,R.layout,12,12,0,0,14,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\gen\com\jy\multi_media\R.java,57
+Welon5656_media-app-for-android,com.jy.multi_media,R.menu,2,2,0,0,4,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\gen\com\jy\multi_media\R.java,71
+Welon5656_media-app-for-android,com.jy.multi_media,R.string,21,21,0,0,23,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\gen\com\jy\multi_media\R.java,75
+Welon5656_media-app-for-android,com.jy.multi_media,R.style,2,2,0,0,10,0,0,0,-1.0,0,0,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\gen\com\jy\multi_media\R.java,98
+Welon5656_media-app-for-android,com.jy.image,ImageActivity,2,1,6,5,60,15,0,0,0.5,1,1,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\src\com\jy\image\ImageActivity.java,25
+Welon5656_media-app-for-android,com.jy.image,ImageBrowser,8,0,14,12,102,22,0,0,0.42857142857142855,0,3,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\src\com\jy\image\ImageBrowser.java,21
+Welon5656_media-app-for-android,com.jy.multimedia,HistoryActivity,3,0,3,1,30,4,0,0,0.0,0,2,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\src\com\jy\multimedia\HistoryActivity.java,14
+Welon5656_media-app-for-android,com.jy.multimedia,ImageButtonClickListener,2,0,2,2,11,2,0,0,0.0,0,0,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\src\com\jy\multimedia\ImageButtonClickListener.java,9
+Welon5656_media-app-for-android,com.jy.multimedia,MainActivity,7,1,5,2,62,9,0,0,0.6,4,1,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\src\com\jy\multimedia\MainActivity.java,18
+Welon5656_media-app-for-android,com.jy.music,MusicActivity,2,1,5,3,48,12,0,0,0.4,1,1,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\src\com\jy\music\MusicActivity.java,21
+Welon5656_media-app-for-android,com.jy.music,MusicPlayer,8,0,9,5,102,13,0,0,0.0,0,3,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\src\com\jy\music\MusicPlayer.java,19
+Welon5656_media-app-for-android,com.jy.video,VideoActivity,2,1,5,4,48,12,0,0,0.4,1,1,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\src\com\jy\video\VideoActivity.java,21
+Welon5656_media-app-for-android,com.jy.video,VideoPlayer,6,0,5,2,64,8,0,0,0.4,0,3,E:\Repositories\Cloned_Reposit\Welon5656_media-app-for-android\Multi-Media\src\com\jy\video\VideoPlayer.java,21
